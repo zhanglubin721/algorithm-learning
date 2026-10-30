@@ -1,0 +1,27 @@
+{
+  "id": 300,
+  "titleCn": "最长递增子序列",
+  "titleEn": "Longest Increasing Subsequence",
+  "slug": "longest-increasing-subsequence",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0300",
+  "plan": "top-interview-150",
+  "category": "一维动态规划",
+  "source": "https://leetcode.cn/problems/longest-increasing-subsequence/",
+  "meta": {
+    "name": "lengthOfLIS",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

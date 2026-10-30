@@ -1,0 +1,68 @@
+{
+  "id": 1607,
+  "titleCn": "没有卖出的卖家",
+  "titleEn": "Sellers With No Sales",
+  "slug": "sellers-with-no-sales",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1607",
+  "plan": "sql-premium-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/sellers-with-no-sales/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customer (customer_id int, customer_name varchar(20))",
+      "Create table If Not Exists Orders (order_id int, sale_date date, order_cost int, customer_id int, seller_id int)\n",
+      "Create table If Not Exists Seller (seller_id int, seller_name varchar(20))\n"
+    ],
+    "mssql": [
+      "Create table Customer (customer_id int, customer_name varchar(20))\n",
+      "Create table Orders (order_id int, sale_date date, order_cost int, customer_id int, seller_id int)\n",
+      "Create table Seller (seller_id int, seller_name varchar(20))\n"
+    ],
+    "oraclesql": [
+      "Create table Customer (customer_id int, customer_name varchar(20))\n",
+      "Create table Orders (order_id int, sale_date date, order_cost int, customer_id int, seller_id int)\n",
+      "Create table Seller (seller_id int, seller_name varchar(20))\n",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'\n"
+    ],
+    "database": true,
+    "manual": false,
+    "name": "sellers_with_no_sales",
+    "pythondata": [
+      "Customer = pd.DataFrame([], columns=['customer_id', 'customer_name']).astype({'customer_id':'Int64', 'customer_name':'object'})",
+      "Orders = pd.DataFrame([], columns=['order_id', 'sale_date', 'order_cost', 'customer_id', 'seller_id']).astype({'order_id':'Int64', 'sale_date':'datetime64[ns]', 'order_cost':'Int64', 'customer_id':'Int64', 'seller_id':'Int64'})",
+      "Seller = pd.DataFrame([], columns=['seller_id', 'seller_name']).astype({'seller_id':'Int64', 'seller_name':'object'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Customer (customer_id int, customer_name varchar(20))\n",
+      "Create table If Not Exists Orders (order_id int, sale_date date, order_cost int, customer_id int, seller_id int)",
+      "Create table If Not Exists Seller (seller_id int, seller_name varchar(20))\n"
+    ],
+    "database_schema": {
+      "Customer": {
+        "customer_id": "INT",
+        "customer_name": "VARCHAR(20)"
+      },
+      "Orders": {
+        "order_id": "INT",
+        "sale_date": "DATE",
+        "order_cost": "INT",
+        "customer_id": "INT",
+        "seller_id": "INT"
+      },
+      "Seller": {
+        "seller_id": "INT",
+        "seller_name": "VARCHAR(20)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Customer (customer_id int, customer_name varchar(20))",
+    "Create table If Not Exists Orders (order_id int, sale_date date, order_cost int, customer_id int, seller_id int)\n",
+    "Create table If Not Exists Seller (seller_id int, seller_name varchar(20))\n"
+  ],
+  "ordered": true
+}

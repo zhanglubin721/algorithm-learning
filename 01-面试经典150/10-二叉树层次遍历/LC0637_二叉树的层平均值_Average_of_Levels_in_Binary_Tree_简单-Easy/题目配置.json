@@ -1,0 +1,27 @@
+{
+  "id": 637,
+  "titleCn": "二叉树的层平均值",
+  "titleEn": "Average of Levels in Binary Tree",
+  "slug": "average-of-levels-in-binary-tree",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0637",
+  "plan": "top-interview-150",
+  "category": "二叉树层次遍历",
+  "source": "https://leetcode.cn/problems/average-of-levels-in-binary-tree/",
+  "meta": {
+    "name": "averageOfLevels",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<double>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

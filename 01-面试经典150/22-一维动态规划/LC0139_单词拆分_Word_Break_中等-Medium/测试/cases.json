@@ -1,0 +1,81 @@
+[
+  {
+    "name": "边界-002",
+    "args": [
+      "leetcode",
+      [
+        "leet",
+        "code"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      "applepenapple",
+      [
+        "apple",
+        "pen"
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "catsandog",
+      [
+        "cats",
+        "dog",
+        "sand",
+        "and",
+        "cat"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      "a",
+      [
+        "a"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "aaaaaaa",
+      [
+        "aaaa",
+        "aaa"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "ab",
+      [
+        "a"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  }
+]

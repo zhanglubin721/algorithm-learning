@@ -1,0 +1,27 @@
+{
+  "id": 66,
+  "titleCn": "加一",
+  "titleEn": "Plus One",
+  "slug": "plus-one",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0066",
+  "plan": "top-interview-150",
+  "category": "数学",
+  "source": "https://leetcode.cn/problems/plus-one/",
+  "meta": {
+    "name": "plusOne",
+    "params": [
+      {
+        "name": "digits",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

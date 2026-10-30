@@ -1,0 +1,27 @@
+{
+  "id": 98,
+  "titleCn": "验证二叉搜索树",
+  "titleEn": "Validate Binary Search Tree",
+  "slug": "validate-binary-search-tree",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0098",
+  "plan": "top-interview-150",
+  "category": "二叉搜索树",
+  "source": "https://leetcode.cn/problems/validate-binary-search-tree/",
+  "meta": {
+    "name": "isValidBST",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": 167,
+  "titleCn": "两数之和 II - 输入有序数组",
+  "titleEn": "Two Sum II - Input Array Is Sorted",
+  "slug": "two-sum-ii-input-array-is-sorted",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0167",
+  "plan": "top-interview-150",
+  "category": "双指针",
+  "source": "https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/",
+  "meta": {
+    "name": "twoSum",
+    "params": [
+      {
+        "name": "numbers",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

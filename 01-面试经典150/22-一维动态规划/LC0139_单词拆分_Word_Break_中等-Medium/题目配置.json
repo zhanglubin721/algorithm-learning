@@ -1,0 +1,31 @@
+{
+  "id": 139,
+  "titleCn": "单词拆分",
+  "titleEn": "Word Break",
+  "slug": "word-break",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0139",
+  "plan": "top-interview-150",
+  "category": "一维动态规划",
+  "source": "https://leetcode.cn/problems/word-break/",
+  "meta": {
+    "name": "wordBreak",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "wordDict",
+        "type": "list<string>"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

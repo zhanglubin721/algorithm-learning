@@ -1,0 +1,57 @@
+{
+  "id": 1495,
+  "titleCn": "上月播放的儿童适宜电影",
+  "titleEn": "Friendly Movies Streamed Last Month",
+  "slug": "friendly-movies-streamed-last-month",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1495",
+  "plan": "sql-premium-50",
+  "category": "排序与分组",
+  "source": "https://leetcode.cn/problems/friendly-movies-streamed-last-month/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists TVProgram (program_date date, content_id int, channel varchar(30))",
+      "Create table If Not Exists Content (content_id varchar(30), title varchar(30), Kids_content ENUM('Y', 'N'), content_type varchar(30))"
+    ],
+    "mssql": [
+      "Create table TVProgram (program_date date, content_id int, channel varchar(30))",
+      "Create table Content (content_id varchar(30), title varchar(30), Kids_content varchar(2) NOT NULL CHECK(Kids_content IN('Y', 'N')), content_type varchar(30))"
+    ],
+    "oraclesql": [
+      "Create table TVProgram (program_date date, content_id int, channel varchar(30))",
+      "Create table Content (content_id varchar(30), title varchar(30), Kids_content varchar(2) NOT NULL CHECK(Kids_content IN('Y', 'N')), content_type varchar(30))",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI'"
+    ],
+    "database": true,
+    "name": "friendly_movies",
+    "pythondata": [
+      "TVProgram = pd.DataFrame([], columns=['program_date', 'content_id', 'channel']).astype({'program_date':'datetime64[ns]', 'content_id':'Int64', 'channel':'object'})",
+      "Content = pd.DataFrame([], columns=['content_id', 'title', 'Kids_content', 'content_type']).astype({'content_id':'object', 'title':'object', 'Kids_content':'object', 'content_type':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists TVProgram (program_date date, content_id int, channel varchar(30))\n",
+      "Create table If Not Exists Content (content_id int, title varchar(30), Kids_content VARCHAR(30) CHECK (Kids_content IN ('Y', 'N')), content_type varchar(30))\n"
+    ],
+    "database_schema": {
+      "TVProgram": {
+        "program_date": "DATE",
+        "content_id": "INT",
+        "channel": "VARCHAR(30)"
+      },
+      "Content": {
+        "content_id": "VARCHAR(30)",
+        "title": "VARCHAR(30)",
+        "Kids_content": "ENUM('Y', 'N')",
+        "content_type": "VARCHAR(30)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists TVProgram (program_date date, content_id int, channel varchar(30))",
+    "Create table If Not Exists Content (content_id varchar(30), title varchar(30), Kids_content ENUM('Y', 'N'), content_type varchar(30))"
+  ],
+  "ordered": false
+}

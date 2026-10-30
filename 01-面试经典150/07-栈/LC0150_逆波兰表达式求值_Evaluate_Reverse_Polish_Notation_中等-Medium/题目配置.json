@@ -1,0 +1,27 @@
+{
+  "id": 150,
+  "titleCn": "逆波兰表达式求值",
+  "titleEn": "Evaluate Reverse Polish Notation",
+  "slug": "evaluate-reverse-polish-notation",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0150",
+  "plan": "top-interview-150",
+  "category": "栈",
+  "source": "https://leetcode.cn/problems/evaluate-reverse-polish-notation/",
+  "meta": {
+    "name": "evalRPN",
+    "params": [
+      {
+        "name": "tokens",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

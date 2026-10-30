@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public int snakesAndLadders(int[][] board) { throw new UnsupportedOperationException("TODO"); }
+}

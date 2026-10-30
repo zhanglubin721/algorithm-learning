@@ -1,0 +1,49 @@
+{
+  "id": 26,
+  "titleCn": "删除有序数组中的重复项",
+  "titleEn": "Remove Duplicates from Sorted Array",
+  "slug": "remove-duplicates-from-sorted-array",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0026",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/remove-duplicates-from-sorted-array/",
+  "meta": {
+    "name": "removeDuplicates",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "output": {
+      "paramindex": 0,
+      "size": "ret"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "c",
+      "csharp",
+      "javascript",
+      "ruby",
+      "swift",
+      "golang",
+      "python3",
+      "scala",
+      "kotlin",
+      "rust",
+      "php",
+      "typescript",
+      "dart"
+    ]
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

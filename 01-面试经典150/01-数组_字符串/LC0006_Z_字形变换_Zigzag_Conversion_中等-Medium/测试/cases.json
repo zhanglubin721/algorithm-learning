@@ -1,0 +1,202 @@
+[
+  {
+    "name": "边界-013",
+    "args": [
+      "PAYPALISHIRING",
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "PAHNAPLSIIGYIR"
+  },
+  {
+    "name": "边界-014",
+    "args": [
+      "PAYPALISHIRING",
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "PINALSIGYAHRPI"
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      "A",
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "A"
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "A",
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "A"
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "A",
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "A"
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "A",
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "A"
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "A",
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "A"
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      "AB",
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AB"
+  },
+  {
+    "name": "边界-007",
+    "args": [
+      "AB",
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AB"
+  },
+  {
+    "name": "边界-008",
+    "args": [
+      "AB",
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AB"
+  },
+  {
+    "name": "边界-009",
+    "args": [
+      "AB",
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AB"
+  },
+  {
+    "name": "边界-010",
+    "args": [
+      "AB",
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AB"
+  },
+  {
+    "name": "边界-011",
+    "args": [
+      "PAYPALISHIRING",
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "PAYPALISHIRING"
+  },
+  {
+    "name": "边界-012",
+    "args": [
+      "PAYPALISHIRING",
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "PYAIHRNAPLSIIG"
+  },
+  {
+    "name": "边界-015",
+    "args": [
+      "PAYPALISHIRING",
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "PAGYNPIARLIIHS"
+  },
+  {
+    "name": "边界-016",
+    "args": [
+      "ABCDEFGHIJKLMNO",
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "ABCDEFGHIJKLMNO"
+  },
+  {
+    "name": "边界-017",
+    "args": [
+      "ABCDEFGHIJKLMNO",
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "ACEGIKMOBDFHJLN"
+  },
+  {
+    "name": "边界-018",
+    "args": [
+      "ABCDEFGHIJKLMNO",
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AEIMBDFHJLNCGKO"
+  },
+  {
+    "name": "边界-019",
+    "args": [
+      "ABCDEFGHIJKLMNO",
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AGMBFHLNCEIKODJ"
+  },
+  {
+    "name": "边界-020",
+    "args": [
+      "ABCDEFGHIJKLMNO",
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "AOBNCMDLEKFJGIH"
+  }
+]

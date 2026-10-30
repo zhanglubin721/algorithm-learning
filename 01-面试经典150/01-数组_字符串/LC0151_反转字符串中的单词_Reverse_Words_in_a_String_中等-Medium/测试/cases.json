@@ -1,0 +1,74 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      "the sky is blue"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": "blue is sky the"
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      "  hello world  "
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": "world hello"
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      "a good   example"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": "example good a"
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "a"
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "hello world"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "world hello"
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "   fly me   to   the moon  "
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "moon the to me fly"
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "a "
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "a"
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "  z"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "z"
+  }
+]

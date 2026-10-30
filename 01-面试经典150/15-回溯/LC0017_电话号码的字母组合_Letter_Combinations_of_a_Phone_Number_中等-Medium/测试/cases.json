@@ -1,0 +1,207 @@
+[
+  {
+    "name": "边界-003",
+    "args": [
+      "23"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "ad",
+      "ae",
+      "af",
+      "bd",
+      "be",
+      "bf",
+      "cd",
+      "ce",
+      "cf"
+    ]
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      "2"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "7"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "p",
+      "q",
+      "r",
+      "s"
+    ]
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "29"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "aw",
+      "ax",
+      "ay",
+      "az",
+      "bw",
+      "bx",
+      "by",
+      "bz",
+      "cw",
+      "cx",
+      "cy",
+      "cz"
+    ]
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "79"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "pw",
+      "px",
+      "py",
+      "pz",
+      "qw",
+      "qx",
+      "qy",
+      "qz",
+      "rw",
+      "rx",
+      "ry",
+      "rz",
+      "sw",
+      "sx",
+      "sy",
+      "sz"
+    ]
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      "234"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "adg",
+      "adh",
+      "adi",
+      "aeg",
+      "aeh",
+      "aei",
+      "afg",
+      "afh",
+      "afi",
+      "bdg",
+      "bdh",
+      "bdi",
+      "beg",
+      "beh",
+      "bei",
+      "bfg",
+      "bfh",
+      "bfi",
+      "cdg",
+      "cdh",
+      "cdi",
+      "ceg",
+      "ceh",
+      "cei",
+      "cfg",
+      "cfh",
+      "cfi"
+    ]
+  },
+  {
+    "name": "边界-007",
+    "args": [
+      "999"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "www",
+      "wwx",
+      "wwy",
+      "wwz",
+      "wxw",
+      "wxx",
+      "wxy",
+      "wxz",
+      "wyw",
+      "wyx",
+      "wyy",
+      "wyz",
+      "wzw",
+      "wzx",
+      "wzy",
+      "wzz",
+      "xww",
+      "xwx",
+      "xwy",
+      "xwz",
+      "xxw",
+      "xxx",
+      "xxy",
+      "xxz",
+      "xyw",
+      "xyx",
+      "xyy",
+      "xyz",
+      "xzw",
+      "xzx",
+      "xzy",
+      "xzz",
+      "yww",
+      "ywx",
+      "ywy",
+      "ywz",
+      "yxw",
+      "yxx",
+      "yxy",
+      "yxz",
+      "yyw",
+      "yyx",
+      "yyy",
+      "yyz",
+      "yzw",
+      "yzx",
+      "yzy",
+      "yzz",
+      "zww",
+      "zwx",
+      "zwy",
+      "zwz",
+      "zxw",
+      "zxx",
+      "zxy",
+      "zxz",
+      "zyw",
+      "zyx",
+      "zyy",
+      "zyz",
+      "zzw",
+      "zzx",
+      "zzy",
+      "zzz"
+    ]
+  }
+]

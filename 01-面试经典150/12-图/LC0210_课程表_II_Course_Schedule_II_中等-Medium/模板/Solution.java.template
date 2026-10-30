@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public int[] findOrder(int numCourses, int[][] prerequisites) { throw new UnsupportedOperationException("TODO"); }
+}

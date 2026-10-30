@@ -1,0 +1,502 @@
+{
+  "1757": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "584": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "595": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1148": {
+    "cases": 8,
+    "fixedExpected": 8,
+    "mysqlExecuted": false
+  },
+  "1683": {
+    "cases": 3,
+    "fixedExpected": 3,
+    "mysqlExecuted": false
+  },
+  "1378": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1068": {
+    "cases": 3,
+    "fixedExpected": 3,
+    "mysqlExecuted": false
+  },
+  "1581": {
+    "cases": 7,
+    "fixedExpected": 7,
+    "mysqlExecuted": false
+  },
+  "197": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1661": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "577": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "1280": {
+    "cases": 7,
+    "fixedExpected": 7,
+    "mysqlExecuted": false
+  },
+  "570": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "1934": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "620": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "1251": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1075": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1633": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1211": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1193": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1174": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "550": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "2356": {
+    "cases": 7,
+    "fixedExpected": 7,
+    "mysqlExecuted": false
+  },
+  "1141": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1084": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "596": {
+    "cases": 7,
+    "fixedExpected": 7,
+    "mysqlExecuted": false
+  },
+  "1729": {
+    "cases": 7,
+    "fixedExpected": 7,
+    "mysqlExecuted": false
+  },
+  "619": {
+    "cases": 9,
+    "fixedExpected": 9,
+    "mysqlExecuted": false
+  },
+  "1045": {
+    "cases": 7,
+    "fixedExpected": 7,
+    "mysqlExecuted": false
+  },
+  "1731": {
+    "cases": 5,
+    "fixedExpected": 2,
+    "mysqlExecuted": false
+  },
+  "1789": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "610": {
+    "cases": 3,
+    "fixedExpected": 3,
+    "mysqlExecuted": false
+  },
+  "180": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1164": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1204": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1907": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1978": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "626": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "1341": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1321": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "602": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "585": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "185": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1667": {
+    "cases": 2,
+    "fixedExpected": 2,
+    "mysqlExecuted": false
+  },
+  "1527": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "196": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "176": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1484": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1327": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1517": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1821": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "183": {
+    "cases": 6,
+    "fixedExpected": 6,
+    "mysqlExecuted": false
+  },
+  "1873": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "1398": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1112": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "175": {
+    "cases": 3,
+    "fixedExpected": 3,
+    "mysqlExecuted": false
+  },
+  "1607": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1407": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "607": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1440": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1212": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1890": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "511": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "1571": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "586": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1741": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1173": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1445": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1699": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1587": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "182": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1050": {
+    "cases": 7,
+    "fixedExpected": 7,
+    "mysqlExecuted": false
+  },
+  "1511": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1693": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1495": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1501": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "603": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "1795": {
+    "cases": 5,
+    "fixedExpected": 5,
+    "mysqlExecuted": false
+  },
+  "613": {
+    "cases": 3,
+    "fixedExpected": 3,
+    "mysqlExecuted": false
+  },
+  "1965": {
+    "cases": 6,
+    "fixedExpected": 6,
+    "mysqlExecuted": false
+  },
+  "1264": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "608": {
+    "cases": 5,
+    "fixedExpected": 2,
+    "mysqlExecuted": false
+  },
+  "534": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1783": {
+    "cases": 5,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1747": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1350": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1303": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "512": {
+    "cases": 4,
+    "fixedExpected": 4,
+    "mysqlExecuted": false
+  },
+  "184": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1549": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1532": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1831": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1077": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1285": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1596": {
+    "cases": 7,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1709": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1270": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1412": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  },
+  "1767": {
+    "cases": 8,
+    "fixedExpected": 8,
+    "mysqlExecuted": false
+  },
+  "1225": {
+    "cases": 4,
+    "fixedExpected": 1,
+    "mysqlExecuted": false
+  }
+}

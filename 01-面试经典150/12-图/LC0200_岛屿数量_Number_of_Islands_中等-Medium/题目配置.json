@@ -1,0 +1,28 @@
+{
+  "id": 200,
+  "titleCn": "岛屿数量",
+  "titleEn": "Number of Islands",
+  "slug": "number-of-islands",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0200",
+  "plan": "top-interview-150",
+  "category": "图",
+  "source": "https://leetcode.cn/problems/number-of-islands/",
+  "meta": {
+    "name": "numIslands",
+    "params": [
+      {
+        "name": "grid",
+        "type": "character[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    },
+    "manual": true
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

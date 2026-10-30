@@ -1,0 +1,39 @@
+{
+  "id": 502,
+  "titleCn": "IPO",
+  "titleEn": "IPO",
+  "slug": "ipo",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0502",
+  "plan": "top-interview-150",
+  "category": "堆",
+  "source": "https://leetcode.cn/problems/ipo/",
+  "meta": {
+    "name": "findMaximizedCapital",
+    "params": [
+      {
+        "name": "k",
+        "type": "integer"
+      },
+      {
+        "name": "w",
+        "type": "integer"
+      },
+      {
+        "name": "profits",
+        "type": "integer[]"
+      },
+      {
+        "name": "capital",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

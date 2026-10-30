@@ -1,0 +1,27 @@
+{
+  "id": 234,
+  "titleCn": "回文链表",
+  "titleEn": "Palindrome Linked List",
+  "slug": "palindrome-linked-list",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0234",
+  "plan": "top-100-liked",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/palindrome-linked-list/",
+  "meta": {
+    "name": "isPalindrome",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": 3,
+  "titleCn": "无重复字符的最长子串",
+  "titleEn": "Longest Substring Without Repeating Characters",
+  "slug": "longest-substring-without-repeating-characters",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0003",
+  "plan": "top-interview-150",
+  "category": "滑动窗口",
+  "source": "https://leetcode.cn/problems/longest-substring-without-repeating-characters/",
+  "meta": {
+    "name": "lengthOfLongestSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

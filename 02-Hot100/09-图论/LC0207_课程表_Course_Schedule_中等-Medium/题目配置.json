@@ -1,0 +1,31 @@
+{
+  "id": 207,
+  "titleCn": "课程表",
+  "titleEn": "Course Schedule",
+  "slug": "course-schedule",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0207",
+  "plan": "top-100-liked",
+  "category": "图论",
+  "source": "https://leetcode.cn/problems/course-schedule/",
+  "meta": {
+    "name": "canFinish",
+    "params": [
+      {
+        "name": "numCourses",
+        "type": "integer"
+      },
+      {
+        "name": "prerequisites",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

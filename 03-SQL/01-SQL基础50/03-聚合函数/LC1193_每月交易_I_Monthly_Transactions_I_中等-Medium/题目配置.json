@@ -1,0 +1,47 @@
+{
+  "id": 1193,
+  "titleCn": "每月交易 I",
+  "titleEn": "Monthly Transactions I",
+  "slug": "monthly-transactions-i",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc1193",
+  "plan": "sql-free-50",
+  "category": "聚合函数",
+  "source": "https://leetcode.cn/problems/monthly-transactions-i/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Transactions (id int, country varchar(4), state enum('approved', 'declined'), amount int, trans_date date)"
+    ],
+    "mssql": [
+      "Create table Transactions (id int, country varchar(4), state varchar(10) check(state in ('approved', 'declined')), amount int, trans_date date)"
+    ],
+    "oraclesql": [
+      "Create table Transactions (id int, country varchar(4), state varchar(10) check(state in ('approved', 'declined')), amount int, trans_date date)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "monthly_transactions",
+    "pythondata": [
+      "Transactions = pd.DataFrame([], columns=['id', 'country', 'state', 'amount', 'trans_date']).astype({'id':'Int64', 'country':'object', 'state':'object', 'amount':'Int64', 'trans_date':'datetime64[ns]'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Transactions (id int, country varchar(4), state VARCHAR(30) CHECK (state IN ('approved', 'declined')), amount int, trans_date date)\n\n"
+    ],
+    "database_schema": {
+      "Transactions": {
+        "id": "INT",
+        "country": "VARCHAR(4)",
+        "state": "ENUM('approved', 'declined')",
+        "amount": "INT",
+        "trans_date": "DATE"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Transactions (id int, country varchar(4), state enum('approved', 'declined'), amount int, trans_date date)"
+  ],
+  "ordered": false
+}

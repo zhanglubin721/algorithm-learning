@@ -1,0 +1,31 @@
+{
+  "id": 76,
+  "titleCn": "最小覆盖子串",
+  "titleEn": "Minimum Window Substring",
+  "slug": "minimum-window-substring",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0076",
+  "plan": "top-interview-150",
+  "category": "滑动窗口",
+  "source": "https://leetcode.cn/problems/minimum-window-substring/",
+  "meta": {
+    "name": "minWindow",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

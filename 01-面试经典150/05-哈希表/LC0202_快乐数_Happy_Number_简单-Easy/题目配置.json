@@ -1,0 +1,27 @@
+{
+  "id": 202,
+  "titleCn": "快乐数",
+  "titleEn": "Happy Number",
+  "slug": "happy-number",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0202",
+  "plan": "top-interview-150",
+  "category": "哈希表",
+  "source": "https://leetcode.cn/problems/happy-number/",
+  "meta": {
+    "name": "isHappy",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

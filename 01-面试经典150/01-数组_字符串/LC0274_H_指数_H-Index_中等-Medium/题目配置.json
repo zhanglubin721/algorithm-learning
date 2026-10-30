@@ -1,0 +1,27 @@
+{
+  "id": 274,
+  "titleCn": "H 指数",
+  "titleEn": "H-Index",
+  "slug": "h-index",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0274",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/h-index/",
+  "meta": {
+    "name": "hIndex",
+    "params": [
+      {
+        "name": "citations",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

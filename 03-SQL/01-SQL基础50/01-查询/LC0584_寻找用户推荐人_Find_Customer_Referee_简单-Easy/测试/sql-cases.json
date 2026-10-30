@@ -1,0 +1,319 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Customer": [
+          "id",
+          "name",
+          "referee_id"
+        ]
+      },
+      "rows": {
+        "Customer": [
+          [
+            1,
+            "Will",
+            null
+          ],
+          [
+            2,
+            "Jane",
+            null
+          ],
+          [
+            3,
+            "Alex",
+            2
+          ],
+          [
+            4,
+            "Bill",
+            null
+          ],
+          [
+            5,
+            "Zack",
+            1
+          ],
+          [
+            6,
+            "Mark",
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "Will"
+        ],
+        [
+          "Jane"
+        ],
+        [
+          "Bill"
+        ],
+        [
+          "Zack"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Customer": [
+          "id",
+          "name",
+          "referee_id"
+        ]
+      },
+      "rows": {
+        "Customer": [
+          [
+            1,
+            "A",
+            null
+          ],
+          [
+            2,
+            "B",
+            2
+          ],
+          [
+            3,
+            "C",
+            1
+          ],
+          [
+            4,
+            "D",
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "A"
+        ],
+        [
+          "C"
+        ],
+        [
+          "D"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Customer": [
+          "id",
+          "name",
+          "referee_id"
+        ]
+      },
+      "rows": {
+        "Customer": [
+          [
+            1,
+            "Will",
+            null
+          ],
+          [
+            6,
+            "Mark",
+            2
+          ],
+          [
+            2,
+            "Jane",
+            null
+          ],
+          [
+            3,
+            "Alex",
+            2
+          ],
+          [
+            4,
+            "Bill",
+            null
+          ],
+          [
+            5,
+            "Zack",
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "Will"
+        ],
+        [
+          "Jane"
+        ],
+        [
+          "Bill"
+        ],
+        [
+          "Zack"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Customer": [
+          "id",
+          "name",
+          "referee_id"
+        ]
+      },
+      "rows": {
+        "Customer": [
+          [
+            3,
+            "Alex",
+            2
+          ],
+          [
+            5,
+            "Zack",
+            1
+          ],
+          [
+            6,
+            "Mark",
+            2
+          ],
+          [
+            4,
+            "Bill",
+            null
+          ],
+          [
+            1,
+            "Will",
+            null
+          ],
+          [
+            2,
+            "Jane",
+            null
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "Zack"
+        ],
+        [
+          "Bill"
+        ],
+        [
+          "Will"
+        ],
+        [
+          "Jane"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Customer": [
+          "id",
+          "name",
+          "referee_id"
+        ]
+      },
+      "rows": {
+        "Customer": [
+          [
+            2,
+            "Jane",
+            null
+          ],
+          [
+            4,
+            "Bill",
+            null
+          ],
+          [
+            3,
+            "Alex",
+            2
+          ],
+          [
+            5,
+            "Zack",
+            1
+          ],
+          [
+            1,
+            "Will",
+            null
+          ],
+          [
+            6,
+            "Mark",
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "Jane"
+        ],
+        [
+          "Bill"
+        ],
+        [
+          "Zack"
+        ],
+        [
+          "Will"
+        ]
+      ]
+    ]
+  }
+]

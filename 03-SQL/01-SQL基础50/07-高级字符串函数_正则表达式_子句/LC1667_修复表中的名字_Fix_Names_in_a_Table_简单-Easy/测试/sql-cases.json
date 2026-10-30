@@ -1,0 +1,82 @@
+[
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "name"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            1,
+            "aLice"
+          ],
+          [
+            2,
+            "bOB"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "name"
+      ],
+      [
+        [
+          "1",
+          "Alice"
+        ],
+        [
+          "2",
+          "Bob"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "name"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            2,
+            "bOB"
+          ],
+          [
+            1,
+            "aLice"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "name"
+      ],
+      [
+        [
+          "1",
+          "Alice"
+        ],
+        [
+          "2",
+          "Bob"
+        ]
+      ]
+    ]
+  }
+]

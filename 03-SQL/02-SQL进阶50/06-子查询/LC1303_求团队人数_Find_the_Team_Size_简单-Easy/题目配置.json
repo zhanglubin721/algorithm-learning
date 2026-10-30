@@ -1,0 +1,43 @@
+{
+  "id": 1303,
+  "titleCn": "求团队人数",
+  "titleEn": "Find the Team Size",
+  "slug": "find-the-team-size",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1303",
+  "plan": "sql-premium-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/find-the-team-size/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employee (employee_id int, team_id int)"
+    ],
+    "mssql": [
+      "Create table Employee (employee_id int, team_id int)"
+    ],
+    "oraclesql": [
+      "Create table Employee (employee_id int, team_id int)"
+    ],
+    "database": true,
+    "name": "team_size",
+    "pythondata": [
+      "Employee = pd.DataFrame([], columns=['employee_id', 'team_id']).astype({'employee_id':'Int64', 'team_id':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Employee (employee_id int, team_id int)"
+    ],
+    "database_schema": {
+      "Employee": {
+        "employee_id": "INT",
+        "team_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Employee (employee_id int, team_id int)"
+  ],
+  "ordered": false
+}

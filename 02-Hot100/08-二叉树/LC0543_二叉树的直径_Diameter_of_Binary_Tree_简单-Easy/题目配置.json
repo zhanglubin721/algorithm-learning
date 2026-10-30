@@ -1,0 +1,27 @@
+{
+  "id": 543,
+  "titleCn": "二叉树的直径",
+  "titleEn": "Diameter of Binary Tree",
+  "slug": "diameter-of-binary-tree",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0543",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/diameter-of-binary-tree/",
+  "meta": {
+    "name": "diameterOfBinaryTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

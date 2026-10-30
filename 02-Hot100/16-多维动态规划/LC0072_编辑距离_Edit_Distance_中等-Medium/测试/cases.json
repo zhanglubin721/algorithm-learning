@@ -1,0 +1,812 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      "horse",
+      "ros"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      "intention",
+      "execution"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-001",
+    "args": [
+      "",
+      "cacaab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "随机编辑-002",
+    "args": [
+      "",
+      "aabb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "随机编辑-003",
+    "args": [
+      "",
+      "bccacc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "随机编辑-004",
+    "args": [
+      "",
+      "cbbba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-008",
+    "args": [
+      "a",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 0
+  },
+  {
+    "name": "随机编辑-006",
+    "args": [
+      "a",
+      "bcc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机编辑-007",
+    "args": [
+      "a",
+      "aacac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "随机编辑-009",
+    "args": [
+      "cb",
+      "bbbaaa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-010",
+    "args": [
+      "ac",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 0
+  },
+  {
+    "name": "随机编辑-011",
+    "args": [
+      "ca",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 2
+  },
+  {
+    "name": "随机编辑-012",
+    "args": [
+      "cc",
+      "ccc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 1
+  },
+  {
+    "name": "随机编辑-013",
+    "args": [
+      "acc",
+      "bccac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机编辑-014",
+    "args": [
+      "aca",
+      "abaa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 2
+  },
+  {
+    "name": "随机编辑-015",
+    "args": [
+      "baa",
+      "aaabbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "随机编辑-016",
+    "args": [
+      "baa",
+      "ccacab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "随机编辑-017",
+    "args": [
+      "cabc",
+      "abcba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机编辑-018",
+    "args": [
+      "aacc",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 2
+  },
+  {
+    "name": "随机编辑-019",
+    "args": [
+      "babb",
+      "ccb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机编辑-020",
+    "args": [
+      "abaa",
+      "aabca"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 2
+  },
+  {
+    "name": "随机编辑-021",
+    "args": [
+      "ccaca",
+      "bbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-022",
+    "args": [
+      "aabbc",
+      "bccaba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-023",
+    "args": [
+      "aacbb",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "随机编辑-024",
+    "args": [
+      "cacaa",
+      "ca"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机编辑-025",
+    "args": [
+      "baacba",
+      "bbbaba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机编辑-026",
+    "args": [
+      "aaaaaa",
+      "ccca"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-027",
+    "args": [
+      "cabaaa",
+      "cbbacb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机编辑-028",
+    "args": [
+      "bbbaab",
+      "abc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-029",
+    "args": [
+      "bbbbbaa",
+      "bbbccb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "随机编辑-030",
+    "args": [
+      "aaaaacc",
+      "abcbcc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "随机编辑-031",
+    "args": [
+      "bbbacca",
+      "aba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-032",
+    "args": [
+      "aaababa",
+      "ccbcca"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-033",
+    "args": [
+      "cbbacbaa",
+      "bcbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-034",
+    "args": [
+      "aaaaaabc",
+      "bbaab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-035",
+    "args": [
+      "bbbbccac",
+      "ccbc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-036",
+    "args": [
+      "caaaacab",
+      "cba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "随机编辑-037",
+    "args": [
+      "bcaabbabc",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 7
+  },
+  {
+    "name": "随机编辑-038",
+    "args": [
+      "bacbcabaa",
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 7
+  },
+  {
+    "name": "随机编辑-039",
+    "args": [
+      "aaabaabaa",
+      "cccaa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 7
+  },
+  {
+    "name": "随机编辑-040",
+    "args": [
+      "aaaccabba",
+      "bcacbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-041",
+    "args": [
+      "caacabbacc",
+      "acaac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "随机编辑-042",
+    "args": [
+      "bacaababba",
+      "baaa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "随机编辑-043",
+    "args": [
+      "acbbcbbcbc",
+      "bcc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 7
+  },
+  {
+    "name": "随机编辑-044",
+    "args": [
+      "aabaacccac",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 8
+  },
+  {
+    "name": "随机编辑-045",
+    "args": [
+      "babcaaaacaa",
+      "ccacbc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 8
+  },
+  {
+    "name": "随机编辑-046",
+    "args": [
+      "aabcabaaaaa",
+      "acbbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 8
+  },
+  {
+    "name": "随机编辑-047",
+    "args": [
+      "aacaaabacac",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-048",
+    "args": [
+      "cbbcccaaaaa",
+      "bc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 9
+  },
+  {
+    "name": "随机编辑-049",
+    "args": [
+      "caaabccaccba",
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-050",
+    "args": [
+      "bbaaabbcaaac",
+      "aaab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 8
+  },
+  {
+    "name": "随机编辑-051",
+    "args": [
+      "bcaaaccbacba",
+      "ccc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 9
+  },
+  {
+    "name": "随机编辑-052",
+    "args": [
+      "cabaacaacbba",
+      "cbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 9
+  },
+  {
+    "name": "随机编辑-053",
+    "args": [
+      "ababbaaccabaa",
+      "cbcb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-054",
+    "args": [
+      "aaabbbacccaba",
+      "baa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-055",
+    "args": [
+      "aabcabbcababc",
+      "accb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 9
+  },
+  {
+    "name": "随机编辑-056",
+    "args": [
+      "cbbaaaaaaaaac",
+      "cb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 11
+  },
+  {
+    "name": "随机编辑-057",
+    "args": [
+      "aaabcacbcaabba",
+      "cacc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-058",
+    "args": [
+      "abaccbabbccaaa",
+      "baabbc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 8
+  },
+  {
+    "name": "随机编辑-059",
+    "args": [
+      "cacaacbccacaab",
+      "bbc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 12
+  },
+  {
+    "name": "随机编辑-060",
+    "args": [
+      "abaaaaacbabaaa",
+      "acccaa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-061",
+    "args": [
+      "cabcbcbacaabbaa",
+      "acbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-062",
+    "args": [
+      "aacbabaaabcabca",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 13
+  },
+  {
+    "name": "随机编辑-063",
+    "args": [
+      "abacbccbabaabca",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 14
+  },
+  {
+    "name": "随机编辑-064",
+    "args": [
+      "baabbaabaabbbac",
+      "babaa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 10
+  },
+  {
+    "name": "随机编辑-065",
+    "args": [
+      "caaaababaababaaa",
+      "babc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 13
+  },
+  {
+    "name": "随机编辑-066",
+    "args": [
+      "baacacacaccbbbaa",
+      "babbb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 11
+  },
+  {
+    "name": "随机编辑-067",
+    "args": [
+      "aaaaaccbaaaaacaa",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 14
+  },
+  {
+    "name": "随机编辑-068",
+    "args": [
+      "bcbbaaaabbaabbca",
+      "baccba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 12
+  },
+  {
+    "name": "随机编辑-069",
+    "args": [
+      "ccaabaabcaabaabaa",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 16
+  },
+  {
+    "name": "随机编辑-070",
+    "args": [
+      "caaccaccacaaaaaca",
+      "bccbc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 14
+  },
+  {
+    "name": "随机编辑-071",
+    "args": [
+      "acaabcbaacbbbbaab",
+      "aac"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 14
+  },
+  {
+    "name": "随机编辑-072",
+    "args": [
+      "bacabbaccabbabbca",
+      "cb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 15
+  },
+  {
+    "name": "随机编辑-073",
+    "args": [
+      "bbaaacaaabacbcacab",
+      "aab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 15
+  },
+  {
+    "name": "随机编辑-074",
+    "args": [
+      "bacbbccaccacaacaab",
+      "ccb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 15
+  },
+  {
+    "name": "随机编辑-075",
+    "args": [
+      "cabaaacaaaabcaabbc",
+      "bbbbcc"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 14
+  },
+  {
+    "name": "随机编辑-076",
+    "args": [
+      "caaacabaaaaabcabcb",
+      "bcb"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 15
+  },
+  {
+    "name": "随机编辑-077",
+    "args": [
+      "bacaabbababaaaabcab",
+      "aca"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 16
+  },
+  {
+    "name": "随机编辑-078",
+    "args": [
+      "bcbbcbabcbcbcababcb",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 18
+  },
+  {
+    "name": "随机编辑-079",
+    "args": [
+      "babaaccaababacccaaa",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 18
+  },
+  {
+    "name": "随机编辑-080",
+    "args": [
+      "aaababacbccabcbcaba",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 18
+  }
+]

@@ -1,0 +1,320 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Queries": [
+          "query_name",
+          "result",
+          "position",
+          "rating"
+        ]
+      },
+      "rows": {
+        "Queries": [
+          [
+            "Dog",
+            "Golden Retriever",
+            1,
+            5
+          ],
+          [
+            "Dog",
+            "German Shepherd",
+            2,
+            5
+          ],
+          [
+            "Dog",
+            "Mule",
+            200,
+            1
+          ],
+          [
+            "Cat",
+            "Shirazi",
+            5,
+            2
+          ],
+          [
+            "Cat",
+            "Siamese",
+            3,
+            3
+          ],
+          [
+            "Cat",
+            "Sphynx",
+            7,
+            4
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "query_name",
+        "quality",
+        "poor_query_percentage"
+      ],
+      [
+        [
+          "Dog",
+          "2.5",
+          "33.33"
+        ],
+        [
+          "Cat",
+          "0.66",
+          "33.33"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Queries": [
+          "query_name",
+          "result",
+          "position",
+          "rating"
+        ]
+      },
+      "rows": {
+        "Queries": [
+          [
+            "Dog",
+            "Golden Retriever",
+            1,
+            5
+          ],
+          [
+            "Cat",
+            "Sphynx",
+            7,
+            4
+          ],
+          [
+            "Dog",
+            "German Shepherd",
+            2,
+            5
+          ],
+          [
+            "Dog",
+            "Mule",
+            200,
+            1
+          ],
+          [
+            "Cat",
+            "Shirazi",
+            5,
+            2
+          ],
+          [
+            "Cat",
+            "Siamese",
+            3,
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Queries": [
+          "query_name",
+          "result",
+          "position",
+          "rating"
+        ]
+      },
+      "rows": {
+        "Queries": [
+          [
+            "Dog",
+            "Mule",
+            200,
+            1
+          ],
+          [
+            "Cat",
+            "Siamese",
+            3,
+            3
+          ],
+          [
+            "Cat",
+            "Sphynx",
+            7,
+            4
+          ],
+          [
+            "Cat",
+            "Shirazi",
+            5,
+            2
+          ],
+          [
+            "Dog",
+            "Golden Retriever",
+            1,
+            5
+          ],
+          [
+            "Dog",
+            "German Shepherd",
+            2,
+            5
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Queries": [
+          "query_name",
+          "result",
+          "position",
+          "rating"
+        ]
+      },
+      "rows": {
+        "Queries": [
+          [
+            "Dog",
+            "German Shepherd",
+            2,
+            5
+          ],
+          [
+            "Cat",
+            "Shirazi",
+            5,
+            2
+          ],
+          [
+            "Dog",
+            "Mule",
+            200,
+            1
+          ],
+          [
+            "Cat",
+            "Siamese",
+            3,
+            3
+          ],
+          [
+            "Dog",
+            "Golden Retriever",
+            1,
+            5
+          ],
+          [
+            "Cat",
+            "Sphynx",
+            7,
+            4
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Queries": [
+          "query_name",
+          "result",
+          "position",
+          "rating"
+        ]
+      },
+      "rows": {
+        "Queries": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "Queries": [
+          "query_name",
+          "result",
+          "position",
+          "rating"
+        ]
+      },
+      "rows": {
+        "Queries": [
+          [
+            "Dog",
+            "Golden Retriever",
+            1,
+            5
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "Queries": [
+          "query_name",
+          "result",
+          "position",
+          "rating"
+        ]
+      },
+      "rows": {
+        "Queries": [
+          [
+            "Dog",
+            "Golden Retriever",
+            1,
+            5
+          ],
+          [
+            "Dog",
+            "German Shepherd",
+            2,
+            5
+          ],
+          [
+            "Dog",
+            "Mule",
+            200,
+            1
+          ],
+          [
+            "Cat",
+            "Shirazi",
+            5,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "边界-006",
+    "args": [
+      "A man, a plan, a canal: Panama"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": true
+  },
+  {
+    "name": "边界-008",
+    "args": [
+      "race a car"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": false
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      " "
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": true
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      ""
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": true
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": true
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "Aa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": true
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": false
+  },
+  {
+    "name": "边界-007",
+    "args": [
+      "0P"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": false
+  }
+]

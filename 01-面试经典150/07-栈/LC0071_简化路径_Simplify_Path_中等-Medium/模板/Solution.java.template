@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public String simplifyPath(String path) { throw new UnsupportedOperationException("TODO"); }
+}

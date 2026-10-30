@@ -1,0 +1,123 @@
+[
+  {
+    "name": "边界-004",
+    "args": [
+      [
+        "flower",
+        "flow",
+        "flight"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "fl"
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      [
+        "dog",
+        "racecar",
+        "car"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": ""
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      [
+        ""
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": ""
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      [
+        "a"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "a"
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      [
+        "ab",
+        "a"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "a"
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      [
+        "same",
+        "same"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "same"
+  },
+  {
+    "name": "强化-001",
+    "args": [
+      [
+        "a",
+        "ab"
+      ]
+    ],
+    "oracle": "independent-python",
+    "source": "工程定向构造",
+    "expected": "a"
+  },
+  {
+    "name": "强化-002",
+    "args": [
+      [
+        "",
+        "a"
+      ]
+    ],
+    "oracle": "independent-python",
+    "source": "工程定向构造",
+    "expected": ""
+  },
+  {
+    "name": "强化-003",
+    "args": [
+      [
+        "ab",
+        "abcd"
+      ]
+    ],
+    "oracle": "independent-python",
+    "source": "工程定向构造",
+    "expected": "ab"
+  },
+  {
+    "name": "强化-004",
+    "args": [
+      [
+        "abc",
+        "abcde",
+        "abcd"
+      ]
+    ],
+    "oracle": "independent-python",
+    "source": "工程定向构造",
+    "expected": "abc"
+  }
+]

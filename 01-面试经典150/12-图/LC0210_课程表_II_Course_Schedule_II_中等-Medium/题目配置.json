@@ -1,0 +1,31 @@
+{
+  "id": 210,
+  "titleCn": "课程表 II",
+  "titleEn": "Course Schedule II",
+  "slug": "course-schedule-ii",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0210",
+  "plan": "top-interview-150",
+  "category": "图",
+  "source": "https://leetcode.cn/problems/course-schedule-ii/",
+  "meta": {
+    "name": "findOrder",
+    "params": [
+      {
+        "name": "numCourses",
+        "type": "integer"
+      },
+      {
+        "name": "prerequisites",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

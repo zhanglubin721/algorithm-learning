@@ -1,0 +1,27 @@
+{
+  "id": 104,
+  "titleCn": "二叉树的最大深度",
+  "titleEn": "Maximum Depth of Binary Tree",
+  "slug": "maximum-depth-of-binary-tree",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0104",
+  "plan": "top-interview-150",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/maximum-depth-of-binary-tree/",
+  "meta": {
+    "name": "maxDepth",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

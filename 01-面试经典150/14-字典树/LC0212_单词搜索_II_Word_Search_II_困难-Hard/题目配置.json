@@ -1,0 +1,31 @@
+{
+  "id": 212,
+  "titleCn": "单词搜索 II",
+  "titleEn": "Word Search II",
+  "slug": "word-search-ii",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0212",
+  "plan": "top-interview-150",
+  "category": "字典树",
+  "source": "https://leetcode.cn/problems/word-search-ii/",
+  "meta": {
+    "name": "findWords",
+    "params": [
+      {
+        "name": "board",
+        "type": "character[][]"
+      },
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": 17,
+  "titleCn": "电话号码的字母组合",
+  "titleEn": "Letter Combinations of a Phone Number",
+  "slug": "letter-combinations-of-a-phone-number",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0017",
+  "plan": "top-100-liked",
+  "category": "回溯",
+  "source": "https://leetcode.cn/problems/letter-combinations-of-a-phone-number/",
+  "meta": {
+    "name": "letterCombinations",
+    "params": [
+      {
+        "name": "digits",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

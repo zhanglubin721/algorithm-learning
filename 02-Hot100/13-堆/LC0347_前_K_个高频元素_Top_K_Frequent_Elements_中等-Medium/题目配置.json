@@ -1,0 +1,31 @@
+{
+  "id": 347,
+  "titleCn": "前 K 个高频元素",
+  "titleEn": "Top K Frequent Elements",
+  "slug": "top-k-frequent-elements",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0347",
+  "plan": "top-100-liked",
+  "category": "堆",
+  "source": "https://leetcode.cn/problems/top-k-frequent-elements/",
+  "meta": {
+    "name": "topKFrequent",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "orders": [
+          "order_number",
+          "customer_number"
+        ]
+      },
+      "rows": {
+        "orders": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "customer_number"
+      ],
+      [
+        [
+          "3"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "orders": [
+          "order_number",
+          "customer_number"
+        ]
+      },
+      "rows": {
+        "orders": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "orders": [
+          "order_number",
+          "customer_number"
+        ]
+      },
+      "rows": {
+        "orders": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "orders": [
+          "order_number",
+          "customer_number"
+        ]
+      },
+      "rows": {
+        "orders": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "orders": [
+          "order_number",
+          "customer_number"
+        ]
+      },
+      "rows": {
+        "orders": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "orders": [
+          "order_number",
+          "customer_number"
+        ]
+      },
+      "rows": {
+        "orders": [
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "orders": [
+          "order_number",
+          "customer_number"
+        ]
+      },
+      "rows": {
+        "orders": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

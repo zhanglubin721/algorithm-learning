@@ -1,0 +1,365 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "World": [
+          "name",
+          "continent",
+          "area",
+          "population",
+          "gdp"
+        ]
+      },
+      "rows": {
+        "World": [
+          [
+            "Afghanistan",
+            "Asia",
+            652230,
+            25500100,
+            20343000000
+          ],
+          [
+            "Albania",
+            "Europe",
+            28748,
+            2831741,
+            12960000000
+          ],
+          [
+            "Algeria",
+            "Africa",
+            2381741,
+            37100000,
+            188681000000
+          ],
+          [
+            "Andorra",
+            "Europe",
+            468,
+            78115,
+            3712000000
+          ],
+          [
+            "Angola",
+            "Africa",
+            1246700,
+            20609294,
+            100990000000
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name",
+        "population",
+        "area"
+      ],
+      [
+        [
+          "Afghanistan",
+          "25500100",
+          "652230"
+        ],
+        [
+          "Algeria",
+          "37100000",
+          "2381741"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "World": [
+          "name",
+          "continent",
+          "area",
+          "population",
+          "gdp"
+        ]
+      },
+      "rows": {
+        "World": [
+          [
+            "A",
+            "X",
+            2999999,
+            24999999,
+            1
+          ],
+          [
+            "B",
+            "X",
+            3000000,
+            1,
+            1
+          ],
+          [
+            "C",
+            "X",
+            1,
+            25000000,
+            1
+          ],
+          [
+            "D",
+            "X",
+            3000001,
+            25000001,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name",
+        "population",
+        "area"
+      ],
+      [
+        [
+          "B",
+          "1",
+          "3000000"
+        ],
+        [
+          "C",
+          "25000000",
+          "1"
+        ],
+        [
+          "D",
+          "25000001",
+          "3000001"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "World": [
+          "name",
+          "continent",
+          "area",
+          "population",
+          "gdp"
+        ]
+      },
+      "rows": {
+        "World": [
+          [
+            "Afghanistan",
+            "Asia",
+            652230,
+            25500100,
+            20343000000
+          ],
+          [
+            "Algeria",
+            "Africa",
+            2381741,
+            37100000,
+            188681000000
+          ],
+          [
+            "Albania",
+            "Europe",
+            28748,
+            2831741,
+            12960000000
+          ],
+          [
+            "Andorra",
+            "Europe",
+            468,
+            78115,
+            3712000000
+          ],
+          [
+            "Angola",
+            "Africa",
+            1246700,
+            20609294,
+            100990000000
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name",
+        "population",
+        "area"
+      ],
+      [
+        [
+          "Afghanistan",
+          "25500100",
+          "652230"
+        ],
+        [
+          "Algeria",
+          "37100000",
+          "2381741"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "World": [
+          "name",
+          "continent",
+          "area",
+          "population",
+          "gdp"
+        ]
+      },
+      "rows": {
+        "World": [
+          [
+            "Andorra",
+            "Europe",
+            468,
+            78115,
+            3712000000
+          ],
+          [
+            "Angola",
+            "Africa",
+            1246700,
+            20609294,
+            100990000000
+          ],
+          [
+            "Algeria",
+            "Africa",
+            2381741,
+            37100000,
+            188681000000
+          ],
+          [
+            "Afghanistan",
+            "Asia",
+            652230,
+            25500100,
+            20343000000
+          ],
+          [
+            "Albania",
+            "Europe",
+            28748,
+            2831741,
+            12960000000
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name",
+        "population",
+        "area"
+      ],
+      [
+        [
+          "Algeria",
+          "37100000",
+          "2381741"
+        ],
+        [
+          "Afghanistan",
+          "25500100",
+          "652230"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "World": [
+          "name",
+          "continent",
+          "area",
+          "population",
+          "gdp"
+        ]
+      },
+      "rows": {
+        "World": [
+          [
+            "Albania",
+            "Europe",
+            28748,
+            2831741,
+            12960000000
+          ],
+          [
+            "Andorra",
+            "Europe",
+            468,
+            78115,
+            3712000000
+          ],
+          [
+            "Algeria",
+            "Africa",
+            2381741,
+            37100000,
+            188681000000
+          ],
+          [
+            "Angola",
+            "Africa",
+            1246700,
+            20609294,
+            100990000000
+          ],
+          [
+            "Afghanistan",
+            "Asia",
+            652230,
+            25500100,
+            20343000000
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name",
+        "population",
+        "area"
+      ],
+      [
+        [
+          "Algeria",
+          "37100000",
+          "2381741"
+        ],
+        [
+          "Afghanistan",
+          "25500100",
+          "652230"
+        ]
+      ]
+    ]
+  }
+]

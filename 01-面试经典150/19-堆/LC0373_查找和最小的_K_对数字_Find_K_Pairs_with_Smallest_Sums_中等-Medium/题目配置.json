@@ -1,0 +1,36 @@
+{
+  "id": 373,
+  "titleCn": "查找和最小的 K 对数字",
+  "titleEn": "Find K Pairs with Smallest Sums",
+  "slug": "find-k-pairs-with-smallest-sums",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0373",
+  "plan": "top-interview-150",
+  "category": "堆",
+  "source": "https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/",
+  "meta": {
+    "name": "kSmallestPairs",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>"
+    },
+    "manual": false
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

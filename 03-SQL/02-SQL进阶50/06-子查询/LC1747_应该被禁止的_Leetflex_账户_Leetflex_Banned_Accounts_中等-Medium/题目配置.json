@@ -1,0 +1,47 @@
+{
+  "id": 1747,
+  "titleCn": "应该被禁止的 Leetflex 账户",
+  "titleEn": "Leetflex Banned Accounts",
+  "slug": "leetflex-banned-accounts",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1747",
+  "plan": "sql-premium-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/leetflex-banned-accounts/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists LogInfo (account_id int, ip_address int, login datetime, logout datetime)"
+    ],
+    "mssql": [
+      "Create table LogInfo (account_id int, ip_address int, login datetime, logout datetime)"
+    ],
+    "oraclesql": [
+      "Create table LogInfo (account_id int, ip_address int, login date, logout date)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'"
+    ],
+    "database": true,
+    "manual": true,
+    "name": "leetflex_banned_accnts",
+    "pythondata": [
+      "LogInfo = pd.DataFrame([], columns=['account_id', 'ip_address', 'login', 'logout']).astype({'account_id':'Int64', 'ip_address':'Int64', 'login':'datetime64[ns]', 'logout':'datetime64[ns]'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists LogInfo (account_id int, ip_address int, login timestamp, logout timestamp)\n"
+    ],
+    "database_schema": {
+      "LogInfo": {
+        "account_id": "INT",
+        "ip_address": "INT",
+        "login": "DATETIME",
+        "logout": "DATETIME"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists LogInfo (account_id int, ip_address int, login datetime, logout datetime)"
+  ],
+  "ordered": false
+}

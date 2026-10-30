@@ -1,0 +1,31 @@
+{
+  "id": 438,
+  "titleCn": "找到字符串中所有字母异位词",
+  "titleEn": "Find All Anagrams in a String",
+  "slug": "find-all-anagrams-in-a-string",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0438",
+  "plan": "top-100-liked",
+  "category": "滑动窗口",
+  "source": "https://leetcode.cn/problems/find-all-anagrams-in-a-string/",
+  "meta": {
+    "name": "findAnagrams",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "p",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

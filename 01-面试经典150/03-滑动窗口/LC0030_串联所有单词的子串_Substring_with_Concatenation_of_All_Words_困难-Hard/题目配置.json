@@ -1,0 +1,31 @@
+{
+  "id": 30,
+  "titleCn": "串联所有单词的子串",
+  "titleEn": "Substring with Concatenation of All Words",
+  "slug": "substring-with-concatenation-of-all-words",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0030",
+  "plan": "top-interview-150",
+  "category": "滑动窗口",
+  "source": "https://leetcode.cn/problems/substring-with-concatenation-of-all-words/",
+  "meta": {
+    "name": "findSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

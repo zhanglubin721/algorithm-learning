@@ -1,0 +1,151 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        [
+          "A",
+          "B",
+          "C",
+          "E"
+        ],
+        [
+          "S",
+          "F",
+          "C",
+          "S"
+        ],
+        [
+          "A",
+          "D",
+          "E",
+          "E"
+        ]
+      ],
+      "ABCCED"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        [
+          "A",
+          "B",
+          "C",
+          "E"
+        ],
+        [
+          "S",
+          "F",
+          "C",
+          "S"
+        ],
+        [
+          "A",
+          "D",
+          "E",
+          "E"
+        ]
+      ],
+      "SEE"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        [
+          "A",
+          "B",
+          "C",
+          "E"
+        ],
+        [
+          "S",
+          "F",
+          "C",
+          "S"
+        ],
+        [
+          "A",
+          "D",
+          "E",
+          "E"
+        ]
+      ],
+      "ABCB"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      [
+        [
+          "A"
+        ]
+      ],
+      "A"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      [
+        [
+          "A"
+        ]
+      ],
+      "B"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "C",
+          "D"
+        ]
+      ],
+      "ABDC"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      [
+        [
+          "A",
+          "A"
+        ]
+      ],
+      "AAA"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  }
+]

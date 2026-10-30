@@ -1,0 +1,27 @@
+{
+  "id": 32,
+  "titleCn": "最长有效括号",
+  "titleEn": "Longest Valid Parentheses",
+  "slug": "longest-valid-parentheses",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p2.lc0032",
+  "plan": "top-100-liked",
+  "category": "动态规划",
+  "source": "https://leetcode.cn/problems/longest-valid-parentheses/",
+  "meta": {
+    "name": "longestValidParentheses",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

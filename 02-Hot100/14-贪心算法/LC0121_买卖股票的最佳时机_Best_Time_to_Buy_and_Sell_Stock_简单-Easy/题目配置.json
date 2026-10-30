@@ -1,0 +1,27 @@
+{
+  "id": 121,
+  "titleCn": "买卖股票的最佳时机",
+  "titleEn": "Best Time to Buy and Sell Stock",
+  "slug": "best-time-to-buy-and-sell-stock",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0121",
+  "plan": "top-100-liked",
+  "category": "贪心算法",
+  "source": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/",
+  "meta": {
+    "name": "maxProfit",
+    "params": [
+      {
+        "name": "prices",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": 437,
+  "titleCn": "路径总和 III",
+  "titleEn": "Path Sum III",
+  "slug": "path-sum-iii",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0437",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/path-sum-iii/",
+  "meta": {
+    "name": "pathSum",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "targetSum",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

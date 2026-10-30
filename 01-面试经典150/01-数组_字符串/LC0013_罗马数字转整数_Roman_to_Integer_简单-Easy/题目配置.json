@@ -1,0 +1,27 @@
+{
+  "id": 13,
+  "titleCn": "罗马数字转整数",
+  "titleEn": "Roman to Integer",
+  "slug": "roman-to-integer",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0013",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/roman-to-integer/",
+  "meta": {
+    "name": "romanToInt",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

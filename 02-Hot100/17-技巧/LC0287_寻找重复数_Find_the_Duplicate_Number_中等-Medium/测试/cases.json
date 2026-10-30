@@ -1,0 +1,1139 @@
+[
+  {
+    "name": "随机构造-046",
+    "args": [
+      [
+        1,
+        3,
+        4,
+        2,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        3,
+        1,
+        3,
+        4,
+        2
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-001",
+    "args": [
+      [
+        6,
+        4,
+        8,
+        1,
+        3,
+        7,
+        5,
+        2,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机构造-040",
+    "args": [
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-003",
+    "args": [
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-004",
+    "args": [
+      [
+        2,
+        5,
+        6,
+        7,
+        4,
+        8,
+        3,
+        1,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机构造-005",
+    "args": [
+      [
+        1,
+        2,
+        3,
+        7,
+        5,
+        3,
+        4,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-053",
+    "args": [
+      [
+        1,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-007",
+    "args": [
+      [
+        5,
+        12,
+        3,
+        4,
+        10,
+        1,
+        9,
+        11,
+        2,
+        6,
+        7,
+        8,
+        12
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 12
+  },
+  {
+    "name": "随机构造-008",
+    "args": [
+      [
+        11,
+        5,
+        6,
+        8,
+        1,
+        9,
+        10,
+        3,
+        2,
+        7,
+        11,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 11
+  },
+  {
+    "name": "随机构造-009",
+    "args": [
+      [
+        2,
+        5,
+        4,
+        2,
+        6,
+        1,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-010",
+    "args": [
+      [
+        5,
+        9,
+        2,
+        1,
+        3,
+        10,
+        7,
+        6,
+        4,
+        11,
+        8,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-011",
+    "args": [
+      [
+        2,
+        1,
+        3,
+        5,
+        6,
+        1,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-012",
+    "args": [
+      [
+        8,
+        5,
+        3,
+        1,
+        2,
+        6,
+        9,
+        4,
+        10,
+        9,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 9
+  },
+  {
+    "name": "随机构造-013",
+    "args": [
+      [
+        6,
+        9,
+        8,
+        2,
+        8,
+        3,
+        4,
+        5,
+        1,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 8
+  },
+  {
+    "name": "随机构造-014",
+    "args": [
+      [
+        4,
+        1,
+        3,
+        5,
+        6,
+        8,
+        5,
+        2,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机构造-015",
+    "args": [
+      [
+        4,
+        1,
+        3,
+        3,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-016",
+    "args": [
+      [
+        6,
+        11,
+        8,
+        9,
+        3,
+        10,
+        5,
+        2,
+        12,
+        1,
+        7,
+        4,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-018",
+    "args": [
+      [
+        5,
+        10,
+        1,
+        11,
+        4,
+        7,
+        2,
+        2,
+        9,
+        6,
+        8,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-019",
+    "args": [
+      [
+        5,
+        6,
+        8,
+        2,
+        4,
+        7,
+        3,
+        6,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机构造-020",
+    "args": [
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-021",
+    "args": [
+      [
+        3,
+        5,
+        2,
+        3,
+        4,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-023",
+    "args": [
+      [
+        6,
+        3,
+        2,
+        7,
+        1,
+        3,
+        5,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-024",
+    "args": [
+      [
+        3,
+        3,
+        2,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-025",
+    "args": [
+      [
+        1,
+        5,
+        4,
+        2,
+        3,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-026",
+    "args": [
+      [
+        5,
+        3,
+        11,
+        2,
+        4,
+        7,
+        8,
+        6,
+        9,
+        2,
+        1,
+        10
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-027",
+    "args": [
+      [
+        2,
+        5,
+        4,
+        9,
+        6,
+        7,
+        1,
+        8,
+        8,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 8
+  },
+  {
+    "name": "随机构造-028",
+    "args": [
+      [
+        1,
+        3,
+        2,
+        7,
+        4,
+        3,
+        5,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-029",
+    "args": [
+      [
+        10,
+        3,
+        8,
+        9,
+        12,
+        12,
+        1,
+        11,
+        4,
+        5,
+        7,
+        2,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 12
+  },
+  {
+    "name": "随机构造-030",
+    "args": [
+      [
+        8,
+        9,
+        6,
+        5,
+        7,
+        1,
+        7,
+        3,
+        2,
+        10,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机构造-033",
+    "args": [
+      [
+        7,
+        6,
+        10,
+        1,
+        5,
+        6,
+        11,
+        4,
+        8,
+        9,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机构造-034",
+    "args": [
+      [
+        2,
+        6,
+        3,
+        5,
+        4,
+        7,
+        1,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机构造-036",
+    "args": [
+      [
+        1,
+        2,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-037",
+    "args": [
+      [
+        1,
+        6,
+        4,
+        7,
+        8,
+        7,
+        5,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机构造-038",
+    "args": [
+      [
+        3,
+        3,
+        4,
+        6,
+        5,
+        8,
+        2,
+        7,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-039",
+    "args": [
+      [
+        6,
+        8,
+        9,
+        1,
+        7,
+        3,
+        2,
+        2,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-041",
+    "args": [
+      [
+        2,
+        3,
+        4,
+        1,
+        5,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-042",
+    "args": [
+      [
+        9,
+        7,
+        5,
+        1,
+        6,
+        3,
+        8,
+        2,
+        4,
+        10,
+        5,
+        11
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机构造-044",
+    "args": [
+      [
+        3,
+        2,
+        2,
+        4,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-045",
+    "args": [
+      [
+        1,
+        2,
+        2,
+        10,
+        3,
+        9,
+        5,
+        8,
+        11,
+        4,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-047",
+    "args": [
+      [
+        8,
+        4,
+        9,
+        3,
+        2,
+        6,
+        1,
+        5,
+        7,
+        3,
+        10
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机构造-048",
+    "args": [
+      [
+        1,
+        3,
+        2,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-049",
+    "args": [
+      [
+        2,
+        3,
+        1,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-050",
+    "args": [
+      [
+        11,
+        6,
+        9,
+        6,
+        5,
+        2,
+        1,
+        7,
+        3,
+        8,
+        10,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机构造-051",
+    "args": [
+      [
+        4,
+        1,
+        8,
+        5,
+        3,
+        10,
+        8,
+        7,
+        2,
+        6,
+        9
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 8
+  },
+  {
+    "name": "随机构造-052",
+    "args": [
+      [
+        2,
+        1,
+        1,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-054",
+    "args": [
+      [
+        10,
+        2,
+        5,
+        6,
+        3,
+        9,
+        2,
+        8,
+        7,
+        1,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-055",
+    "args": [
+      [
+        9,
+        10,
+        7,
+        4,
+        6,
+        8,
+        11,
+        2,
+        6,
+        5,
+        1,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机构造-067",
+    "args": [
+      [
+        2,
+        2,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-057",
+    "args": [
+      [
+        3,
+        5,
+        1,
+        2,
+        4,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-058",
+    "args": [
+      [
+        5,
+        10,
+        1,
+        7,
+        6,
+        9,
+        4,
+        4,
+        3,
+        2,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "随机构造-059",
+    "args": [
+      [
+        2,
+        3,
+        1,
+        2,
+        4,
+        5,
+        8,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-060",
+    "args": [
+      [
+        1,
+        4,
+        5,
+        1,
+        3,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-061",
+    "args": [
+      [
+        8,
+        1,
+        7,
+        10,
+        1,
+        5,
+        2,
+        9,
+        4,
+        3,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-062",
+    "args": [
+      [
+        6,
+        4,
+        2,
+        5,
+        3,
+        8,
+        8,
+        7,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 8
+  },
+  {
+    "name": "随机构造-063",
+    "args": [
+      [
+        3,
+        6,
+        10,
+        2,
+        1,
+        12,
+        5,
+        4,
+        9,
+        8,
+        7,
+        11,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机构造-064",
+    "args": [
+      [
+        2,
+        4,
+        3,
+        2,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-065",
+    "args": [
+      [
+        1,
+        5,
+        3,
+        5,
+        2,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机构造-066",
+    "args": [
+      [
+        3,
+        2,
+        1,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-068",
+    "args": [
+      [
+        2,
+        5,
+        1,
+        4,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机构造-069",
+    "args": [
+      [
+        1,
+        2,
+        7,
+        3,
+        6,
+        5,
+        4,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机构造-070",
+    "args": [
+      [
+        1,
+        2,
+        1,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "id": 1571,
+  "titleCn": "仓库经理",
+  "titleEn": "Warehouse Manager",
+  "slug": "warehouse-manager",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1571",
+  "plan": "sql-premium-50",
+  "category": "聚合",
+  "source": "https://leetcode.cn/problems/warehouse-manager/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Warehouse (name varchar(50), product_id int, units int)\n",
+      "Create table If Not Exists Products (product_id int, product_name varchar(50), Width int,Length int,Height int)"
+    ],
+    "mssql": [
+      "Create table Warehouse (name varchar(50), product_id int, units int)\n",
+      "Create table Products (product_id int, product_name varchar(50), Width int,Length int,Height int)\n"
+    ],
+    "oraclesql": [
+      "Create table Warehouse (name varchar(50), product_id int, units int)\n",
+      "Create table Products (product_id int, product_name varchar(50), Width int,Length int,Height int)\n"
+    ],
+    "database": true,
+    "name": "warehouse_manager",
+    "pythondata": [
+      "Warehouse = pd.DataFrame([], columns=['name', 'product_id', 'units']).astype({'name':'object', 'product_id':'Int64', 'units':'Int64'})",
+      "Products = pd.DataFrame([], columns=['product_id', 'product_name', 'Width', 'Length', 'Height']).astype({'product_id':'Int64', 'product_name':'object', 'Width':'Int64', 'Length':'Int64', 'Height':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Warehouse (name varchar(50), product_id int, units int)\n",
+      "Create table If Not Exists Products (product_id int, product_name varchar(50), Width int,Length int,Height int)"
+    ],
+    "database_schema": {
+      "Warehouse": {
+        "name": "VARCHAR(50)",
+        "product_id": "INT",
+        "units": "INT"
+      },
+      "Products": {
+        "product_id": "INT",
+        "product_name": "VARCHAR(50)",
+        "Width": "INT",
+        "Length": "INT",
+        "Height": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Warehouse (name varchar(50), product_id int, units int)\n",
+    "Create table If Not Exists Products (product_id int, product_name varchar(50), Width int,Length int,Height int)"
+  ],
+  "ordered": false
+}

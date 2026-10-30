@@ -1,0 +1,31 @@
+{
+  "id": 6,
+  "titleCn": "Z 字形变换",
+  "titleEn": "Zigzag Conversion",
+  "slug": "zigzag-conversion",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0006",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/zigzag-conversion/",
+  "meta": {
+    "name": "convert",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "numRows",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

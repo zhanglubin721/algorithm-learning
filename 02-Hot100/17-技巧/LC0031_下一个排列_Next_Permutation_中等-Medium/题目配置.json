@@ -1,0 +1,30 @@
+{
+  "id": 31,
+  "titleCn": "下一个排列",
+  "titleEn": "Next Permutation",
+  "slug": "next-permutation",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0031",
+  "plan": "top-100-liked",
+  "category": "技巧",
+  "source": "https://leetcode.cn/problems/next-permutation/",
+  "meta": {
+    "name": "nextPermutation",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

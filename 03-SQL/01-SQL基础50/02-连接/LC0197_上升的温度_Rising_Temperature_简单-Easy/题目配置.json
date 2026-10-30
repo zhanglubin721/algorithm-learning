@@ -1,0 +1,45 @@
+{
+  "id": 197,
+  "titleCn": "上升的温度",
+  "titleEn": "Rising Temperature",
+  "slug": "rising-temperature",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc0197",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/rising-temperature/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Weather (id int, recordDate date, temperature int)"
+    ],
+    "mssql": [
+      "Create table Weather (id int, recordDate date, temperature int)"
+    ],
+    "oraclesql": [
+      "Create table Weather (id int, recordDate date, temperature int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "rising_temperature",
+    "pythondata": [
+      "Weather = pd.DataFrame([], columns=['id', 'recordDate', 'temperature']).astype({'id':'Int64', 'recordDate':'datetime64[ns]', 'temperature':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Weather (id int, recordDate date, temperature int)"
+    ],
+    "database_schema": {
+      "Weather": {
+        "id": "INT",
+        "recordDate": "DATE",
+        "temperature": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Weather (id int, recordDate date, temperature int)"
+  ],
+  "ordered": false
+}

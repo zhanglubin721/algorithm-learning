@@ -1,0 +1,45 @@
+{
+  "id": 1661,
+  "titleCn": "每台机器的进程平均运行时间",
+  "titleEn": "Average Time of Process per Machine",
+  "slug": "average-time-of-process-per-machine",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1661",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/average-time-of-process-per-machine/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Activity (machine_id int, process_id int, activity_type ENUM('start', 'end'), timestamp float)"
+    ],
+    "mssql": [
+      "create table Activity (machine_id int, process_id int, activity_type varchar(15) not null check(activity_type in ('start', 'end')), timestamp float)"
+    ],
+    "oraclesql": [
+      "create table Activity (machine_id int, process_id int, activity_type varchar(15) not null check(activity_type in ('start', 'end')), timestamp float)"
+    ],
+    "database": true,
+    "name": "get_average_time",
+    "pythondata": [
+      "Activity = pd.DataFrame([], columns=['machine_id', 'process_id', 'activity_type', 'timestamp']).astype({'machine_id':'Int64', 'process_id':'Int64', 'activity_type':'object', 'timestamp':'Float64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Activity (machine_id int, process_id int, activity_type VARCHAR(30) CHECK (activity_type IN ('start', 'end')), timestamp float)\n"
+    ],
+    "database_schema": {
+      "Activity": {
+        "machine_id": "INT",
+        "process_id": "INT",
+        "activity_type": "ENUM('start', 'end')",
+        "timestamp": "FLOAT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Activity (machine_id int, process_id int, activity_type ENUM('start', 'end'), timestamp float)"
+  ],
+  "ordered": false
+}

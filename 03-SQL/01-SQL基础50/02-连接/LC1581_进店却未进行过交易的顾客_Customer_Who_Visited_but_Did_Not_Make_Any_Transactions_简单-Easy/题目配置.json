@@ -1,0 +1,54 @@
+{
+  "id": 1581,
+  "titleCn": "进店却未进行过交易的顾客",
+  "titleEn": "Customer Who Visited but Did Not Make Any Transactions",
+  "slug": "customer-who-visited-but-did-not-make-any-transactions",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1581",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/customer-who-visited-but-did-not-make-any-transactions/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Visits(visit_id int, customer_id int)",
+      "Create table If Not Exists Transactions(transaction_id int, visit_id int, amount int)"
+    ],
+    "mssql": [
+      "Create table Visits(visit_id int, customer_id int)",
+      "Create table Transactions(transaction_id int, visit_id int, amount int)"
+    ],
+    "oraclesql": [
+      "Create table Visits(visit_id int, customer_id int)",
+      "Create table Transactions(transaction_id int, visit_id int, amount int)"
+    ],
+    "database": true,
+    "name": "find_customers",
+    "pythondata": [
+      "Visits = pd.DataFrame([], columns=['visit_id', 'customer_id']).astype({'visit_id':'Int64', 'customer_id':'Int64'})",
+      "Transactions = pd.DataFrame([], columns=['transaction_id', 'visit_id', 'amount']).astype({'transaction_id':'Int64', 'visit_id':'Int64', 'amount':'Int64'})\n"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Visits(visit_id int, customer_id int)\n",
+      "Create table If Not Exists Transactions(transaction_id int, visit_id int, amount int)"
+    ],
+    "database_schema": {
+      "Visits": {
+        "visit_id": "INT",
+        "customer_id": "INT"
+      },
+      "Transactions": {
+        "transaction_id": "INT",
+        "visit_id": "INT",
+        "amount": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Visits(visit_id int, customer_id int)",
+    "Create table If Not Exists Transactions(transaction_id int, visit_id int, amount int)"
+  ],
+  "ordered": false
+}

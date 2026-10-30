@@ -1,0 +1,45 @@
+{
+  "id": 1484,
+  "titleCn": "按日期分组销售产品",
+  "titleEn": "Group Sold Products By The Date",
+  "slug": "group-sold-products-by-the-date",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1484",
+  "plan": "sql-free-50",
+  "category": "高级字符串函数 / 正则表达式 / 子句",
+  "source": "https://leetcode.cn/problems/group-sold-products-by-the-date/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Activities (sell_date date, product varchar(20))"
+    ],
+    "mssql": [
+      "Create table Activities (sell_date date, product varchar(20))"
+    ],
+    "oraclesql": [
+      "Create table Activities (sell_date date, product varchar(20))",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "categorize_products",
+    "pythondata": [
+      "Activities = pd.DataFrame([], columns=['sell_date', 'product']).astype({'sell_date':'datetime64[ns]', 'product':'object'})"
+    ],
+    "manual": false,
+    "postgresql": [
+      "\nCreate table If Not Exists Activities (sell_date date, product varchar(20))"
+    ],
+    "database_schema": {
+      "Activities": {
+        "sell_date": "DATE",
+        "product": "VARCHAR(20)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Activities (sell_date date, product varchar(20))"
+  ],
+  "ordered": true
+}

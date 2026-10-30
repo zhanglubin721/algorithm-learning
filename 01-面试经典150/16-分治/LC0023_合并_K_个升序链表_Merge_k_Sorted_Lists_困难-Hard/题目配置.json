@@ -1,0 +1,29 @@
+{
+  "id": 23,
+  "titleCn": "合并 K 个升序链表",
+  "titleEn": "Merge k Sorted Lists",
+  "slug": "merge-k-sorted-lists",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0023",
+  "plan": "top-interview-150",
+  "category": "分治",
+  "source": "https://leetcode.cn/problems/merge-k-sorted-lists/",
+  "meta": {
+    "name": "mergeKLists",
+    "params": [
+      {
+        "name": "lists",
+        "type": "ListNode[]",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

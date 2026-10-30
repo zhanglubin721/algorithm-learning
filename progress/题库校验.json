@@ -1,0 +1,1683 @@
+{
+  "88": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "d0f3352ee07f01c88caffc5e0af8026dfc55b97ae05cf4326392576c2fb0b775"
+  },
+  "27": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "dfd553d17ab20444e806b806de67baba1082d2405e892bb1decec7894bac0426"
+  },
+  "26": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "20d1698ef4148d96e3671cfe7c5c1eb1a291a950fb6c31727d12bcab6ceac43e"
+  },
+  "80": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "41c0cae83f7031f3c131af2066a2d7733b2a73e48d77f4adbd437a03f794bd6a"
+  },
+  "169": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "31ac8abad1f9b30f44d588ca78b099c119e1908023c83ed840952866d4126337"
+  },
+  "189": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "845ffa2bba479c44679d5cfd1fc40878af25a620637e06241546f67fcabb379d"
+  },
+  "121": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 86,
+    "independentOracleCases": 84,
+    "failures": [],
+    "referenceSha256": "8780bf04bb97f8d93dc48f15bab582a390d04371fad8b6d8e0fd0cbe2247c3e5"
+  },
+  "122": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 84,
+    "failures": [],
+    "referenceSha256": "c95c1fff2a9feb67f82dbc503d9de1eaedfd845f4090c970c178178b5ea2e0cf"
+  },
+  "55": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 70,
+    "independentOracleCases": 68,
+    "failures": [],
+    "referenceSha256": "0652363d6430ef87a4c1ddc0f969f5a45108be6b4ee558fd0add0e2523306b45"
+  },
+  "45": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 53,
+    "independentOracleCases": 51,
+    "failures": [],
+    "referenceSha256": "7682df8eaca545efa9858772f53dd5b0fd775a83fc4e2279387b185f5fc82c9b"
+  },
+  "274": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 70,
+    "independentOracleCases": 68,
+    "failures": [],
+    "referenceSha256": "ec8688a9b8df0a994e59bbfcbfcad594a35703b84ab1d96498a16083ded8efe6"
+  },
+  "380": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 32,
+    "independentOracleCases": 31,
+    "failures": [],
+    "referenceSha256": "d7c4cc69d5c641d21e8287d0076278b7b8ff9f41a2fdcca55c73bc201c412635"
+  },
+  "238": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 82,
+    "independentOracleCases": 80,
+    "failures": [],
+    "referenceSha256": "8bd77a25fbe0f5194b1a8cd9870c580c88fcad316424b7aa7773da7b64e2516e"
+  },
+  "134": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 41,
+    "independentOracleCases": 39,
+    "failures": [],
+    "referenceSha256": "e2e7ab9f3c7afdad7dab332c444c7bf0d97b156a279ebdd72ab1cf569a043c42"
+  },
+  "135": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 71,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "96894fa72088e6730472f6c2405fa4a183d03bc23076169cc420a8e538ddf846"
+  },
+  "42": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 86,
+    "independentOracleCases": 84,
+    "failures": [],
+    "referenceSha256": "fe2049b125e65b1b8c77285ad57bbdd6bfe583cf30d9110cb5c7600170787b46"
+  },
+  "13": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 11,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "6389e88a7711d207225062426309606a6dcdf2786e3201b0f42e058e72b53f5d"
+  },
+  "12": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 13,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "d8049a73c678785c8aeb6f835991e4cfd42c8d51548032c2a44352fee0419c5a"
+  },
+  "58": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 5,
+    "failures": [],
+    "referenceSha256": "4200c5a80c8d7d5be75391f743624062d4cfde18fded50dc55e6679b9f11c5a8"
+  },
+  "14": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 10,
+    "independentOracleCases": 4,
+    "failures": [],
+    "referenceSha256": "b9653a8fc320be7e6260ea5d364485e082261b7e3a26c32ba5f41c9f0dfe3353"
+  },
+  "151": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 5,
+    "failures": [],
+    "referenceSha256": "f2a9420c765420fd7521c3b235c5a2a0e7af8ac2ed972ed20ddf85e31b31a861"
+  },
+  "6": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 20,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "9bdbbc6667b6911921856e563a9f607c957785293adcb0d33c1662cb9228eb27"
+  },
+  "28": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 77,
+    "independentOracleCases": 75,
+    "failures": [],
+    "referenceSha256": "093c4c7016159bf6d5e3e3b194a5d1dc08718d9cc495af30ccaa150501749ba0"
+  },
+  "68": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "6205e14a8ad5b5a3635e6551e9548713476751142072aa974439c468a1be35d0"
+  },
+  "125": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 8,
+    "failures": [],
+    "referenceSha256": "feff5b0d7d407711d74f41b726267b497a071b6156ebd20234bd284f2b27c80c"
+  },
+  "392": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 81,
+    "independentOracleCases": 79,
+    "failures": [],
+    "referenceSha256": "0e184cc95c028fd52f5bf7ac4a20e53c0313742592c3b83e4606b04d0a9800be"
+  },
+  "167": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 93,
+    "independentOracleCases": 90,
+    "failures": [],
+    "referenceSha256": "266011eae4c3e7fdbc7b3dbc6f2a1148464a6e94baca55547b51fe93fc5f78c3"
+  },
+  "11": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 82,
+    "independentOracleCases": 80,
+    "failures": [],
+    "referenceSha256": "110fed23a3810d24fdf0b11ac9e0f354b8ed1a182b9390cb9f82cbc67e99ccfd"
+  },
+  "15": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 53,
+    "independentOracleCases": 50,
+    "failures": [],
+    "referenceSha256": "8aab6736be8f5e414beef256bb87bb54703de94d1cf4194a422c821af3b0a94b"
+  },
+  "209": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "88e8f1ef44d5d4ade355555de9c20c3209480a6bcb0280c3b49b12b04b3c729d"
+  },
+  "3": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 76,
+    "independentOracleCases": 73,
+    "failures": [],
+    "referenceSha256": "584ab8f33746a614c06a36bf103781fb3fafa68f7c37922f05dc628fe473a53a"
+  },
+  "30": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "fb6573318133717e4937066aef0c5b5205d907092bb56535560df5cd0f394fa7"
+  },
+  "76": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 77,
+    "independentOracleCases": 75,
+    "failures": [],
+    "referenceSha256": "252609b00831d8c5bfd8b049305fe20a6efe55df8b4625de4f22a89ce757bce9"
+  },
+  "36": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 3,
+    "independentOracleCases": 2,
+    "failures": [],
+    "referenceSha256": "2c3949b1847368475b916fe690cffbcc84a20ef5ea1a03325c91c968da38ff84"
+  },
+  "54": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "99e5f61bb27588706094a298aae17ec757198f107315dcb04488102853014719"
+  },
+  "48": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "a7e099a852d06d737efcad91b78a8c8e41bad9be50186ecac771e502ef74d32c"
+  },
+  "73": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "666fc5f572fd814d32b80107c846815de3be94e9bde0659b32093940c255a115"
+  },
+  "289": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 27,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "8c95a23e3a09650a112b0268224a4cc6dd97067648d0dc5f38ae45624a68ac9d"
+  },
+  "383": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 82,
+    "independentOracleCases": 79,
+    "failures": [],
+    "referenceSha256": "0fdccb006a5479d729a480d2227bfe23e3480811556338cc3e8c8ec9eab53029"
+  },
+  "205": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 5,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "b11f67a0fcfcec7cc0ae07b58a88a71dd3b7adba3b43e18d82c41e373303f37f"
+  },
+  "290": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 5,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "3b9828e8874accaab33a308dfe47cf467816ca8b8d42bc6ed7311de19e7a3ab3"
+  },
+  "242": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 81,
+    "independentOracleCases": 79,
+    "failures": [],
+    "referenceSha256": "cbf16e05388821d6d2104acb8d288e794dd565fae5dbd4eaef308af5a2d2d5eb"
+  },
+  "49": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 5,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "1db549080f1993a9baf86bf25a04d8385d7ab87655da9faef24559d09e3599d7"
+  },
+  "1": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 93,
+    "independentOracleCases": 90,
+    "failures": [],
+    "referenceSha256": "0c0635038c7af283c96a39a0c400adcd93115f834faba045aab69ed8c205c2fa"
+  },
+  "202": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 9,
+    "independentOracleCases": 9,
+    "failures": [],
+    "referenceSha256": "926165ca2555332c46b1cadf11a90053d664d0c68c5ef3512233e28c10fd65b4"
+  },
+  "219": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "e3d3d39c3c910086395044e15885d4adc8a0395370dbdae8b596a8c1d6835bb4"
+  },
+  "128": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "25cd228854c82f8bd712ba6b8b31feff066a11fc3a6e8828f199675676fec3d4"
+  },
+  "228": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "be066480b79ce78941fc947011ba9b274cff3303daa601f7532a266ff9a1163c"
+  },
+  "56": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "ebb1f3047a0ea3916783c76a40286438989691b819cb9b2af1ce94e5953cbc2c"
+  },
+  "57": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 5,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "abd66b8c4d3d21b7952cacbf2fcb2ca35598e91178d8a20865d1423080bfdc67"
+  },
+  "452": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "d8f3596b546687ab18532d20331ff86d9001766c25898e136867d07e0fa59fa6"
+  },
+  "20": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 9,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "8d4b8352f8437af574268c1b6d97c8adba70683dfcc7cf611e3e9902b998153e"
+  },
+  "71": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "f353db21d1af65584bb70efac07ad931fcfce136888c9ecf024690a25f911835"
+  },
+  "155": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 11,
+    "independentOracleCases": 10,
+    "failures": [],
+    "referenceSha256": "0b64664b2ad663d44eebc776c1bc28eac2e86348a5fd0279767efff83304c947"
+  },
+  "150": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "280429ff2ac1b1a8bdedb0bc1279d2b6fdd8291008925f995ce4e1d7bf7306a7"
+  },
+  "224": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "228892dafc25ad8a0ee97a3815130aaa9c29de8b36cd5f58d39a335cf9a2ef1d"
+  },
+  "141": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 27,
+    "independentOracleCases": 26,
+    "failures": [],
+    "referenceSha256": "fb6928165f7568d81f088cbc011049c45d10e88beb2c30c7a422f2959ad1327c"
+  },
+  "2": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 5,
+    "failures": [],
+    "referenceSha256": "06bdf99ad12dbce6ded1af34cc973c4a18355ab67495caf48197d4ed2e0d7fd3"
+  },
+  "21": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 5,
+    "failures": [],
+    "referenceSha256": "c513581db8afd7147919052369635154e29dc0bdc94e8f5ac505491b88a3af4e"
+  },
+  "138": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 32,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "0bec6d9c77eb541e09e024b1e41af4df3206e1bed23f152415a7117c9ef1bf76"
+  },
+  "92": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 6,
+    "failures": [],
+    "referenceSha256": "763425752d10265b83756f6567d5d6712f655e6b510e569d4f5e7fd32413da5b"
+  },
+  "25": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 21,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "c3f7d48ff14787d56155d35613f97030f5b6112b262cf1d3c267a8c7d21b1246"
+  },
+  "19": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 20,
+    "independentOracleCases": 19,
+    "failures": [],
+    "referenceSha256": "574e6aa5f0f5e621fbcbcf0b3c427bc623bff48d0746030056a0a64a85e5da36"
+  },
+  "82": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "f5a497d728616cc79aab8b786e77a54a846a3bcc4467c45d8e5b64fd5392d6b6"
+  },
+  "61": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 16,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "fdacce1870c47ca056c3f518bea0917a5c825b4eb9c0557f26a0df14375235ce"
+  },
+  "86": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "28a2329a8e63d33b5e0ec92e1aeecd6c489f68818a89452c93e66ac2f916e1d2"
+  },
+  "146": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 4,
+    "independentOracleCases": 3,
+    "failures": [],
+    "referenceSha256": "5fb4e42d5749ac80871c13320ebcbf290a27b25d4bc4608820e17178b2146ae2"
+  },
+  "104": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 34,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "20fdcdda0a1db555f39634eba207d36c98cc5213bf2c66ad1a5eb2f449793659"
+  },
+  "100": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 40,
+    "independentOracleCases": 38,
+    "failures": [],
+    "referenceSha256": "ca20a8dfbcda073bd567965526d8ce7791b967d6bb63e47ad48060f360e3236b"
+  },
+  "226": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 34,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "f786570665336cb7313cfde0c27d3957f84689f90bb3907b41dd323b8f426278"
+  },
+  "101": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 32,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "94a273ebed026b830d6c13fd7055b514698e3cd6df1b3964fc2ed058809da4a9"
+  },
+  "105": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 25,
+    "failures": [],
+    "referenceSha256": "4048a02297fd5bf6c40b720b269ca8b9527e0aaae24b93c89d7b740600fd3e74"
+  },
+  "106": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 25,
+    "failures": [],
+    "referenceSha256": "9c2475b890c165964889712219ce8a7efd91af2213045a9f8a113e6c76d219f1"
+  },
+  "117": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 33,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "5e946a1d6efcec10fa71a965b71952f71b019e7a1b0c4526665f424bd1bb191a"
+  },
+  "114": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 34,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "20e5fbed6560201775c2809beac5cdab9fe1589f898bb51d32bf965da5f7a343"
+  },
+  "112": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 10,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "32d3721677908cc4556cae3a12963f3a83aadd752e540a77f85834224f744ed9"
+  },
+  "129": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 3,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "24406cb3420938247460ea771a37c79062a1321b1207045daf1dfd3dc72d7e28"
+  },
+  "124": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 31,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "c3e424a8108f978958825833ba17f5baabf58d683e9312b84527848072cc1f30"
+  },
+  "173": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 27,
+    "independentOracleCases": 26,
+    "failures": [],
+    "referenceSha256": "6bcc338c0f209f804cd521b491bca7cd169cfb9e9d5fd262b102597c26d041ea"
+  },
+  "222": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 34,
+    "independentOracleCases": 32,
+    "failures": [],
+    "referenceSha256": "e34abaeef54832203770628161bc78c071ed30ac99153ae22107e046211cb84f"
+  },
+  "236": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 27,
+    "independentOracleCases": 25,
+    "failures": [],
+    "referenceSha256": "94f705a53b0f5866cd6c1469423b5b321e34a2af099c004c5140bf5f799ead2d"
+  },
+  "199": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 35,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "081646a415c250c8a5fc190cd7adcbfc8555c3ead302c7e97c97420ae50c93c3"
+  },
+  "637": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 33,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "271ad0ed36c923618a906f934e35d3a96c1e7d8707aa03510f1f180cb0b14a09"
+  },
+  "102": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 33,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "c6d282777fffc18a66bbb7eb5b486ffe7d1ae1edfe3d479df7e104dadafe1679"
+  },
+  "103": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 33,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "9f050b627b5bb9b5c7eb1af9a766049cd17f8bc2ec95bd0139a7070356743e68"
+  },
+  "530": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 24,
+    "failures": [],
+    "referenceSha256": "de98b5b55b001096d765d25c817daf19eca17f9a2547522fc4a273139ac998e7"
+  },
+  "230": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 17,
+    "independentOracleCases": 15,
+    "failures": [],
+    "referenceSha256": "aefccc57d24b49a310cbc9caf3080dfacc307259ca89eace789db89ff5aa730e"
+  },
+  "98": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 32,
+    "independentOracleCases": 32,
+    "failures": [],
+    "referenceSha256": "7e74b8e888d24b6090efaf7614795e2b34ab2c1e602a5c711e69e52f1e552295"
+  },
+  "200": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 28,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "78e987686c8d968e1be861dee0fb57cb3de2a94758d506488597a330a64d86aa"
+  },
+  "130": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 27,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "63f7d4a14907149ef8539874dd1a3ee9c09b0ae46628842eeb0dcbc0d53fb611"
+  },
+  "133": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 28,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "8892be47f05b9919d6d1bacefdf0f572603202165cd727df75fb23473889dab7"
+  },
+  "399": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 3,
+    "independentOracleCases": 1,
+    "failures": [],
+    "referenceSha256": "38fc372bfdc4496ace70e7355bc4e9eac14d677a1d5add76840ec57b31ef03f9"
+  },
+  "207": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 84,
+    "independentOracleCases": 79,
+    "failures": [],
+    "referenceSha256": "3fb8f1cbe8478b59e3f8e1d6c6ac43eff855379c1d888c52b42db2b9744756e1"
+  },
+  "210": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 84,
+    "independentOracleCases": 40,
+    "failures": [],
+    "referenceSha256": "c1f7c45741caecf959c9998f61ba4f0f5124ae55c43338b6923ac385d3d94807"
+  },
+  "909": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "13dc8cefee015e0eea64b2097fc0e37c90f632d94d3105da8c8c16611db13ea7"
+  },
+  "433": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 4,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "f47087ca7cbccb6b502b4560ab2fcb1f2983624d81ec95821f685a4d9f694419"
+  },
+  "127": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 3,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "769a6bb94e2b96e1cf42ae68a7793f99ae119184816b733fa464f6fd7edd4fea"
+  },
+  "208": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 31,
+    "independentOracleCases": 31,
+    "failures": [],
+    "referenceSha256": "0a7c504254a960bd39b47e70d12d0472d143efaccb3a6e698b5df7721b99a8b5"
+  },
+  "211": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 32,
+    "independentOracleCases": 31,
+    "failures": [],
+    "referenceSha256": "7431d9e916a9814073fad4e710f6ecc4878d6b800c0f5d5a28be86f22aa49291"
+  },
+  "212": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "5de8433572e3b059ceac9a37e343f1afb5475257decddd86c3f658c4eae7bd62"
+  },
+  "17": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "e78d038a8e60f0d219bb78776d5e31be6a63cc073c625d168cd1fc7627a514d1"
+  },
+  "77": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 28,
+    "independentOracleCases": 28,
+    "failures": [],
+    "referenceSha256": "c48cd417b334cf29c5d83605cabaf3dda12d6f4a57e56282d3daea322a1e23fb"
+  },
+  "46": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 6,
+    "failures": [],
+    "referenceSha256": "1ece6216a309762d7fde66d73844987f040657138405e1c6037c7eee0c753112"
+  },
+  "39": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "c835d0348e9330c14c25900d56d973278fba3efa17b5da08eb41828b0a83bf86"
+  },
+  "52": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "8c5690eb769416dc8271059ce7a6be4d91f9a9ea769639da44528c8d86fa0127"
+  },
+  "22": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "e051c738656fc9f3afd90cdab55652630152ccd5fbe207b5706c907329d3fc0a"
+  },
+  "79": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "9729fd60ffcc0127101f98b9a4f4bf953c839374cc5513828b7f92dd4ff3e7be"
+  },
+  "108": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 86,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "e84a5173d0f7df2c18b711b60e8e0e10f754007154be89c727d50e3b4c34f9b8"
+  },
+  "148": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 9,
+    "independentOracleCases": 7,
+    "failures": [],
+    "referenceSha256": "69b11ef1fadcf0aa0a6f47c075caff3fcd1b543e612a04f48e4146e2796b583c"
+  },
+  "427": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 16,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "089fa0f20ee73db243ccff320367bedfaa0a45f13b6f870ab729047893caa8c2"
+  },
+  "23": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 5,
+    "independentOracleCases": 4,
+    "failures": [],
+    "referenceSha256": "18a262bf482c434493b79eac075c7688c0a1b030e1d42ad4c8cf72aeab3c0b01"
+  },
+  "53": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "77ae2f3b980f709bc363ed3547a8b6855244ee3a9da2128a05175d18415ee9bf"
+  },
+  "918": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "e07118f3458318c76a7c61d710b8df6524b5220587ec230bc5d27d698657af7b"
+  },
+  "35": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "88d38f756faf4abb76de913afcd8ddfdab021f7b650d2850c1d3ea2e64851022"
+  },
+  "74": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 28,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "30ca003b98a47b7a69505b889af74e54f7a711344654602e226ec4cbffb1ada3"
+  },
+  "162": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 24,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "cb6be6a23641dd3c2b55948f977824587721b3760c2654785dc20c8d51b36e47"
+  },
+  "33": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "5000d9a0f69622a68cdccbce2a0f1e7dff68645e2317ef554180d0cc2c728eef"
+  },
+  "34": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "a613c60a3cde8d649f019c87c6e87a689fe2739d718649794ed1b7a53294c849"
+  },
+  "153": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 84,
+    "failures": [],
+    "referenceSha256": "84a4cfb18f3672c59845e18b0a7206fee16eb4ba0d74ac142e20ea021d39f948"
+  },
+  "4": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 82,
+    "independentOracleCases": 80,
+    "failures": [],
+    "referenceSha256": "470661a886c7b0ae9017e40445f31a44179e9e057c4e688c1b476e501af2a674"
+  },
+  "215": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "e9edffbaaece0339ba25e926c58dde969db9517828cb3764056183f45e53dc88"
+  },
+  "502": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 5,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "d85fbf0427cde5e281c451c105eb715bde532568526b4d9ddf77459afc3b3540"
+  },
+  "373": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 72,
+    "independentOracleCases": 70,
+    "failures": [],
+    "referenceSha256": "7167da5f57ded8623f11ccb721cb11c7acfdf78cea8665ebf9bca1f978023045"
+  },
+  "295": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 11,
+    "independentOracleCases": 10,
+    "failures": [],
+    "referenceSha256": "39f84d1b6b39e1feee7df2bd9b5ca07b81047f91d4aed25a59390635f15b4de6"
+  },
+  "67": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 37,
+    "independentOracleCases": 36,
+    "failures": [],
+    "referenceSha256": "687fdf6f52c224944176a335b608f31b7747f79949a5cdef9f2d0abd6cbc8437"
+  },
+  "190": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 13,
+    "independentOracleCases": 11,
+    "failures": [],
+    "referenceSha256": "3cf4eec565ebbc17559e4b934d72132a72a8f245634d4102a30857d54356b766"
+  },
+  "191": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 13,
+    "independentOracleCases": 11,
+    "failures": [],
+    "referenceSha256": "ed0a84955fa05e23bcaf2870296aa2f1061fd541a8a37f581cd23fad641400f4"
+  },
+  "136": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 33,
+    "independentOracleCases": 30,
+    "failures": [],
+    "referenceSha256": "848d6f03f1100d288a87f06156a7e33a6becc315a350be66a274163a20447c41"
+  },
+  "137": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 32,
+    "independentOracleCases": 30,
+    "failures": [],
+    "referenceSha256": "f08295976201bcb8940a58b4ac2e858bab5b99e169e1c2fe74b47b7bb9c02b9c"
+  },
+  "201": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 151,
+    "independentOracleCases": 150,
+    "failures": [],
+    "referenceSha256": "611b1cecff874a7284ed975f82f7a03a49d45eb2e403c8621f8e8fac2aa4b19a"
+  },
+  "9": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 16,
+    "independentOracleCases": 15,
+    "failures": [],
+    "referenceSha256": "b5478101ad269e3ef553a811e1aaed3aae61fc6315870ab48f278dad84c65b87"
+  },
+  "66": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 9,
+    "independentOracleCases": 7,
+    "failures": [],
+    "referenceSha256": "a8ad87fc33f67fc294e35c28eaa6c12155be603f32f8bf66d0c973b9678893bf"
+  },
+  "172": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 13,
+    "independentOracleCases": 12,
+    "failures": [],
+    "referenceSha256": "47990b7c8f9897e902d883525686978739d678850e661041159c46bcb3286816"
+  },
+  "69": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 12,
+    "independentOracleCases": 12,
+    "failures": [],
+    "referenceSha256": "1cbdb7bd0ac55d4b71832e00cb395516c170d2e8685720cc25fee6e6265ab11e"
+  },
+  "50": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 10,
+    "independentOracleCases": 8,
+    "failures": [],
+    "referenceSha256": "d473d6e64c72245079a3a8421582f8a94e902addf96a421ab53ed59d106c296d"
+  },
+  "149": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "b1cbe278e27392c0fbc20bd7774e060665b32706a68e623e4692abb9d20d8375"
+  },
+  "70": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 38,
+    "independentOracleCases": 38,
+    "failures": [],
+    "referenceSha256": "549afa58a520dbf6bc091a8ac0f8dff49858cf1479ba7c3aeecfafe13ef320bd"
+  },
+  "198": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 86,
+    "independentOracleCases": 59,
+    "failures": [],
+    "referenceSha256": "0b9d216cc870bdeae260c7d6fb60574964d26db5ddff21a69aa1c436a17a685c"
+  },
+  "139": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "018f3285e861e13d12231074ba0a8374c2b342199a2fc53915025d5eb6e33cf0"
+  },
+  "322": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 33,
+    "independentOracleCases": 30,
+    "failures": [],
+    "referenceSha256": "deffb61f88bd2c8b8ac2c35e0865a6a0811db581552edc97e9ee943b45f204f4"
+  },
+  "300": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 72,
+    "independentOracleCases": 69,
+    "failures": [],
+    "referenceSha256": "4906cee467b6cd625075632b476afe7c239dbabcf1ebf4ad722bbf2b01da9ee1"
+  },
+  "120": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 10,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "b71d417716d6105a2f9dcfdf1f6c025bfc109ed8f6988d57dc6c93d6c7774e06"
+  },
+  "64": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "e3759b987ad33c4618744678fab09e7e3908e34d72c2fd6ea36f610b00c82d18"
+  },
+  "63": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 28,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "9b5ee59f2f05c917f9a9f7b4ea74a335d7785e5eb9d7890183aaafaa88e0ca75"
+  },
+  "5": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 74,
+    "independentOracleCases": 72,
+    "failures": [],
+    "referenceSha256": "867cfbe75513d48fb5dd0a40d083dce7b1a583aac785878e04f31d9332ce594b"
+  },
+  "97": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 71,
+    "independentOracleCases": 68,
+    "failures": [],
+    "referenceSha256": "9863216ed6f774b7153976a8802c35626ca336b24272c0297fcc1f354120ffe1"
+  },
+  "72": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 81,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "b1344bab336a603ef5b555f2c382de2ffc899e2945eddf43a04c958aec3f3ec5"
+  },
+  "123": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 72,
+    "independentOracleCases": 69,
+    "failures": [],
+    "referenceSha256": "88b85984a7964a7b43dda3e2a18611d69838e51e167cc36492e7dfab241a3dbd"
+  },
+  "188": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 209,
+    "independentOracleCases": 207,
+    "failures": [],
+    "referenceSha256": "78956d1ae14e33ec7e4c82f6b04be03183d76a242e75a87c6555149557dbbf88"
+  },
+  "221": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 27,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "6233b7df27c56e6504aa2ed786443db305809be0e5d698ee6b140d703066b742"
+  },
+  "283": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 86,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "918e14f082d217e6b370e359164fb64d5c0cd04bc63c5a4d9e3001d6697fabd7"
+  },
+  "438": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 77,
+    "independentOracleCases": 75,
+    "failures": [],
+    "referenceSha256": "00cb775bd6c593096646664e7359b3961111abb174a62befb5f73638da6a332b"
+  },
+  "560": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "deed102e1c1e608ce6290edb0f754f101d2fe543ce555d0ac963c1b0f8d04f37"
+  },
+  "239": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "af479abe1ed042595e32259d67fc99a9b36cb4050fa0ee531edb3aa43405e5ab"
+  },
+  "41": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 88,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "815b81791028956f3075bf4ae1d988756df58e38a487488b125e236f9091de82"
+  },
+  "240": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 28,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "0efd94162f45a497cd42b6a48b45766ee13da92eb7b3141e4be9a1e9f3284ae0"
+  },
+  "160": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 3,
+    "failures": [],
+    "referenceSha256": "67f496215c85523bdbe5dc3382042f6a55f81ca6740b310bd812d251eb0e9ba5"
+  },
+  "206": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 7,
+    "failures": [],
+    "referenceSha256": "76958b77a18cf72c6179f224738c64384574f451645174553730847bc0d3b418"
+  },
+  "234": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 6,
+    "failures": [],
+    "referenceSha256": "f81070cffd14a22a67a86e6cb76f3c0998c6259f50da810db283f92987798fcb"
+  },
+  "142": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 27,
+    "independentOracleCases": 26,
+    "failures": [],
+    "referenceSha256": "fcd9000317e967d5ab3e920f2172255bdd369b4c38d957a2ae760c04a8da06b4"
+  },
+  "24": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 9,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "a9fc1cd844006136ac5597cec69c683abee13855b0b7b913d9e0c96d6690bd95"
+  },
+  "94": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 34,
+    "independentOracleCases": 25,
+    "failures": [],
+    "referenceSha256": "29d4f05a681a93d473f0da16f8f97bc16a8791761088e7d94a4e7be63ead0160"
+  },
+  "543": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 34,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "2ee5c6710330bb942e04384bec9f4dfa273aaf55afee5a7dcfe785db23602d98"
+  },
+  "437": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 9,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "5e52d8716affb14c42ea9b9a469f4c8ebd84bf5b1fbe60a2be8dbe2358b54ace"
+  },
+  "994": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 29,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "632ebc58f62b729113079264d3b3b90cb57b3373def1316e7d129bf7061da328"
+  },
+  "78": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 8,
+    "independentOracleCases": 7,
+    "failures": [],
+    "referenceSha256": "cadd845a03b6878a7d3ef1993f7abc6cdc5ea4e641003f48a5878866c4951539"
+  },
+  "131": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "0d9fc0b86a08fcb081672a96b377b383ce526dcb1fc9d4669992cf1462f32ab4"
+  },
+  "51": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 7,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "2c8fc6a39fa2fca4af3b783f05d064eefa5171d85bbbe87fca2607c1fc0e1395"
+  },
+  "394": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 6,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "1a2cf1bcc17149d1f2362a74fd01b78e10977392f6692cc7e01c4e7bdf89da43"
+  },
+  "739": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 84,
+    "failures": [],
+    "referenceSha256": "0fb35535656f3bc21568c8243f8e546e40fed4846d9046c52d72a8a4c328fc0c"
+  },
+  "84": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 86,
+    "independentOracleCases": 84,
+    "failures": [],
+    "referenceSha256": "3f90194e300ab34abf1b5cd1c0321f20127855b82f65cd1fa586f6722704d1ba"
+  },
+  "347": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 73,
+    "independentOracleCases": 70,
+    "failures": [],
+    "referenceSha256": "09cbc52228363e4a47524894326c977b069bbfbb8cf9357bf0d7885db7f8aa2a"
+  },
+  "763": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 74,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "a843b8d64ee9b98f078ed728cbbd958a18a67de0a62c8a64571a515777470f7a"
+  },
+  "118": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 30,
+    "independentOracleCases": 30,
+    "failures": [],
+    "referenceSha256": "dde1d0f4d35b0fa3baeee463e868c772084d305999a517e1c6b5a71bf85a80e4"
+  },
+  "279": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 79,
+    "independentOracleCases": 79,
+    "failures": [],
+    "referenceSha256": "98f9640d024b7ba0ed4892d91d62a3d9cd40f8ba2b87e99e65c7c5669c6cc450"
+  },
+  "152": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 87,
+    "independentOracleCases": 85,
+    "failures": [],
+    "referenceSha256": "16b9adce8166c86d953bce47b88fb502052c2bb61ae06547ba40f53caff85c7e"
+  },
+  "416": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 32,
+    "independentOracleCases": 30,
+    "failures": [],
+    "referenceSha256": "4e3cac26a0a248b55237ccd4d85361904e3c34f326399ecd6cafa3217b8ed7e9"
+  },
+  "32": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 9,
+    "independentOracleCases": 9,
+    "failures": [],
+    "referenceSha256": "403bddf598e784286a3f3f0874cbe444c3f475ef8518ebbcdb5c4336aae89a24"
+  },
+  "62": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 49,
+    "independentOracleCases": 48,
+    "failures": [],
+    "referenceSha256": "d5f51bd0e56ab9a449e80c481d7a84c27c83c9ffe805488c1fbba452e1220cc7"
+  },
+  "1143": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 37,
+    "independentOracleCases": 34,
+    "failures": [],
+    "referenceSha256": "f25fa34c28b03baca272e4d55e9ac807e0284965994543d4979fb6e246e4c6f3"
+  },
+  "75": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 69,
+    "independentOracleCases": 67,
+    "failures": [],
+    "referenceSha256": "1acf03a58f1c3b5d08a4a421a6f6cf24feb26b21c77a1e90bf565fa29a76808f"
+  },
+  "31": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 48,
+    "independentOracleCases": 0,
+    "failures": [],
+    "referenceSha256": "bddfcffb335ef8660f80eb2f5cf86ae4aafc430292ab8bd852b061413e1bb54b"
+  },
+  "287": {
+    "status": "REFERENCE_VERIFIED",
+    "cases": 63,
+    "independentOracleCases": 61,
+    "failures": [],
+    "referenceSha256": "a9d95ef0e4e1142a084ab59b40a813a1993ac91fd61add6e4751344812b4920d"
+  },
+  "1757": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "584": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "595": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1148": {
+    "status": "MYSQL_PENDING",
+    "cases": 8
+  },
+  "1683": {
+    "status": "MYSQL_PENDING",
+    "cases": 3
+  },
+  "1378": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1068": {
+    "status": "MYSQL_PENDING",
+    "cases": 3
+  },
+  "1581": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "197": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1661": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "577": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1280": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "570": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1934": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "620": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1251": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1075": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1633": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1211": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1193": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1174": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "550": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "2356": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1141": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1084": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "596": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1729": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "619": {
+    "status": "MYSQL_PENDING",
+    "cases": 9
+  },
+  "1045": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1731": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1789": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "610": {
+    "status": "MYSQL_PENDING",
+    "cases": 3
+  },
+  "180": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1164": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1204": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1907": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1978": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "626": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1341": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1321": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "602": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "585": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "185": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1667": {
+    "status": "MYSQL_PENDING",
+    "cases": 2
+  },
+  "1527": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "196": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "176": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1484": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1327": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1517": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1821": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "183": {
+    "status": "MYSQL_PENDING",
+    "cases": 6
+  },
+  "1873": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1398": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1112": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "175": {
+    "status": "MYSQL_PENDING",
+    "cases": 3
+  },
+  "1607": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1407": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "607": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1440": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1212": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1890": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "511": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1571": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "586": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1741": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1173": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1445": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1699": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1587": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "182": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1050": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1511": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1693": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1495": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1501": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "603": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1795": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "613": {
+    "status": "MYSQL_PENDING",
+    "cases": 3
+  },
+  "1965": {
+    "status": "MYSQL_PENDING",
+    "cases": 6
+  },
+  "1264": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "608": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "534": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1783": {
+    "status": "MYSQL_PENDING",
+    "cases": 5
+  },
+  "1747": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1350": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1303": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "512": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "184": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1549": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1532": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1831": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1077": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1285": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1596": {
+    "status": "MYSQL_PENDING",
+    "cases": 7
+  },
+  "1709": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1270": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1412": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  },
+  "1767": {
+    "status": "MYSQL_PENDING",
+    "cases": 8
+  },
+  "1225": {
+    "status": "MYSQL_PENDING",
+    "cases": 4
+  }
+}

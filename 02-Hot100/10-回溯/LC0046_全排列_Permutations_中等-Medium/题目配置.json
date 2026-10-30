@@ -1,0 +1,29 @@
+{
+  "id": 46,
+  "titleCn": "全排列",
+  "titleEn": "Permutations",
+  "slug": "permutations",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0046",
+  "plan": "top-100-liked",
+  "category": "回溯",
+  "source": "https://leetcode.cn/problems/permutations/",
+  "meta": {
+    "name": "permute",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "colsize": "size_1",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

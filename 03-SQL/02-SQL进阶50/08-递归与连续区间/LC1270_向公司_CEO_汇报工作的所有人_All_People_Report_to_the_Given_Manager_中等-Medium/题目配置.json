@@ -1,0 +1,44 @@
+{
+  "id": 1270,
+  "titleCn": "向公司 CEO 汇报工作的所有人",
+  "titleEn": "All People Report to the Given Manager",
+  "slug": "all-people-report-to-the-given-manager",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1270",
+  "plan": "sql-premium-50",
+  "category": "递归与连续区间",
+  "source": "https://leetcode.cn/problems/all-people-report-to-the-given-manager/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employees (employee_id int, employee_name varchar(30), manager_id int)"
+    ],
+    "mssql": [
+      "Create table Employees (employee_id int, employee_name varchar(30), manager_id int)"
+    ],
+    "oraclesql": [
+      "Create table Employees (employee_id int, employee_name varchar(30), manager_id int)"
+    ],
+    "database": true,
+    "name": "find_reporting_people",
+    "pythondata": [
+      "Employees = pd.DataFrame([], columns=['employee_id', 'employee_name', 'manager_id']).astype({'employee_id':'Int64', 'employee_name':'object', 'manager_id':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Employees (employee_id int, employee_name varchar(30), manager_id int)"
+    ],
+    "database_schema": {
+      "Employees": {
+        "employee_id": "INT",
+        "employee_name": "VARCHAR(30)",
+        "manager_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Employees (employee_id int, employee_name varchar(30), manager_id int)"
+  ],
+  "ordered": false
+}

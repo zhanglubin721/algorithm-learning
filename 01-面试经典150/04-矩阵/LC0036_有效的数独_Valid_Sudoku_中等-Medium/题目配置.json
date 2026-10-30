@@ -1,0 +1,27 @@
+{
+  "id": 36,
+  "titleCn": "有效的数独",
+  "titleEn": "Valid Sudoku",
+  "slug": "valid-sudoku",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0036",
+  "plan": "top-interview-150",
+  "category": "矩阵",
+  "source": "https://leetcode.cn/problems/valid-sudoku/",
+  "meta": {
+    "name": "isValidSudoku",
+    "params": [
+      {
+        "name": "board",
+        "type": "character[][]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

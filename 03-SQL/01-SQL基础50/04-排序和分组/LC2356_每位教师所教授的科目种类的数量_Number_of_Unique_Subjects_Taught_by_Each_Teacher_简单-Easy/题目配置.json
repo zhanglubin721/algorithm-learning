@@ -1,0 +1,44 @@
+{
+  "id": 2356,
+  "titleCn": "每位教师所教授的科目种类的数量",
+  "titleEn": "Number of Unique Subjects Taught by Each Teacher",
+  "slug": "number-of-unique-subjects-taught-by-each-teacher",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc2356",
+  "plan": "sql-free-50",
+  "category": "排序和分组",
+  "source": "https://leetcode.cn/problems/number-of-unique-subjects-taught-by-each-teacher/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Teacher (teacher_id int, subject_id int, dept_id int)"
+    ],
+    "mssql": [
+      "Create table Teacher (teacher_id int, subject_id int, dept_id int)"
+    ],
+    "oraclesql": [
+      "Create table Teacher (teacher_id int, subject_id int, dept_id int)"
+    ],
+    "database": true,
+    "name": "count_unique_subjects",
+    "pythondata": [
+      "Teacher = pd.DataFrame([], columns=['teacher_id', 'subject_id', 'dept_id']).astype({'teacher_id':'Int64', 'subject_id':'Int64', 'dept_id':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Teacher (teacher_id int, subject_id int, dept_id int)"
+    ],
+    "database_schema": {
+      "Teacher": {
+        "teacher_id": "INT",
+        "subject_id": "INT",
+        "dept_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Teacher (teacher_id int, subject_id int, dept_id int)"
+  ],
+  "ordered": false
+}

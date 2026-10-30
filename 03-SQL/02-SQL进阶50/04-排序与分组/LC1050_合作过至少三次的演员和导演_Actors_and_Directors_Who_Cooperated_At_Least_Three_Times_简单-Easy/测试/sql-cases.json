@@ -1,0 +1,364 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "ActorDirector": [
+          "actor_id",
+          "director_id",
+          "timestamp"
+        ]
+      },
+      "rows": {
+        "ActorDirector": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            2,
+            1,
+            5
+          ],
+          [
+            2,
+            1,
+            6
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "actor_id",
+        "director_id"
+      ],
+      [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "ActorDirector": [
+          "actor_id",
+          "director_id",
+          "timestamp"
+        ]
+      },
+      "rows": {
+        "ActorDirector": [
+          [
+            2,
+            1,
+            5
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            6
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            4
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "actor_id",
+        "director_id"
+      ],
+      [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "ActorDirector": [
+          "actor_id",
+          "director_id",
+          "timestamp"
+        ]
+      },
+      "rows": {
+        "ActorDirector": [
+          [
+            2,
+            1,
+            6
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            2,
+            1,
+            5
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "actor_id",
+        "director_id"
+      ],
+      [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "ActorDirector": [
+          "actor_id",
+          "director_id",
+          "timestamp"
+        ]
+      },
+      "rows": {
+        "ActorDirector": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            6
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            5
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "actor_id",
+        "director_id"
+      ],
+      [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "ActorDirector": [
+          "actor_id",
+          "director_id",
+          "timestamp"
+        ]
+      },
+      "rows": {
+        "ActorDirector": []
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "actor_id",
+        "director_id"
+      ],
+      []
+    ]
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "ActorDirector": [
+          "actor_id",
+          "director_id",
+          "timestamp"
+        ]
+      },
+      "rows": {
+        "ActorDirector": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "actor_id",
+        "director_id"
+      ],
+      []
+    ]
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "ActorDirector": [
+          "actor_id",
+          "director_id",
+          "timestamp"
+        ]
+      },
+      "rows": {
+        "ActorDirector": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "actor_id",
+        "director_id"
+      ],
+      [
+        [
+          "1",
+          "1"
+        ]
+      ]
+    ]
+  }
+]

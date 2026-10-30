@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public boolean wordBreak(String s, List<String> wordDict) { throw new UnsupportedOperationException("TODO"); }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 215,
+  "titleCn": "数组中的第K个最大元素",
+  "titleEn": "Kth Largest Element in an Array",
+  "slug": "kth-largest-element-in-an-array",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0215",
+  "plan": "top-100-liked",
+  "category": "堆",
+  "source": "https://leetcode.cn/problems/kth-largest-element-in-an-array/",
+  "meta": {
+    "name": "findKthLargest",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

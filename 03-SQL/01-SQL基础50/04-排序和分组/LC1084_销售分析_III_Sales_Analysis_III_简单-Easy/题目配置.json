@@ -1,0 +1,59 @@
+{
+  "id": 1084,
+  "titleCn": "销售分析 III",
+  "titleEn": "Sales Analysis III",
+  "slug": "sales-analysis-iii",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1084",
+  "plan": "sql-free-50",
+  "category": "排序和分组",
+  "source": "https://leetcode.cn/problems/sales-analysis-iii/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Product (product_id int, product_name varchar(10), unit_price int)",
+      "Create table If Not Exists Sales (seller_id int, product_id int, buyer_id int, sale_date date, quantity int, price int)"
+    ],
+    "mssql": [
+      "Create table Product (product_id int, product_name varchar(10), unit_price int)",
+      "Create table Sales (seller_id int, product_id int, buyer_id int, sale_date date, quantity int, price int)"
+    ],
+    "oraclesql": [
+      "Create table Product (product_id int, product_name varchar(10), unit_price int)",
+      "Create table Sales (seller_id int, product_id int, buyer_id int, sale_date date, quantity int, price int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "sales_analysis",
+    "pythondata": [
+      "Product = pd.DataFrame([], columns=['product_id', 'product_name', 'unit_price']).astype({'product_id':'Int64', 'product_name':'object', 'unit_price':'Int64'})",
+      "Sales = pd.DataFrame([], columns=['seller_id', 'product_id', 'buyer_id', 'sale_date', 'quantity', 'price']).astype({'seller_id':'Int64', 'product_id':'Int64', 'buyer_id':'Int64', 'sale_date':'datetime64[ns]', 'quantity':'Int64', 'price':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Product (product_id int, product_name varchar(10), unit_price int)\n",
+      "Create table If Not Exists Sales (seller_id int, product_id int, buyer_id int, sale_date date, quantity int, price int)"
+    ],
+    "database_schema": {
+      "Product": {
+        "product_id": "INT",
+        "product_name": "VARCHAR(10)",
+        "unit_price": "INT"
+      },
+      "Sales": {
+        "seller_id": "INT",
+        "product_id": "INT",
+        "buyer_id": "INT",
+        "sale_date": "DATE",
+        "quantity": "INT",
+        "price": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Product (product_id int, product_name varchar(10), unit_price int)",
+    "Create table If Not Exists Sales (seller_id int, product_id int, buyer_id int, sale_date date, quantity int, price int)"
+  ],
+  "ordered": false
+}

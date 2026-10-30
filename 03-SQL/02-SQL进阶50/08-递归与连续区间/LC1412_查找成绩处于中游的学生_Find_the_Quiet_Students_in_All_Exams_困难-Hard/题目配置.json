@@ -1,0 +1,54 @@
+{
+  "id": 1412,
+  "titleCn": "查找成绩处于中游的学生",
+  "titleEn": "Find the Quiet Students in All Exams",
+  "slug": "find-the-quiet-students-in-all-exams",
+  "difficulty": "Hard",
+  "kind": "sql",
+  "namespace": "p4.lc1412",
+  "plan": "sql-premium-50",
+  "category": "递归与连续区间",
+  "source": "https://leetcode.cn/problems/find-the-quiet-students-in-all-exams/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Student (student_id int, student_name varchar(30))",
+      "Create table If Not Exists Exam (exam_id int, student_id int, score int)"
+    ],
+    "mssql": [
+      "Create table Student (student_id int, student_name varchar(30))",
+      "Create table Exam (exam_id int, student_id int, score int)"
+    ],
+    "oraclesql": [
+      "Create table Student (student_id int, student_name varchar(30))",
+      "Create table Exam (exam_id int, student_id int, score int)"
+    ],
+    "database": true,
+    "name": "find_quiet_students",
+    "pythondata": [
+      "Student = pd.DataFrame([], columns=['student_id', 'student_name']).astype({'student_id':'Int64', 'student_name':'object'})",
+      "Exam = pd.DataFrame([], columns=['exam_id', 'student_id', 'score']).astype({'exam_id':'Int64', 'student_id':'Int64', 'score':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Student (student_id int, student_name varchar(30))\n",
+      "Create table If Not Exists Exam (exam_id int, student_id int, score int)"
+    ],
+    "database_schema": {
+      "Student": {
+        "student_id": "INT",
+        "student_name": "VARCHAR(30)"
+      },
+      "Exam": {
+        "exam_id": "INT",
+        "student_id": "INT",
+        "score": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Student (student_id int, student_name varchar(30))",
+    "Create table If Not Exists Exam (exam_id int, student_id int, score int)"
+  ],
+  "ordered": true
+}

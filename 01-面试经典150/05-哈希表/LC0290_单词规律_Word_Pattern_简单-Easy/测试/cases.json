@@ -1,0 +1,52 @@
+[
+  {
+    "name": "边界-001",
+    "args": [
+      "abba",
+      "dog cat cat dog"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "abba",
+      "dog cat cat fish"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "aaaa",
+      "dog cat cat dog"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "ab",
+      "dog dog"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "a",
+      "a b"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  }
+]

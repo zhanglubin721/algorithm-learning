@@ -1,0 +1,56 @@
+{
+  "id": 1068,
+  "titleCn": "产品销售分析 I",
+  "titleEn": "Product Sales Analysis I",
+  "slug": "product-sales-analysis-i",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1068",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/product-sales-analysis-i/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Sales (sale_id int, product_id int, year int, quantity int, price int)",
+      "Create table If Not Exists Product (product_id int, product_name varchar(10))"
+    ],
+    "mssql": [
+      "Create table Sales (sale_id int, product_id int, year int, quantity int, price int)",
+      "Create table Product (product_id int, product_name varchar(10))"
+    ],
+    "oraclesql": [
+      "Create table Sales (sale_id int, product_id int, year int, quantity int, price int)",
+      "Create table Product (product_id int, product_name varchar(10))"
+    ],
+    "database": true,
+    "name": "sales_analysis",
+    "pythondata": [
+      "Sales = pd.DataFrame([], columns=['sale_id', 'product_id', 'year', 'quantity', 'price']).astype({'sale_id':'Int64', 'product_id':'Int64', 'year':'Int64', 'quantity':'Int64', 'price':'Int64'})",
+      "Product = pd.DataFrame([], columns=['product_id', 'product_name']).astype({'product_id':'Int64', 'product_name':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Sales (sale_id int, product_id int, year int, quantity int, price int)\n",
+      "Create table If Not Exists Product (product_id int, product_name varchar(10))"
+    ],
+    "database_schema": {
+      "Sales": {
+        "sale_id": "INT",
+        "product_id": "INT",
+        "year": "INT",
+        "quantity": "INT",
+        "price": "INT"
+      },
+      "Product": {
+        "product_id": "INT",
+        "product_name": "VARCHAR(10)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Sales (sale_id int, product_id int, year int, quantity int, price int)",
+    "Create table If Not Exists Product (product_id int, product_name varchar(10))"
+  ],
+  "ordered": false
+}

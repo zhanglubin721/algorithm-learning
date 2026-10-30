@@ -1,0 +1,45 @@
+{
+  "id": 602,
+  "titleCn": "好友申请 II ：谁有最多的好友",
+  "titleEn": "Friend Requests II: Who Has the Most Friends",
+  "slug": "friend-requests-ii-who-has-the-most-friends",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc0602",
+  "plan": "sql-free-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/friend-requests-ii-who-has-the-most-friends/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists RequestAccepted (requester_id int not null, accepter_id int null, accept_date date null)"
+    ],
+    "mssql": [
+      "Create table RequestAccepted (requester_id int not null, accepter_id int null, accept_date date null)"
+    ],
+    "oraclesql": [
+      "Create table RequestAccepted (requester_id int not null, accepter_id int null, accept_date date null)",
+      "Alter SESSION set NLS_DATE_FORMAT = 'YYYY/MM/DD'"
+    ],
+    "database": true,
+    "name": "most_friends",
+    "pythondata": [
+      "RequestAccepted = pd.DataFrame([], columns=['requester_id', 'accepter_id', 'accept_date']).astype({'requester_id':'Int64', 'accepter_id':'Int64', 'accept_date':'datetime64[ns]'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists RequestAccepted (requester_id int not null, accepter_id int null, accept_date date null)"
+    ],
+    "database_schema": {
+      "RequestAccepted": {
+        "requester_id": "INT",
+        "accepter_id": "INT",
+        "accept_date": "DATE"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists RequestAccepted (requester_id int not null, accepter_id int null, accept_date date null)"
+  ],
+  "ordered": false
+}

@@ -1,0 +1,655 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Products": [
+          "product_id",
+          "product_name",
+          "product_category"
+        ],
+        "Orders": [
+          "product_id",
+          "order_date",
+          "unit"
+        ]
+      },
+      "rows": {
+        "Products": [
+          [
+            1,
+            "Leetcode Solutions",
+            "Book"
+          ],
+          [
+            2,
+            "Jewels of Stringology",
+            "Book"
+          ],
+          [
+            3,
+            "HP",
+            "Laptop"
+          ],
+          [
+            4,
+            "Lenovo",
+            "Laptop"
+          ],
+          [
+            5,
+            "Leetcode Kit",
+            "T-shirt"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "2020-02-05",
+            60
+          ],
+          [
+            1,
+            "2020-02-10",
+            70
+          ],
+          [
+            2,
+            "2020-01-18",
+            30
+          ],
+          [
+            2,
+            "2020-02-11",
+            80
+          ],
+          [
+            3,
+            "2020-02-17",
+            2
+          ],
+          [
+            3,
+            "2020-02-24",
+            3
+          ],
+          [
+            4,
+            "2020-03-01",
+            20
+          ],
+          [
+            4,
+            "2020-03-04",
+            30
+          ],
+          [
+            4,
+            "2020-03-04",
+            60
+          ],
+          [
+            5,
+            "2020-02-25",
+            50
+          ],
+          [
+            5,
+            "2020-02-27",
+            50
+          ],
+          [
+            5,
+            "2020-03-01",
+            50
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "product_name",
+        "unit"
+      ],
+      [
+        [
+          "Leetcode Solutions",
+          "130"
+        ],
+        [
+          "Leetcode Kit",
+          "100"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Products": [
+          "product_id",
+          "product_name",
+          "product_category"
+        ],
+        "Orders": [
+          "product_id",
+          "order_date",
+          "unit"
+        ]
+      },
+      "rows": {
+        "Products": [
+          [
+            1,
+            "Leetcode Solutions",
+            "Book"
+          ],
+          [
+            3,
+            "HP",
+            "Laptop"
+          ],
+          [
+            2,
+            "Jewels of Stringology",
+            "Book"
+          ],
+          [
+            4,
+            "Lenovo",
+            "Laptop"
+          ],
+          [
+            5,
+            "Leetcode Kit",
+            "T-shirt"
+          ]
+        ],
+        "Orders": [
+          [
+            5,
+            "2020-02-27",
+            50
+          ],
+          [
+            2,
+            "2020-02-11",
+            80
+          ],
+          [
+            1,
+            "2020-02-05",
+            60
+          ],
+          [
+            2,
+            "2020-01-18",
+            30
+          ],
+          [
+            4,
+            "2020-03-04",
+            30
+          ],
+          [
+            5,
+            "2020-03-01",
+            50
+          ],
+          [
+            1,
+            "2020-02-10",
+            70
+          ],
+          [
+            5,
+            "2020-02-25",
+            50
+          ],
+          [
+            3,
+            "2020-02-24",
+            3
+          ],
+          [
+            3,
+            "2020-02-17",
+            2
+          ],
+          [
+            4,
+            "2020-03-01",
+            20
+          ],
+          [
+            4,
+            "2020-03-04",
+            60
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Products": [
+          "product_id",
+          "product_name",
+          "product_category"
+        ],
+        "Orders": [
+          "product_id",
+          "order_date",
+          "unit"
+        ]
+      },
+      "rows": {
+        "Products": [
+          [
+            4,
+            "Lenovo",
+            "Laptop"
+          ],
+          [
+            5,
+            "Leetcode Kit",
+            "T-shirt"
+          ],
+          [
+            3,
+            "HP",
+            "Laptop"
+          ],
+          [
+            1,
+            "Leetcode Solutions",
+            "Book"
+          ],
+          [
+            2,
+            "Jewels of Stringology",
+            "Book"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "2020-02-05",
+            60
+          ],
+          [
+            5,
+            "2020-03-01",
+            50
+          ],
+          [
+            3,
+            "2020-02-17",
+            2
+          ],
+          [
+            4,
+            "2020-03-01",
+            20
+          ],
+          [
+            4,
+            "2020-03-04",
+            60
+          ],
+          [
+            5,
+            "2020-02-25",
+            50
+          ],
+          [
+            5,
+            "2020-02-27",
+            50
+          ],
+          [
+            2,
+            "2020-02-11",
+            80
+          ],
+          [
+            3,
+            "2020-02-24",
+            3
+          ],
+          [
+            4,
+            "2020-03-04",
+            30
+          ],
+          [
+            1,
+            "2020-02-10",
+            70
+          ],
+          [
+            2,
+            "2020-01-18",
+            30
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Products": [
+          "product_id",
+          "product_name",
+          "product_category"
+        ],
+        "Orders": [
+          "product_id",
+          "order_date",
+          "unit"
+        ]
+      },
+      "rows": {
+        "Products": [
+          [
+            2,
+            "Jewels of Stringology",
+            "Book"
+          ],
+          [
+            4,
+            "Lenovo",
+            "Laptop"
+          ],
+          [
+            3,
+            "HP",
+            "Laptop"
+          ],
+          [
+            5,
+            "Leetcode Kit",
+            "T-shirt"
+          ],
+          [
+            1,
+            "Leetcode Solutions",
+            "Book"
+          ]
+        ],
+        "Orders": [
+          [
+            5,
+            "2020-02-25",
+            50
+          ],
+          [
+            5,
+            "2020-03-01",
+            50
+          ],
+          [
+            4,
+            "2020-03-01",
+            20
+          ],
+          [
+            3,
+            "2020-02-24",
+            3
+          ],
+          [
+            3,
+            "2020-02-17",
+            2
+          ],
+          [
+            2,
+            "2020-01-18",
+            30
+          ],
+          [
+            4,
+            "2020-03-04",
+            30
+          ],
+          [
+            2,
+            "2020-02-11",
+            80
+          ],
+          [
+            1,
+            "2020-02-10",
+            70
+          ],
+          [
+            4,
+            "2020-03-04",
+            60
+          ],
+          [
+            1,
+            "2020-02-05",
+            60
+          ],
+          [
+            5,
+            "2020-02-27",
+            50
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Products": [
+          "product_id",
+          "product_name",
+          "product_category"
+        ],
+        "Orders": [
+          "product_id",
+          "order_date",
+          "unit"
+        ]
+      },
+      "rows": {
+        "Products": [
+          [
+            1,
+            "Leetcode Solutions",
+            "Book"
+          ],
+          [
+            2,
+            "Jewels of Stringology",
+            "Book"
+          ],
+          [
+            3,
+            "HP",
+            "Laptop"
+          ],
+          [
+            4,
+            "Lenovo",
+            "Laptop"
+          ],
+          [
+            5,
+            "Leetcode Kit",
+            "T-shirt"
+          ]
+        ],
+        "Orders": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "Products": [
+          "product_id",
+          "product_name",
+          "product_category"
+        ],
+        "Orders": [
+          "product_id",
+          "order_date",
+          "unit"
+        ]
+      },
+      "rows": {
+        "Products": [
+          [
+            1,
+            "Leetcode Solutions",
+            "Book"
+          ],
+          [
+            2,
+            "Jewels of Stringology",
+            "Book"
+          ],
+          [
+            3,
+            "HP",
+            "Laptop"
+          ],
+          [
+            4,
+            "Lenovo",
+            "Laptop"
+          ],
+          [
+            5,
+            "Leetcode Kit",
+            "T-shirt"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "2020-02-05",
+            60
+          ],
+          [
+            1,
+            "2020-02-10",
+            70
+          ],
+          [
+            2,
+            "2020-01-18",
+            30
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "Products": [
+          "product_id",
+          "product_name",
+          "product_category"
+        ],
+        "Orders": [
+          "product_id",
+          "order_date",
+          "unit"
+        ]
+      },
+      "rows": {
+        "Products": [
+          [
+            1,
+            "Leetcode Solutions",
+            "Book"
+          ],
+          [
+            2,
+            "Jewels of Stringology",
+            "Book"
+          ],
+          [
+            3,
+            "HP",
+            "Laptop"
+          ],
+          [
+            4,
+            "Lenovo",
+            "Laptop"
+          ],
+          [
+            5,
+            "Leetcode Kit",
+            "T-shirt"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "2020-02-05",
+            60
+          ],
+          [
+            1,
+            "2020-02-10",
+            70
+          ],
+          [
+            2,
+            "2020-01-18",
+            30
+          ],
+          [
+            2,
+            "2020-02-11",
+            80
+          ],
+          [
+            3,
+            "2020-02-17",
+            2
+          ],
+          [
+            3,
+            "2020-02-24",
+            3
+          ],
+          [
+            4,
+            "2020-03-01",
+            20
+          ],
+          [
+            4,
+            "2020-03-04",
+            30
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

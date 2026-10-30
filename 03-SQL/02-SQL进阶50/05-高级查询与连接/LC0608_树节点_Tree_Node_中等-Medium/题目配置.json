@@ -1,0 +1,43 @@
+{
+  "id": 608,
+  "titleCn": "树节点",
+  "titleEn": "Tree Node",
+  "slug": "tree-node",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc0608",
+  "plan": "sql-premium-50",
+  "category": "高级查询与连接",
+  "source": "https://leetcode.cn/problems/tree-node/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Tree (id int, p_id int)"
+    ],
+    "mssql": [
+      "Create table Tree (id int, p_id int)"
+    ],
+    "oraclesql": [
+      "Create table Tree (id int, p_id int)"
+    ],
+    "database": true,
+    "name": "tree_node",
+    "pythondata": [
+      "Tree = pd.DataFrame([], columns=['id', 'p_id']).astype({'id':'Int64', 'p_id':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Tree (id int, p_id int)"
+    ],
+    "database_schema": {
+      "Tree": {
+        "id": "INT",
+        "p_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Tree (id int, p_id int)"
+  ],
+  "ordered": false
+}

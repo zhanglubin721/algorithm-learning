@@ -1,0 +1,37 @@
+{
+  "id": 92,
+  "titleCn": "反转链表 II",
+  "titleEn": "Reverse Linked List II",
+  "slug": "reverse-linked-list-ii",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0092",
+  "plan": "top-interview-150",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/reverse-linked-list-ii/",
+  "meta": {
+    "name": "reverseBetween",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      },
+      {
+        "name": "left",
+        "type": "integer"
+      },
+      {
+        "name": "right",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

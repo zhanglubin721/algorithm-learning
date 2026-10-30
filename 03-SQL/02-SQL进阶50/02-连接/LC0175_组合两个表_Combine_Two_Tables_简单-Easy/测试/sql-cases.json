@@ -1,0 +1,203 @@
+[
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Person": [
+          "personId",
+          "lastName",
+          "firstName"
+        ],
+        "Address": [
+          "addressId",
+          "personId",
+          "city",
+          "state"
+        ]
+      },
+      "rows": {
+        "Person": [
+          [
+            1,
+            "Wang",
+            "Allen"
+          ],
+          [
+            2,
+            "Alice",
+            "Bob"
+          ]
+        ],
+        "Address": [
+          [
+            1,
+            2,
+            "New York City",
+            "New York"
+          ],
+          [
+            2,
+            3,
+            "Leetcode",
+            "California"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "firstName",
+        "lastName",
+        "city",
+        "state"
+      ],
+      [
+        [
+          "Allen",
+          "Wang",
+          null,
+          null
+        ],
+        [
+          "Bob",
+          "Alice",
+          "New York City",
+          "New York"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Person": [
+          "personId",
+          "lastName",
+          "firstName"
+        ],
+        "Address": [
+          "addressId",
+          "personId",
+          "city",
+          "state"
+        ]
+      },
+      "rows": {
+        "Person": [
+          [
+            1,
+            "A",
+            "One"
+          ],
+          [
+            2,
+            "B",
+            "Two"
+          ]
+        ],
+        "Address": [
+          [
+            1,
+            2,
+            "X",
+            "Y"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "firstName",
+        "lastName",
+        "city",
+        "state"
+      ],
+      [
+        [
+          "One",
+          "A",
+          null,
+          null
+        ],
+        [
+          "Two",
+          "B",
+          "X",
+          "Y"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Person": [
+          "personId",
+          "lastName",
+          "firstName"
+        ],
+        "Address": [
+          "addressId",
+          "personId",
+          "city",
+          "state"
+        ]
+      },
+      "rows": {
+        "Person": [
+          [
+            2,
+            "Alice",
+            "Bob"
+          ],
+          [
+            1,
+            "Wang",
+            "Allen"
+          ]
+        ],
+        "Address": [
+          [
+            2,
+            3,
+            "Leetcode",
+            "California"
+          ],
+          [
+            1,
+            2,
+            "New York City",
+            "New York"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "firstName",
+        "lastName",
+        "city",
+        "state"
+      ],
+      [
+        [
+          "Bob",
+          "Alice",
+          "New York City",
+          "New York"
+        ],
+        [
+          "Allen",
+          "Wang",
+          null,
+          null
+        ]
+      ]
+    ]
+  }
+]

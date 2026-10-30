@@ -1,0 +1,901 @@
+[
+  {
+    "name": "边界-002",
+    "args": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      [
+        -10,
+        9,
+        20,
+        null,
+        null,
+        15,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 42
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      [
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 1
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      [
+        1,
+        null,
+        2,
+        null,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      [
+        0,
+        -1,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 1
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      [
+        1,
+        2,
+        2,
+        3,
+        4,
+        4,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 13
+  },
+  {
+    "name": "强化-001",
+    "args": [
+      [
+        88
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 88
+  },
+  {
+    "name": "强化-002",
+    "args": [
+      [
+        0,
+        -85
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 0
+  },
+  {
+    "name": "强化-003",
+    "args": [
+      [
+        -16,
+        -68,
+        null,
+        null,
+        -64
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": -16
+  },
+  {
+    "name": "强化-004",
+    "args": [
+      [
+        25,
+        -1,
+        26,
+        -74
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 51
+  },
+  {
+    "name": "强化-005",
+    "args": [
+      [
+        95,
+        -39,
+        null,
+        null,
+        5,
+        -24,
+        null,
+        null,
+        -13
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 95
+  },
+  {
+    "name": "强化-006",
+    "args": [
+      [
+        17,
+        -73,
+        71,
+        null,
+        -4,
+        41,
+        null,
+        -64
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 129
+  },
+  {
+    "name": "强化-007",
+    "args": [
+      [
+        34,
+        -91,
+        66,
+        null,
+        -58,
+        null,
+        82,
+        null,
+        -27,
+        null,
+        null,
+        null,
+        0
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 182
+  },
+  {
+    "name": "强化-008",
+    "args": [
+      [
+        -68,
+        -71,
+        13,
+        null,
+        null,
+        null,
+        66,
+        29,
+        89,
+        null,
+        32,
+        null,
+        null,
+        30
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 246
+  },
+  {
+    "name": "强化-009",
+    "args": [
+      [
+        -58,
+        -89,
+        49,
+        null,
+        null,
+        31,
+        84,
+        17,
+        42,
+        54,
+        null,
+        null,
+        24
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 260
+  },
+  {
+    "name": "强化-010",
+    "args": [
+      [
+        67,
+        -29,
+        80,
+        -69,
+        38,
+        null,
+        91,
+        -72,
+        -42,
+        -3,
+        null,
+        null,
+        null,
+        -81
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 247
+  },
+  {
+    "name": "强化-011",
+    "args": [
+      [
+        -57,
+        -76,
+        84,
+        null,
+        null,
+        -7,
+        null,
+        null,
+        46,
+        45,
+        66,
+        34,
+        null,
+        53,
+        null,
+        19,
+        null,
+        null,
+        null,
+        null,
+        24
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 287
+  },
+  {
+    "name": "强化-012",
+    "args": [
+      [
+        -20,
+        -84,
+        33,
+        -85,
+        -58,
+        null,
+        86,
+        -92,
+        null,
+        -60,
+        null,
+        72,
+        null,
+        null,
+        null,
+        null,
+        null,
+        60,
+        null,
+        41,
+        61
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 312
+  },
+  {
+    "name": "强化-013",
+    "args": [
+      [
+        4,
+        -88,
+        50,
+        null,
+        -5,
+        15,
+        87,
+        -79,
+        -1,
+        null,
+        null,
+        null,
+        96,
+        null,
+        -68,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -64,
+        null,
+        -23,
+        null,
+        -9
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 248
+  },
+  {
+    "name": "强化-014",
+    "args": [
+      [
+        -87,
+        -100,
+        26,
+        null,
+        null,
+        -5,
+        77,
+        -86,
+        null,
+        68,
+        null,
+        null,
+        -41,
+        32,
+        74,
+        -73,
+        -24,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -54,
+        -29
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 245
+  },
+  {
+    "name": "强化-015",
+    "args": [
+      [
+        -1,
+        -34,
+        29,
+        -40,
+        -20,
+        12,
+        55,
+        -63,
+        null,
+        null,
+        null,
+        null,
+        null,
+        53,
+        58,
+        -74,
+        -61,
+        null,
+        null,
+        null,
+        87,
+        -83,
+        null,
+        null,
+        null,
+        68
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 321
+  },
+  {
+    "name": "强化-016",
+    "args": [
+      [
+        -59,
+        -79,
+        3,
+        null,
+        null,
+        -3,
+        38,
+        -21,
+        null,
+        5,
+        61,
+        -30,
+        -17,
+        4,
+        10,
+        41,
+        76,
+        null,
+        null,
+        null,
+        -6,
+        null,
+        null,
+        null,
+        18
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 208
+  },
+  {
+    "name": "强化-017",
+    "args": [
+      [
+        -47,
+        -56,
+        31,
+        -61,
+        null,
+        22,
+        85,
+        -75,
+        -59,
+        -27,
+        30,
+        59,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -21,
+        null,
+        null,
+        41,
+        67,
+        null,
+        17,
+        null,
+        49,
+        null,
+        null,
+        -14
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 317
+  },
+  {
+    "name": "强化-018",
+    "args": [
+      [
+        58,
+        -88,
+        80,
+        null,
+        57,
+        65,
+        97,
+        38,
+        null,
+        59,
+        69,
+        null,
+        null,
+        -11,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -37,
+        23,
+        -79,
+        -30,
+        -5,
+        null,
+        null,
+        null,
+        null,
+        -16,
+        null,
+        3,
+        -22
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 311
+  },
+  {
+    "name": "强化-019",
+    "args": [
+      [
+        91,
+        43,
+        null,
+        -67,
+        71,
+        -85,
+        5,
+        49,
+        84,
+        -98,
+        null,
+        1,
+        18,
+        null,
+        67,
+        null,
+        null,
+        null,
+        -86,
+        -32,
+        null,
+        null,
+        21,
+        63,
+        null,
+        null,
+        null,
+        -35,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -47,
+        null,
+        null,
+        -43
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 384
+  },
+  {
+    "name": "强化-020",
+    "args": [
+      [
+        65,
+        -88,
+        97,
+        null,
+        -31,
+        68,
+        null,
+        -33,
+        14,
+        null,
+        89,
+        -70,
+        null,
+        -4,
+        42,
+        null,
+        null,
+        null,
+        -57,
+        -18,
+        5,
+        17,
+        47,
+        -58,
+        null,
+        -27,
+        -13,
+        null,
+        10
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 319
+  },
+  {
+    "name": "强化-021",
+    "args": [
+      [
+        -10,
+        -65,
+        -6,
+        -84,
+        -59,
+        null,
+        58,
+        null,
+        null,
+        -60,
+        -30,
+        53,
+        92,
+        -64,
+        null,
+        null,
+        -14,
+        18,
+        57,
+        89,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -1,
+        28,
+        null,
+        null,
+        83,
+        null,
+        null,
+        null,
+        null,
+        42,
+        79,
+        86
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 549
+  },
+  {
+    "name": "强化-022",
+    "args": [
+      [
+        30,
+        -87,
+        73,
+        -93,
+        -75,
+        61,
+        77,
+        null,
+        -91,
+        null,
+        -70,
+        36,
+        67,
+        null,
+        null,
+        null,
+        null,
+        null,
+        25,
+        null,
+        43,
+        null,
+        72,
+        -42,
+        null,
+        null,
+        50,
+        null,
+        null,
+        -65,
+        -23,
+        null,
+        52,
+        null,
+        -46,
+        null,
+        0,
+        null,
+        null,
+        null,
+        -44
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 392
+  },
+  {
+    "name": "强化-023",
+    "args": [
+      [
+        -96,
+        null,
+        61,
+        -79,
+        71,
+        -85,
+        -16,
+        67,
+        88,
+        null,
+        -80,
+        -77,
+        17,
+        null,
+        null,
+        null,
+        95,
+        null,
+        null,
+        null,
+        -24,
+        -13,
+        56,
+        null,
+        null,
+        -60,
+        null,
+        null,
+        12,
+        32,
+        null,
+        null,
+        -58,
+        -4,
+        null,
+        null,
+        48,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        3
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 373
+  },
+  {
+    "name": "强化-024",
+    "args": [
+      [
+        -88,
+        -92,
+        32,
+        null,
+        null,
+        -21,
+        39,
+        -26,
+        -10,
+        null,
+        97,
+        -60,
+        null,
+        -13,
+        21,
+        66,
+        null,
+        null,
+        -36,
+        -16,
+        null,
+        19,
+        null,
+        45,
+        96,
+        -51,
+        -30,
+        null,
+        null,
+        -3,
+        null,
+        40,
+        51,
+        68,
+        null,
+        null,
+        null,
+        null,
+        -28
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 407
+  },
+  {
+    "name": "强化-025",
+    "args": [
+      [
+        58,
+        38,
+        95,
+        3,
+        44,
+        64,
+        null,
+        -73,
+        30,
+        null,
+        47,
+        null,
+        65,
+        -81,
+        -68,
+        17,
+        null,
+        null,
+        null,
+        null,
+        80,
+        -88,
+        -77,
+        null,
+        -61,
+        null,
+        27,
+        74,
+        92,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -5,
+        22,
+        null,
+        null,
+        null,
+        null,
+        null,
+        -58,
+        null,
+        null,
+        null,
+        null,
+        -52,
+        -53
+      ]
+    ],
+    "oracle": "reference-crosscheck",
+    "source": "工程定向构造",
+    "expected": 591
+  }
+]

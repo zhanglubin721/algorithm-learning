@@ -1,0 +1,998 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        1,
+        1,
+        5
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      1,
+      5,
+      1
+    ]
+  },
+  {
+    "name": "随机排列-001",
+    "args": [
+      [
+        -1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -1
+    ]
+  },
+  {
+    "name": "随机排列-002",
+    "args": [
+      [
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      6
+    ]
+  },
+  {
+    "name": "随机排列-003",
+    "args": [
+      [
+        -3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -3
+    ]
+  },
+  {
+    "name": "随机排列-004",
+    "args": [
+      [
+        -6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -6
+    ]
+  },
+  {
+    "name": "随机排列-005",
+    "args": [
+      [
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      0
+    ]
+  },
+  {
+    "name": "随机排列-006",
+    "args": [
+      [
+        5,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      3,
+      5
+    ]
+  },
+  {
+    "name": "随机排列-007",
+    "args": [
+      [
+        2,
+        -1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -1,
+      2
+    ]
+  },
+  {
+    "name": "随机排列-008",
+    "args": [
+      [
+        -1,
+        -4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -4,
+      -1
+    ]
+  },
+  {
+    "name": "随机排列-009",
+    "args": [
+      [
+        -6,
+        -6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -6,
+      -6
+    ]
+  },
+  {
+    "name": "随机排列-010",
+    "args": [
+      [
+        -2,
+        -8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -8,
+      -2
+    ]
+  },
+  {
+    "name": "随机排列-011",
+    "args": [
+      [
+        -5,
+        -1,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -5,
+      1,
+      -1
+    ]
+  },
+  {
+    "name": "随机排列-012",
+    "args": [
+      [
+        -7,
+        -8,
+        -8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -8,
+      -8,
+      -7
+    ]
+  },
+  {
+    "name": "随机排列-013",
+    "args": [
+      [
+        7,
+        2,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      7,
+      6,
+      2
+    ]
+  },
+  {
+    "name": "随机排列-014",
+    "args": [
+      [
+        -1,
+        6,
+        -3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      6,
+      -3,
+      -1
+    ]
+  },
+  {
+    "name": "随机排列-015",
+    "args": [
+      [
+        2,
+        -3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      2,
+      4,
+      -3
+    ]
+  },
+  {
+    "name": "随机排列-016",
+    "args": [
+      [
+        2,
+        3,
+        -2,
+        -5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      3,
+      -5,
+      -2,
+      2
+    ]
+  },
+  {
+    "name": "随机排列-017",
+    "args": [
+      [
+        0,
+        -4,
+        -5,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      0,
+      -4,
+      3,
+      -5
+    ]
+  },
+  {
+    "name": "随机排列-018",
+    "args": [
+      [
+        -4,
+        -3,
+        2,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -4,
+      -3,
+      6,
+      2
+    ]
+  },
+  {
+    "name": "随机排列-019",
+    "args": [
+      [
+        2,
+        8,
+        5,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      3,
+      2,
+      5,
+      8
+    ]
+  },
+  {
+    "name": "随机排列-020",
+    "args": [
+      [
+        -7,
+        -7,
+        -5,
+        -8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -7,
+      -5,
+      -8,
+      -7
+    ]
+  },
+  {
+    "name": "随机排列-021",
+    "args": [
+      [
+        8,
+        -4,
+        7,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      8,
+      -4,
+      7,
+      4,
+      3
+    ]
+  },
+  {
+    "name": "随机排列-022",
+    "args": [
+      [
+        0,
+        8,
+        7,
+        -5,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      0,
+      8,
+      7,
+      7,
+      -5
+    ]
+  },
+  {
+    "name": "随机排列-023",
+    "args": [
+      [
+        4,
+        -8,
+        -2,
+        -6,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      4,
+      -8,
+      -2,
+      5,
+      -6
+    ]
+  },
+  {
+    "name": "随机排列-024",
+    "args": [
+      [
+        4,
+        -7,
+        8,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      4,
+      -7,
+      8,
+      4,
+      3
+    ]
+  },
+  {
+    "name": "随机排列-025",
+    "args": [
+      [
+        6,
+        -4,
+        5,
+        2,
+        -4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      6,
+      2,
+      -4,
+      -4,
+      5
+    ]
+  },
+  {
+    "name": "随机排列-026",
+    "args": [
+      [
+        -3,
+        0,
+        -8,
+        6,
+        0,
+        -3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -3,
+      0,
+      -3,
+      -8,
+      0,
+      6
+    ]
+  },
+  {
+    "name": "随机排列-027",
+    "args": [
+      [
+        2,
+        4,
+        2,
+        -1,
+        6,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      2,
+      4,
+      2,
+      0,
+      -1,
+      6
+    ]
+  },
+  {
+    "name": "随机排列-028",
+    "args": [
+      [
+        8,
+        -5,
+        -2,
+        1,
+        -1,
+        -3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      8,
+      -5,
+      -1,
+      -3,
+      -2,
+      1
+    ]
+  },
+  {
+    "name": "随机排列-029",
+    "args": [
+      [
+        2,
+        -6,
+        -7,
+        6,
+        3,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      2,
+      -6,
+      3,
+      -7,
+      3,
+      6
+    ]
+  },
+  {
+    "name": "随机排列-030",
+    "args": [
+      [
+        -2,
+        -1,
+        -4,
+        -6,
+        4,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -2,
+      -1,
+      -4,
+      -6,
+      8,
+      4
+    ]
+  },
+  {
+    "name": "随机排列-031",
+    "args": [
+      [
+        0,
+        1,
+        -7,
+        7,
+        1,
+        -2,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      0,
+      1,
+      -7,
+      7,
+      1,
+      7,
+      -2
+    ]
+  },
+  {
+    "name": "随机排列-032",
+    "args": [
+      [
+        7,
+        -3,
+        8,
+        -6,
+        8,
+        -5,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      7,
+      -3,
+      8,
+      -6,
+      8,
+      8,
+      -5
+    ]
+  },
+  {
+    "name": "随机排列-033",
+    "args": [
+      [
+        -7,
+        -5,
+        -4,
+        7,
+        -5,
+        -1,
+        -1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -7,
+      -5,
+      -4,
+      7,
+      -1,
+      -5,
+      -1
+    ]
+  },
+  {
+    "name": "随机排列-034",
+    "args": [
+      [
+        -8,
+        6,
+        3,
+        5,
+        4,
+        6,
+        -6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -8,
+      6,
+      3,
+      5,
+      6,
+      -6,
+      4
+    ]
+  },
+  {
+    "name": "随机排列-035",
+    "args": [
+      [
+        -4,
+        6,
+        1,
+        2,
+        1,
+        -5,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -4,
+      6,
+      1,
+      2,
+      1,
+      1,
+      -5
+    ]
+  },
+  {
+    "name": "随机排列-036",
+    "args": [
+      [
+        -7,
+        -1,
+        -1,
+        -3,
+        2,
+        -1,
+        1,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -7,
+      -1,
+      -1,
+      -3,
+      2,
+      -1,
+      7,
+      1
+    ]
+  },
+  {
+    "name": "随机排列-037",
+    "args": [
+      [
+        5,
+        4,
+        -4,
+        3,
+        3,
+        -7,
+        4,
+        -6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      5,
+      4,
+      -4,
+      3,
+      3,
+      -6,
+      -7,
+      4
+    ]
+  },
+  {
+    "name": "随机排列-038",
+    "args": [
+      [
+        -2,
+        -1,
+        7,
+        -5,
+        -5,
+        -2,
+        8,
+        -5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -2,
+      -1,
+      7,
+      -5,
+      -5,
+      8,
+      -5,
+      -2
+    ]
+  },
+  {
+    "name": "随机排列-039",
+    "args": [
+      [
+        -6,
+        8,
+        0,
+        -4,
+        3,
+        -1,
+        -1,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -6,
+      8,
+      0,
+      -4,
+      3,
+      -1,
+      3,
+      -1
+    ]
+  },
+  {
+    "name": "随机排列-040",
+    "args": [
+      [
+        8,
+        4,
+        8,
+        -2,
+        -7,
+        -5,
+        -7,
+        -4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      8,
+      4,
+      8,
+      -2,
+      -7,
+      -5,
+      -4,
+      -7
+    ]
+  },
+  {
+    "name": "随机排列-041",
+    "args": [
+      [
+        -4,
+        6,
+        7,
+        -4,
+        0,
+        -6,
+        0,
+        -5,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -4,
+      6,
+      7,
+      -4,
+      0,
+      -6,
+      0,
+      1,
+      -5
+    ]
+  },
+  {
+    "name": "随机排列-042",
+    "args": [
+      [
+        6,
+        -2,
+        -1,
+        3,
+        2,
+        -7,
+        -7,
+        -6,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      6,
+      -2,
+      -1,
+      3,
+      2,
+      -7,
+      -7,
+      0,
+      -6
+    ]
+  },
+  {
+    "name": "随机排列-043",
+    "args": [
+      [
+        5,
+        1,
+        2,
+        -8,
+        6,
+        3,
+        -4,
+        6,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      5,
+      1,
+      2,
+      -8,
+      6,
+      3,
+      2,
+      -4,
+      6
+    ]
+  },
+  {
+    "name": "随机排列-044",
+    "args": [
+      [
+        -3,
+        2,
+        -6,
+        3,
+        -4,
+        -7,
+        -3,
+        -8,
+        -1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      -3,
+      2,
+      -6,
+      3,
+      -4,
+      -7,
+      -3,
+      -1,
+      -8
+    ]
+  },
+  {
+    "name": "随机排列-045",
+    "args": [
+      [
+        1,
+        8,
+        -1,
+        -4,
+        6,
+        -1,
+        8,
+        5,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      1,
+      8,
+      -1,
+      -4,
+      6,
+      -1,
+      8,
+      6,
+      5
+    ]
+  }
+]

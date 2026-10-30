@@ -1,0 +1,42 @@
+{
+  "id": 1285,
+  "titleCn": "找到连续区间的开始和结束数字",
+  "titleEn": "Find the Start and End Number of Continuous Ranges",
+  "slug": "find-the-start-and-end-number-of-continuous-ranges",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1285",
+  "plan": "sql-premium-50",
+  "category": "窗口与排名",
+  "source": "https://leetcode.cn/problems/find-the-start-and-end-number-of-continuous-ranges/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Logs (log_id int)"
+    ],
+    "mssql": [
+      "Create table Logs (log_id int)"
+    ],
+    "oraclesql": [
+      "Create table Logs (log_id int)"
+    ],
+    "database": true,
+    "name": "find_continuous_ranges",
+    "pythondata": [
+      "Logs = pd.DataFrame([], columns=['log_id']).astype({'log_id':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Logs (log_id int)"
+    ],
+    "database_schema": {
+      "Logs": {
+        "log_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Logs (log_id int)"
+  ],
+  "ordered": true
+}

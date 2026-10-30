@@ -1,0 +1,31 @@
+{
+  "id": 230,
+  "titleCn": "二叉搜索树中第 K 小的元素",
+  "titleEn": "Kth Smallest Element in a BST",
+  "slug": "kth-smallest-element-in-a-bst",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0230",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/kth-smallest-element-in-a-bst/",
+  "meta": {
+    "name": "kthSmallest",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

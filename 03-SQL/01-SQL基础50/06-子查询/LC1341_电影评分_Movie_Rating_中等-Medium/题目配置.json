@@ -1,0 +1,66 @@
+{
+  "id": 1341,
+  "titleCn": "电影评分",
+  "titleEn": "Movie Rating",
+  "slug": "movie-rating",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc1341",
+  "plan": "sql-free-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/movie-rating/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Movies (movie_id int, title varchar(30))",
+      "Create table If Not Exists Users (user_id int, name varchar(30))",
+      "Create table If Not Exists MovieRating (movie_id int, user_id int, rating int, created_at date)"
+    ],
+    "mssql": [
+      "Create table Movies (movie_id int, title varchar(30))",
+      "Create table Users (user_id int, name varchar(30))",
+      "Create table MovieRating (movie_id int, user_id int, rating int, created_at date)"
+    ],
+    "oraclesql": [
+      "Create table Movies (movie_id int, title varchar(30))",
+      "Create table Users (user_id int, name varchar(30))",
+      "Create table MovieRating (movie_id int, user_id int, rating int, created_at date)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "movie_rating",
+    "pythondata": [
+      "Movies = pd.DataFrame([], columns=['movie_id', 'title']).astype({'movie_id':'Int64', 'title':'object'})",
+      "Users = pd.DataFrame([], columns=['user_id', 'name']).astype({'user_id':'Int64', 'name':'object'})",
+      "MovieRating = pd.DataFrame([], columns=['movie_id', 'user_id', 'rating', 'created_at']).astype({'movie_id':'Int64', 'user_id':'Int64', 'rating':'Int64', 'created_at':'datetime64[ns]'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Movies (movie_id int, title varchar(30))",
+      "Create table If Not Exists Users (user_id int, name varchar(30))",
+      "Create table If Not Exists MovieRating (movie_id int, user_id int, rating int, created_at date)"
+    ],
+    "database_schema": {
+      "Movies": {
+        "movie_id": "INT",
+        "title": "VARCHAR(30)"
+      },
+      "Users": {
+        "user_id": "INT",
+        "name": "VARCHAR(30)"
+      },
+      "MovieRating": {
+        "movie_id": "INT",
+        "user_id": "INT",
+        "rating": "INT",
+        "created_at": "DATE"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Movies (movie_id int, title varchar(30))",
+    "Create table If Not Exists Users (user_id int, name varchar(30))",
+    "Create table If Not Exists MovieRating (movie_id int, user_id int, rating int, created_at date)"
+  ],
+  "ordered": false
+}

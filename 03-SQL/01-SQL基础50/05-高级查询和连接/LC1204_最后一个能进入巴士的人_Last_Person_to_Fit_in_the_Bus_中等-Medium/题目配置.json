@@ -1,0 +1,46 @@
+{
+  "id": 1204,
+  "titleCn": "最后一个能进入巴士的人",
+  "titleEn": "Last Person to Fit in the Bus",
+  "slug": "last-person-to-fit-in-the-bus",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc1204",
+  "plan": "sql-free-50",
+  "category": "高级查询和连接",
+  "source": "https://leetcode.cn/problems/last-person-to-fit-in-the-bus/",
+  "meta": {
+    "manual": false,
+    "mysql": [
+      "Create table If Not Exists Queue (person_id int, person_name varchar(30), weight int, turn int)"
+    ],
+    "mssql": [
+      "Create table Queue (person_id int, person_name varchar(30), weight int, turn int)"
+    ],
+    "oraclesql": [
+      "Create table Queue (person_id int, person_name varchar(30), weight int, turn int)"
+    ],
+    "database": true,
+    "name": "last_passenger",
+    "pythondata": [
+      "Queue = pd.DataFrame([], columns=['person_id', 'person_name', 'weight', 'turn']).astype({'person_id':'Int64', 'person_name':'object', 'weight':'Int64', 'turn':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Queue (person_id int, person_name varchar(30), weight int, turn int)"
+    ],
+    "database_schema": {
+      "Queue": {
+        "person_id": "INT",
+        "person_name": "VARCHAR(30)",
+        "weight": "INT",
+        "turn": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Queue (person_id int, person_name varchar(30), weight int, turn int)"
+  ],
+  "ordered": false
+}

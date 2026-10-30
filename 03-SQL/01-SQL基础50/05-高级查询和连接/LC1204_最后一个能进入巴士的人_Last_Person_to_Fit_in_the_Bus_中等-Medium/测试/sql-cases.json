@@ -1,0 +1,228 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Queue": [
+          "person_id",
+          "person_name",
+          "weight",
+          "turn"
+        ]
+      },
+      "rows": {
+        "Queue": [
+          [
+            5,
+            "Alice",
+            250,
+            1
+          ],
+          [
+            4,
+            "Bob",
+            175,
+            5
+          ],
+          [
+            3,
+            "Alex",
+            350,
+            2
+          ],
+          [
+            6,
+            "John Cena",
+            400,
+            3
+          ],
+          [
+            1,
+            "Winston",
+            500,
+            6
+          ],
+          [
+            2,
+            "Marie",
+            200,
+            4
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "person_name"
+      ],
+      [
+        [
+          "John Cena"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Queue": [
+          "person_id",
+          "person_name",
+          "weight",
+          "turn"
+        ]
+      },
+      "rows": {
+        "Queue": [
+          [
+            5,
+            "Alice",
+            250,
+            1
+          ],
+          [
+            2,
+            "Marie",
+            200,
+            4
+          ],
+          [
+            4,
+            "Bob",
+            175,
+            5
+          ],
+          [
+            3,
+            "Alex",
+            350,
+            2
+          ],
+          [
+            6,
+            "John Cena",
+            400,
+            3
+          ],
+          [
+            1,
+            "Winston",
+            500,
+            6
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Queue": [
+          "person_id",
+          "person_name",
+          "weight",
+          "turn"
+        ]
+      },
+      "rows": {
+        "Queue": [
+          [
+            3,
+            "Alex",
+            350,
+            2
+          ],
+          [
+            1,
+            "Winston",
+            500,
+            6
+          ],
+          [
+            2,
+            "Marie",
+            200,
+            4
+          ],
+          [
+            6,
+            "John Cena",
+            400,
+            3
+          ],
+          [
+            5,
+            "Alice",
+            250,
+            1
+          ],
+          [
+            4,
+            "Bob",
+            175,
+            5
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Queue": [
+          "person_id",
+          "person_name",
+          "weight",
+          "turn"
+        ]
+      },
+      "rows": {
+        "Queue": [
+          [
+            4,
+            "Bob",
+            175,
+            5
+          ],
+          [
+            6,
+            "John Cena",
+            400,
+            3
+          ],
+          [
+            3,
+            "Alex",
+            350,
+            2
+          ],
+          [
+            1,
+            "Winston",
+            500,
+            6
+          ],
+          [
+            5,
+            "Alice",
+            250,
+            1
+          ],
+          [
+            2,
+            "Marie",
+            200,
+            4
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

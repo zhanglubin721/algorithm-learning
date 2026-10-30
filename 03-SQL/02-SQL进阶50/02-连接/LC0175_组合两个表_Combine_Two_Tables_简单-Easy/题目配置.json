@@ -1,0 +1,53 @@
+{
+  "id": 175,
+  "titleCn": "组合两个表",
+  "titleEn": "Combine Two Tables",
+  "slug": "combine-two-tables",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc0175",
+  "plan": "sql-premium-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/combine-two-tables/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Person (personId int, firstName varchar(255), lastName varchar(255))",
+      "Create table If Not Exists Address (addressId int, personId int, city varchar(255), state varchar(255))"
+    ],
+    "mssql": [
+      "Create table Person (personId int, firstName varchar(255), lastName varchar(255))",
+      "Create table Address (addressId int, personId int, city varchar(255), state varchar(255))"
+    ],
+    "oraclesql": [
+      "Create table Person (personId int, firstName varchar(255), lastName varchar(255))",
+      "Create table Address (addressId int, personId int, city varchar(255), state varchar(255))"
+    ],
+    "database": true,
+    "name": "combine_two_tables",
+    "pythondata": [
+      "Person = pd.DataFrame([], columns=['personId', 'firstName', 'lastName']).astype({'personId':'Int64', 'firstName':'object', 'lastName':'object'})",
+      "Address = pd.DataFrame([], columns=['addressId', 'personId', 'city', 'state']).astype({'addressId':'Int64', 'personId':'Int64', 'city':'object', 'state':'object'})"
+    ],
+    "manual": true,
+    "database_schema": {
+      "Person": {
+        "personId": "INT",
+        "firstName": "VARCHAR(255)",
+        "lastName": "VARCHAR(255)"
+      },
+      "Address": {
+        "addressId": "INT",
+        "personId": "INT",
+        "city": "VARCHAR(255)",
+        "state": "VARCHAR(255)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Person (personId int, firstName varchar(255), lastName varchar(255))",
+    "Create table If Not Exists Address (addressId int, personId int, city varchar(255), state varchar(255))"
+  ],
+  "ordered": false
+}

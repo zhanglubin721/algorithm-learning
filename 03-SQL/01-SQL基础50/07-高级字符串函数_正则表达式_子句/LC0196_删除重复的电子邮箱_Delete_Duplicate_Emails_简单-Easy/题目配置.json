@@ -1,0 +1,44 @@
+{
+  "id": 196,
+  "titleCn": "删除重复的电子邮箱",
+  "titleEn": "Delete Duplicate Emails",
+  "slug": "delete-duplicate-emails",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc0196",
+  "plan": "sql-free-50",
+  "category": "高级字符串函数 / 正则表达式 / 子句",
+  "source": "https://leetcode.cn/problems/delete-duplicate-emails/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Person (Id int, Email varchar(255))"
+    ],
+    "mssql": [
+      "Create table Person (Id int, Email varchar(255))"
+    ],
+    "oraclesql": [
+      "Create table Person (Id int, Email varchar(255))"
+    ],
+    "database": true,
+    "manual": true,
+    "name": "delete_duplicate_emails",
+    "pythondata": [
+      "Person = pd.DataFrame([], columns=['id', 'email']).astype({'id':'int64', 'email':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Person (Id int, Email varchar(255))\n"
+    ],
+    "database_schema": {
+      "Person": {
+        "Id": "INT",
+        "Email": "VARCHAR(255)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Person (Id int, Email varchar(255))"
+  ],
+  "ordered": false
+}

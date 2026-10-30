@@ -1,0 +1,32 @@
+{
+  "id": 39,
+  "titleCn": "组合总和",
+  "titleEn": "Combination Sum",
+  "slug": "combination-sum",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0039",
+  "plan": "top-interview-150",
+  "category": "回溯",
+  "source": "https://leetcode.cn/problems/combination-sum/",
+  "meta": {
+    "name": "combinationSum",
+    "params": [
+      {
+        "name": "candidates",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": 34,
+  "titleCn": "在排序数组中查找元素的第一个和最后一个位置",
+  "titleEn": "Find First and Last Position of Element in Sorted Array",
+  "slug": "find-first-and-last-position-of-element-in-sorted-array",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0034",
+  "plan": "top-interview-150",
+  "category": "二分查找",
+  "source": "https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/",
+  "meta": {
+    "name": "searchRange",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

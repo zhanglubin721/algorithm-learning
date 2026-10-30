@@ -1,0 +1,29 @@
+{
+  "id": 118,
+  "titleCn": "杨辉三角",
+  "titleEn": "Pascal's Triangle",
+  "slug": "pascals-triangle",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0118",
+  "plan": "top-100-liked",
+  "category": "动态规划",
+  "source": "https://leetcode.cn/problems/pascals-triangle/",
+  "meta": {
+    "name": "generate",
+    "params": [
+      {
+        "name": "numRows",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true,
+      "rowsize": "param_1"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,44 @@
+{
+  "id": 1821,
+  "titleCn": "寻找今年具有正收入的客户",
+  "titleEn": "Find Customers With Positive Revenue this Year",
+  "slug": "find-customers-with-positive-revenue-this-year",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1821",
+  "plan": "sql-premium-50",
+  "category": "查询",
+  "source": "https://leetcode.cn/problems/find-customers-with-positive-revenue-this-year/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customers (customer_id int, year int, revenue int)"
+    ],
+    "mssql": [
+      "Create table Customers (customer_id int, year int, revenue int)"
+    ],
+    "oraclesql": [
+      "Create table Customers (customer_id int, year int, revenue int)"
+    ],
+    "database": true,
+    "name": "find_customers",
+    "pythondata": [
+      "Customers = pd.DataFrame([], columns=['customer_id', 'year', 'revenue']).astype({'customer_id':'Int64', 'year':'Int64', 'revenue':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Customers (customer_id int, year int, revenue int)"
+    ],
+    "database_schema": {
+      "Customers": {
+        "customer_id": "INT",
+        "year": "INT",
+        "revenue": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Customers (customer_id int, year int, revenue int)"
+  ],
+  "ordered": false
+}

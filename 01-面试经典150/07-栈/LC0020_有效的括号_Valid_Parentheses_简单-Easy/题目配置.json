@@ -1,0 +1,27 @@
+{
+  "id": 20,
+  "titleCn": "有效的括号",
+  "titleEn": "Valid Parentheses",
+  "slug": "valid-parentheses",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0020",
+  "plan": "top-interview-150",
+  "category": "栈",
+  "source": "https://leetcode.cn/problems/valid-parentheses/",
+  "meta": {
+    "name": "isValid",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

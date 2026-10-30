@@ -1,0 +1,21 @@
+{
+  "mutations": [
+    {
+      "mutation": "constant-result",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "边界-006",
+        "actual": false,
+        "passed": false,
+        "elapsedNs": 32868042
+      }
+    },
+    {
+      "mutation": "boundary-change",
+      "status": "SURVIVED_REVIEW_REQUIRED",
+      "counterexample": null
+    }
+  ],
+  "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+}

@@ -1,0 +1,713 @@
+[
+  {
+    "name": "边界-012",
+    "args": [
+      12
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-013",
+    "args": [
+      13
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-007",
+    "args": [
+      7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-008",
+    "args": [
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-009",
+    "args": [
+      9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-010",
+    "args": [
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-011",
+    "args": [
+      11
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-014",
+    "args": [
+      14
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-015",
+    "args": [
+      15
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-016",
+    "args": [
+      16
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-017",
+    "args": [
+      17
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-018",
+    "args": [
+      18
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-019",
+    "args": [
+      19
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-020",
+    "args": [
+      20
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-021",
+    "args": [
+      21
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-022",
+    "args": [
+      22
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-023",
+    "args": [
+      23
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-024",
+    "args": [
+      24
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-025",
+    "args": [
+      25
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-026",
+    "args": [
+      26
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-027",
+    "args": [
+      27
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-028",
+    "args": [
+      28
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-029",
+    "args": [
+      29
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-030",
+    "args": [
+      30
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-031",
+    "args": [
+      31
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-032",
+    "args": [
+      32
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-033",
+    "args": [
+      33
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-034",
+    "args": [
+      34
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-035",
+    "args": [
+      35
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-036",
+    "args": [
+      36
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-037",
+    "args": [
+      37
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-038",
+    "args": [
+      38
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-039",
+    "args": [
+      39
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-040",
+    "args": [
+      40
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-041",
+    "args": [
+      41
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-042",
+    "args": [
+      42
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-043",
+    "args": [
+      43
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-044",
+    "args": [
+      44
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-045",
+    "args": [
+      45
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-046",
+    "args": [
+      46
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-047",
+    "args": [
+      47
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-048",
+    "args": [
+      48
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-049",
+    "args": [
+      49
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-050",
+    "args": [
+      50
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-051",
+    "args": [
+      51
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-052",
+    "args": [
+      52
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-053",
+    "args": [
+      53
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-054",
+    "args": [
+      54
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-055",
+    "args": [
+      55
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-056",
+    "args": [
+      56
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-057",
+    "args": [
+      57
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-058",
+    "args": [
+      58
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-059",
+    "args": [
+      59
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-060",
+    "args": [
+      60
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-061",
+    "args": [
+      61
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-062",
+    "args": [
+      62
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-063",
+    "args": [
+      63
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-064",
+    "args": [
+      64
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-065",
+    "args": [
+      65
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-066",
+    "args": [
+      66
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-067",
+    "args": [
+      67
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-068",
+    "args": [
+      68
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-069",
+    "args": [
+      69
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-070",
+    "args": [
+      70
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-071",
+    "args": [
+      71
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "边界-072",
+    "args": [
+      72
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-073",
+    "args": [
+      73
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-074",
+    "args": [
+      74
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "边界-075",
+    "args": [
+      75
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-076",
+    "args": [
+      76
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-077",
+    "args": [
+      77
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-078",
+    "args": [
+      78
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "边界-079",
+    "args": [
+      79
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  }
+]

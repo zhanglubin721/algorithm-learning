@@ -1,0 +1,44 @@
+{
+  "id": 1699,
+  "titleCn": "两人之间的通话次数",
+  "titleEn": "Number of Calls Between Two Persons",
+  "slug": "number-of-calls-between-two-persons",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1699",
+  "plan": "sql-premium-50",
+  "category": "聚合",
+  "source": "https://leetcode.cn/problems/number-of-calls-between-two-persons/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Calls (from_id int, to_id int, duration int)"
+    ],
+    "mssql": [
+      "Create table Calls (from_id int, to_id int, duration int)"
+    ],
+    "oraclesql": [
+      "Create table Calls (from_id int, to_id int, duration int)"
+    ],
+    "database": true,
+    "name": "number_of_calls",
+    "pythondata": [
+      "Calls = pd.DataFrame([], columns=['from_id', 'to_id', 'duration']).astype({'from_id':'Int64', 'to_id':'Int64', 'duration':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Calls (from_id int, to_id int, duration int)"
+    ],
+    "database_schema": {
+      "Calls": {
+        "from_id": "INT",
+        "to_id": "INT",
+        "duration": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Calls (from_id int, to_id int, duration int)"
+  ],
+  "ordered": false
+}

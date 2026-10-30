@@ -1,0 +1,44 @@
+{
+  "id": 1527,
+  "titleCn": "患某种疾病的患者",
+  "titleEn": "Patients With a Condition",
+  "slug": "patients-with-a-condition",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1527",
+  "plan": "sql-free-50",
+  "category": "高级字符串函数 / 正则表达式 / 子句",
+  "source": "https://leetcode.cn/problems/patients-with-a-condition/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Patients (patient_id int, patient_name varchar(30), conditions varchar(100))"
+    ],
+    "mssql": [
+      "Create table Patients (patient_id int, patient_name varchar(30), conditions varchar(100))"
+    ],
+    "oraclesql": [
+      "Create table Patients (patient_id int, patient_name varchar(30), conditions varchar(100))"
+    ],
+    "database": true,
+    "name": "find_patients",
+    "pythondata": [
+      "Patients = pd.DataFrame([], columns=['patient_id', 'patient_name', 'conditions']).astype({'patient_id':'int64', 'patient_name':'object', 'conditions':'object'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Patients (patient_id int, patient_name varchar(30), conditions varchar(100))"
+    ],
+    "database_schema": {
+      "Patients": {
+        "patient_id": "INT",
+        "patient_name": "VARCHAR(30)",
+        "conditions": "VARCHAR(100)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Patients (patient_id int, patient_name varchar(30), conditions varchar(100))"
+  ],
+  "ordered": false
+}

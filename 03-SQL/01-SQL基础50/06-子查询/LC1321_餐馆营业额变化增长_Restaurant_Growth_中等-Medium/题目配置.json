@@ -1,0 +1,46 @@
+{
+  "id": 1321,
+  "titleCn": "餐馆营业额变化增长",
+  "titleEn": "Restaurant Growth",
+  "slug": "restaurant-growth",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc1321",
+  "plan": "sql-free-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/restaurant-growth/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customer (customer_id int, name varchar(20), visited_on date, amount int)"
+    ],
+    "mssql": [
+      "Create table Customer (customer_id int, name varchar(20), visited_on date, amount int)"
+    ],
+    "oraclesql": [
+      "Create table Customer (customer_id int, name varchar(20), visited_on date, amount int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "restaurant_growth",
+    "pythondata": [
+      "Customer = pd.DataFrame([], columns=['customer_id', 'name', 'visited_on', 'amount']).astype({'customer_id':'Int64', 'name':'object', 'visited_on':'datetime64[ns]', 'amount':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Customer (customer_id int, name varchar(20), visited_on date, amount int)"
+    ],
+    "database_schema": {
+      "Customer": {
+        "customer_id": "INT",
+        "name": "VARCHAR(20)",
+        "visited_on": "DATE",
+        "amount": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Customer (customer_id int, name varchar(20), visited_on date, amount int)"
+  ],
+  "ordered": true
+}

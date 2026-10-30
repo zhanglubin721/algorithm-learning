@@ -1,0 +1,27 @@
+{
+  "mutations": [
+    {
+      "mutation": "constant-result",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "边界-002",
+        "actual": 0,
+        "passed": false,
+        "elapsedNs": 35805042
+      }
+    },
+    {
+      "mutation": "boundary-change",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "边界-002",
+        "passed": false,
+        "error": "NumberFormatException: For input string: \"+\"",
+        "elapsedNs": 48292416
+      }
+    }
+  ],
+  "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+}

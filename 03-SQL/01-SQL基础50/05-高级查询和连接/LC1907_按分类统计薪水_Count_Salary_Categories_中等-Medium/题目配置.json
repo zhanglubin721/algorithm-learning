@@ -1,0 +1,43 @@
+{
+  "id": 1907,
+  "titleCn": "按分类统计薪水",
+  "titleEn": "Count Salary Categories",
+  "slug": "count-salary-categories",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc1907",
+  "plan": "sql-free-50",
+  "category": "高级查询和连接",
+  "source": "https://leetcode.cn/problems/count-salary-categories/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Accounts (account_id int, income int)"
+    ],
+    "mssql": [
+      "Create table Accounts (account_id int, income int)"
+    ],
+    "oraclesql": [
+      "Create table Accounts (account_id int, income int)"
+    ],
+    "database": true,
+    "name": "count_salary_categories",
+    "pythondata": [
+      "Accounts = pd.DataFrame([], columns=['account_id', 'income']).astype({'account_id':'Int64', 'income':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Accounts (account_id int, income int)"
+    ],
+    "database_schema": {
+      "Accounts": {
+        "account_id": "INT",
+        "income": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Accounts (account_id int, income int)"
+  ],
+  "ordered": false
+}

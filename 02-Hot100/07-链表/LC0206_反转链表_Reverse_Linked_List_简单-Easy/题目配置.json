@@ -1,0 +1,29 @@
+{
+  "id": 206,
+  "titleCn": "反转链表",
+  "titleEn": "Reverse Linked List",
+  "slug": "reverse-linked-list",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0206",
+  "plan": "top-100-liked",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/reverse-linked-list/",
+  "meta": {
+    "name": "reverseList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

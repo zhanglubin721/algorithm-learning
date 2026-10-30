@@ -1,0 +1,104 @@
+[
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Point": [
+          "x"
+        ]
+      },
+      "rows": {
+        "Point": [
+          [
+            -1
+          ],
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "shortest"
+      ],
+      [
+        [
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Point": [
+          "x"
+        ]
+      },
+      "rows": {
+        "Point": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            -1
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "shortest"
+      ],
+      [
+        [
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Point": [
+          "x"
+        ]
+      },
+      "rows": {
+        "Point": [
+          [
+            0
+          ],
+          [
+            -1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "shortest"
+      ],
+      [
+        [
+          "1"
+        ]
+      ]
+    ]
+  }
+]

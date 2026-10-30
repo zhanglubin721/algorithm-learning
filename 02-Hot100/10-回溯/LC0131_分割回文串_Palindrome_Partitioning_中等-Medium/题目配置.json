@@ -1,0 +1,28 @@
+{
+  "id": 131,
+  "titleCn": "分割回文串",
+  "titleEn": "Palindrome Partitioning",
+  "slug": "palindrome-partitioning",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0131",
+  "plan": "top-100-liked",
+  "category": "回溯",
+  "source": "https://leetcode.cn/problems/palindrome-partitioning/",
+  "meta": {
+    "name": "partition",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "list<list<string>>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

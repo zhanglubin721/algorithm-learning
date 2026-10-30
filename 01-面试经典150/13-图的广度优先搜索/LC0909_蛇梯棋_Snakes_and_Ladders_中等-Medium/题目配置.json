@@ -1,0 +1,27 @@
+{
+  "id": 909,
+  "titleCn": "蛇梯棋",
+  "titleEn": "Snakes and Ladders",
+  "slug": "snakes-and-ladders",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0909",
+  "plan": "top-interview-150",
+  "category": "图的广度优先搜索",
+  "source": "https://leetcode.cn/problems/snakes-and-ladders/",
+  "meta": {
+    "name": "snakesAndLadders",
+    "params": [
+      {
+        "name": "board",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

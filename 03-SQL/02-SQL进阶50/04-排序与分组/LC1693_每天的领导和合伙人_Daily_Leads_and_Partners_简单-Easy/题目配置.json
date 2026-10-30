@@ -1,0 +1,47 @@
+{
+  "id": 1693,
+  "titleCn": "每天的领导和合伙人",
+  "titleEn": "Daily Leads and Partners",
+  "slug": "daily-leads-and-partners",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1693",
+  "plan": "sql-premium-50",
+  "category": "排序与分组",
+  "source": "https://leetcode.cn/problems/daily-leads-and-partners/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists DailySales(date_id date, make_name varchar(20), lead_id int, partner_id int)"
+    ],
+    "mssql": [
+      "Create table DailySales(date_id date, make_name varchar(20), lead_id int, partner_id int)"
+    ],
+    "oraclesql": [
+      "Create table DailySales(date_id date, make_name varchar(20), lead_id int, partner_id int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "daily_leads_and_partners",
+    "pythondata": [
+      "DailySales = pd.DataFrame([], columns=['date_id', 'make_name', 'lead_id', 'partner_id']).astype({'date_id':'datetime64[ns]', 'make_name':'object', 'lead_id':'Int64', 'partner_id':'Int64'})"
+    ],
+    "manual": false,
+    "postgresql": [
+      "\nCreate table If Not Exists DailySales(date_id date, make_name varchar(20), lead_id int, partner_id int)"
+    ],
+    "database_schema": {
+      "DailySales": {
+        "date_id": "DATE",
+        "make_name": "VARCHAR(20)",
+        "lead_id": "INT",
+        "partner_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists DailySales(date_id date, make_name varchar(20), lead_id int, partner_id int)"
+  ],
+  "ordered": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 236,
+  "titleCn": "二叉树的最近公共祖先",
+  "titleEn": "Lowest Common Ancestor of a Binary Tree",
+  "slug": "lowest-common-ancestor-of-a-binary-tree",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0236",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/",
+  "meta": {
+    "name": "lowestCommonAncestor",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "p",
+        "type": "integer"
+      },
+      {
+        "name": "q",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "TreeNode"
+    },
+    "manual": true
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

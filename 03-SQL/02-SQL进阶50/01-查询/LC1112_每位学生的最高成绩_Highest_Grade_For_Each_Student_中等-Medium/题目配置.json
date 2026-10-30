@@ -1,0 +1,44 @@
+{
+  "id": 1112,
+  "titleCn": "每位学生的最高成绩",
+  "titleEn": "Highest Grade For Each Student",
+  "slug": "highest-grade-for-each-student",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1112",
+  "plan": "sql-premium-50",
+  "category": "查询",
+  "source": "https://leetcode.cn/problems/highest-grade-for-each-student/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Enrollments (student_id int, course_id int, grade int)"
+    ],
+    "mssql": [
+      "Create table Enrollments (student_id int, course_id int, grade int)"
+    ],
+    "oraclesql": [
+      "Create table Enrollments (student_id int, course_id int, grade int)"
+    ],
+    "database": true,
+    "name": "highest_grade",
+    "pythondata": [
+      "Enrollments = pd.DataFrame([], columns=['student_id', 'course_id', 'grade']).astype({'student_id':'Int64', 'course_id':'Int64', 'grade':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Enrollments (student_id int, course_id int, grade int)"
+    ],
+    "database_schema": {
+      "Enrollments": {
+        "student_id": "INT",
+        "course_id": "INT",
+        "grade": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Enrollments (student_id int, course_id int, grade int)"
+  ],
+  "ordered": true
+}

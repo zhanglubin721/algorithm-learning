@@ -1,0 +1,27 @@
+{
+  "id": 70,
+  "titleCn": "爬楼梯",
+  "titleEn": "Climbing Stairs",
+  "slug": "climbing-stairs",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0070",
+  "plan": "top-interview-150",
+  "category": "一维动态规划",
+  "source": "https://leetcode.cn/problems/climbing-stairs/",
+  "meta": {
+    "name": "climbStairs",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

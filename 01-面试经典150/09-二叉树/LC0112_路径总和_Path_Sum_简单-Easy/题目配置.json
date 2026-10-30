@@ -1,0 +1,31 @@
+{
+  "id": 112,
+  "titleCn": "路径总和",
+  "titleEn": "Path Sum",
+  "slug": "path-sum",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0112",
+  "plan": "top-interview-150",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/path-sum/",
+  "meta": {
+    "name": "hasPathSum",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "targetSum",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

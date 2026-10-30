@@ -1,0 +1,44 @@
+{
+  "id": 610,
+  "titleCn": "判断三角形",
+  "titleEn": "Triangle Judgement",
+  "slug": "triangle-judgement",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc0610",
+  "plan": "sql-free-50",
+  "category": "高级查询和连接",
+  "source": "https://leetcode.cn/problems/triangle-judgement/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Triangle (x int, y int, z int)"
+    ],
+    "mssql": [
+      "Create table Triangle (x int, y int, z int)"
+    ],
+    "oraclesql": [
+      "Create table Triangle (x int, y int, z int)"
+    ],
+    "database": true,
+    "name": "triangle_judgement",
+    "pythondata": [
+      "Triangle = pd.DataFrame([], columns=['x', 'y', 'z']).astype({'x':'Int64', 'y':'Int64', 'z':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Triangle (x int, y int, z int)"
+    ],
+    "database_schema": {
+      "Triangle": {
+        "x": "INT",
+        "y": "INT",
+        "z": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Triangle (x int, y int, z int)"
+  ],
+  "ordered": false
+}

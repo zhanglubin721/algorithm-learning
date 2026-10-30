@@ -1,0 +1,56 @@
+{
+  "id": 1532,
+  "titleCn": "最近的三笔订单",
+  "titleEn": "The Most Recent Three Orders",
+  "slug": "the-most-recent-three-orders",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1532",
+  "plan": "sql-premium-50",
+  "category": "窗口与排名",
+  "source": "https://leetcode.cn/problems/the-most-recent-three-orders/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customers (customer_id int, name varchar(10))",
+      "Create table If Not Exists Orders (order_id int, order_date date, customer_id int, cost int)"
+    ],
+    "mssql": [
+      "Create table Customers (customer_id int, name varchar(10))",
+      "Create table Orders (order_id int, order_date date, customer_id int, cost int)"
+    ],
+    "oraclesql": [
+      "Create table Customers (customer_id int, name varchar(10))",
+      "Create table Orders (order_id int, order_date date, customer_id int, cost int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "recent_three_orders",
+    "pythondata": [
+      "Customers = pd.DataFrame([], columns=['customer_id', 'name']).astype({'customer_id':'Int64', 'name':'object'})",
+      "Orders = pd.DataFrame([], columns=['order_id', 'order_date', 'customer_id', 'cost']).astype({'order_id':'Int64', 'order_date':'datetime64[ns]', 'customer_id':'Int64', 'cost':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Customers (customer_id int, name varchar(10))\n",
+      "Create table If Not Exists Orders (order_id int, order_date date, customer_id int, cost int)"
+    ],
+    "database_schema": {
+      "Customers": {
+        "customer_id": "INT",
+        "name": "VARCHAR(10)"
+      },
+      "Orders": {
+        "order_id": "INT",
+        "order_date": "DATE",
+        "customer_id": "INT",
+        "cost": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Customers (customer_id int, name varchar(10))",
+    "Create table If Not Exists Orders (order_id int, order_date date, customer_id int, cost int)"
+  ],
+  "ordered": true
+}

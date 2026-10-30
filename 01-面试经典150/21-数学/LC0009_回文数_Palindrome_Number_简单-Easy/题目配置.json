@@ -1,0 +1,27 @@
+{
+  "id": 9,
+  "titleCn": "回文数",
+  "titleEn": "Palindrome Number",
+  "slug": "palindrome-number",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0009",
+  "plan": "top-interview-150",
+  "category": "数学",
+  "source": "https://leetcode.cn/problems/palindrome-number/",
+  "meta": {
+    "name": "isPalindrome",
+    "params": [
+      {
+        "name": "x",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

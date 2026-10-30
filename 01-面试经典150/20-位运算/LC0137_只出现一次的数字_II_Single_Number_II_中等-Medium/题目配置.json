@@ -1,0 +1,27 @@
+{
+  "id": 137,
+  "titleCn": "只出现一次的数字 II",
+  "titleEn": "Single Number II",
+  "slug": "single-number-ii",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0137",
+  "plan": "top-interview-150",
+  "category": "位运算",
+  "source": "https://leetcode.cn/problems/single-number-ii/",
+  "meta": {
+    "name": "singleNumber",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

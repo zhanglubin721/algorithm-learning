@@ -1,0 +1,366 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Departments": [
+          "id",
+          "name"
+        ],
+        "Students": [
+          "id",
+          "name",
+          "department_id"
+        ]
+      },
+      "rows": {
+        "Departments": [
+          [
+            1,
+            "Electrical Engineering"
+          ],
+          [
+            7,
+            "Computer Engineering"
+          ],
+          [
+            13,
+            "Bussiness Administration"
+          ]
+        ],
+        "Students": [
+          [
+            23,
+            "Alice",
+            1
+          ],
+          [
+            1,
+            "Bob",
+            7
+          ],
+          [
+            5,
+            "Jennifer",
+            13
+          ],
+          [
+            2,
+            "John",
+            14
+          ],
+          [
+            4,
+            "Jasmine",
+            77
+          ],
+          [
+            3,
+            "Steve",
+            74
+          ],
+          [
+            6,
+            "Luis",
+            1
+          ],
+          [
+            8,
+            "Jonathan",
+            7
+          ],
+          [
+            7,
+            "Daiana",
+            33
+          ],
+          [
+            11,
+            "Madelynn",
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "id",
+        "name"
+      ],
+      [
+        [
+          "2",
+          "John"
+        ],
+        [
+          "7",
+          "Daiana"
+        ],
+        [
+          "4",
+          "Jasmine"
+        ],
+        [
+          "3",
+          "Steve"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Departments": [
+          "id",
+          "name"
+        ],
+        "Students": [
+          "id",
+          "name",
+          "department_id"
+        ]
+      },
+      "rows": {
+        "Departments": [
+          [
+            1,
+            "Electrical Engineering"
+          ],
+          [
+            7,
+            "Computer Engineering"
+          ],
+          [
+            13,
+            "Bussiness Administration"
+          ]
+        ],
+        "Students": [
+          [
+            8,
+            "Jonathan",
+            7
+          ],
+          [
+            2,
+            "John",
+            14
+          ],
+          [
+            23,
+            "Alice",
+            1
+          ],
+          [
+            3,
+            "Steve",
+            74
+          ],
+          [
+            1,
+            "Bob",
+            7
+          ],
+          [
+            11,
+            "Madelynn",
+            1
+          ],
+          [
+            5,
+            "Jennifer",
+            13
+          ],
+          [
+            4,
+            "Jasmine",
+            77
+          ],
+          [
+            6,
+            "Luis",
+            1
+          ],
+          [
+            7,
+            "Daiana",
+            33
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Departments": [
+          "id",
+          "name"
+        ],
+        "Students": [
+          "id",
+          "name",
+          "department_id"
+        ]
+      },
+      "rows": {
+        "Departments": [
+          [
+            7,
+            "Computer Engineering"
+          ],
+          [
+            13,
+            "Bussiness Administration"
+          ],
+          [
+            1,
+            "Electrical Engineering"
+          ]
+        ],
+        "Students": [
+          [
+            23,
+            "Alice",
+            1
+          ],
+          [
+            4,
+            "Jasmine",
+            77
+          ],
+          [
+            6,
+            "Luis",
+            1
+          ],
+          [
+            2,
+            "John",
+            14
+          ],
+          [
+            3,
+            "Steve",
+            74
+          ],
+          [
+            7,
+            "Daiana",
+            33
+          ],
+          [
+            11,
+            "Madelynn",
+            1
+          ],
+          [
+            8,
+            "Jonathan",
+            7
+          ],
+          [
+            1,
+            "Bob",
+            7
+          ],
+          [
+            5,
+            "Jennifer",
+            13
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Departments": [
+          "id",
+          "name"
+        ],
+        "Students": [
+          "id",
+          "name",
+          "department_id"
+        ]
+      },
+      "rows": {
+        "Departments": [
+          [
+            7,
+            "Computer Engineering"
+          ],
+          [
+            1,
+            "Electrical Engineering"
+          ],
+          [
+            13,
+            "Bussiness Administration"
+          ]
+        ],
+        "Students": [
+          [
+            11,
+            "Madelynn",
+            1
+          ],
+          [
+            3,
+            "Steve",
+            74
+          ],
+          [
+            6,
+            "Luis",
+            1
+          ],
+          [
+            5,
+            "Jennifer",
+            13
+          ],
+          [
+            2,
+            "John",
+            14
+          ],
+          [
+            8,
+            "Jonathan",
+            7
+          ],
+          [
+            4,
+            "Jasmine",
+            77
+          ],
+          [
+            1,
+            "Bob",
+            7
+          ],
+          [
+            7,
+            "Daiana",
+            33
+          ],
+          [
+            23,
+            "Alice",
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

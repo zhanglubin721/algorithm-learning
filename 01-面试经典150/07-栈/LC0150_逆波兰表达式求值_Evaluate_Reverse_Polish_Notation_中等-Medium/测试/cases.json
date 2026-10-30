@@ -1,0 +1,105 @@
+[
+  {
+    "name": "边界-002",
+    "args": [
+      [
+        "2",
+        "1",
+        "+",
+        "3",
+        "*"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 9
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      [
+        "4",
+        "13",
+        "5",
+        "/",
+        "+"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        "10",
+        "6",
+        "9",
+        "3",
+        "+",
+        "-11",
+        "*",
+        "/",
+        "*",
+        "17",
+        "+",
+        "5",
+        "+"
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 22
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      [
+        "1"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 1
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      [
+        "-7",
+        "3",
+        "/"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": -2
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      [
+        "7",
+        "-3",
+        "/"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": -2
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      [
+        "3",
+        "4",
+        "-"
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": -1
+  }
+]

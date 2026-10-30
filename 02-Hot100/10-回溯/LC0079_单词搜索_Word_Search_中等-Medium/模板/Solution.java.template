@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public boolean exist(char[][] board, String word) { throw new UnsupportedOperationException("TODO"); }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 183,
+  "titleCn": "从不订购的客户",
+  "titleEn": "Customers Who Never Order",
+  "slug": "customers-who-never-order",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc0183",
+  "plan": "sql-premium-50",
+  "category": "查询",
+  "source": "https://leetcode.cn/problems/customers-who-never-order/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customers (id int, name varchar(255))",
+      "Create table If Not Exists Orders (id int, customerId int)"
+    ],
+    "mssql": [
+      "Create table Customers (id int, name varchar(255))",
+      "Create table Orders (id int, customerId int)"
+    ],
+    "oraclesql": [
+      "Create table Customers (id int, name varchar(255))",
+      "Create table Orders (id int, customerId int)"
+    ],
+    "database": true,
+    "name": "find_customers",
+    "pythondata": [
+      "Customers = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})",
+      "Orders = pd.DataFrame([], columns=['id', 'customerId']).astype({'id':'Int64', 'customerId':'Int64'})"
+    ],
+    "manual": false,
+    "postgresql": [
+      "Create table If Not Exists Customers (id int, name varchar(255))",
+      "Create table If Not Exists Orders (id int, customerId int)"
+    ],
+    "database_schema": {
+      "Customers": {
+        "id": "INT",
+        "name": "VARCHAR(255)"
+      },
+      "Orders": {
+        "id": "INT",
+        "customerId": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Customers (id int, name varchar(255))",
+    "Create table If Not Exists Orders (id int, customerId int)"
+  ],
+  "ordered": false
+}

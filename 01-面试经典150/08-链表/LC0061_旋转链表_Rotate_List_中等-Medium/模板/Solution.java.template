@@ -1,0 +1,15 @@
+import java.util.*;
+import java.util.stream.*;
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() { throw new UnsupportedOperationException("TODO"); }
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode rotateRight(ListNode head, int k) { throw new UnsupportedOperationException("TODO"); }
+}

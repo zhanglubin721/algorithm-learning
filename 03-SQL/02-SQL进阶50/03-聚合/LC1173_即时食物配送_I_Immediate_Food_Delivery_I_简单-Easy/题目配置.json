@@ -1,0 +1,46 @@
+{
+  "id": 1173,
+  "titleCn": "即时食物配送 I",
+  "titleEn": "Immediate Food Delivery I",
+  "slug": "immediate-food-delivery-i",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1173",
+  "plan": "sql-premium-50",
+  "category": "聚合",
+  "source": "https://leetcode.cn/problems/immediate-food-delivery-i/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)"
+    ],
+    "mssql": [
+      "Create table Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)"
+    ],
+    "oraclesql": [
+      "Create table Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "food_delivery",
+    "pythondata": [
+      "Delivery = pd.DataFrame([], columns=['delivery_id', 'customer_id', 'order_date', 'customer_pref_delivery_date']).astype({'delivery_id':'Int64', 'customer_id':'Int64', 'order_date':'datetime64[ns]', 'customer_pref_delivery_date':'datetime64[ns]'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)"
+    ],
+    "database_schema": {
+      "Delivery": {
+        "delivery_id": "INT",
+        "customer_id": "INT",
+        "order_date": "DATE",
+        "customer_pref_delivery_date": "DATE"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Delivery (delivery_id int, customer_id int, order_date date, customer_pref_delivery_date date)"
+  ],
+  "ordered": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": 399,
+  "titleCn": "除法求值",
+  "titleEn": "Evaluate Division",
+  "slug": "evaluate-division",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0399",
+  "plan": "top-interview-150",
+  "category": "图",
+  "source": "https://leetcode.cn/problems/evaluate-division/",
+  "meta": {
+    "name": "calcEquation",
+    "params": [
+      {
+        "name": "equations",
+        "type": "list<list<string>>"
+      },
+      {
+        "name": "values",
+        "type": "double[]"
+      },
+      {
+        "name": "queries",
+        "type": "list<list<string>>"
+      }
+    ],
+    "return": {
+      "type": "double[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

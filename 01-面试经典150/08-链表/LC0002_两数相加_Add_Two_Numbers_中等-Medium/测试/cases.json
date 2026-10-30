@@ -1,0 +1,165 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        2,
+        4,
+        3
+      ],
+      [
+        5,
+        6,
+        4
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      7,
+      0,
+      8
+    ]
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      0
+    ]
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      [
+        9,
+        9,
+        9,
+        9
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      8,
+      9,
+      9,
+      9,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      [
+        9
+      ],
+      [
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      [
+        9,
+        9,
+        9
+      ],
+      [
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      [
+        8,
+        2,
+        1
+      ],
+      [
+        5,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      8,
+      9,
+      9,
+      9,
+      9,
+      9,
+      1
+    ]
+  }
+]

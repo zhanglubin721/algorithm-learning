@@ -1,0 +1,45 @@
+{
+  "id": 1050,
+  "titleCn": "合作过至少三次的演员和导演",
+  "titleEn": "Actors and Directors Who Cooperated At Least Three Times",
+  "slug": "actors-and-directors-who-cooperated-at-least-three-times",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1050",
+  "plan": "sql-premium-50",
+  "category": "排序与分组",
+  "source": "https://leetcode.cn/problems/actors-and-directors-who-cooperated-at-least-three-times/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)"
+    ],
+    "mssql": [
+      "Create table ActorDirector (actor_id int, director_id int, timestamp int)"
+    ],
+    "oraclesql": [
+      "Create table ActorDirector (actor_id int, director_id int, timestamp int)"
+    ],
+    "database": true,
+    "name": "actors_and_directors",
+    "pythondata": [
+      "ActorDirector = pd.DataFrame([], columns=['actor_id', 'director_id', 'timestamp']).astype({'actor_id':'int64', 'director_id':'int64', 'timestamp':'int64'})"
+    ],
+    "manual": false,
+    "postgresql": [
+      "Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)"
+    ],
+    "database_schema": {
+      "ActorDirector": {
+        "actor_id": "INT",
+        "director_id": "INT",
+        "timestamp": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)"
+  ],
+  "ordered": false
+}

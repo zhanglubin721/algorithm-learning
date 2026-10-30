@@ -1,0 +1,31 @@
+{
+  "id": 4,
+  "titleCn": "寻找两个正序数组的中位数",
+  "titleEn": "Median of Two Sorted Arrays",
+  "slug": "median-of-two-sorted-arrays",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0004",
+  "plan": "top-interview-150",
+  "category": "二分查找",
+  "source": "https://leetcode.cn/problems/median-of-two-sorted-arrays/",
+  "meta": {
+    "name": "findMedianSortedArrays",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

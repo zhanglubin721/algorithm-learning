@@ -1,0 +1,27 @@
+{
+  "id": 53,
+  "titleCn": "最大子数组和",
+  "titleEn": "Maximum Subarray",
+  "slug": "maximum-subarray",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0053",
+  "plan": "top-100-liked",
+  "category": "普通数组",
+  "source": "https://leetcode.cn/problems/maximum-subarray/",
+  "meta": {
+    "name": "maxSubArray",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

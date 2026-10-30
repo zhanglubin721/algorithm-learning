@@ -1,0 +1,48 @@
+{
+  "id": 141,
+  "titleCn": "环形链表",
+  "titleEn": "Linked List Cycle",
+  "slug": "linked-list-cycle",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0141",
+  "plan": "top-100-liked",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/linked-list-cycle/",
+  "meta": {
+    "name": "hasCycle",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      },
+      {
+        "name": "pos",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "manual": true,
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "c",
+      "csharp",
+      "javascript",
+      "ruby",
+      "swift",
+      "golang",
+      "python3",
+      "scala",
+      "kotlin",
+      "php",
+      "typescript"
+    ]
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

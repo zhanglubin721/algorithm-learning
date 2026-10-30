@@ -1,0 +1,56 @@
+{
+  "id": 1783,
+  "titleCn": "大满贯数量",
+  "titleEn": "Grand Slam Titles",
+  "slug": "grand-slam-titles",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1783",
+  "plan": "sql-premium-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/grand-slam-titles/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Players (player_id int, player_name varchar(20))",
+      "Create table If Not Exists Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)"
+    ],
+    "mssql": [
+      "Create table Players (player_id int, player_name varchar(20))",
+      "Create table Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)"
+    ],
+    "oraclesql": [
+      "Create table Players (player_id int, player_name varchar(20))",
+      "Create table Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)"
+    ],
+    "database": true,
+    "name": "grand_slam_titles",
+    "pythondata": [
+      "Players = pd.DataFrame([], columns=['player_id', 'player_name']).astype({'player_id':'Int64', 'player_name':'object'})",
+      "Championships = pd.DataFrame([], columns=['year', 'Wimbledon', 'Fr_open', 'US_open', 'Au_open']).astype({'year':'Int64', 'Wimbledon':'Int64', 'Fr_open':'Int64', 'US_open':'Int64', 'Au_open':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Players (player_id int, player_name varchar(20))\n",
+      "Create table If Not Exists Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)"
+    ],
+    "database_schema": {
+      "Players": {
+        "player_id": "INT",
+        "player_name": "VARCHAR(20)"
+      },
+      "Championships": {
+        "year": "INT",
+        "Wimbledon": "INT",
+        "Fr_open": "INT",
+        "US_open": "INT",
+        "Au_open": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Players (player_id int, player_name varchar(20))",
+    "Create table If Not Exists Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)"
+  ],
+  "ordered": false
+}

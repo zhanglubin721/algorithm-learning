@@ -1,0 +1,31 @@
+{
+  "id": 72,
+  "titleCn": "编辑距离",
+  "titleEn": "Edit Distance",
+  "slug": "edit-distance",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0072",
+  "plan": "top-interview-150",
+  "category": "多维动态规划",
+  "source": "https://leetcode.cn/problems/edit-distance/",
+  "meta": {
+    "name": "minDistance",
+    "params": [
+      {
+        "name": "word1",
+        "type": "string"
+      },
+      {
+        "name": "word2",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

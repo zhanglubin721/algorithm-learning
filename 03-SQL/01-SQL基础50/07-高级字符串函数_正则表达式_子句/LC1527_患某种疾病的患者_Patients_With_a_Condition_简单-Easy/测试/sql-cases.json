@@ -1,0 +1,307 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Patients": [
+          "patient_id",
+          "patient_name",
+          "conditions"
+        ]
+      },
+      "rows": {
+        "Patients": [
+          [
+            1,
+            "Daniel",
+            "YFEV COUGH"
+          ],
+          [
+            2,
+            "Alice",
+            ""
+          ],
+          [
+            3,
+            "Bob",
+            "DIAB100 MYOP"
+          ],
+          [
+            4,
+            "George",
+            "ACNE DIAB100"
+          ],
+          [
+            5,
+            "Alain",
+            "DIAB201"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "patient_id",
+        "patient_name",
+        "conditions"
+      ],
+      [
+        [
+          "3",
+          "Bob",
+          "DIAB100 MYOP"
+        ],
+        [
+          "4",
+          "George",
+          "ACNE DIAB100"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Patients": [
+          "patient_id",
+          "patient_name",
+          "conditions"
+        ]
+      },
+      "rows": {
+        "Patients": [
+          [
+            1,
+            "A",
+            "DIAB1"
+          ],
+          [
+            2,
+            "B",
+            "XDIAB1"
+          ],
+          [
+            3,
+            "C",
+            "ACNE DIAB100"
+          ],
+          [
+            4,
+            "D",
+            ""
+          ],
+          [
+            5,
+            "E",
+            "DIAB2"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "patient_id",
+        "patient_name",
+        "conditions"
+      ],
+      [
+        [
+          "1",
+          "A",
+          "DIAB1"
+        ],
+        [
+          "3",
+          "C",
+          "ACNE DIAB100"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Patients": [
+          "patient_id",
+          "patient_name",
+          "conditions"
+        ]
+      },
+      "rows": {
+        "Patients": [
+          [
+            1,
+            "Daniel",
+            "YFEV COUGH"
+          ],
+          [
+            3,
+            "Bob",
+            "DIAB100 MYOP"
+          ],
+          [
+            2,
+            "Alice",
+            ""
+          ],
+          [
+            4,
+            "George",
+            "ACNE DIAB100"
+          ],
+          [
+            5,
+            "Alain",
+            "DIAB201"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "patient_id",
+        "patient_name",
+        "conditions"
+      ],
+      [
+        [
+          "3",
+          "Bob",
+          "DIAB100 MYOP"
+        ],
+        [
+          "4",
+          "George",
+          "ACNE DIAB100"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Patients": [
+          "patient_id",
+          "patient_name",
+          "conditions"
+        ]
+      },
+      "rows": {
+        "Patients": [
+          [
+            4,
+            "George",
+            "ACNE DIAB100"
+          ],
+          [
+            5,
+            "Alain",
+            "DIAB201"
+          ],
+          [
+            3,
+            "Bob",
+            "DIAB100 MYOP"
+          ],
+          [
+            1,
+            "Daniel",
+            "YFEV COUGH"
+          ],
+          [
+            2,
+            "Alice",
+            ""
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "patient_id",
+        "patient_name",
+        "conditions"
+      ],
+      [
+        [
+          "4",
+          "George",
+          "ACNE DIAB100"
+        ],
+        [
+          "3",
+          "Bob",
+          "DIAB100 MYOP"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Patients": [
+          "patient_id",
+          "patient_name",
+          "conditions"
+        ]
+      },
+      "rows": {
+        "Patients": [
+          [
+            2,
+            "Alice",
+            ""
+          ],
+          [
+            4,
+            "George",
+            "ACNE DIAB100"
+          ],
+          [
+            3,
+            "Bob",
+            "DIAB100 MYOP"
+          ],
+          [
+            5,
+            "Alain",
+            "DIAB201"
+          ],
+          [
+            1,
+            "Daniel",
+            "YFEV COUGH"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "patient_id",
+        "patient_name",
+        "conditions"
+      ],
+      [
+        [
+          "4",
+          "George",
+          "ACNE DIAB100"
+        ],
+        [
+          "3",
+          "Bob",
+          "DIAB100 MYOP"
+        ]
+      ]
+    ]
+  }
+]

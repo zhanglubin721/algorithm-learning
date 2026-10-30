@@ -1,0 +1,29 @@
+{
+  "id": 54,
+  "titleCn": "螺旋矩阵",
+  "titleEn": "Spiral Matrix",
+  "slug": "spiral-matrix",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0054",
+  "plan": "top-100-liked",
+  "category": "矩阵",
+  "source": "https://leetcode.cn/problems/spiral-matrix/",
+  "meta": {
+    "name": "spiralOrder",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "list<integer>",
+      "size": "size_1 * col_size_1",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

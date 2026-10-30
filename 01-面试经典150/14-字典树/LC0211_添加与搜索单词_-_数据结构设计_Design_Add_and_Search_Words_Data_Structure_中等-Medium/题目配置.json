@@ -1,0 +1,51 @@
+{
+  "id": 211,
+  "titleCn": "添加与搜索单词 - 数据结构设计",
+  "titleEn": "Design Add and Search Words Data Structure",
+  "slug": "design-add-and-search-words-data-structure",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0211",
+  "plan": "top-interview-150",
+  "category": "字典树",
+  "source": "https://leetcode.cn/problems/design-add-and-search-words-data-structure/",
+  "meta": {
+    "classname": "WordDictionary",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "name": "addWord",
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "name": "search",
+        "return": {
+          "type": "boolean"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

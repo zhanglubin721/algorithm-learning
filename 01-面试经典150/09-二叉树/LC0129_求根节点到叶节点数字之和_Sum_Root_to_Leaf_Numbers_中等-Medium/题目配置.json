@@ -1,0 +1,27 @@
+{
+  "id": 129,
+  "titleCn": "求根节点到叶节点数字之和",
+  "titleEn": "Sum Root to Leaf Numbers",
+  "slug": "sum-root-to-leaf-numbers",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0129",
+  "plan": "top-interview-150",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/sum-root-to-leaf-numbers/",
+  "meta": {
+    "name": "sumNumbers",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

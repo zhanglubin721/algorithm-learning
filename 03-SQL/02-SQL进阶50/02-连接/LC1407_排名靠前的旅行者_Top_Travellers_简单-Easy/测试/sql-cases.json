@@ -1,0 +1,614 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Users": [
+          "id",
+          "name"
+        ],
+        "Rides": [
+          "id",
+          "user_id",
+          "distance"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            1,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            3,
+            "Alex"
+          ],
+          [
+            4,
+            "Donald"
+          ],
+          [
+            7,
+            "Lee"
+          ],
+          [
+            13,
+            "Jonathan"
+          ],
+          [
+            19,
+            "Elvis"
+          ]
+        ],
+        "Rides": [
+          [
+            1,
+            1,
+            120
+          ],
+          [
+            2,
+            2,
+            317
+          ],
+          [
+            3,
+            3,
+            222
+          ],
+          [
+            4,
+            7,
+            100
+          ],
+          [
+            5,
+            13,
+            312
+          ],
+          [
+            6,
+            19,
+            50
+          ],
+          [
+            7,
+            7,
+            120
+          ],
+          [
+            8,
+            19,
+            400
+          ],
+          [
+            9,
+            7,
+            230
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "name",
+        "travelled_distance"
+      ],
+      [
+        [
+          "Elvis",
+          "450"
+        ],
+        [
+          "Lee",
+          "450"
+        ],
+        [
+          "Bob",
+          "317"
+        ],
+        [
+          "Jonathan",
+          "312"
+        ],
+        [
+          "Alex",
+          "222"
+        ],
+        [
+          "Alice",
+          "120"
+        ],
+        [
+          "Donald",
+          "0"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Users": [
+          "id",
+          "name"
+        ],
+        "Rides": [
+          "id",
+          "user_id",
+          "distance"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            13,
+            "Jonathan"
+          ],
+          [
+            1,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            19,
+            "Elvis"
+          ],
+          [
+            3,
+            "Alex"
+          ],
+          [
+            4,
+            "Donald"
+          ],
+          [
+            7,
+            "Lee"
+          ]
+        ],
+        "Rides": [
+          [
+            4,
+            7,
+            100
+          ],
+          [
+            2,
+            2,
+            317
+          ],
+          [
+            1,
+            1,
+            120
+          ],
+          [
+            5,
+            13,
+            312
+          ],
+          [
+            6,
+            19,
+            50
+          ],
+          [
+            3,
+            3,
+            222
+          ],
+          [
+            8,
+            19,
+            400
+          ],
+          [
+            7,
+            7,
+            120
+          ],
+          [
+            9,
+            7,
+            230
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Users": [
+          "id",
+          "name"
+        ],
+        "Rides": [
+          "id",
+          "user_id",
+          "distance"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            19,
+            "Elvis"
+          ],
+          [
+            7,
+            "Lee"
+          ],
+          [
+            13,
+            "Jonathan"
+          ],
+          [
+            3,
+            "Alex"
+          ],
+          [
+            4,
+            "Donald"
+          ],
+          [
+            1,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ]
+        ],
+        "Rides": [
+          [
+            5,
+            13,
+            312
+          ],
+          [
+            7,
+            7,
+            120
+          ],
+          [
+            1,
+            1,
+            120
+          ],
+          [
+            8,
+            19,
+            400
+          ],
+          [
+            9,
+            7,
+            230
+          ],
+          [
+            4,
+            7,
+            100
+          ],
+          [
+            6,
+            19,
+            50
+          ],
+          [
+            2,
+            2,
+            317
+          ],
+          [
+            3,
+            3,
+            222
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Users": [
+          "id",
+          "name"
+        ],
+        "Rides": [
+          "id",
+          "user_id",
+          "distance"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            2,
+            "Bob"
+          ],
+          [
+            4,
+            "Donald"
+          ],
+          [
+            3,
+            "Alex"
+          ],
+          [
+            19,
+            "Elvis"
+          ],
+          [
+            7,
+            "Lee"
+          ],
+          [
+            1,
+            "Alice"
+          ],
+          [
+            13,
+            "Jonathan"
+          ]
+        ],
+        "Rides": [
+          [
+            9,
+            7,
+            230
+          ],
+          [
+            6,
+            19,
+            50
+          ],
+          [
+            7,
+            7,
+            120
+          ],
+          [
+            3,
+            3,
+            222
+          ],
+          [
+            4,
+            7,
+            100
+          ],
+          [
+            8,
+            19,
+            400
+          ],
+          [
+            5,
+            13,
+            312
+          ],
+          [
+            2,
+            2,
+            317
+          ],
+          [
+            1,
+            1,
+            120
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Users": [
+          "id",
+          "name"
+        ],
+        "Rides": [
+          "id",
+          "user_id",
+          "distance"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            1,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            3,
+            "Alex"
+          ],
+          [
+            4,
+            "Donald"
+          ],
+          [
+            7,
+            "Lee"
+          ],
+          [
+            13,
+            "Jonathan"
+          ],
+          [
+            19,
+            "Elvis"
+          ]
+        ],
+        "Rides": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "Users": [
+          "id",
+          "name"
+        ],
+        "Rides": [
+          "id",
+          "user_id",
+          "distance"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            1,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            3,
+            "Alex"
+          ],
+          [
+            4,
+            "Donald"
+          ],
+          [
+            7,
+            "Lee"
+          ],
+          [
+            13,
+            "Jonathan"
+          ],
+          [
+            19,
+            "Elvis"
+          ]
+        ],
+        "Rides": [
+          [
+            1,
+            1,
+            120
+          ],
+          [
+            2,
+            2,
+            317
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "Users": [
+          "id",
+          "name"
+        ],
+        "Rides": [
+          "id",
+          "user_id",
+          "distance"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            1,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            3,
+            "Alex"
+          ],
+          [
+            4,
+            "Donald"
+          ],
+          [
+            7,
+            "Lee"
+          ],
+          [
+            13,
+            "Jonathan"
+          ],
+          [
+            19,
+            "Elvis"
+          ]
+        ],
+        "Rides": [
+          [
+            1,
+            1,
+            120
+          ],
+          [
+            2,
+            2,
+            317
+          ],
+          [
+            3,
+            3,
+            222
+          ],
+          [
+            4,
+            7,
+            100
+          ],
+          [
+            5,
+            13,
+            312
+          ],
+          [
+            6,
+            19,
+            50
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

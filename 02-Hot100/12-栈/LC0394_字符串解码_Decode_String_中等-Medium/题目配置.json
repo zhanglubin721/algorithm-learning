@@ -1,0 +1,27 @@
+{
+  "id": 394,
+  "titleCn": "字符串解码",
+  "titleEn": "Decode String",
+  "slug": "decode-string",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0394",
+  "plan": "top-100-liked",
+  "category": "栈",
+  "source": "https://leetcode.cn/problems/decode-string/",
+  "meta": {
+    "name": "decodeString",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

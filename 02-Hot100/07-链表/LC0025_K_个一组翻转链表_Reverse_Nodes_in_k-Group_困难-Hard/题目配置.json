@@ -1,0 +1,31 @@
+{
+  "id": 25,
+  "titleCn": "K 个一组翻转链表",
+  "titleEn": "Reverse Nodes in k-Group",
+  "slug": "reverse-nodes-in-k-group",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p2.lc0025",
+  "plan": "top-100-liked",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/reverse-nodes-in-k-group/",
+  "meta": {
+    "name": "reverseKGroup",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

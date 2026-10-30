@@ -1,0 +1,31 @@
+{
+  "id": 134,
+  "titleCn": "加油站",
+  "titleEn": "Gas Station",
+  "slug": "gas-station",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0134",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/gas-station/",
+  "meta": {
+    "name": "canCompleteCircuit",
+    "params": [
+      {
+        "name": "gas",
+        "type": "integer[]"
+      },
+      {
+        "name": "cost",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

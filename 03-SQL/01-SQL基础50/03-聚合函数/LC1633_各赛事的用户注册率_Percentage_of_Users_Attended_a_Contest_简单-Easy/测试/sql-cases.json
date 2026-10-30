@@ -1,0 +1,503 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "user_name"
+        ],
+        "Register": [
+          "contest_id",
+          "user_id"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            6,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            7,
+            "Alex"
+          ]
+        ],
+        "Register": [
+          [
+            215,
+            6
+          ],
+          [
+            209,
+            2
+          ],
+          [
+            208,
+            2
+          ],
+          [
+            210,
+            6
+          ],
+          [
+            208,
+            6
+          ],
+          [
+            209,
+            7
+          ],
+          [
+            209,
+            6
+          ],
+          [
+            215,
+            7
+          ],
+          [
+            208,
+            7
+          ],
+          [
+            210,
+            2
+          ],
+          [
+            207,
+            2
+          ],
+          [
+            210,
+            7
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "contest_id",
+        "percentage"
+      ],
+      [
+        [
+          "208",
+          "100"
+        ],
+        [
+          "209",
+          "100"
+        ],
+        [
+          "210",
+          "100"
+        ],
+        [
+          "215",
+          "66.67"
+        ],
+        [
+          "207",
+          "33.33"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "user_name"
+        ],
+        "Register": [
+          "contest_id",
+          "user_id"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            6,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            7,
+            "Alex"
+          ]
+        ],
+        "Register": [
+          [
+            207,
+            2
+          ],
+          [
+            210,
+            6
+          ],
+          [
+            215,
+            6
+          ],
+          [
+            208,
+            2
+          ],
+          [
+            215,
+            7
+          ],
+          [
+            210,
+            7
+          ],
+          [
+            209,
+            2
+          ],
+          [
+            210,
+            2
+          ],
+          [
+            209,
+            7
+          ],
+          [
+            208,
+            6
+          ],
+          [
+            209,
+            6
+          ],
+          [
+            208,
+            7
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "user_name"
+        ],
+        "Register": [
+          "contest_id",
+          "user_id"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            2,
+            "Bob"
+          ],
+          [
+            7,
+            "Alex"
+          ],
+          [
+            6,
+            "Alice"
+          ]
+        ],
+        "Register": [
+          [
+            215,
+            6
+          ],
+          [
+            210,
+            7
+          ],
+          [
+            208,
+            6
+          ],
+          [
+            209,
+            6
+          ],
+          [
+            208,
+            7
+          ],
+          [
+            210,
+            2
+          ],
+          [
+            207,
+            2
+          ],
+          [
+            210,
+            6
+          ],
+          [
+            209,
+            7
+          ],
+          [
+            215,
+            7
+          ],
+          [
+            209,
+            2
+          ],
+          [
+            208,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "user_name"
+        ],
+        "Register": [
+          "contest_id",
+          "user_id"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            2,
+            "Bob"
+          ],
+          [
+            6,
+            "Alice"
+          ],
+          [
+            7,
+            "Alex"
+          ]
+        ],
+        "Register": [
+          [
+            210,
+            2
+          ],
+          [
+            210,
+            7
+          ],
+          [
+            209,
+            6
+          ],
+          [
+            209,
+            7
+          ],
+          [
+            208,
+            6
+          ],
+          [
+            208,
+            2
+          ],
+          [
+            215,
+            7
+          ],
+          [
+            210,
+            6
+          ],
+          [
+            209,
+            2
+          ],
+          [
+            208,
+            7
+          ],
+          [
+            215,
+            6
+          ],
+          [
+            207,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "user_name"
+        ],
+        "Register": [
+          "contest_id",
+          "user_id"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            6,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            7,
+            "Alex"
+          ]
+        ],
+        "Register": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "user_name"
+        ],
+        "Register": [
+          "contest_id",
+          "user_id"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            6,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            7,
+            "Alex"
+          ]
+        ],
+        "Register": [
+          [
+            215,
+            6
+          ],
+          [
+            209,
+            2
+          ],
+          [
+            208,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "user_name"
+        ],
+        "Register": [
+          "contest_id",
+          "user_id"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            6,
+            "Alice"
+          ],
+          [
+            2,
+            "Bob"
+          ],
+          [
+            7,
+            "Alex"
+          ]
+        ],
+        "Register": [
+          [
+            215,
+            6
+          ],
+          [
+            209,
+            2
+          ],
+          [
+            208,
+            2
+          ],
+          [
+            210,
+            6
+          ],
+          [
+            208,
+            6
+          ],
+          [
+            209,
+            7
+          ],
+          [
+            209,
+            6
+          ],
+          [
+            215,
+            7
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

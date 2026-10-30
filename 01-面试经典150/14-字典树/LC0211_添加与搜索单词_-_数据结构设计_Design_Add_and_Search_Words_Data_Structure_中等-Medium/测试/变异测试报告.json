@@ -1,0 +1,36 @@
+{
+  "mutations": [
+    {
+      "mutation": "constant-result",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "公开示例-1",
+        "actual": [
+          null,
+          null,
+          null,
+          null,
+          false,
+          false,
+          false,
+          false
+        ],
+        "passed": false,
+        "elapsedNs": 61902750
+      }
+    },
+    {
+      "mutation": "boundary-change",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "公开示例-1",
+        "passed": false,
+        "error": "StringIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+        "elapsedNs": 63464792
+      }
+    }
+  ],
+  "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+}

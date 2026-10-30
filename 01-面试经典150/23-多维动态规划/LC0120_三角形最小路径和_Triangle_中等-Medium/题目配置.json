@@ -1,0 +1,27 @@
+{
+  "id": 120,
+  "titleCn": "三角形最小路径和",
+  "titleEn": "Triangle",
+  "slug": "triangle",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0120",
+  "plan": "top-interview-150",
+  "category": "多维动态规划",
+  "source": "https://leetcode.cn/problems/triangle/",
+  "meta": {
+    "name": "minimumTotal",
+    "params": [
+      {
+        "name": "triangle",
+        "type": "list<list<integer>>"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

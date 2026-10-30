@@ -1,0 +1,83 @@
+[
+  {
+    "name": "边界-001",
+    "args": [
+      "()"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "()[]{}"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "(]"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "公开示例-4",
+    "args": [
+      "([])"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "([)]"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "{[]}"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      "("
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-007",
+    "args": [
+      ")))"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-008",
+    "args": [
+      "((()))"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  }
+]

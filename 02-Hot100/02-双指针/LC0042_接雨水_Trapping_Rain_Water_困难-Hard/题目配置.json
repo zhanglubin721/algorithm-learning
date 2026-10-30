@@ -1,0 +1,27 @@
+{
+  "id": 42,
+  "titleCn": "接雨水",
+  "titleEn": "Trapping Rain Water",
+  "slug": "trapping-rain-water",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p2.lc0042",
+  "plan": "top-100-liked",
+  "category": "双指针",
+  "source": "https://leetcode.cn/problems/trapping-rain-water/",
+  "meta": {
+    "name": "trap",
+    "params": [
+      {
+        "name": "height",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

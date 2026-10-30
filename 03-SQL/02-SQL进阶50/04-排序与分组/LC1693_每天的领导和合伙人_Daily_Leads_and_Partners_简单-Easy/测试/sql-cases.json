@@ -1,0 +1,461 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "DailySales": [
+          "date_id",
+          "make_name",
+          "lead_id",
+          "partner_id"
+        ]
+      },
+      "rows": {
+        "DailySales": [
+          [
+            "2020-12-8",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            0
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            2
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            2
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            2,
+            1
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            0,
+            1
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            2,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "date_id",
+        "make_name",
+        "unique_leads",
+        "unique_partners"
+      ],
+      [
+        [
+          "2020-12-8",
+          "toyota",
+          "2",
+          "3"
+        ],
+        [
+          "2020-12-7",
+          "toyota",
+          "1",
+          "2"
+        ],
+        [
+          "2020-12-8",
+          "honda",
+          "2",
+          "2"
+        ],
+        [
+          "2020-12-7",
+          "honda",
+          "3",
+          "2"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "DailySales": [
+          "date_id",
+          "make_name",
+          "lead_id",
+          "partner_id"
+        ]
+      },
+      "rows": {
+        "DailySales": [
+          [
+            "2020-12-7",
+            "honda",
+            0,
+            1
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            2
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            0
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            2,
+            1
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            2
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            2,
+            1
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "DailySales": [
+          "date_id",
+          "make_name",
+          "lead_id",
+          "partner_id"
+        ]
+      },
+      "rows": {
+        "DailySales": [
+          [
+            "2020-12-8",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            2,
+            1
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            2
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            2,
+            1
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            0
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "DailySales": [
+          "date_id",
+          "make_name",
+          "lead_id",
+          "partner_id"
+        ]
+      },
+      "rows": {
+        "DailySales": [
+          [
+            "2020-12-7",
+            "honda",
+            2,
+            1
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            2,
+            1
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            2
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            2
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            0,
+            1
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            0
+          ],
+          [
+            "2020-12-7",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "DailySales": [
+          "date_id",
+          "make_name",
+          "lead_id",
+          "partner_id"
+        ]
+      },
+      "rows": {
+        "DailySales": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "DailySales": [
+          "date_id",
+          "make_name",
+          "lead_id",
+          "partner_id"
+        ]
+      },
+      "rows": {
+        "DailySales": [
+          [
+            "2020-12-8",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            0
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "DailySales": [
+          "date_id",
+          "make_name",
+          "lead_id",
+          "partner_id"
+        ]
+      },
+      "rows": {
+        "DailySales": [
+          [
+            "2020-12-8",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            0
+          ],
+          [
+            "2020-12-8",
+            "toyota",
+            1,
+            2
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            2
+          ],
+          [
+            "2020-12-7",
+            "toyota",
+            0,
+            1
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            1,
+            2
+          ],
+          [
+            "2020-12-8",
+            "honda",
+            2,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

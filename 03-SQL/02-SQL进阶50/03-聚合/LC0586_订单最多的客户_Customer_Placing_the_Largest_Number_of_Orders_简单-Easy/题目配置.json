@@ -1,0 +1,43 @@
+{
+  "id": 586,
+  "titleCn": "订单最多的客户",
+  "titleEn": "Customer Placing the Largest Number of Orders",
+  "slug": "customer-placing-the-largest-number-of-orders",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc0586",
+  "plan": "sql-premium-50",
+  "category": "聚合",
+  "source": "https://leetcode.cn/problems/customer-placing-the-largest-number-of-orders/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists orders (order_number int, customer_number int)"
+    ],
+    "mssql": [
+      "Create table orders (order_number int, customer_number int)"
+    ],
+    "oraclesql": [
+      "Create table orders (order_number int, customer_number int)"
+    ],
+    "database": true,
+    "name": "largest_orders",
+    "pythondata": [
+      "orders = pd.DataFrame([], columns=['order_number', 'customer_number']).astype({'order_number':'Int64', 'customer_number':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists orders (order_number int, customer_number int)"
+    ],
+    "database_schema": {
+      "orders": {
+        "order_number": "INT",
+        "customer_number": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists orders (order_number int, customer_number int)"
+  ],
+  "ordered": false
+}

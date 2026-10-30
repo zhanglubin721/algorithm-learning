@@ -1,0 +1,72 @@
+{
+  "id": 607,
+  "titleCn": "销售员",
+  "titleEn": "Sales Person",
+  "slug": "sales-person",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc0607",
+  "plan": "sql-premium-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/sales-person/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists SalesPerson (sales_id int, name varchar(255), salary int, commission_rate int, hire_date date)",
+      "Create table If Not Exists Company (com_id int, name varchar(255), city varchar(255))",
+      "Create table If Not Exists Orders (order_id int, order_date date, com_id int, sales_id int, amount int)"
+    ],
+    "mssql": [
+      "Create table SalesPerson (sales_id int, name varchar(255), salary int, commission_rate int, hire_date date)",
+      "Create table Company (com_id int, name varchar(255), city varchar(255))",
+      "Create table Orders (order_id int, order_date date, com_id int, sales_id int, amount int)"
+    ],
+    "oraclesql": [
+      "Create table SalesPerson (sales_id int, name varchar(255), salary int, commission_rate int, hire_date date)",
+      "Create table Company (com_id int, name varchar(255), city varchar(255))",
+      "Create table Orders (order_id int, order_date date, com_id int, sales_id int, amount int)",
+      "Alter SESSION set NLS_DATE_FORMAT = 'MM/DD/YYYY'"
+    ],
+    "database": true,
+    "name": "sales_person",
+    "pythondata": [
+      "SalesPerson = pd.DataFrame([], columns=['sales_id', 'name', 'salary', 'commission_rate', 'hire_date']).astype({'sales_id':'Int64', 'name':'object', 'salary':'Int64', 'commission_rate':'Int64', 'hire_date':'datetime64[ns]'})",
+      "Company = pd.DataFrame([], columns=['com_id', 'name', 'city']).astype({'com_id':'Int64', 'name':'object', 'city':'object'})",
+      "Orders = pd.DataFrame([], columns=['order_id', 'order_date', 'com_id', 'sales_id', 'amount']).astype({'order_id':'Int64', 'order_date':'datetime64[ns]', 'com_id':'Int64', 'sales_id':'Int64', 'amount':'Int64'})\n"
+    ],
+    "manual": false,
+    "postgresql": [
+      "Create table If Not Exists SalesPerson (sales_id int, name varchar(255), salary int, commission_rate int, hire_date date)",
+      "Create table If Not Exists Company (com_id int, name varchar(255), city varchar(255))\n",
+      "Create table If Not Exists Orders (order_id int, order_date date, com_id int, sales_id int, amount int)"
+    ],
+    "database_schema": {
+      "SalesPerson": {
+        "sales_id": "INT",
+        "name": "VARCHAR(255)",
+        "salary": "INT",
+        "commission_rate": "INT",
+        "hire_date": "DATE"
+      },
+      "Company": {
+        "com_id": "INT",
+        "name": "VARCHAR(255)",
+        "city": "VARCHAR(255)"
+      },
+      "Orders": {
+        "order_id": "INT",
+        "order_date": "DATE",
+        "com_id": "INT",
+        "sales_id": "INT",
+        "amount": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists SalesPerson (sales_id int, name varchar(255), salary int, commission_rate int, hire_date date)",
+    "Create table If Not Exists Company (com_id int, name varchar(255), city varchar(255))",
+    "Create table If Not Exists Orders (order_id int, order_date date, com_id int, sales_id int, amount int)"
+  ],
+  "ordered": false
+}

@@ -1,0 +1,1044 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        5,
+        1,
+        2
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 3
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        3,
+        4,
+        3
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-001",
+    "args": [
+      [
+        0,
+        2,
+        3,
+        1,
+        0,
+        2,
+        1,
+        5,
+        1
+      ],
+      [
+        0,
+        4,
+        0,
+        2,
+        4,
+        2,
+        2,
+        2,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-002",
+    "args": [
+      [
+        1,
+        1,
+        2,
+        1,
+        1,
+        4,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        5,
+        4,
+        0,
+        4,
+        3,
+        5,
+        1,
+        5,
+        4,
+        0,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-003",
+    "args": [
+      [
+        3,
+        4,
+        2,
+        2,
+        0,
+        0,
+        1,
+        5,
+        1,
+        2,
+        4
+      ],
+      [
+        4,
+        2,
+        1,
+        3,
+        3,
+        4,
+        3,
+        4,
+        5,
+        3,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-004",
+    "args": [
+      [
+        0,
+        5,
+        0,
+        0,
+        0,
+        5,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        4,
+        2,
+        5,
+        4,
+        1,
+        1,
+        0,
+        3,
+        4,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-005",
+    "args": [
+      [
+        2,
+        2,
+        3,
+        0,
+        0,
+        2,
+        5,
+        1,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5,
+        5,
+        2,
+        5,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-006",
+    "args": [
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机模拟-007",
+    "args": [
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-008",
+    "args": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        5,
+        3,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-009",
+    "args": [
+      [
+        4,
+        5,
+        2,
+        1,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        4,
+        5,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-010",
+    "args": [
+      [
+        0,
+        0,
+        4
+      ],
+      [
+        3,
+        2,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-011",
+    "args": [
+      [
+        3,
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        3,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机模拟-012",
+    "args": [
+      [
+        0,
+        4,
+        2
+      ],
+      [
+        5,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-013",
+    "args": [
+      [
+        1,
+        4,
+        3,
+        3,
+        0,
+        3,
+        0,
+        1,
+        5
+      ],
+      [
+        1,
+        4,
+        2,
+        0,
+        1,
+        5,
+        4,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-036",
+    "args": [
+      [
+        0
+      ],
+      [
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-015",
+    "args": [
+      [
+        0,
+        2,
+        3,
+        5,
+        0
+      ],
+      [
+        5,
+        3,
+        2,
+        2,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-016",
+    "args": [
+      [
+        2,
+        1,
+        4,
+        0,
+        1,
+        4,
+        4,
+        4,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        1,
+        5,
+        4,
+        5,
+        3,
+        4,
+        2,
+        0,
+        5,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-017",
+    "args": [
+      [
+        0,
+        2,
+        5,
+        3,
+        1,
+        2,
+        3,
+        1,
+        2,
+        3
+      ],
+      [
+        5,
+        2,
+        0,
+        2,
+        4,
+        4,
+        0,
+        2,
+        1,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-018",
+    "args": [
+      [
+        4,
+        2,
+        2,
+        0,
+        2,
+        0,
+        4
+      ],
+      [
+        0,
+        5,
+        4,
+        0,
+        5,
+        3,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-019",
+    "args": [
+      [
+        3,
+        3,
+        2,
+        2,
+        0,
+        3
+      ],
+      [
+        5,
+        5,
+        2,
+        5,
+        4,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-020",
+    "args": [
+      [
+        3,
+        3,
+        5,
+        4,
+        5
+      ],
+      [
+        5,
+        5,
+        2,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机模拟-021",
+    "args": [
+      [
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-022",
+    "args": [
+      [
+        1,
+        1,
+        0,
+        1,
+        4,
+        2,
+        2,
+        5,
+        1,
+        1,
+        2
+      ],
+      [
+        2,
+        5,
+        1,
+        0,
+        0,
+        5,
+        0,
+        1,
+        4,
+        5,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-023",
+    "args": [
+      [
+        2,
+        2,
+        5,
+        3,
+        0,
+        1,
+        5,
+        1,
+        5,
+        2,
+        5,
+        0
+      ],
+      [
+        0,
+        5,
+        1,
+        5,
+        1,
+        2,
+        3,
+        2,
+        5,
+        5,
+        1,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-024",
+    "args": [
+      [
+        5,
+        3,
+        3,
+        0,
+        1,
+        3
+      ],
+      [
+        4,
+        2,
+        4,
+        1,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-025",
+    "args": [
+      [
+        0,
+        4,
+        1,
+        2,
+        5,
+        2,
+        2
+      ],
+      [
+        2,
+        5,
+        5,
+        3,
+        0,
+        4,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-026",
+    "args": [
+      [
+        5,
+        1,
+        4,
+        3,
+        3,
+        5,
+        1,
+        0,
+        1,
+        4,
+        1,
+        0
+      ],
+      [
+        4,
+        2,
+        3,
+        4,
+        4,
+        5,
+        4,
+        5,
+        3,
+        5,
+        0,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-027",
+    "args": [
+      [
+        1,
+        3,
+        3,
+        0,
+        0,
+        3,
+        2,
+        4,
+        4,
+        5,
+        0
+      ],
+      [
+        4,
+        3,
+        3,
+        3,
+        3,
+        5,
+        3,
+        3,
+        4,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-028",
+    "args": [
+      [
+        4,
+        5,
+        2,
+        2,
+        2,
+        5,
+        3,
+        3,
+        5,
+        1,
+        1
+      ],
+      [
+        5,
+        4,
+        2,
+        4,
+        4,
+        5,
+        1,
+        5,
+        1,
+        4,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-029",
+    "args": [
+      [
+        5,
+        0,
+        5,
+        1,
+        4,
+        2,
+        5,
+        3,
+        2,
+        0,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        5,
+        4,
+        1,
+        2,
+        2,
+        3,
+        0,
+        2,
+        5,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-030",
+    "args": [
+      [
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机模拟-031",
+    "args": [
+      [
+        4,
+        3,
+        3,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        2,
+        5,
+        3,
+        1,
+        4,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-032",
+    "args": [
+      [
+        1,
+        5,
+        2,
+        5,
+        2,
+        2,
+        1,
+        0,
+        4,
+        1,
+        0
+      ],
+      [
+        4,
+        1,
+        3,
+        0,
+        3,
+        0,
+        3,
+        4,
+        1,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-033",
+    "args": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        5,
+        0,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-034",
+    "args": [
+      [
+        5,
+        5,
+        4,
+        4,
+        2,
+        3,
+        2,
+        4
+      ],
+      [
+        5,
+        4,
+        2,
+        5,
+        1,
+        5,
+        4,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-035",
+    "args": [
+      [
+        4,
+        4,
+        0,
+        4,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        1,
+        5,
+        4,
+        5,
+        3,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-037",
+    "args": [
+      [
+        0,
+        2,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机模拟-038",
+    "args": [
+      [
+        4,
+        2,
+        2,
+        2,
+        5,
+        1
+      ],
+      [
+        4,
+        2,
+        1,
+        5,
+        5,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-039",
+    "args": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机模拟-040",
+    "args": [
+      [
+        1,
+        0,
+        2,
+        5,
+        0,
+        4
+      ],
+      [
+        0,
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  }
+]

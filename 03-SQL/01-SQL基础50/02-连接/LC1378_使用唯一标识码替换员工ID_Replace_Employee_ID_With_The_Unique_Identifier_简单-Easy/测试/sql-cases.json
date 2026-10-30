@@ -1,0 +1,392 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Employees": [
+          "id",
+          "name"
+        ],
+        "EmployeeUNI": [
+          "id",
+          "unique_id"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            1,
+            "Alice"
+          ],
+          [
+            7,
+            "Bob"
+          ],
+          [
+            11,
+            "Meir"
+          ],
+          [
+            90,
+            "Winston"
+          ],
+          [
+            3,
+            "Jonathan"
+          ]
+        ],
+        "EmployeeUNI": [
+          [
+            3,
+            1
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            90,
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "unique_id",
+        "name"
+      ],
+      [
+        [
+          null,
+          "Alice"
+        ],
+        [
+          null,
+          "Bob"
+        ],
+        [
+          "2",
+          "Meir"
+        ],
+        [
+          "3",
+          "Winston"
+        ],
+        [
+          "1",
+          "Jonathan"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Employees": [
+          "id",
+          "name"
+        ],
+        "EmployeeUNI": [
+          "id",
+          "unique_id"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            1,
+            "A"
+          ],
+          [
+            2,
+            "B"
+          ],
+          [
+            3,
+            "C"
+          ]
+        ],
+        "EmployeeUNI": [
+          [
+            2,
+            200
+          ],
+          [
+            3,
+            300
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "unique_id",
+        "name"
+      ],
+      [
+        [
+          null,
+          "A"
+        ],
+        [
+          "200",
+          "B"
+        ],
+        [
+          "300",
+          "C"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Employees": [
+          "id",
+          "name"
+        ],
+        "EmployeeUNI": [
+          "id",
+          "unique_id"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            1,
+            "Alice"
+          ],
+          [
+            11,
+            "Meir"
+          ],
+          [
+            7,
+            "Bob"
+          ],
+          [
+            90,
+            "Winston"
+          ],
+          [
+            3,
+            "Jonathan"
+          ]
+        ],
+        "EmployeeUNI": [
+          [
+            3,
+            1
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            90,
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "unique_id",
+        "name"
+      ],
+      [
+        [
+          null,
+          "Alice"
+        ],
+        [
+          "2",
+          "Meir"
+        ],
+        [
+          null,
+          "Bob"
+        ],
+        [
+          "3",
+          "Winston"
+        ],
+        [
+          "1",
+          "Jonathan"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Employees": [
+          "id",
+          "name"
+        ],
+        "EmployeeUNI": [
+          "id",
+          "unique_id"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            90,
+            "Winston"
+          ],
+          [
+            3,
+            "Jonathan"
+          ],
+          [
+            11,
+            "Meir"
+          ],
+          [
+            1,
+            "Alice"
+          ],
+          [
+            7,
+            "Bob"
+          ]
+        ],
+        "EmployeeUNI": [
+          [
+            11,
+            2
+          ],
+          [
+            90,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "unique_id",
+        "name"
+      ],
+      [
+        [
+          "3",
+          "Winston"
+        ],
+        [
+          "1",
+          "Jonathan"
+        ],
+        [
+          "2",
+          "Meir"
+        ],
+        [
+          null,
+          "Alice"
+        ],
+        [
+          null,
+          "Bob"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Employees": [
+          "id",
+          "name"
+        ],
+        "EmployeeUNI": [
+          "id",
+          "unique_id"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            7,
+            "Bob"
+          ],
+          [
+            90,
+            "Winston"
+          ],
+          [
+            11,
+            "Meir"
+          ],
+          [
+            3,
+            "Jonathan"
+          ],
+          [
+            1,
+            "Alice"
+          ]
+        ],
+        "EmployeeUNI": [
+          [
+            11,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            90,
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "unique_id",
+        "name"
+      ],
+      [
+        [
+          null,
+          "Bob"
+        ],
+        [
+          "3",
+          "Winston"
+        ],
+        [
+          "2",
+          "Meir"
+        ],
+        [
+          "1",
+          "Jonathan"
+        ],
+        [
+          null,
+          "Alice"
+        ]
+      ]
+    ]
+  }
+]

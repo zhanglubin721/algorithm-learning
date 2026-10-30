@@ -1,0 +1,4 @@
+import java.util.*;
+class ListNode { int val; ListNode next; ListNode(){} ListNode(int v){val=v;} ListNode(int v,ListNode n){val=v;next=n;} }
+class TreeNode { int val; TreeNode left,right; TreeNode(){} TreeNode(int v){val=v;} TreeNode(int v,TreeNode l,TreeNode r){val=v;left=l;right=r;} }
+class Pair<K,V>{ final K k;final V v;Pair(K k,V v){this.k=k;this.v=v;}K getKey(){return k;} V getValue(){return v;} public boolean equals(Object o){return o instanceof Pair<?,?> p&&Objects.equals(k,p.k)&&Objects.equals(v,p.v);} public int hashCode(){return Objects.hash(k,v);} }

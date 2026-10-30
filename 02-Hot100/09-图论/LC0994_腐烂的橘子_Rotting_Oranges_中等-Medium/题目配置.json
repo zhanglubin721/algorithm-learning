@@ -1,0 +1,27 @@
+{
+  "id": 994,
+  "titleCn": "腐烂的橘子",
+  "titleEn": "Rotting Oranges",
+  "slug": "rotting-oranges",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0994",
+  "plan": "top-100-liked",
+  "category": "图论",
+  "source": "https://leetcode.cn/problems/rotting-oranges/",
+  "meta": {
+    "name": "orangesRotting",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

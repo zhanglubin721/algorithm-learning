@@ -1,0 +1,31 @@
+{
+  "id": 219,
+  "titleCn": "存在重复元素 II",
+  "titleEn": "Contains Duplicate II",
+  "slug": "contains-duplicate-ii",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0219",
+  "plan": "top-interview-150",
+  "category": "哈希表",
+  "source": "https://leetcode.cn/problems/contains-duplicate-ii/",
+  "meta": {
+    "name": "containsNearbyDuplicate",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

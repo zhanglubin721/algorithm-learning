@@ -1,0 +1,46 @@
+{
+  "id": 295,
+  "titleCn": "数据流的中位数",
+  "titleEn": "Find Median from Data Stream",
+  "slug": "find-median-from-data-stream",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0295",
+  "plan": "top-interview-150",
+  "category": "堆",
+  "source": "https://leetcode.cn/problems/find-median-from-data-stream/",
+  "meta": {
+    "classname": "MedianFinder",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "num"
+          }
+        ],
+        "name": "addNum",
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "params": [],
+        "name": "findMedian",
+        "return": {
+          "type": "double"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

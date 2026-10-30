@@ -1,0 +1,292 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Variables": [
+          "name",
+          "value"
+        ],
+        "Expressions": [
+          "left_operand",
+          "operator",
+          "right_operand"
+        ]
+      },
+      "rows": {
+        "Variables": [
+          [
+            "x",
+            66
+          ],
+          [
+            "y",
+            77
+          ]
+        ],
+        "Expressions": [
+          [
+            "x",
+            ">",
+            "y"
+          ],
+          [
+            "x",
+            "<",
+            "y"
+          ],
+          [
+            "x",
+            "=",
+            "y"
+          ],
+          [
+            "y",
+            ">",
+            "x"
+          ],
+          [
+            "y",
+            "<",
+            "x"
+          ],
+          [
+            "x",
+            "=",
+            "x"
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "left_operand",
+        "operator",
+        "right_operand",
+        "value"
+      ],
+      [
+        [
+          "x",
+          ">",
+          "y",
+          "false"
+        ],
+        [
+          "x",
+          "<",
+          "y",
+          "true"
+        ],
+        [
+          "x",
+          "=",
+          "y",
+          "false"
+        ],
+        [
+          "y",
+          ">",
+          "x",
+          "true"
+        ],
+        [
+          "y",
+          "<",
+          "x",
+          "false"
+        ],
+        [
+          "x",
+          "=",
+          "x",
+          "true"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Variables": [
+          "name",
+          "value"
+        ],
+        "Expressions": [
+          "left_operand",
+          "operator",
+          "right_operand"
+        ]
+      },
+      "rows": {
+        "Variables": [
+          [
+            "x",
+            66
+          ],
+          [
+            "y",
+            77
+          ]
+        ],
+        "Expressions": [
+          [
+            "x",
+            ">",
+            "y"
+          ],
+          [
+            "x",
+            "=",
+            "x"
+          ],
+          [
+            "x",
+            "<",
+            "y"
+          ],
+          [
+            "x",
+            "=",
+            "y"
+          ],
+          [
+            "y",
+            ">",
+            "x"
+          ],
+          [
+            "y",
+            "<",
+            "x"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Variables": [
+          "name",
+          "value"
+        ],
+        "Expressions": [
+          "left_operand",
+          "operator",
+          "right_operand"
+        ]
+      },
+      "rows": {
+        "Variables": [
+          [
+            "y",
+            77
+          ],
+          [
+            "x",
+            66
+          ]
+        ],
+        "Expressions": [
+          [
+            "x",
+            "=",
+            "y"
+          ],
+          [
+            "y",
+            "<",
+            "x"
+          ],
+          [
+            "x",
+            "=",
+            "x"
+          ],
+          [
+            "y",
+            ">",
+            "x"
+          ],
+          [
+            "x",
+            ">",
+            "y"
+          ],
+          [
+            "x",
+            "<",
+            "y"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Variables": [
+          "name",
+          "value"
+        ],
+        "Expressions": [
+          "left_operand",
+          "operator",
+          "right_operand"
+        ]
+      },
+      "rows": {
+        "Variables": [
+          [
+            "y",
+            77
+          ],
+          [
+            "x",
+            66
+          ]
+        ],
+        "Expressions": [
+          [
+            "x",
+            "<",
+            "y"
+          ],
+          [
+            "y",
+            ">",
+            "x"
+          ],
+          [
+            "x",
+            "=",
+            "y"
+          ],
+          [
+            "y",
+            "<",
+            "x"
+          ],
+          [
+            "x",
+            ">",
+            "y"
+          ],
+          [
+            "x",
+            "=",
+            "x"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

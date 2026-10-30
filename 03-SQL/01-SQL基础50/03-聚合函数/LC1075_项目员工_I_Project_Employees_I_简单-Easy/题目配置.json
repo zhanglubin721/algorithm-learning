@@ -1,0 +1,54 @@
+{
+  "id": 1075,
+  "titleCn": "项目员工 I",
+  "titleEn": "Project Employees I",
+  "slug": "project-employees-i",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1075",
+  "plan": "sql-free-50",
+  "category": "聚合函数",
+  "source": "https://leetcode.cn/problems/project-employees-i/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Project (project_id int, employee_id int)",
+      "Create table If Not Exists Employee (employee_id int, name varchar(10), experience_years int)"
+    ],
+    "mssql": [
+      "Create table Project (project_id int, employee_id int)",
+      "Create table Employee (employee_id int, name varchar(10), experience_years int)"
+    ],
+    "oraclesql": [
+      "Create table Project (project_id int, employee_id int)",
+      "Create table Employee (employee_id int, name varchar(10), experience_years int)"
+    ],
+    "database": true,
+    "name": "project_employees_i",
+    "pythondata": [
+      "Project = pd.DataFrame([], columns=['project_id', 'employee_id']).astype({'project_id':'Int64', 'employee_id':'Int64'})",
+      "Employee = pd.DataFrame([], columns=['employee_id', 'name', 'experience_years']).astype({'employee_id':'Int64', 'name':'object', 'experience_years':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Project (project_id int, employee_id int)",
+      "Create table If Not Exists Employee (employee_id int, name varchar(10), experience_years int)"
+    ],
+    "database_schema": {
+      "Project": {
+        "project_id": "INT",
+        "employee_id": "INT"
+      },
+      "Employee": {
+        "employee_id": "INT",
+        "name": "VARCHAR(10)",
+        "experience_years": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Project (project_id int, employee_id int)",
+    "Create table If Not Exists Employee (employee_id int, name varchar(10), experience_years int)"
+  ],
+  "ordered": false
+}

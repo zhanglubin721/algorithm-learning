@@ -1,0 +1,44 @@
+{
+  "id": 1517,
+  "titleCn": "查找拥有有效邮箱的用户",
+  "titleEn": "Find Users With Valid E-Mails",
+  "slug": "find-users-with-valid-e-mails",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1517",
+  "plan": "sql-free-50",
+  "category": "高级字符串函数 / 正则表达式 / 子句",
+  "source": "https://leetcode.cn/problems/find-users-with-valid-e-mails/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Users (user_id int, name varchar(30), mail varchar(50))"
+    ],
+    "mssql": [
+      "Create table Users (user_id int, name varchar(30), mail varchar(50))"
+    ],
+    "oraclesql": [
+      "Create table Users (user_id int, name varchar(30), mail varchar(50))"
+    ],
+    "database": true,
+    "name": "valid_emails",
+    "pythondata": [
+      "Users = pd.DataFrame([], columns=['user_id', 'name', 'mail']).astype({'user_id':'int64', 'name':'object', 'mail':'object'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Users (user_id int, name varchar(30), mail varchar(50))"
+    ],
+    "database_schema": {
+      "Users": {
+        "user_id": "INT",
+        "name": "VARCHAR(30)",
+        "mail": "VARCHAR(50)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Users (user_id int, name varchar(30), mail varchar(50))"
+  ],
+  "ordered": false
+}

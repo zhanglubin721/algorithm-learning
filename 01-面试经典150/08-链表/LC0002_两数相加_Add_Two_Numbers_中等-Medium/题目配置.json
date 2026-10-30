@@ -1,0 +1,34 @@
+{
+  "id": 2,
+  "titleCn": "两数相加",
+  "titleEn": "Add Two Numbers",
+  "slug": "add-two-numbers",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0002",
+  "plan": "top-interview-150",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/add-two-numbers/",
+  "meta": {
+    "name": "addTwoNumbers",
+    "params": [
+      {
+        "name": "l1",
+        "type": "ListNode",
+        "dealloc": false
+      },
+      {
+        "name": "l2",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

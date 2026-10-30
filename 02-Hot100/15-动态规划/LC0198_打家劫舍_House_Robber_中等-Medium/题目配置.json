@@ -1,0 +1,27 @@
+{
+  "id": 198,
+  "titleCn": "打家劫舍",
+  "titleEn": "House Robber",
+  "slug": "house-robber",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0198",
+  "plan": "top-100-liked",
+  "category": "动态规划",
+  "source": "https://leetcode.cn/problems/house-robber/",
+  "meta": {
+    "name": "rob",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

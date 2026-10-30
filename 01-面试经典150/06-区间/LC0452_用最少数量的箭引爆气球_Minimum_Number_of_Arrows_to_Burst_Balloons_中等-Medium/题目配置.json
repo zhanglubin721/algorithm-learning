@@ -1,0 +1,27 @@
+{
+  "id": 452,
+  "titleCn": "用最少数量的箭引爆气球",
+  "titleEn": "Minimum Number of Arrows to Burst Balloons",
+  "slug": "minimum-number-of-arrows-to-burst-balloons",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0452",
+  "plan": "top-interview-150",
+  "category": "区间",
+  "source": "https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/",
+  "meta": {
+    "name": "findMinArrowShots",
+    "params": [
+      {
+        "name": "points",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

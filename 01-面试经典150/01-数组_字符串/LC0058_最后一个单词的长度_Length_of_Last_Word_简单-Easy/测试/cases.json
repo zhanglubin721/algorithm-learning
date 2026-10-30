@@ -1,0 +1,65 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      "Hello World"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 5
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "   fly me   to   the moon  "
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      "luffy is still joyboy"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "hello world"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "a "
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "  z"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  }
+]

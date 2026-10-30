@@ -1,0 +1,273 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Activities": [
+          "sell_date",
+          "product"
+        ]
+      },
+      "rows": {
+        "Activities": [
+          [
+            "2020-05-30",
+            "Headphone"
+          ],
+          [
+            "2020-06-01",
+            "Pencil"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-05-30",
+            "Basketball"
+          ],
+          [
+            "2020-06-01",
+            "Bible"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-05-30",
+            "T-Shirt"
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "sell_date",
+        "num_sold",
+        "products"
+      ],
+      [
+        [
+          "2020-05-30",
+          "3",
+          "Basketball,Headphone,T-shirt"
+        ],
+        [
+          "2020-06-01",
+          "2",
+          "Bible,Pencil"
+        ],
+        [
+          "2020-06-02",
+          "1",
+          "Mask"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Activities": [
+          "sell_date",
+          "product"
+        ]
+      },
+      "rows": {
+        "Activities": [
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-05-30",
+            "Headphone"
+          ],
+          [
+            "2020-06-01",
+            "Pencil"
+          ],
+          [
+            "2020-05-30",
+            "T-Shirt"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-05-30",
+            "Basketball"
+          ],
+          [
+            "2020-06-01",
+            "Bible"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Activities": [
+          "sell_date",
+          "product"
+        ]
+      },
+      "rows": {
+        "Activities": [
+          [
+            "2020-05-30",
+            "T-Shirt"
+          ],
+          [
+            "2020-06-01",
+            "Bible"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-05-30",
+            "Basketball"
+          ],
+          [
+            "2020-05-30",
+            "Headphone"
+          ],
+          [
+            "2020-06-01",
+            "Pencil"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Activities": [
+          "sell_date",
+          "product"
+        ]
+      },
+      "rows": {
+        "Activities": [
+          [
+            "2020-06-01",
+            "Pencil"
+          ],
+          [
+            "2020-05-30",
+            "Basketball"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-05-30",
+            "T-Shirt"
+          ],
+          [
+            "2020-06-01",
+            "Bible"
+          ],
+          [
+            "2020-05-30",
+            "Headphone"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Activities": [
+          "sell_date",
+          "product"
+        ]
+      },
+      "rows": {
+        "Activities": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "Activities": [
+          "sell_date",
+          "product"
+        ]
+      },
+      "rows": {
+        "Activities": [
+          [
+            "2020-05-30",
+            "Headphone"
+          ],
+          [
+            "2020-06-01",
+            "Pencil"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "Activities": [
+          "sell_date",
+          "product"
+        ]
+      },
+      "rows": {
+        "Activities": [
+          [
+            "2020-05-30",
+            "Headphone"
+          ],
+          [
+            "2020-06-01",
+            "Pencil"
+          ],
+          [
+            "2020-06-02",
+            "Mask"
+          ],
+          [
+            "2020-05-30",
+            "Basketball"
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

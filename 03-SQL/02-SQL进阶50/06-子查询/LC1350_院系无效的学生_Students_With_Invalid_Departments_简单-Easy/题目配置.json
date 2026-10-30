@@ -1,0 +1,54 @@
+{
+  "id": 1350,
+  "titleCn": "院系无效的学生",
+  "titleEn": "Students With Invalid Departments",
+  "slug": "students-with-invalid-departments",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1350",
+  "plan": "sql-premium-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/students-with-invalid-departments/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Departments (id int, name varchar(30))",
+      "Create table If Not Exists Students (id int, name varchar(30), department_id int)"
+    ],
+    "mssql": [
+      "Create table Departments (id int, name varchar(30))",
+      "Create table Students (id int, name varchar(30), department_id int)"
+    ],
+    "oraclesql": [
+      "Create table Departments (id int, name varchar(30))",
+      "Create table Students (id int, name varchar(30), department_id int)"
+    ],
+    "database": true,
+    "name": "find_students",
+    "pythondata": [
+      "Departments = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})",
+      "Students = pd.DataFrame([], columns=['id', 'name', 'department_id']).astype({'id':'Int64', 'name':'object', 'department_id':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Departments (id int, name varchar(30))\n",
+      "Create table If Not Exists Students (id int, name varchar(30), department_id int)"
+    ],
+    "database_schema": {
+      "Departments": {
+        "id": "INT",
+        "name": "VARCHAR(30)"
+      },
+      "Students": {
+        "id": "INT",
+        "name": "VARCHAR(30)",
+        "department_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Departments (id int, name varchar(30))",
+    "Create table If Not Exists Students (id int, name varchar(30), department_id int)"
+  ],
+  "ordered": false
+}

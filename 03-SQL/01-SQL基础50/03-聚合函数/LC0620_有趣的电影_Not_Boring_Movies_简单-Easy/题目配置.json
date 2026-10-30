@@ -1,0 +1,46 @@
+{
+  "id": 620,
+  "titleCn": "有趣的电影",
+  "titleEn": "Not Boring Movies",
+  "slug": "not-boring-movies",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc0620",
+  "plan": "sql-free-50",
+  "category": "聚合函数",
+  "source": "https://leetcode.cn/problems/not-boring-movies/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists cinema (id int, movie varchar(255), description varchar(255), rating float(2, 1))"
+    ],
+    "mssql": [
+      "Create table cinema (id int, movie varchar(255), description varchar(255), rating decimal(2, 1))"
+    ],
+    "oraclesql": [
+      "Create table cinema (id int, movie varchar(255), description varchar(255), rating number(2, 1))"
+    ],
+    "database": true,
+    "name": "not_boring_movies",
+    "pythondata": [
+      "cinema = pd.DataFrame([], columns=['id', 'movie', 'description', 'rating']).astype({'id':'Int64', 'movie':'object', 'description':'object', 'rating':'Float64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists cinema (id int, movie varchar(255), description varchar(255), rating NUMERIC(3, 1))"
+    ],
+    "manual": false,
+    "database_schema": {
+      "cinema": {
+        "id": "INT",
+        "movie": "VARCHAR(255)",
+        "description": "VARCHAR(255)",
+        "rating": "FLOAT(2, 1)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists cinema (id int, movie varchar(255), description varchar(255), rating float(2, 1))"
+  ],
+  "ordered": true
+}

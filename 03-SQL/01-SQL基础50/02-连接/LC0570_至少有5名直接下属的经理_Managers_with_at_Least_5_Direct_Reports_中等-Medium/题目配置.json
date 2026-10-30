@@ -1,0 +1,46 @@
+{
+  "id": 570,
+  "titleCn": "至少有5名直接下属的经理",
+  "titleEn": "Managers with at Least 5 Direct Reports",
+  "slug": "managers-with-at-least-5-direct-reports",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc0570",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/managers-with-at-least-5-direct-reports/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employee (id int, name varchar(255), department varchar(255), managerId int)"
+    ],
+    "mssql": [
+      "Create table Employee (id int, name varchar(255), department varchar(255), managerId int)"
+    ],
+    "oraclesql": [
+      "Create table Employee (id int, name varchar(255), department varchar(255), managerId int)"
+    ],
+    "database": true,
+    "name": "find_managers",
+    "pythondata": [
+      "Employee = pd.DataFrame([], columns=['id', 'name', 'department', 'managerId']).astype({'id':'Int64', 'name':'object', 'department':'object', 'managerId':'Int64'})"
+    ],
+    "manual": false,
+    "postgresql": [
+      "\nCreate table If Not Exists Employee (id int, name varchar(255), department varchar(255), managerId int)"
+    ],
+    "database_schema": {
+      "Employee": {
+        "id": "INT",
+        "name": "VARCHAR(255)",
+        "department": "VARCHAR(255)",
+        "managerId": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Employee (id int, name varchar(255), department varchar(255), managerId int)"
+  ],
+  "ordered": false
+}

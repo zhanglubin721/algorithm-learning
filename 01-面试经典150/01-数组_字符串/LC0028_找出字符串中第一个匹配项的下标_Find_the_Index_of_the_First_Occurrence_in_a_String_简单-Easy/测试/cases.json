@@ -1,0 +1,772 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      "sadbutsad",
+      "sad"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 0
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      "leetcode",
+      "leeto"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-004",
+    "args": [
+      "a",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-002",
+    "args": [
+      "a",
+      "bcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-003",
+    "args": [
+      "a",
+      "aacac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-005",
+    "args": [
+      "cb",
+      "bbbaaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-006",
+    "args": [
+      "ac",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-007",
+    "args": [
+      "ca",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-008",
+    "args": [
+      "cc",
+      "ccc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-009",
+    "args": [
+      "acc",
+      "bccac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-010",
+    "args": [
+      "aca",
+      "abaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-011",
+    "args": [
+      "baa",
+      "aaabbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-012",
+    "args": [
+      "baa",
+      "ccacab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-013",
+    "args": [
+      "cabc",
+      "abcba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-014",
+    "args": [
+      "aacc",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-015",
+    "args": [
+      "babb",
+      "ccb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-016",
+    "args": [
+      "abaa",
+      "aabca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-017",
+    "args": [
+      "ccaca",
+      "bbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-018",
+    "args": [
+      "aabbc",
+      "bccaba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-019",
+    "args": [
+      "aacbb",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-020",
+    "args": [
+      "cacaa",
+      "ca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-021",
+    "args": [
+      "baacba",
+      "bbbaba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-022",
+    "args": [
+      "aaaaaa",
+      "ccca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-023",
+    "args": [
+      "cabaaa",
+      "cbbacb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-024",
+    "args": [
+      "bbbaab",
+      "abc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-025",
+    "args": [
+      "bbbbbaa",
+      "bbbccb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-026",
+    "args": [
+      "aaaaacc",
+      "abcbcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-027",
+    "args": [
+      "bbbacca",
+      "aba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-028",
+    "args": [
+      "aaababa",
+      "ccbcca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-029",
+    "args": [
+      "cbbacbaa",
+      "bcbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-030",
+    "args": [
+      "aaaaaabc",
+      "bbaab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-031",
+    "args": [
+      "bbbbccac",
+      "ccbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-032",
+    "args": [
+      "caaaacab",
+      "cba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-033",
+    "args": [
+      "bcaabbabc",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-034",
+    "args": [
+      "bacbcabaa",
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机查找-035",
+    "args": [
+      "aaabaabaa",
+      "cccaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-036",
+    "args": [
+      "aaaccabba",
+      "bcacbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-037",
+    "args": [
+      "caacabbacc",
+      "acaac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-038",
+    "args": [
+      "bacaababba",
+      "baaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-039",
+    "args": [
+      "acbbcbbcbc",
+      "bcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-040",
+    "args": [
+      "aabaacccac",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "随机查找-041",
+    "args": [
+      "babcaaaacaa",
+      "ccacbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-042",
+    "args": [
+      "aabcabaaaaa",
+      "acbbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-043",
+    "args": [
+      "aacaaabacac",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机查找-044",
+    "args": [
+      "cbbcccaaaaa",
+      "bc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机查找-045",
+    "args": [
+      "caaabccaccba",
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机查找-046",
+    "args": [
+      "bbaaabbcaaac",
+      "aaab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机查找-047",
+    "args": [
+      "bcaaaccbacba",
+      "ccc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-048",
+    "args": [
+      "cabaacaacbba",
+      "cbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 8
+  },
+  {
+    "name": "随机查找-049",
+    "args": [
+      "ababbaaccabaa",
+      "cbcb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-050",
+    "args": [
+      "aaabbbacccaba",
+      "baa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-051",
+    "args": [
+      "aabcabbcababc",
+      "accb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-052",
+    "args": [
+      "cbbaaaaaaaaac",
+      "cb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-053",
+    "args": [
+      "aaabcacbcaabba",
+      "cacc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-054",
+    "args": [
+      "abaccbabbccaaa",
+      "baabbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-055",
+    "args": [
+      "cacaacbccacaab",
+      "bbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-056",
+    "args": [
+      "abaaaaacbabaaa",
+      "acccaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-057",
+    "args": [
+      "cabcbcbacaabbaa",
+      "acbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-058",
+    "args": [
+      "aacbabaaabcabca",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-059",
+    "args": [
+      "abacbccbabaabca",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-060",
+    "args": [
+      "baabbaabaabbbac",
+      "babaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-061",
+    "args": [
+      "caaaababaababaaa",
+      "babc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-062",
+    "args": [
+      "baacacacaccbbbaa",
+      "babbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-063",
+    "args": [
+      "aaaaaccbaaaaacaa",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-064",
+    "args": [
+      "bcbbaaaabbaabbca",
+      "baccba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-065",
+    "args": [
+      "ccaabaabcaabaabaa",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机查找-066",
+    "args": [
+      "caaccaccacaaaaaca",
+      "bccbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-067",
+    "args": [
+      "acaabcbaacbbbbaab",
+      "aac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机查找-068",
+    "args": [
+      "bacabbaccabbabbca",
+      "cb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-069",
+    "args": [
+      "bbaaacaaabacbcacab",
+      "aab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机查找-070",
+    "args": [
+      "bacbbccaccacaacaab",
+      "ccb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-071",
+    "args": [
+      "cabaaacaaaabcaabbc",
+      "bbbbcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机查找-072",
+    "args": [
+      "caaacabaaaaabcabcb",
+      "bcb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 15
+  },
+  {
+    "name": "随机查找-073",
+    "args": [
+      "bacaabbababaaaabcab",
+      "aca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机查找-074",
+    "args": [
+      "bcbbcbabcbcbcababcb",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机查找-075",
+    "args": [
+      "babaaccaababacccaaa",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机查找-076",
+    "args": [
+      "aaababacbccabcbcaba",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  }
+]

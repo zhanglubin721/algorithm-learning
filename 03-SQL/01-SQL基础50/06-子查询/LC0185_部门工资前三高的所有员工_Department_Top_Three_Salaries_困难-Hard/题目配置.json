@@ -1,0 +1,55 @@
+{
+  "id": 185,
+  "titleCn": "部门工资前三高的所有员工",
+  "titleEn": "Department Top Three Salaries",
+  "slug": "department-top-three-salaries",
+  "difficulty": "Hard",
+  "kind": "sql",
+  "namespace": "p3.lc0185",
+  "plan": "sql-free-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/department-top-three-salaries/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employee (id int, name varchar(255), salary int, departmentId int)",
+      "Create table If Not Exists Department (id int, name varchar(255))"
+    ],
+    "mssql": [
+      "Create table Employee (id int, name varchar(255), salary int, departmentId int)",
+      "Create table Department (id int, name varchar(255))"
+    ],
+    "oraclesql": [
+      "Create table Employee (id int, name varchar(255), salary int, departmentId int)",
+      "Create table Department (id int, name varchar(255))"
+    ],
+    "database": true,
+    "name": "top_three_salaries",
+    "pythondata": [
+      "Employee = pd.DataFrame([], columns=['id', 'name', 'salary', 'departmentId']).astype({'id':'Int64', 'name':'object', 'salary':'Int64', 'departmentId':'Int64'})",
+      "Department = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Employee (id int, name varchar(255), salary int, departmentId int)\n",
+      "Create table If Not Exists Department (id int, name varchar(255))\n"
+    ],
+    "database_schema": {
+      "Employee": {
+        "id": "INT",
+        "name": "VARCHAR(255)",
+        "salary": "INT",
+        "departmentId": "INT"
+      },
+      "Department": {
+        "id": "INT",
+        "name": "VARCHAR(255)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Employee (id int, name varchar(255), salary int, departmentId int)",
+    "Create table If Not Exists Department (id int, name varchar(255))"
+  ],
+  "ordered": false
+}

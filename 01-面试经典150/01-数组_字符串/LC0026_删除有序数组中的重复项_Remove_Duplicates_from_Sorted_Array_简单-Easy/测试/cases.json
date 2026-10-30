@@ -1,0 +1,2574 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": {
+      "prefix": [
+        1,
+        2
+      ],
+      "length": 2
+    }
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": {
+      "prefix": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "length": 5
+    }
+  },
+  {
+    "name": "随机去重-001",
+    "args": [
+      [
+        -1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 1,
+      "prefix": [
+        -1
+      ]
+    }
+  },
+  {
+    "name": "随机去重-002",
+    "args": [
+      [
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 1,
+      "prefix": [
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-003",
+    "args": [
+      [
+        -3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 1,
+      "prefix": [
+        -3
+      ]
+    }
+  },
+  {
+    "name": "随机去重-004",
+    "args": [
+      [
+        -6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 1,
+      "prefix": [
+        -6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-005",
+    "args": [
+      [
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 1,
+      "prefix": [
+        0
+      ]
+    }
+  },
+  {
+    "name": "随机去重-006",
+    "args": [
+      [
+        3,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 2,
+      "prefix": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "name": "随机去重-007",
+    "args": [
+      [
+        -1,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 2,
+      "prefix": [
+        -1,
+        2
+      ]
+    }
+  },
+  {
+    "name": "随机去重-008",
+    "args": [
+      [
+        -4,
+        -1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 2,
+      "prefix": [
+        -4,
+        -1
+      ]
+    }
+  },
+  {
+    "name": "随机去重-009",
+    "args": [
+      [
+        -6,
+        -6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 1,
+      "prefix": [
+        -6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-010",
+    "args": [
+      [
+        -8,
+        -2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 2,
+      "prefix": [
+        -8,
+        -2
+      ]
+    }
+  },
+  {
+    "name": "随机去重-011",
+    "args": [
+      [
+        -5,
+        -1,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 3,
+      "prefix": [
+        -5,
+        -1,
+        1
+      ]
+    }
+  },
+  {
+    "name": "随机去重-012",
+    "args": [
+      [
+        -8,
+        -8,
+        -7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 2,
+      "prefix": [
+        -8,
+        -7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-013",
+    "args": [
+      [
+        2,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 3,
+      "prefix": [
+        2,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-014",
+    "args": [
+      [
+        -3,
+        -1,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 3,
+      "prefix": [
+        -3,
+        -1,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-015",
+    "args": [
+      [
+        -3,
+        2,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 3,
+      "prefix": [
+        -3,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "name": "随机去重-016",
+    "args": [
+      [
+        -5,
+        -2,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        -5,
+        -2,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "name": "随机去重-017",
+    "args": [
+      [
+        -5,
+        -4,
+        0,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        -5,
+        -4,
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "name": "随机去重-018",
+    "args": [
+      [
+        -4,
+        -3,
+        2,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        -4,
+        -3,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-019",
+    "args": [
+      [
+        2,
+        3,
+        5,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        2,
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-020",
+    "args": [
+      [
+        -8,
+        -7,
+        -7,
+        -5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 3,
+      "prefix": [
+        -8,
+        -7,
+        -5
+      ]
+    }
+  },
+  {
+    "name": "随机去重-021",
+    "args": [
+      [
+        -4,
+        3,
+        4,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -4,
+        3,
+        4,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-022",
+    "args": [
+      [
+        -5,
+        0,
+        7,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        -5,
+        0,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-023",
+    "args": [
+      [
+        -8,
+        -6,
+        -2,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -8,
+        -6,
+        -2,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "name": "随机去重-024",
+    "args": [
+      [
+        -7,
+        3,
+        4,
+        4,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        -7,
+        3,
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-025",
+    "args": [
+      [
+        -4,
+        -4,
+        2,
+        5,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        -4,
+        2,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-026",
+    "args": [
+      [
+        -8,
+        -3,
+        -3,
+        0,
+        0,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 4,
+      "prefix": [
+        -8,
+        -3,
+        0,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-027",
+    "args": [
+      [
+        -1,
+        0,
+        2,
+        2,
+        4,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -1,
+        0,
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-028",
+    "args": [
+      [
+        -5,
+        -3,
+        -2,
+        -1,
+        1,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -5,
+        -3,
+        -2,
+        -1,
+        1,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-029",
+    "args": [
+      [
+        -7,
+        -6,
+        2,
+        3,
+        3,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -7,
+        -6,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-030",
+    "args": [
+      [
+        -6,
+        -4,
+        -2,
+        -1,
+        4,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -6,
+        -4,
+        -2,
+        -1,
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-031",
+    "args": [
+      [
+        -7,
+        -2,
+        0,
+        1,
+        1,
+        7,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -7,
+        -2,
+        0,
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-032",
+    "args": [
+      [
+        -6,
+        -5,
+        -3,
+        7,
+        8,
+        8,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -6,
+        -5,
+        -3,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-033",
+    "args": [
+      [
+        -7,
+        -5,
+        -5,
+        -4,
+        -1,
+        -1,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -7,
+        -5,
+        -4,
+        -1,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-034",
+    "args": [
+      [
+        -8,
+        -6,
+        3,
+        4,
+        5,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -8,
+        -6,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-035",
+    "args": [
+      [
+        -5,
+        -4,
+        1,
+        1,
+        1,
+        2,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -5,
+        -4,
+        1,
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-036",
+    "args": [
+      [
+        -7,
+        -3,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -7,
+        -3,
+        -1,
+        1,
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-037",
+    "args": [
+      [
+        -7,
+        -6,
+        -4,
+        3,
+        3,
+        4,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -7,
+        -6,
+        -4,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "name": "随机去重-038",
+    "args": [
+      [
+        -5,
+        -5,
+        -5,
+        -2,
+        -2,
+        -1,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 5,
+      "prefix": [
+        -5,
+        -2,
+        -1,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-039",
+    "args": [
+      [
+        -6,
+        -4,
+        -1,
+        -1,
+        0,
+        3,
+        3,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -6,
+        -4,
+        -1,
+        0,
+        3,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-040",
+    "args": [
+      [
+        -7,
+        -7,
+        -5,
+        -4,
+        -2,
+        4,
+        8,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -7,
+        -5,
+        -4,
+        -2,
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-041",
+    "args": [
+      [
+        -6,
+        -5,
+        -4,
+        -4,
+        0,
+        0,
+        1,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 7,
+      "prefix": [
+        -6,
+        -5,
+        -4,
+        0,
+        1,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-042",
+    "args": [
+      [
+        -7,
+        -7,
+        -6,
+        -2,
+        -1,
+        0,
+        2,
+        3,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -7,
+        -6,
+        -2,
+        -1,
+        0,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-043",
+    "args": [
+      [
+        -8,
+        -4,
+        1,
+        2,
+        2,
+        3,
+        5,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 7,
+      "prefix": [
+        -8,
+        -4,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-044",
+    "args": [
+      [
+        -8,
+        -7,
+        -6,
+        -4,
+        -3,
+        -3,
+        -1,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -4,
+        -3,
+        -1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "name": "随机去重-045",
+    "args": [
+      [
+        -4,
+        -1,
+        -1,
+        1,
+        5,
+        6,
+        6,
+        8,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -4,
+        -1,
+        1,
+        5,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-046",
+    "args": [
+      [
+        -8,
+        -5,
+        -5,
+        -4,
+        -2,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 9,
+      "prefix": [
+        -8,
+        -5,
+        -4,
+        -2,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-047",
+    "args": [
+      [
+        -8,
+        -6,
+        -5,
+        -4,
+        -1,
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -6,
+        -5,
+        -4,
+        -1,
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-048",
+    "args": [
+      [
+        -5,
+        -4,
+        -4,
+        -4,
+        -3,
+        -1,
+        2,
+        3,
+        5,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -5,
+        -4,
+        -3,
+        -1,
+        2,
+        3,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-049",
+    "args": [
+      [
+        -8,
+        -6,
+        -6,
+        2,
+        2,
+        3,
+        3,
+        3,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 6,
+      "prefix": [
+        -8,
+        -6,
+        2,
+        3,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-050",
+    "args": [
+      [
+        -8,
+        -4,
+        3,
+        4,
+        5,
+        5,
+        6,
+        6,
+        7,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 7,
+      "prefix": [
+        -8,
+        -4,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-051",
+    "args": [
+      [
+        -4,
+        -4,
+        -1,
+        1,
+        2,
+        3,
+        3,
+        4,
+        6,
+        6,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -4,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-052",
+    "args": [
+      [
+        -7,
+        -5,
+        -5,
+        -3,
+        -2,
+        2,
+        4,
+        6,
+        6,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 9,
+      "prefix": [
+        -7,
+        -5,
+        -3,
+        -2,
+        2,
+        4,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-053",
+    "args": [
+      [
+        -8,
+        -2,
+        -1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 7,
+      "prefix": [
+        -8,
+        -2,
+        -1,
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-054",
+    "args": [
+      [
+        -4,
+        -3,
+        -2,
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 9,
+      "prefix": [
+        -4,
+        -3,
+        -2,
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-055",
+    "args": [
+      [
+        -8,
+        -5,
+        -5,
+        -3,
+        -1,
+        -1,
+        0,
+        3,
+        3,
+        4,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -8,
+        -5,
+        -3,
+        -1,
+        0,
+        3,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-056",
+    "args": [
+      [
+        -4,
+        -4,
+        -3,
+        -2,
+        2,
+        2,
+        3,
+        5,
+        6,
+        6,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -4,
+        -3,
+        -2,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-057",
+    "args": [
+      [
+        -6,
+        -6,
+        -4,
+        0,
+        0,
+        1,
+        4,
+        5,
+        6,
+        6,
+        6,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -6,
+        -4,
+        0,
+        1,
+        4,
+        5,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-058",
+    "args": [
+      [
+        -8,
+        -7,
+        -6,
+        -6,
+        -2,
+        -2,
+        2,
+        3,
+        4,
+        4,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -2,
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-059",
+    "args": [
+      [
+        -7,
+        -7,
+        -7,
+        -6,
+        -5,
+        2,
+        2,
+        3,
+        6,
+        7,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 8,
+      "prefix": [
+        -7,
+        -6,
+        -5,
+        2,
+        3,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-060",
+    "args": [
+      [
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -1,
+        -1,
+        4,
+        5,
+        5,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -1,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-061",
+    "args": [
+      [
+        -8,
+        -7,
+        -7,
+        -6,
+        -4,
+        -4,
+        -4,
+        -1,
+        2,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 9,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -4,
+        -1,
+        2,
+        3,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-062",
+    "args": [
+      [
+        -7,
+        -5,
+        -1,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        5,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 9,
+      "prefix": [
+        -7,
+        -5,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-063",
+    "args": [
+      [
+        -6,
+        -6,
+        -6,
+        -6,
+        -1,
+        -1,
+        -1,
+        0,
+        2,
+        3,
+        6,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 7,
+      "prefix": [
+        -6,
+        -1,
+        0,
+        2,
+        3,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-064",
+    "args": [
+      [
+        -8,
+        -6,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        3,
+        6,
+        6,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 11,
+      "prefix": [
+        -8,
+        -6,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-065",
+    "args": [
+      [
+        -8,
+        -7,
+        -7,
+        -5,
+        -3,
+        -2,
+        -1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 12,
+      "prefix": [
+        -8,
+        -7,
+        -5,
+        -3,
+        -2,
+        -1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-066",
+    "args": [
+      [
+        -7,
+        -5,
+        -4,
+        -4,
+        -3,
+        -3,
+        -2,
+        0,
+        2,
+        4,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 11,
+      "prefix": [
+        -7,
+        -5,
+        -4,
+        -3,
+        -2,
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-067",
+    "args": [
+      [
+        -7,
+        -6,
+        -6,
+        -5,
+        -1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 9,
+      "prefix": [
+        -7,
+        -6,
+        -5,
+        -1,
+        1,
+        2,
+        4,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-068",
+    "args": [
+      [
+        -8,
+        -5,
+        -5,
+        -5,
+        -2,
+        1,
+        1,
+        3,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -5,
+        -2,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-069",
+    "args": [
+      [
+        -8,
+        -7,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 11,
+      "prefix": [
+        -8,
+        -7,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "name": "随机去重-070",
+    "args": [
+      [
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -1,
+        1,
+        3,
+        4,
+        5,
+        6,
+        6,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 13,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -1,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-071",
+    "args": [
+      [
+        -8,
+        -7,
+        -7,
+        -5,
+        -3,
+        -3,
+        -3,
+        -1,
+        0,
+        1,
+        3,
+        3,
+        6,
+        8,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -7,
+        -5,
+        -3,
+        -1,
+        0,
+        1,
+        3,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-072",
+    "args": [
+      [
+        -8,
+        -3,
+        -3,
+        -2,
+        -1,
+        -1,
+        2,
+        3,
+        3,
+        4,
+        5,
+        6,
+        6,
+        7,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -3,
+        -2,
+        -1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-073",
+    "args": [
+      [
+        -8,
+        -7,
+        -6,
+        -5,
+        -5,
+        -1,
+        0,
+        0,
+        1,
+        2,
+        2,
+        3,
+        6,
+        8,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 11,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -5,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-074",
+    "args": [
+      [
+        -8,
+        -6,
+        -6,
+        -5,
+        -5,
+        -5,
+        -4,
+        -2,
+        -1,
+        1,
+        1,
+        3,
+        4,
+        5,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -6,
+        -5,
+        -4,
+        -2,
+        -1,
+        1,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "name": "随机去重-075",
+    "args": [
+      [
+        -8,
+        -8,
+        -6,
+        -6,
+        -4,
+        -3,
+        -1,
+        0,
+        0,
+        1,
+        2,
+        5,
+        5,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -6,
+        -4,
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-076",
+    "args": [
+      [
+        -8,
+        -7,
+        -7,
+        -5,
+        -3,
+        -3,
+        -2,
+        -2,
+        -1,
+        -1,
+        2,
+        5,
+        6,
+        6,
+        6,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -7,
+        -5,
+        -3,
+        -2,
+        -1,
+        2,
+        5,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-077",
+    "args": [
+      [
+        -7,
+        -7,
+        -6,
+        -5,
+        -5,
+        -5,
+        -4,
+        -2,
+        0,
+        1,
+        3,
+        3,
+        4,
+        4,
+        6,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 11,
+      "prefix": [
+        -7,
+        -6,
+        -5,
+        -4,
+        -2,
+        0,
+        1,
+        3,
+        4,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-078",
+    "args": [
+      [
+        -8,
+        -7,
+        -6,
+        -5,
+        -5,
+        -4,
+        -4,
+        -1,
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -1,
+        0,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "name": "随机去重-079",
+    "args": [
+      [
+        -8,
+        -8,
+        -7,
+        -6,
+        -5,
+        -1,
+        0,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        4,
+        7,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 11,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -5,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "name": "随机去重-080",
+    "args": [
+      [
+        -7,
+        -7,
+        -7,
+        -7,
+        -7,
+        -6,
+        -6,
+        0,
+        0,
+        1,
+        3,
+        3,
+        5,
+        5,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 7,
+      "prefix": [
+        -7,
+        -6,
+        0,
+        1,
+        3,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "name": "随机去重-081",
+    "args": [
+      [
+        -8,
+        -8,
+        -7,
+        -7,
+        -4,
+        -3,
+        -3,
+        -1,
+        0,
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 12,
+      "prefix": [
+        -8,
+        -7,
+        -4,
+        -3,
+        -1,
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-082",
+    "args": [
+      [
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -3,
+        -2,
+        -1,
+        0,
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 15,
+      "prefix": [
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-083",
+    "args": [
+      [
+        -8,
+        -6,
+        -5,
+        -5,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        4,
+        5,
+        6,
+        8,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 11,
+      "prefix": [
+        -8,
+        -6,
+        -5,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-084",
+    "args": [
+      [
+        -7,
+        -5,
+        -4,
+        -4,
+        -4,
+        -3,
+        -3,
+        -3,
+        -3,
+        -2,
+        -1,
+        -1,
+        1,
+        4,
+        7,
+        8,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -7,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        4,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "name": "随机去重-085",
+    "args": [
+      [
+        -8,
+        -8,
+        -6,
+        -6,
+        -3,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        2,
+        3,
+        3,
+        4,
+        5,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": {
+      "length": 10,
+      "prefix": [
+        -8,
+        -6,
+        -3,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  }
+]

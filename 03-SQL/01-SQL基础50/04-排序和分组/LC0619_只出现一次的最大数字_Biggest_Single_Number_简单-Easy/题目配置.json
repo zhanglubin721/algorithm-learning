@@ -1,0 +1,42 @@
+{
+  "id": 619,
+  "titleCn": "只出现一次的最大数字",
+  "titleEn": "Biggest Single Number",
+  "slug": "biggest-single-number",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc0619",
+  "plan": "sql-free-50",
+  "category": "排序和分组",
+  "source": "https://leetcode.cn/problems/biggest-single-number/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists MyNumbers (num int)"
+    ],
+    "mssql": [
+      "Create table MyNumbers (num int)"
+    ],
+    "oraclesql": [
+      "Create table MyNumbers (num int)"
+    ],
+    "database": true,
+    "name": "biggest_single_number",
+    "pythondata": [
+      "MyNumbers = pd.DataFrame([], columns=['num']).astype({'num':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists MyNumbers (num int)"
+    ],
+    "database_schema": {
+      "MyNumbers": {
+        "num": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists MyNumbers (num int)"
+  ],
+  "ordered": false
+}

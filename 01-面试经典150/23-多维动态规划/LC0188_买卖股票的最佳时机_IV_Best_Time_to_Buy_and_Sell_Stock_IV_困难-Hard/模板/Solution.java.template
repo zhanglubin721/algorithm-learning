@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public int maxProfit(int k, int[] prices) { throw new UnsupportedOperationException("TODO"); }
+}

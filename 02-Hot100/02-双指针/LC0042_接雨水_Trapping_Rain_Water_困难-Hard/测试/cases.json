@@ -1,0 +1,1644 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        3,
+        2,
+        1,
+        2,
+        1
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 6
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        4,
+        2,
+        0,
+        3,
+        2,
+        5
+      ]
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 9
+  },
+  {
+    "name": "随机朴素-001",
+    "args": [
+      [
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-004",
+    "args": [
+      [
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-003",
+    "args": [
+      [
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-005",
+    "args": [
+      [
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-006",
+    "args": [
+      [
+        3,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-007",
+    "args": [
+      [
+        1,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-008",
+    "args": [
+      [
+        1,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-009",
+    "args": [
+      [
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-010",
+    "args": [
+      [
+        8,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-011",
+    "args": [
+      [
+        1,
+        5,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-012",
+    "args": [
+      [
+        8,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机朴素-013",
+    "args": [
+      [
+        2,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-014",
+    "args": [
+      [
+        1,
+        6,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-015",
+    "args": [
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-016",
+    "args": [
+      [
+        5,
+        2,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机朴素-017",
+    "args": [
+      [
+        3,
+        0,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机朴素-018",
+    "args": [
+      [
+        6,
+        2,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机朴素-019",
+    "args": [
+      [
+        5,
+        8,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机朴素-020",
+    "args": [
+      [
+        7,
+        7,
+        5,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机朴素-021",
+    "args": [
+      [
+        4,
+        4,
+        8,
+        3,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "随机朴素-022",
+    "args": [
+      [
+        7,
+        7,
+        8,
+        5,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机朴素-023",
+    "args": [
+      [
+        2,
+        6,
+        4,
+        5,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机朴素-024",
+    "args": [
+      [
+        7,
+        4,
+        8,
+        3,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "随机朴素-025",
+    "args": [
+      [
+        2,
+        4,
+        6,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机朴素-026",
+    "args": [
+      [
+        6,
+        0,
+        3,
+        8,
+        3,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 9
+  },
+  {
+    "name": "随机朴素-027",
+    "args": [
+      [
+        4,
+        0,
+        1,
+        6,
+        2,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机朴素-028",
+    "args": [
+      [
+        1,
+        1,
+        5,
+        2,
+        8,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机朴素-029",
+    "args": [
+      [
+        3,
+        2,
+        6,
+        3,
+        7,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "随机朴素-030",
+    "args": [
+      [
+        8,
+        2,
+        1,
+        4,
+        6,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 11
+  },
+  {
+    "name": "随机朴素-031",
+    "args": [
+      [
+        2,
+        7,
+        1,
+        7,
+        1,
+        7,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 12
+  },
+  {
+    "name": "随机朴素-032",
+    "args": [
+      [
+        6,
+        8,
+        8,
+        8,
+        3,
+        7,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "随机朴素-033",
+    "args": [
+      [
+        7,
+        5,
+        5,
+        1,
+        7,
+        4,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 10
+  },
+  {
+    "name": "随机朴素-034",
+    "args": [
+      [
+        4,
+        3,
+        6,
+        5,
+        6,
+        8,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机朴素-035",
+    "args": [
+      [
+        2,
+        1,
+        1,
+        4,
+        5,
+        1,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机朴素-036",
+    "args": [
+      [
+        7,
+        1,
+        1,
+        2,
+        7,
+        3,
+        1,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 17
+  },
+  {
+    "name": "随机朴素-037",
+    "args": [
+      [
+        4,
+        6,
+        3,
+        5,
+        4,
+        4,
+        7,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 8
+  },
+  {
+    "name": "随机朴素-038",
+    "args": [
+      [
+        2,
+        5,
+        2,
+        1,
+        5,
+        7,
+        5,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 9
+  },
+  {
+    "name": "随机朴素-039",
+    "args": [
+      [
+        8,
+        3,
+        3,
+        1,
+        6,
+        1,
+        0,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 18
+  },
+  {
+    "name": "随机朴素-040",
+    "args": [
+      [
+        2,
+        7,
+        4,
+        7,
+        5,
+        8,
+        8,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机朴素-041",
+    "args": [
+      [
+        6,
+        5,
+        0,
+        0,
+        6,
+        7,
+        4,
+        1,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 16
+  },
+  {
+    "name": "随机朴素-042",
+    "args": [
+      [
+        6,
+        6,
+        1,
+        7,
+        2,
+        0,
+        3,
+        2,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 26
+  },
+  {
+    "name": "随机朴素-043",
+    "args": [
+      [
+        5,
+        3,
+        6,
+        2,
+        2,
+        6,
+        1,
+        4,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 17
+  },
+  {
+    "name": "随机朴素-044",
+    "args": [
+      [
+        3,
+        3,
+        3,
+        4,
+        1,
+        2,
+        6,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机朴素-045",
+    "args": [
+      [
+        1,
+        8,
+        1,
+        6,
+        1,
+        4,
+        6,
+        8,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 22
+  },
+  {
+    "name": "随机朴素-046",
+    "args": [
+      [
+        4,
+        5,
+        2,
+        6,
+        5,
+        2,
+        7,
+        5,
+        8,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 10
+  },
+  {
+    "name": "随机朴素-047",
+    "args": [
+      [
+        4,
+        1,
+        1,
+        6,
+        5,
+        4,
+        8,
+        6,
+        7,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 10
+  },
+  {
+    "name": "随机朴素-048",
+    "args": [
+      [
+        3,
+        2,
+        5,
+        4,
+        5,
+        6,
+        3,
+        1,
+        4,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机朴素-049",
+    "args": [
+      [
+        3,
+        2,
+        3,
+        7,
+        6,
+        8,
+        8,
+        6,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 3
+  },
+  {
+    "name": "随机朴素-050",
+    "args": [
+      [
+        6,
+        7,
+        4,
+        4,
+        3,
+        5,
+        7,
+        5,
+        6,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 15
+  },
+  {
+    "name": "随机朴素-051",
+    "args": [
+      [
+        8,
+        1,
+        4,
+        4,
+        2,
+        3,
+        1,
+        4,
+        6,
+        3,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 26
+  },
+  {
+    "name": "随机朴素-052",
+    "args": [
+      [
+        5,
+        8,
+        4,
+        3,
+        7,
+        5,
+        2,
+        6,
+        7,
+        6,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 15
+  },
+  {
+    "name": "随机朴素-053",
+    "args": [
+      [
+        2,
+        6,
+        2,
+        4,
+        8,
+        3,
+        6,
+        3,
+        1,
+        3,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 11
+  },
+  {
+    "name": "随机朴素-054",
+    "args": [
+      [
+        4,
+        2,
+        5,
+        1,
+        6,
+        0,
+        0,
+        3,
+        3,
+        2,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 23
+  },
+  {
+    "name": "随机朴素-055",
+    "args": [
+      [
+        1,
+        5,
+        5,
+        1,
+        3,
+        0,
+        4,
+        3,
+        3,
+        7,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 16
+  },
+  {
+    "name": "随机朴素-056",
+    "args": [
+      [
+        3,
+        2,
+        2,
+        6,
+        7,
+        2,
+        3,
+        4,
+        4,
+        5,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 14
+  },
+  {
+    "name": "随机朴素-057",
+    "args": [
+      [
+        0,
+        4,
+        0,
+        6,
+        6,
+        5,
+        8,
+        6,
+        4,
+        6,
+        6,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机朴素-058",
+    "args": [
+      [
+        3,
+        2,
+        6,
+        2,
+        2,
+        7,
+        8,
+        4,
+        6,
+        4,
+        6,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 13
+  },
+  {
+    "name": "随机朴素-059",
+    "args": [
+      [
+        7,
+        7,
+        7,
+        6,
+        5,
+        2,
+        7,
+        3,
+        2,
+        7,
+        8,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 17
+  },
+  {
+    "name": "随机朴素-060",
+    "args": [
+      [
+        4,
+        7,
+        6,
+        5,
+        6,
+        5,
+        5,
+        1,
+        7,
+        8,
+        3,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 14
+  },
+  {
+    "name": "随机朴素-061",
+    "args": [
+      [
+        4,
+        2,
+        1,
+        4,
+        7,
+        4,
+        4,
+        7,
+        8,
+        7,
+        6,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 12
+  },
+  {
+    "name": "随机朴素-062",
+    "args": [
+      [
+        7,
+        3,
+        2,
+        5,
+        1,
+        2,
+        1,
+        0,
+        8,
+        1,
+        5,
+        3,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 39
+  },
+  {
+    "name": "随机朴素-063",
+    "args": [
+      [
+        1,
+        6,
+        7,
+        6,
+        6,
+        6,
+        1,
+        0,
+        6,
+        6,
+        3,
+        1,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 12
+  },
+  {
+    "name": "随机朴素-064",
+    "args": [
+      [
+        6,
+        0,
+        1,
+        8,
+        3,
+        1,
+        3,
+        8,
+        2,
+        6,
+        6,
+        3,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 39
+  },
+  {
+    "name": "随机朴素-065",
+    "args": [
+      [
+        7,
+        2,
+        8,
+        5,
+        4,
+        3,
+        7,
+        7,
+        5,
+        8,
+        2,
+        1,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 25
+  },
+  {
+    "name": "随机朴素-066",
+    "args": [
+      [
+        2,
+        2,
+        3,
+        6,
+        0,
+        5,
+        4,
+        3,
+        7,
+        4,
+        7,
+        4,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 17
+  },
+  {
+    "name": "随机朴素-067",
+    "args": [
+      [
+        2,
+        8,
+        1,
+        2,
+        4,
+        7,
+        5,
+        2,
+        6,
+        6,
+        2,
+        4,
+        7,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 31
+  },
+  {
+    "name": "随机朴素-068",
+    "args": [
+      [
+        6,
+        1,
+        8,
+        3,
+        4,
+        5,
+        1,
+        2,
+        5,
+        3,
+        7,
+        5,
+        5,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 45
+  },
+  {
+    "name": "随机朴素-069",
+    "args": [
+      [
+        2,
+        5,
+        5,
+        1,
+        4,
+        3,
+        8,
+        1,
+        1,
+        5,
+        0,
+        3,
+        2,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 37
+  },
+  {
+    "name": "随机朴素-070",
+    "args": [
+      [
+        3,
+        6,
+        1,
+        4,
+        5,
+        7,
+        1,
+        8,
+        7,
+        3,
+        5,
+        6,
+        8,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 25
+  },
+  {
+    "name": "随机朴素-071",
+    "args": [
+      [
+        7,
+        3,
+        6,
+        1,
+        5,
+        8,
+        3,
+        0,
+        8,
+        7,
+        8,
+        1,
+        3,
+        3,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 29
+  },
+  {
+    "name": "随机朴素-072",
+    "args": [
+      [
+        3,
+        6,
+        2,
+        3,
+        7,
+        6,
+        4,
+        1,
+        3,
+        2,
+        7,
+        5,
+        1,
+        8,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 34
+  },
+  {
+    "name": "随机朴素-073",
+    "args": [
+      [
+        8,
+        1,
+        2,
+        1,
+        6,
+        5,
+        0,
+        8,
+        2,
+        0,
+        8,
+        5,
+        3,
+        7,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 53
+  },
+  {
+    "name": "随机朴素-074",
+    "args": [
+      [
+        5,
+        1,
+        5,
+        5,
+        2,
+        5,
+        6,
+        8,
+        6,
+        5,
+        1,
+        1,
+        3,
+        4,
+        4
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 14
+  },
+  {
+    "name": "随机朴素-075",
+    "args": [
+      [
+        5,
+        4,
+        5,
+        8,
+        6,
+        2,
+        6,
+        6,
+        1,
+        8,
+        0,
+        0,
+        1,
+        3,
+        6
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 40
+  },
+  {
+    "name": "随机朴素-076",
+    "args": [
+      [
+        8,
+        6,
+        1,
+        7,
+        5,
+        7,
+        2,
+        1,
+        2,
+        3,
+        2,
+        6,
+        8,
+        3,
+        6,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 49
+  },
+  {
+    "name": "随机朴素-077",
+    "args": [
+      [
+        5,
+        7,
+        7,
+        4,
+        5,
+        0,
+        2,
+        6,
+        3,
+        8,
+        5,
+        4,
+        4,
+        6,
+        3,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 27
+  },
+  {
+    "name": "随机朴素-078",
+    "args": [
+      [
+        4,
+        7,
+        5,
+        4,
+        8,
+        2,
+        0,
+        1,
+        2,
+        2,
+        3,
+        4,
+        3,
+        6,
+        4,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 37
+  },
+  {
+    "name": "随机朴素-079",
+    "args": [
+      [
+        8,
+        6,
+        7,
+        2,
+        2,
+        4,
+        3,
+        1,
+        7,
+        3,
+        8,
+        7,
+        5,
+        2,
+        1,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 37
+  },
+  {
+    "name": "随机朴素-080",
+    "args": [
+      [
+        5,
+        7,
+        3,
+        7,
+        6,
+        5,
+        7,
+        6,
+        6,
+        1,
+        3,
+        7,
+        7,
+        0,
+        6,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 25
+  },
+  {
+    "name": "随机朴素-081",
+    "args": [
+      [
+        7,
+        8,
+        7,
+        8,
+        1,
+        8,
+        4,
+        3,
+        7,
+        6,
+        3,
+        2,
+        7,
+        0,
+        1,
+        4,
+        0
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 32
+  },
+  {
+    "name": "随机朴素-082",
+    "args": [
+      [
+        3,
+        5,
+        5,
+        8,
+        0,
+        3,
+        4,
+        0,
+        7,
+        1,
+        6,
+        1,
+        8,
+        3,
+        2,
+        6,
+        7
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 52
+  },
+  {
+    "name": "随机朴素-083",
+    "args": [
+      [
+        5,
+        4,
+        2,
+        3,
+        6,
+        5,
+        1,
+        0,
+        2,
+        0,
+        5,
+        8,
+        8,
+        2,
+        3,
+        6,
+        8
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 42
+  },
+  {
+    "name": "随机朴素-084",
+    "args": [
+      [
+        7,
+        8,
+        1,
+        3,
+        4,
+        1,
+        4,
+        7,
+        4,
+        4,
+        3,
+        3,
+        3,
+        1,
+        2,
+        8,
+        5
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 64
+  },
+  {
+    "name": "随机朴素-085",
+    "args": [
+      [
+        1,
+        1,
+        8,
+        1,
+        3,
+        6,
+        1,
+        1,
+        1,
+        3,
+        6,
+        8,
+        5,
+        6,
+        4,
+        3,
+        2
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 43
+  }
+]

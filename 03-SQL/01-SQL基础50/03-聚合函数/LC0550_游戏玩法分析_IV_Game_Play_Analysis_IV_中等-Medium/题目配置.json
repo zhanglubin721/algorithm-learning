@@ -1,0 +1,46 @@
+{
+  "id": 550,
+  "titleCn": "游戏玩法分析 IV",
+  "titleEn": "Game Play Analysis IV",
+  "slug": "game-play-analysis-iv",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc0550",
+  "plan": "sql-free-50",
+  "category": "聚合函数",
+  "source": "https://leetcode.cn/problems/game-play-analysis-iv/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Activity (player_id int, device_id int, event_date date, games_played int)"
+    ],
+    "mssql": [
+      "Create table Activity (player_id int, device_id int, event_date date, games_played int)"
+    ],
+    "oraclesql": [
+      "Create table Activity (player_id int, device_id int, event_date date, games_played int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "gameplay_analysis",
+    "pythondata": [
+      "Activity = pd.DataFrame([], columns=['player_id', 'device_id', 'event_date', 'games_played']).astype({'player_id':'Int64', 'device_id':'Int64', 'event_date':'datetime64[ns]', 'games_played':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Activity (player_id int, device_id int, event_date date, games_played int)"
+    ],
+    "database_schema": {
+      "Activity": {
+        "player_id": "INT",
+        "device_id": "INT",
+        "event_date": "DATE",
+        "games_played": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Activity (player_id int, device_id int, event_date date, games_played int)"
+  ],
+  "ordered": false
+}

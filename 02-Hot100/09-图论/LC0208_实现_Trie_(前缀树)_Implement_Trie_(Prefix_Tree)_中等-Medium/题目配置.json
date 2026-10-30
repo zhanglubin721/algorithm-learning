@@ -1,0 +1,63 @@
+{
+  "id": 208,
+  "titleCn": "实现 Trie (前缀树)",
+  "titleEn": "Implement Trie (Prefix Tree)",
+  "slug": "implement-trie-prefix-tree",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0208",
+  "plan": "top-100-liked",
+  "category": "图论",
+  "source": "https://leetcode.cn/problems/implement-trie-prefix-tree/",
+  "meta": {
+    "classname": "Trie",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "name": "insert",
+        "return": {
+          "type": "void"
+        }
+      },
+      {
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "name": "search",
+        "return": {
+          "type": "boolean"
+        }
+      },
+      {
+        "params": [
+          {
+            "type": "string",
+            "name": "prefix"
+          }
+        ],
+        "name": "startsWith",
+        "return": {
+          "type": "boolean"
+        }
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

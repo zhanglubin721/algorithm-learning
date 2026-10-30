@@ -1,0 +1,262 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Accounts": [
+          "account_id",
+          "income"
+        ]
+      },
+      "rows": {
+        "Accounts": [
+          [
+            3,
+            108939
+          ],
+          [
+            2,
+            12747
+          ],
+          [
+            8,
+            87709
+          ],
+          [
+            6,
+            91796
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "category",
+        "accounts_count"
+      ],
+      [
+        [
+          "Low Salary",
+          "1"
+        ],
+        [
+          "Average Salary",
+          "0"
+        ],
+        [
+          "High Salary",
+          "3"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Accounts": [
+          "account_id",
+          "income"
+        ]
+      },
+      "rows": {
+        "Accounts": [
+          [
+            1,
+            19999
+          ],
+          [
+            2,
+            20000
+          ],
+          [
+            3,
+            50000
+          ],
+          [
+            4,
+            50001
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "category",
+        "accounts_count"
+      ],
+      [
+        [
+          "Low Salary",
+          "1"
+        ],
+        [
+          "Average Salary",
+          "2"
+        ],
+        [
+          "High Salary",
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Accounts": [
+          "account_id",
+          "income"
+        ]
+      },
+      "rows": {
+        "Accounts": [
+          [
+            3,
+            108939
+          ],
+          [
+            8,
+            87709
+          ],
+          [
+            2,
+            12747
+          ],
+          [
+            6,
+            91796
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "category",
+        "accounts_count"
+      ],
+      [
+        [
+          "Low Salary",
+          "1"
+        ],
+        [
+          "Average Salary",
+          "0"
+        ],
+        [
+          "High Salary",
+          "3"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Accounts": [
+          "account_id",
+          "income"
+        ]
+      },
+      "rows": {
+        "Accounts": [
+          [
+            8,
+            87709
+          ],
+          [
+            6,
+            91796
+          ],
+          [
+            3,
+            108939
+          ],
+          [
+            2,
+            12747
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "category",
+        "accounts_count"
+      ],
+      [
+        [
+          "Low Salary",
+          "1"
+        ],
+        [
+          "Average Salary",
+          "0"
+        ],
+        [
+          "High Salary",
+          "3"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Accounts": [
+          "account_id",
+          "income"
+        ]
+      },
+      "rows": {
+        "Accounts": [
+          [
+            2,
+            12747
+          ],
+          [
+            6,
+            91796
+          ],
+          [
+            8,
+            87709
+          ],
+          [
+            3,
+            108939
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "category",
+        "accounts_count"
+      ],
+      [
+        [
+          "Low Salary",
+          "1"
+        ],
+        [
+          "Average Salary",
+          "0"
+        ],
+        [
+          "High Salary",
+          "3"
+        ]
+      ]
+    ]
+  }
+]

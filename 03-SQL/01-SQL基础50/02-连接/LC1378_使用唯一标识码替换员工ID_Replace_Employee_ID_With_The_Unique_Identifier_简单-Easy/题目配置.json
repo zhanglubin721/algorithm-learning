@@ -1,0 +1,53 @@
+{
+  "id": 1378,
+  "titleCn": "使用唯一标识码替换员工ID",
+  "titleEn": "Replace Employee ID With The Unique Identifier",
+  "slug": "replace-employee-id-with-the-unique-identifier",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1378",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employees (id int, name varchar(20))",
+      "Create table If Not Exists EmployeeUNI (id int, unique_id int)"
+    ],
+    "mssql": [
+      "Create table Employees (id int, name varchar(20))",
+      "Create table EmployeeUNI (id int, unique_id int)"
+    ],
+    "oraclesql": [
+      "Create table Employees (id int, name varchar(20))",
+      "Create table EmployeeUNI (id int, unique_id int)"
+    ],
+    "database": true,
+    "name": "replace_employee_id",
+    "pythondata": [
+      "Employees = pd.DataFrame([], columns=['id', 'name']).astype({'id':'int64', 'name':'object'})",
+      "EmployeeUNI = pd.DataFrame([], columns=['id', 'unique_id']).astype({'id':'int64', 'unique_id':'int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Employees (id int, name varchar(20))\n",
+      "Create table If Not Exists EmployeeUNI (id int, unique_id int)"
+    ],
+    "database_schema": {
+      "Employees": {
+        "id": "INT",
+        "name": "VARCHAR(20)"
+      },
+      "EmployeeUNI": {
+        "id": "INT",
+        "unique_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Employees (id int, name varchar(20))",
+    "Create table If Not Exists EmployeeUNI (id int, unique_id int)"
+  ],
+  "ordered": false
+}

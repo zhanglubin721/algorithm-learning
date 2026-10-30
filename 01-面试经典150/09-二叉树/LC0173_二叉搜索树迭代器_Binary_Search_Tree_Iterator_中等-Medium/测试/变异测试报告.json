@@ -1,0 +1,27 @@
+{
+  "mutations": [
+    {
+      "mutation": "constant-result",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "公开示例-1",
+        "actual": [
+          null,
+          0,
+          0,
+          true,
+          0,
+          true,
+          0,
+          true,
+          0,
+          true
+        ],
+        "passed": false,
+        "elapsedNs": 78420042
+      }
+    }
+  ],
+  "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+}

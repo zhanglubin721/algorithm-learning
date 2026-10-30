@@ -1,0 +1,46 @@
+{
+  "id": 1148,
+  "titleCn": "文章浏览 I",
+  "titleEn": "Article Views I",
+  "slug": "article-views-i",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1148",
+  "plan": "sql-free-50",
+  "category": "查询",
+  "source": "https://leetcode.cn/problems/article-views-i/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Views (article_id int, author_id int, viewer_id int, view_date date)"
+    ],
+    "mssql": [
+      "Create table Views (article_id int, author_id int, viewer_id int, view_date date)"
+    ],
+    "oraclesql": [
+      "Create table Views (article_id int, author_id int, viewer_id int, view_date date)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "article_views",
+    "pythondata": [
+      "Views = pd.DataFrame([], columns=['article_id', 'author_id', 'viewer_id', 'view_date']).astype({'article_id':'Int64', 'author_id':'Int64', 'viewer_id':'Int64', 'view_date':'datetime64[ns]'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Views (article_id int, author_id int, viewer_id int, view_date date)"
+    ],
+    "database_schema": {
+      "Views": {
+        "article_id": "INT",
+        "author_id": "INT",
+        "viewer_id": "INT",
+        "view_date": "DATE"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Views (article_id int, author_id int, viewer_id int, view_date date)"
+  ],
+  "ordered": true
+}

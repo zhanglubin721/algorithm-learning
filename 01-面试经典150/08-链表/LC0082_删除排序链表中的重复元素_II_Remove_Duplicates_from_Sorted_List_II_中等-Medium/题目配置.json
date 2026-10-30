@@ -1,0 +1,29 @@
+{
+  "id": 82,
+  "titleCn": "删除排序链表中的重复元素 II",
+  "titleEn": "Remove Duplicates from Sorted List II",
+  "slug": "remove-duplicates-from-sorted-list-ii",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0082",
+  "plan": "top-interview-150",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/",
+  "meta": {
+    "name": "deleteDuplicates",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

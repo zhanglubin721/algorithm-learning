@@ -1,0 +1,17 @@
+import java.util.*;
+import java.util.stream.*;
+class MedianFinder {
+
+    public MedianFinder() { throw new UnsupportedOperationException("TODO"); }
+    
+    public void addNum(int num) { throw new UnsupportedOperationException("TODO"); }
+    
+    public double findMedian() { throw new UnsupportedOperationException("TODO"); }
+}
+
+/**
+ * Your MedianFinder object will be instantiated and called as such:
+ * MedianFinder obj = new MedianFinder();
+ * obj.addNum(num);
+ * double param_2 = obj.findMedian();
+ */

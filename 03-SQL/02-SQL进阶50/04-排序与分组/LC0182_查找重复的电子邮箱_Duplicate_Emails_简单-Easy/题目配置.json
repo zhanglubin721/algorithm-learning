@@ -1,0 +1,43 @@
+{
+  "id": 182,
+  "titleCn": "查找重复的电子邮箱",
+  "titleEn": "Duplicate Emails",
+  "slug": "duplicate-emails",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc0182",
+  "plan": "sql-premium-50",
+  "category": "排序与分组",
+  "source": "https://leetcode.cn/problems/duplicate-emails/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Person (id int, email varchar(255))"
+    ],
+    "mssql": [
+      "Create table Person (id int, email varchar(255))"
+    ],
+    "oraclesql": [
+      "Create table Person (id int, email varchar(255))"
+    ],
+    "database": true,
+    "name": "duplicate_emails",
+    "pythondata": [
+      "Person = pd.DataFrame([], columns=['id', 'email']).astype({'id':'Int64', 'email':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Person (id int, email varchar(255))"
+    ],
+    "database_schema": {
+      "Person": {
+        "id": "INT",
+        "email": "VARCHAR(255)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Person (id int, email varchar(255))"
+  ],
+  "ordered": false
+}

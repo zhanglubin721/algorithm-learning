@@ -1,0 +1,27 @@
+{
+  "id": 22,
+  "titleCn": "括号生成",
+  "titleEn": "Generate Parentheses",
+  "slug": "generate-parentheses",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0022",
+  "plan": "top-100-liked",
+  "category": "回溯",
+  "source": "https://leetcode.cn/problems/generate-parentheses/",
+  "meta": {
+    "name": "generateParenthesis",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "name": "边界-004",
+    "args": [
+      "aab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      [
+        "a",
+        "a",
+        "b"
+      ],
+      [
+        "aa",
+        "b"
+      ]
+    ]
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      [
+        "a"
+      ]
+    ]
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      [
+        "a",
+        "a"
+      ],
+      [
+        "aa"
+      ]
+    ]
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      [
+        "a",
+        "b"
+      ]
+    ]
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "abba"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      [
+        "a",
+        "b",
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "bb",
+        "a"
+      ],
+      [
+        "abba"
+      ]
+    ]
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      "banana"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      [
+        "b",
+        "a",
+        "n",
+        "a",
+        "n",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "n",
+        "ana"
+      ],
+      [
+        "b",
+        "a",
+        "nan",
+        "a"
+      ],
+      [
+        "b",
+        "ana",
+        "n",
+        "a"
+      ],
+      [
+        "b",
+        "anana"
+      ]
+    ]
+  }
+]

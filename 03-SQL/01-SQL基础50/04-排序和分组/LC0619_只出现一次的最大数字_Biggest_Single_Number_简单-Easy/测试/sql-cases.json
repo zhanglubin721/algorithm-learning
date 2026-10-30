@@ -1,0 +1,376 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            1
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          "6"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "公开数据-2",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            3
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            1
+          ],
+          [
+            4
+          ],
+          [
+            3
+          ],
+          [
+            6
+          ],
+          [
+            5
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          "6"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            8
+          ],
+          [
+            1
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            8
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          "6"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            4
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            8
+          ],
+          [
+            6
+          ],
+          [
+            1
+          ],
+          [
+            5
+          ],
+          [
+            8
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          "6"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": []
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            8
+          ],
+          [
+            8
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-7",
+    "data": {
+      "headers": {
+        "MyNumbers": [
+          "num"
+        ]
+      },
+      "rows": {
+        "MyNumbers": [
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            1
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "num"
+      ],
+      [
+        [
+          "1"
+        ]
+      ]
+    ]
+  }
+]

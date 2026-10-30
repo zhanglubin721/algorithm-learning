@@ -1,0 +1,282 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Employees": [
+          "employee_id",
+          "name",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            2,
+            "Meir",
+            3000
+          ],
+          [
+            3,
+            "Michael",
+            3800
+          ],
+          [
+            7,
+            "Addilyn",
+            7400
+          ],
+          [
+            8,
+            "Juan",
+            6100
+          ],
+          [
+            9,
+            "Kannon",
+            7700
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "employee_id",
+        "bonus"
+      ],
+      [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "3",
+          "0"
+        ],
+        [
+          "7",
+          "7400"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "9",
+          "7700"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Employees": [
+          "employee_id",
+          "name",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            2,
+            "Meir",
+            3000
+          ],
+          [
+            7,
+            "Addilyn",
+            7400
+          ],
+          [
+            3,
+            "Michael",
+            3800
+          ],
+          [
+            8,
+            "Juan",
+            6100
+          ],
+          [
+            9,
+            "Kannon",
+            7700
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "employee_id",
+        "bonus"
+      ],
+      [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "3",
+          "0"
+        ],
+        [
+          "7",
+          "7400"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "9",
+          "7700"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Employees": [
+          "employee_id",
+          "name",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            8,
+            "Juan",
+            6100
+          ],
+          [
+            9,
+            "Kannon",
+            7700
+          ],
+          [
+            7,
+            "Addilyn",
+            7400
+          ],
+          [
+            2,
+            "Meir",
+            3000
+          ],
+          [
+            3,
+            "Michael",
+            3800
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "employee_id",
+        "bonus"
+      ],
+      [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "3",
+          "0"
+        ],
+        [
+          "7",
+          "7400"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "9",
+          "7700"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Employees": [
+          "employee_id",
+          "name",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employees": [
+          [
+            3,
+            "Michael",
+            3800
+          ],
+          [
+            8,
+            "Juan",
+            6100
+          ],
+          [
+            7,
+            "Addilyn",
+            7400
+          ],
+          [
+            9,
+            "Kannon",
+            7700
+          ],
+          [
+            2,
+            "Meir",
+            3000
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "employee_id",
+        "bonus"
+      ],
+      [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "3",
+          "0"
+        ],
+        [
+          "7",
+          "7400"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "9",
+          "7700"
+        ]
+      ]
+    ]
+  }
+]

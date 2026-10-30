@@ -1,0 +1,60 @@
+{
+  "id": 160,
+  "titleCn": "相交链表",
+  "titleEn": "Intersection of Two Linked Lists",
+  "slug": "intersection-of-two-linked-lists",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0160",
+  "plan": "top-100-liked",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/intersection-of-two-linked-lists/",
+  "meta": {
+    "name": "getIntersectionNode",
+    "params": [
+      {
+        "name": "intersectVal",
+        "type": "integer"
+      },
+      {
+        "name": "listA",
+        "type": "ListNode"
+      },
+      {
+        "name": "listB",
+        "type": "ListNode"
+      },
+      {
+        "name": "skipA",
+        "type": "integer"
+      },
+      {
+        "name": "skipB",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "c",
+      "csharp",
+      "javascript",
+      "golang",
+      "python3",
+      "swift",
+      "ruby",
+      "kotlin",
+      "scala",
+      "php",
+      "typescript"
+    ],
+    "manual": true
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

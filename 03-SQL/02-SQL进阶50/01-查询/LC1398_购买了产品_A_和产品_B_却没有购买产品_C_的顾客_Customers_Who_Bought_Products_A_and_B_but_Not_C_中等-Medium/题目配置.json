@@ -1,0 +1,54 @@
+{
+  "id": 1398,
+  "titleCn": "购买了产品 A 和产品 B 却没有购买产品 C 的顾客",
+  "titleEn": "Customers Who Bought Products A and B but Not C",
+  "slug": "customers-who-bought-products-a-and-b-but-not-c",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1398",
+  "plan": "sql-premium-50",
+  "category": "查询",
+  "source": "https://leetcode.cn/problems/customers-who-bought-products-a-and-b-but-not-c/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customers (customer_id int, customer_name varchar(30))",
+      "Create table If Not Exists Orders (order_id int, customer_id int, product_name varchar(30))"
+    ],
+    "mssql": [
+      "Create table Customers (customer_id int, customer_name varchar(30))",
+      "Create table Orders (order_id int, customer_id int, product_name varchar(30))"
+    ],
+    "oraclesql": [
+      "Create table Customers (customer_id int, customer_name varchar(30))",
+      "Create table Orders (order_id int, customer_id int, product_name varchar(30))"
+    ],
+    "database": true,
+    "name": "find_customers",
+    "pythondata": [
+      "Customers = pd.DataFrame([], columns=['customer_id', 'customer_name']).astype({'customer_id':'Int64', 'customer_name':'object'})",
+      "Orders = pd.DataFrame([], columns=['order_id', 'customer_id', 'product_name']).astype({'order_id':'Int64', 'customer_id':'Int64', 'product_name':'object'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Customers (customer_id int, customer_name varchar(30))\n",
+      "Create table If Not Exists Orders (order_id int, customer_id int, product_name varchar(30))"
+    ],
+    "database_schema": {
+      "Customers": {
+        "customer_id": "INT",
+        "customer_name": "VARCHAR(30)"
+      },
+      "Orders": {
+        "order_id": "INT",
+        "customer_id": "INT",
+        "product_name": "VARCHAR(30)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Customers (customer_id int, customer_name varchar(30))",
+    "Create table If Not Exists Orders (order_id int, customer_id int, product_name varchar(30))"
+  ],
+  "ordered": true
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "name": "边界-002",
+    "args": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 25
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      [
+        4,
+        9,
+        0,
+        5,
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 1026
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      [
+        1
+      ]
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": 1
+  }
+]

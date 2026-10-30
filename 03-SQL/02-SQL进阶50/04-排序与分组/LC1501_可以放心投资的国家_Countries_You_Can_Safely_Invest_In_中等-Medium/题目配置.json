@@ -1,0 +1,65 @@
+{
+  "id": 1501,
+  "titleCn": "可以放心投资的国家",
+  "titleEn": "Countries You Can Safely Invest In",
+  "slug": "countries-you-can-safely-invest-in",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1501",
+  "plan": "sql-premium-50",
+  "category": "排序与分组",
+  "source": "https://leetcode.cn/problems/countries-you-can-safely-invest-in/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Person (id int, name varchar(15), phone_number varchar(11))",
+      "Create table If Not Exists Country (name varchar(15), country_code varchar(3))",
+      "Create table If Not Exists Calls (caller_id int, callee_id int, duration int)"
+    ],
+    "mssql": [
+      "Create table Person (id int, name varchar(15), phone_number varchar(11))",
+      "Create table Country (name varchar(15), country_code varchar(3))",
+      "Create table Calls (caller_id int, callee_id int, duration int)"
+    ],
+    "oraclesql": [
+      "Create table Person (id int, name varchar(15), phone_number varchar(11))",
+      "Create table Country (name varchar(15), country_code varchar(3))",
+      "Create table Calls (caller_id int, callee_id int, duration int)"
+    ],
+    "database": true,
+    "name": "find_safe_countries",
+    "pythondata": [
+      "Person = pd.DataFrame([], columns=['id', 'name', 'phone_number']).astype({'id':'Int64', 'name':'object', 'phone_number':'object'})",
+      "Country = pd.DataFrame([], columns=['name', 'country_code']).astype({'name':'object', 'country_code':'object'})",
+      "Calls = pd.DataFrame([], columns=['caller_id', 'callee_id', 'duration']).astype({'caller_id':'Int64', 'callee_id':'Int64', 'duration':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Person (id int, name varchar(15), phone_number varchar(11))\n",
+      "Create table If Not Exists Country (name varchar(15), country_code varchar(3))",
+      "Create table If Not Exists Calls (caller_id int, callee_id int, duration int)"
+    ],
+    "database_schema": {
+      "Person": {
+        "id": "INT",
+        "name": "VARCHAR(15)",
+        "phone_number": "VARCHAR(11)"
+      },
+      "Country": {
+        "name": "VARCHAR(15)",
+        "country_code": "VARCHAR(3)"
+      },
+      "Calls": {
+        "caller_id": "INT",
+        "callee_id": "INT",
+        "duration": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Person (id int, name varchar(15), phone_number varchar(11))",
+    "Create table If Not Exists Country (name varchar(15), country_code varchar(3))",
+    "Create table If Not Exists Calls (caller_id int, callee_id int, duration int)"
+  ],
+  "ordered": false
+}

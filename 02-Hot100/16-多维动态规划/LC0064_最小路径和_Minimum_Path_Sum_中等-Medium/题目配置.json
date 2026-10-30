@@ -1,0 +1,27 @@
+{
+  "id": 64,
+  "titleCn": "最小路径和",
+  "titleEn": "Minimum Path Sum",
+  "slug": "minimum-path-sum",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0064",
+  "plan": "top-100-liked",
+  "category": "多维动态规划",
+  "source": "https://leetcode.cn/problems/minimum-path-sum/",
+  "meta": {
+    "name": "minPathSum",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

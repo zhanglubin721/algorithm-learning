@@ -1,0 +1,44 @@
+{
+  "id": 603,
+  "titleCn": "连续空余座位",
+  "titleEn": "Consecutive Available Seats",
+  "slug": "consecutive-available-seats",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc0603",
+  "plan": "sql-premium-50",
+  "category": "高级查询与连接",
+  "source": "https://leetcode.cn/problems/consecutive-available-seats/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Cinema (seat_id int primary key auto_increment, free bool)"
+    ],
+    "mssql": [
+      "Create table Cinema (seat_id int primary key, free BIT)"
+    ],
+    "oraclesql": [
+      "Create table Cinema (seat_id int primary key, free NUMBER(1))"
+    ],
+    "database": true,
+    "name": "consecutive_available_seats",
+    "pythondata": [
+      "Cinema = pd.DataFrame([], columns=['seat_id', 'free']).astype({'seat_id':'Int64', 'free':'int'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Cinema (seat_id int, free int)\n"
+    ],
+    "manual": false,
+    "database_schema": {
+      "Cinema": {
+        "seat_id": "INT",
+        "free": "BOOLEAN"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Cinema (seat_id int primary key auto_increment, free bool)"
+  ],
+  "ordered": true
+}

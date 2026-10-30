@@ -1,0 +1,27 @@
+{
+  "id": 416,
+  "titleCn": "分割等和子集",
+  "titleEn": "Partition Equal Subset Sum",
+  "slug": "partition-equal-subset-sum",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0416",
+  "plan": "top-100-liked",
+  "category": "动态规划",
+  "source": "https://leetcode.cn/problems/partition-equal-subset-sum/",
+  "meta": {
+    "name": "canPartition",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

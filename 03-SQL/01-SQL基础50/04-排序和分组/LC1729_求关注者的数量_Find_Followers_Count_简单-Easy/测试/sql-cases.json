@@ -1,0 +1,304 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Followers": [
+          "user_id",
+          "follower_id"
+        ]
+      },
+      "rows": {
+        "Followers": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "2",
+            "1"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "followers_count"
+      ],
+      [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Followers": [
+          "user_id",
+          "follower_id"
+        ]
+      },
+      "rows": {
+        "Followers": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "1"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "followers_count"
+      ],
+      [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Followers": [
+          "user_id",
+          "follower_id"
+        ]
+      },
+      "rows": {
+        "Followers": [
+          [
+            "2",
+            "0"
+          ],
+          [
+            "2",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "followers_count"
+      ],
+      [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Followers": [
+          "user_id",
+          "follower_id"
+        ]
+      },
+      "rows": {
+        "Followers": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "1"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "followers_count"
+      ],
+      [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Followers": [
+          "user_id",
+          "follower_id"
+        ]
+      },
+      "rows": {
+        "Followers": []
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "followers_count"
+      ],
+      []
+    ]
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "Followers": [
+          "user_id",
+          "follower_id"
+        ]
+      },
+      "rows": {
+        "Followers": [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "followers_count"
+      ],
+      [
+        [
+          "0",
+          "1"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "Followers": [
+          "user_id",
+          "follower_id"
+        ]
+      },
+      "rows": {
+        "Followers": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "followers_count"
+      ],
+      [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ]
+    ]
+  }
+]

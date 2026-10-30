@@ -1,0 +1,63 @@
+{
+  "id": 1280,
+  "titleCn": "学生们参加各科测试的次数",
+  "titleEn": "Students and Examinations",
+  "slug": "students-and-examinations",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1280",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/students-and-examinations/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Students (student_id int, student_name varchar(20))",
+      "Create table If Not Exists Subjects (subject_name varchar(20))",
+      "Create table If Not Exists Examinations (student_id int, subject_name varchar(20))"
+    ],
+    "mssql": [
+      "Create table Students (student_id int, student_name varchar(20))",
+      "Create table Subjects (subject_name varchar(20))",
+      "Create table Examinations (student_id int, subject_name varchar(20))"
+    ],
+    "oraclesql": [
+      "Create table Students (student_id int, student_name varchar(20))\n",
+      "Create table Subjects (subject_name varchar(20))\n",
+      "Create table Examinations (student_id int, subject_name varchar(20))"
+    ],
+    "database": true,
+    "name": "students_and_examinations",
+    "pythondata": [
+      "Students = pd.DataFrame([], columns=['student_id', 'student_name']).astype({'student_id':'Int64', 'student_name':'object'})",
+      "Subjects = pd.DataFrame([], columns=['subject_name']).astype({'subject_name':'object'})",
+      "Examinations = pd.DataFrame([], columns=['student_id', 'subject_name']).astype({'student_id':'Int64', 'subject_name':'object'})"
+    ],
+    "manual": false,
+    "postgresql": [
+      "\nCreate table If Not Exists Students (student_id int, student_name varchar(20))\n",
+      "Create table If Not Exists Subjects (subject_name varchar(20))",
+      "Create table If Not Exists Examinations (student_id int, subject_name varchar(20))"
+    ],
+    "database_schema": {
+      "Students": {
+        "student_id": "INT",
+        "student_name": "VARCHAR(20)"
+      },
+      "Subjects": {
+        "subject_name": "VARCHAR(20)"
+      },
+      "Examinations": {
+        "student_id": "INT",
+        "subject_name": "VARCHAR(20)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Students (student_id int, student_name varchar(20))",
+    "Create table If Not Exists Subjects (subject_name varchar(20))",
+    "Create table If Not Exists Examinations (student_id int, subject_name varchar(20))"
+  ],
+  "ordered": true
+}

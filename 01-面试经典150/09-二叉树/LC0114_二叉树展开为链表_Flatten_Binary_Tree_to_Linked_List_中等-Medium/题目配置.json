@@ -1,0 +1,30 @@
+{
+  "id": 114,
+  "titleCn": "二叉树展开为链表",
+  "titleEn": "Flatten Binary Tree to Linked List",
+  "slug": "flatten-binary-tree-to-linked-list",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0114",
+  "plan": "top-interview-150",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/",
+  "meta": {
+    "name": "flatten",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

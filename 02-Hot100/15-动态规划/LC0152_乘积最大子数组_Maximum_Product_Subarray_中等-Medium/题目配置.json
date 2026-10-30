@@ -1,0 +1,27 @@
+{
+  "id": 152,
+  "titleCn": "乘积最大子数组",
+  "titleEn": "Maximum Product Subarray",
+  "slug": "maximum-product-subarray",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0152",
+  "plan": "top-100-liked",
+  "category": "动态规划",
+  "source": "https://leetcode.cn/problems/maximum-product-subarray/",
+  "meta": {
+    "name": "maxProduct",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

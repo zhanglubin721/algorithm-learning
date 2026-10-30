@@ -1,0 +1,52 @@
+[
+  {
+    "name": "边界-001",
+    "args": [
+      "egg",
+      "add"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      "foo",
+      "bar"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      "paper",
+      "title"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      "ab",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": false
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      "a",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": true
+  }
+]

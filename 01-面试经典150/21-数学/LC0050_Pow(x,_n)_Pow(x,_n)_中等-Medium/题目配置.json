@@ -1,0 +1,31 @@
+{
+  "id": 50,
+  "titleCn": "Pow(x, n)",
+  "titleEn": "Pow(x, n)",
+  "slug": "powx-n",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0050",
+  "plan": "top-interview-150",
+  "category": "数学",
+  "source": "https://leetcode.cn/problems/powx-n/",
+  "meta": {
+    "name": "myPow",
+    "params": [
+      {
+        "name": "x",
+        "type": "double"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "double"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

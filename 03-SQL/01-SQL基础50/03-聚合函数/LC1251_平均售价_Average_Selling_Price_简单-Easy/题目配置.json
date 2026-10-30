@@ -1,0 +1,57 @@
+{
+  "id": 1251,
+  "titleCn": "平均售价",
+  "titleEn": "Average Selling Price",
+  "slug": "average-selling-price",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1251",
+  "plan": "sql-free-50",
+  "category": "聚合函数",
+  "source": "https://leetcode.cn/problems/average-selling-price/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Prices (product_id int, start_date date, end_date date, price int)",
+      "Create table If Not Exists UnitsSold (product_id int, purchase_date date, units int)"
+    ],
+    "mssql": [
+      "Create table Prices (product_id int, start_date date, end_date date, price int)",
+      "Create table UnitsSold (product_id int, purchase_date date, units int)"
+    ],
+    "oraclesql": [
+      "Create table Prices (product_id int, start_date date, end_date date, price int)",
+      "Create table UnitsSold (product_id int, purchase_date date, units int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "average_selling_price",
+    "pythondata": [
+      "Prices = pd.DataFrame([], columns=['product_id', 'start_date', 'end_date', 'price']).astype({'product_id':'Int64', 'start_date':'datetime64[ns]', 'end_date':'datetime64[ns]', 'price':'Int64'})",
+      "UnitsSold = pd.DataFrame([], columns=['product_id', 'purchase_date', 'units']).astype({'product_id':'Int64', 'purchase_date':'datetime64[ns]', 'units':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Prices (product_id int, start_date date, end_date date, price int)\n",
+      "Create table If Not Exists UnitsSold (product_id int, purchase_date date, units int)"
+    ],
+    "database_schema": {
+      "Prices": {
+        "product_id": "INT",
+        "start_date": "DATE",
+        "end_date": "DATE",
+        "price": "INT"
+      },
+      "UnitsSold": {
+        "product_id": "INT",
+        "purchase_date": "DATE",
+        "units": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Prices (product_id int, start_date date, end_date date, price int)",
+    "Create table If Not Exists UnitsSold (product_id int, purchase_date date, units int)"
+  ],
+  "ordered": false
+}

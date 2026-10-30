@@ -1,0 +1,28 @@
+{
+  "id": 94,
+  "titleCn": "二叉树的中序遍历",
+  "titleEn": "Binary Tree Inorder Traversal",
+  "slug": "binary-tree-inorder-traversal",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0094",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/binary-tree-inorder-traversal/",
+  "meta": {
+    "name": "inorderTraversal",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<integer>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

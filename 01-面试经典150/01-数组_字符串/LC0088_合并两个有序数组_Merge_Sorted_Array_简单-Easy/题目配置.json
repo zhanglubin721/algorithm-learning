@@ -1,0 +1,44 @@
+{
+  "id": 88,
+  "titleCn": "合并两个有序数组",
+  "titleEn": "Merge Sorted Array",
+  "slug": "merge-sorted-array",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0088",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/merge-sorted-array/",
+  "meta": {
+    "name": "merge",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]",
+        "implicitsizeparam": false
+      },
+      {
+        "name": "m",
+        "type": "integer"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]",
+        "implicitsizeparam": false
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

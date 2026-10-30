@@ -1,0 +1,43 @@
+{
+  "id": 1683,
+  "titleCn": "无效的推文",
+  "titleEn": "Invalid Tweets",
+  "slug": "invalid-tweets",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1683",
+  "plan": "sql-free-50",
+  "category": "查询",
+  "source": "https://leetcode.cn/problems/invalid-tweets/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Tweets(tweet_id int, content varchar(50))"
+    ],
+    "mssql": [
+      "Create table Tweets(tweet_id int, content varchar(50))"
+    ],
+    "oraclesql": [
+      "Create table Tweets(tweet_id int, content varchar(50))"
+    ],
+    "database": true,
+    "name": "invalid_tweets",
+    "pythondata": [
+      "Tweets = pd.DataFrame([], columns=['tweet_id', 'content']).astype({'tweet_id':'Int64', 'content':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Tweets(tweet_id int, content varchar(50))"
+    ],
+    "database_schema": {
+      "Tweets": {
+        "tweet_id": "INT",
+        "content": "VARCHAR(50)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Tweets(tweet_id int, content varchar(50))"
+  ],
+  "ordered": false
+}

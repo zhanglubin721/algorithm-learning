@@ -1,0 +1,27 @@
+{
+  "id": 45,
+  "titleCn": "跳跃游戏 II",
+  "titleEn": "Jump Game II",
+  "slug": "jump-game-ii",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0045",
+  "plan": "top-100-liked",
+  "category": "贪心算法",
+  "source": "https://leetcode.cn/problems/jump-game-ii/",
+  "meta": {
+    "name": "jump",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

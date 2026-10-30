@@ -1,0 +1,115 @@
+[
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Tweets": [
+          "tweet_id",
+          "content"
+        ]
+      },
+      "rows": {
+        "Tweets": [
+          [
+            1,
+            "Let us Code"
+          ],
+          [
+            2,
+            "More than fifteen chars are here!"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "tweet_id"
+      ],
+      [
+        [
+          "2"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Tweets": [
+          "tweet_id",
+          "content"
+        ]
+      },
+      "rows": {
+        "Tweets": [
+          [
+            1,
+            "aaaaaaaaaaaaaa"
+          ],
+          [
+            2,
+            "bbbbbbbbbbbbbbb"
+          ],
+          [
+            3,
+            "cccccccccccccccc"
+          ],
+          [
+            4,
+            "dddddddddddddddddddddddddddddddddddddddddddddddddd"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "tweet_id"
+      ],
+      [
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Tweets": [
+          "tweet_id",
+          "content"
+        ]
+      },
+      "rows": {
+        "Tweets": [
+          [
+            2,
+            "More than fifteen chars are here!"
+          ],
+          [
+            1,
+            "Let us Code"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "tweet_id"
+      ],
+      [
+        [
+          "2"
+        ]
+      ]
+    ]
+  }
+]

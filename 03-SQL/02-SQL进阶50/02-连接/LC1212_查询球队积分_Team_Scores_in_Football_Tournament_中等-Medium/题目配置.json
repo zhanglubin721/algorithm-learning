@@ -1,0 +1,56 @@
+{
+  "id": 1212,
+  "titleCn": "查询球队积分",
+  "titleEn": "Team Scores in Football Tournament",
+  "slug": "team-scores-in-football-tournament",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1212",
+  "plan": "sql-premium-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/team-scores-in-football-tournament/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Teams (team_id int, team_name varchar(30))",
+      "Create table If Not Exists Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)"
+    ],
+    "mssql": [
+      "Create table Teams (team_id int, team_name varchar(30))",
+      "Create table Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)"
+    ],
+    "oraclesql": [
+      "Create table Teams (team_id int, team_name varchar(30))",
+      "Create table Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)"
+    ],
+    "database": true,
+    "name": "team_scores",
+    "pythondata": [
+      "Teams = pd.DataFrame([], columns=['team_id', 'team_name']).astype({'team_id':'Int64', 'team_name':'object'})",
+      "Matches = pd.DataFrame([], columns=['match_id', 'host_team', 'guest_team', 'host_goals', 'guest_goals']).astype({'match_id':'Int64', 'host_team':'Int64', 'guest_team':'Int64', 'host_goals':'Int64', 'guest_goals':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Teams (team_id int, team_name varchar(30))\n",
+      "Create table If Not Exists Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)"
+    ],
+    "database_schema": {
+      "Teams": {
+        "team_id": "INT",
+        "team_name": "VARCHAR(30)"
+      },
+      "Matches": {
+        "match_id": "INT",
+        "host_team": "INT",
+        "guest_team": "INT",
+        "host_goals": "INT",
+        "guest_goals": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Teams (team_id int, team_name varchar(30))",
+    "Create table If Not Exists Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)"
+  ],
+  "ordered": true
+}

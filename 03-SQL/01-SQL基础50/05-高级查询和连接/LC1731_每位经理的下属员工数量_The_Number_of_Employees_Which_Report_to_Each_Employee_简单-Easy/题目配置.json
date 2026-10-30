@@ -1,0 +1,45 @@
+{
+  "id": 1731,
+  "titleCn": "每位经理的下属员工数量",
+  "titleEn": "The Number of Employees Which Report to Each Employee",
+  "slug": "the-number-of-employees-which-report-to-each-employee",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1731",
+  "plan": "sql-free-50",
+  "category": "高级查询和连接",
+  "source": "https://leetcode.cn/problems/the-number-of-employees-which-report-to-each-employee/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employees(employee_id int, name varchar(20), reports_to int, age int)"
+    ],
+    "mssql": [
+      "Create table Employees(employee_id int, name varchar(20), reports_to int, age int)"
+    ],
+    "oraclesql": [
+      "Create table Employees(employee_id int, name varchar(20), reports_to int, age int)"
+    ],
+    "database": true,
+    "name": "count_employees",
+    "pythondata": [
+      "Employees = pd.DataFrame([], columns=['employee_id', 'name', 'reports_to', 'age']).astype({'employee_id':'Int64', 'name':'object', 'reports_to':'Int64', 'age':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Employees(employee_id int, name varchar(20), reports_to int, age int)"
+    ],
+    "database_schema": {
+      "Employees": {
+        "employee_id": "INT",
+        "name": "VARCHAR(20)",
+        "reports_to": "INT",
+        "age": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Employees(employee_id int, name varchar(20), reports_to int, age int)"
+  ],
+  "ordered": true
+}

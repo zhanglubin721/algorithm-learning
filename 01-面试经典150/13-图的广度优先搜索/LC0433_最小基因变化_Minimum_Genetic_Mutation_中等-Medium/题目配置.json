@@ -1,0 +1,35 @@
+{
+  "id": 433,
+  "titleCn": "最小基因变化",
+  "titleEn": "Minimum Genetic Mutation",
+  "slug": "minimum-genetic-mutation",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0433",
+  "plan": "top-interview-150",
+  "category": "图的广度优先搜索",
+  "source": "https://leetcode.cn/problems/minimum-genetic-mutation/",
+  "meta": {
+    "name": "minMutation",
+    "params": [
+      {
+        "name": "startGene",
+        "type": "string"
+      },
+      {
+        "name": "endGene",
+        "type": "string"
+      },
+      {
+        "name": "bank",
+        "type": "string[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

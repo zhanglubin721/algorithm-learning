@@ -1,0 +1,31 @@
+{
+  "id": 67,
+  "titleCn": "二进制求和",
+  "titleEn": "Add Binary",
+  "slug": "add-binary",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0067",
+  "plan": "top-interview-150",
+  "category": "位运算",
+  "source": "https://leetcode.cn/problems/add-binary/",
+  "meta": {
+    "name": "addBinary",
+    "params": [
+      {
+        "name": "a",
+        "type": "string"
+      },
+      {
+        "name": "b",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

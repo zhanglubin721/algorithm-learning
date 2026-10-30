@@ -1,0 +1,180 @@
+[
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            1,
+            100
+          ],
+          [
+            2,
+            200
+          ],
+          [
+            3,
+            300
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "SecondHighestSalary"
+      ],
+      [
+        [
+          "200"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "公开数据-2",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            1,
+            100
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "SecondHighestSalary"
+      ],
+      [
+        [
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            1,
+            100
+          ],
+          [
+            2,
+            100
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "SecondHighestSalary"
+      ],
+      [
+        [
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            2,
+            200
+          ],
+          [
+            3,
+            300
+          ],
+          [
+            1,
+            100
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "SecondHighestSalary"
+      ],
+      [
+        [
+          "200"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "salary"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            2,
+            200
+          ],
+          [
+            1,
+            100
+          ],
+          [
+            3,
+            300
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "SecondHighestSalary"
+      ],
+      [
+        [
+          "200"
+        ]
+      ]
+    ]
+  }
+]

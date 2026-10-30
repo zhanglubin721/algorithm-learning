@@ -1,0 +1,43 @@
+{
+  "id": 534,
+  "titleCn": "游戏玩法分析 III",
+  "titleEn": "Game Play Analysis III",
+  "slug": "game-play-analysis-iii",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc0534",
+  "plan": "sql-premium-50",
+  "category": "子查询",
+  "source": "https://leetcode.cn/problems/game-play-analysis-iii/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Activity (player_id int, device_id int, event_date date, games_played int)"
+    ],
+    "mssql": [
+      "Create table Activity (player_id int, device_id int, event_date date, games_played int)"
+    ],
+    "oraclesql": [
+      "Create table Activity (player_id int, device_id int, event_date date, games_played int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "gameplay_analysis",
+    "pythondata": [
+      "Activity = pd.DataFrame([], columns=['player_id', 'device_id', 'event_date', 'games_played']).astype({'player_id':'Int64', 'device_id':'Int64', 'event_date':'datetime64[ns]', 'games_played':'Int64'})"
+    ],
+    "database_schema": {
+      "Activity": {
+        "player_id": "INT",
+        "device_id": "INT",
+        "event_date": "DATE",
+        "games_played": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Activity (player_id int, device_id int, event_date date, games_played int)"
+  ],
+  "ordered": false
+}

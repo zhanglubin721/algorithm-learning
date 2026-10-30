@@ -1,0 +1,28 @@
+{
+  "id": 199,
+  "titleCn": "二叉树的右视图",
+  "titleEn": "Binary Tree Right Side View",
+  "slug": "binary-tree-right-side-view",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0199",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/binary-tree-right-side-view/",
+  "meta": {
+    "name": "rightSideView",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<integer>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

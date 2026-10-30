@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.stream.*;
+class Trie {
+
+    public Trie() { throw new UnsupportedOperationException("TODO"); }
+    
+    public void insert(String word) { throw new UnsupportedOperationException("TODO"); }
+    
+    public boolean search(String word) { throw new UnsupportedOperationException("TODO"); }
+    
+    public boolean startsWith(String prefix) { throw new UnsupportedOperationException("TODO"); }
+}
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.insert(word);
+ * boolean param_2 = obj.search(word);
+ * boolean param_3 = obj.startsWith(prefix);
+ */

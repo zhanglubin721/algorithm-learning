@@ -1,0 +1,31 @@
+{
+  "id": 209,
+  "titleCn": "长度最小的子数组",
+  "titleEn": "Minimum Size Subarray Sum",
+  "slug": "minimum-size-subarray-sum",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0209",
+  "plan": "top-interview-150",
+  "category": "滑动窗口",
+  "source": "https://leetcode.cn/problems/minimum-size-subarray-sum/",
+  "meta": {
+    "name": "minSubArrayLen",
+    "params": [
+      {
+        "name": "target",
+        "type": "integer"
+      },
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

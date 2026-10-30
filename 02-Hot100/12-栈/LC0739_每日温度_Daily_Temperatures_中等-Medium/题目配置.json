@@ -1,0 +1,27 @@
+{
+  "id": 739,
+  "titleCn": "每日温度",
+  "titleEn": "Daily Temperatures",
+  "slug": "daily-temperatures",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0739",
+  "plan": "top-100-liked",
+  "category": "栈",
+  "source": "https://leetcode.cn/problems/daily-temperatures/",
+  "meta": {
+    "name": "dailyTemperatures",
+    "params": [
+      {
+        "name": "temperatures",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

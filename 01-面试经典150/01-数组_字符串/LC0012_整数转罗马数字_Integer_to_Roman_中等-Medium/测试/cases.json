@@ -1,0 +1,119 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      3749
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": "MMMDCCXLIX"
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      58
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": "LVIII"
+  },
+  {
+    "name": "边界-010",
+    "args": [
+      1994
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "MCMXCIV"
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "I"
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "IV"
+  },
+  {
+    "name": "边界-003",
+    "args": [
+      9
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "IX"
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      40
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "XL"
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      49
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "XLIX"
+  },
+  {
+    "name": "边界-006",
+    "args": [
+      90
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "XC"
+  },
+  {
+    "name": "边界-007",
+    "args": [
+      99
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "XCIX"
+  },
+  {
+    "name": "边界-008",
+    "args": [
+      400
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "CD"
+  },
+  {
+    "name": "边界-009",
+    "args": [
+      900
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "CM"
+  },
+  {
+    "name": "边界-011",
+    "args": [
+      3999
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": "MMMCMXCIX"
+  }
+]

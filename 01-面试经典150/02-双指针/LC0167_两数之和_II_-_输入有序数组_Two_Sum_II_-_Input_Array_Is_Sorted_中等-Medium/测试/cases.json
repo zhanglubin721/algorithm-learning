@@ -1,0 +1,2043 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        2,
+        7,
+        11,
+        15
+      ],
+      9
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        2,
+        3,
+        4
+      ],
+      6
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        -1,
+        0
+      ],
+      -1
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-001",
+    "args": [
+      [
+        -77,
+        -59,
+        -56,
+        -24,
+        -15,
+        -6,
+        -1,
+        19,
+        44,
+        45,
+        63,
+        67,
+        78
+      ],
+      -7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      6,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-002",
+    "args": [
+      [
+        -41,
+        -34,
+        31,
+        34,
+        39,
+        42,
+        71,
+        99
+      ],
+      76
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-003",
+    "args": [
+      [
+        -45,
+        49
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-004",
+    "args": [
+      [
+        -77,
+        -72,
+        -52,
+        -49,
+        -39,
+        -37,
+        6,
+        16,
+        33,
+        40,
+        44,
+        58,
+        71,
+        85,
+        91
+      ],
+      56
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      8,
+      10
+    ]
+  },
+  {
+    "name": "随机唯一解-005",
+    "args": [
+      [
+        -42,
+        -41,
+        50
+      ],
+      9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-006",
+    "args": [
+      [
+        -18,
+        -8,
+        47
+      ],
+      29
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-007",
+    "args": [
+      [
+        -25,
+        2,
+        83
+      ],
+      -23
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-008",
+    "args": [
+      [
+        -48,
+        -10,
+        -5,
+        -3,
+        58
+      ],
+      -58
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-009",
+    "args": [
+      [
+        -91,
+        -62,
+        -18,
+        -16,
+        -14,
+        -11,
+        96
+      ],
+      -34
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-010",
+    "args": [
+      [
+        -99,
+        -87,
+        -65,
+        -48,
+        -18,
+        8,
+        53,
+        59,
+        66,
+        93
+      ],
+      -79
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-011",
+    "args": [
+      [
+        -88,
+        -62,
+        -57,
+        -54,
+        -42,
+        -26,
+        -24,
+        -18,
+        -6,
+        2,
+        6,
+        12,
+        15,
+        66,
+        74
+      ],
+      -9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      7,
+      13
+    ]
+  },
+  {
+    "name": "随机唯一解-012",
+    "args": [
+      [
+        -85,
+        -84,
+        -56,
+        -43,
+        -26,
+        -14,
+        -11,
+        7,
+        14,
+        40,
+        44,
+        47,
+        53,
+        54,
+        60
+      ],
+      36
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      7,
+      12
+    ]
+  },
+  {
+    "name": "随机唯一解-013",
+    "args": [
+      [
+        -88,
+        -68,
+        -65,
+        -45,
+        -37,
+        60,
+        87
+      ],
+      23
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      5,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-014",
+    "args": [
+      [
+        -85,
+        -70,
+        -12,
+        23,
+        25,
+        39,
+        41,
+        69,
+        75,
+        82
+      ],
+      -45
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      5
+    ]
+  },
+  {
+    "name": "随机唯一解-015",
+    "args": [
+      [
+        -95,
+        -90,
+        -89,
+        -78,
+        -54,
+        -44,
+        25,
+        36,
+        37,
+        49,
+        64,
+        86,
+        95
+      ],
+      -64
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-016",
+    "args": [
+      [
+        -97,
+        -91,
+        -56,
+        -44,
+        -17,
+        -11,
+        1,
+        4,
+        19,
+        24,
+        26,
+        69
+      ],
+      23
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      8,
+      9
+    ]
+  },
+  {
+    "name": "随机唯一解-017",
+    "args": [
+      [
+        9,
+        77,
+        95
+      ],
+      104
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-018",
+    "args": [
+      [
+        -66,
+        -58,
+        -42,
+        -38,
+        -35,
+        -17,
+        0,
+        13,
+        36,
+        51,
+        95,
+        97
+      ],
+      -59
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-019",
+    "args": [
+      [
+        -72,
+        -65,
+        -55,
+        -53,
+        -33,
+        -8,
+        27,
+        48
+      ],
+      -86
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      5
+    ]
+  },
+  {
+    "name": "随机唯一解-020",
+    "args": [
+      [
+        -17,
+        6,
+        63,
+        65,
+        99
+      ],
+      69
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-021",
+    "args": [
+      [
+        -93,
+        -59,
+        -57,
+        8,
+        23,
+        45,
+        46,
+        79,
+        92
+      ],
+      -49
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-022",
+    "args": [
+      [
+        -84,
+        -75,
+        -61,
+        -59,
+        -38,
+        -36,
+        -26,
+        -23,
+        -19,
+        59,
+        85,
+        88,
+        96
+      ],
+      47
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      5,
+      11
+    ]
+  },
+  {
+    "name": "随机唯一解-023",
+    "args": [
+      [
+        -99,
+        -17,
+        2,
+        14,
+        44,
+        55,
+        90
+      ],
+      69
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-024",
+    "args": [
+      [
+        -61,
+        -39,
+        -10,
+        27,
+        60,
+        66
+      ],
+      50
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      5
+    ]
+  },
+  {
+    "name": "随机唯一解-025",
+    "args": [
+      [
+        -74,
+        -67,
+        -22,
+        21,
+        64,
+        67,
+        83,
+        95
+      ],
+      147
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      5,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-026",
+    "args": [
+      [
+        -96,
+        -65,
+        -53,
+        -49,
+        -37,
+        -29,
+        -19,
+        -14,
+        -4,
+        8,
+        32,
+        39,
+        68
+      ],
+      -63
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-027",
+    "args": [
+      [
+        -70,
+        -46,
+        -38,
+        -16,
+        -6,
+        -5,
+        24,
+        36,
+        62,
+        95
+      ],
+      -54
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-028",
+    "args": [
+      [
+        -87,
+        -67,
+        -39,
+        -32,
+        -26,
+        4
+      ],
+      -35
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-029",
+    "args": [
+      [
+        -91,
+        -79,
+        -8,
+        -6,
+        68
+      ],
+      60
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      5
+    ]
+  },
+  {
+    "name": "随机唯一解-030",
+    "args": [
+      [
+        -87,
+        -53,
+        -41,
+        -28,
+        -21,
+        -6,
+        4,
+        16,
+        27,
+        29,
+        87
+      ],
+      81
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      6,
+      11
+    ]
+  },
+  {
+    "name": "随机唯一解-031",
+    "args": [
+      [
+        16,
+        98
+      ],
+      114
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-032",
+    "args": [
+      [
+        -54,
+        -34,
+        -20,
+        9,
+        44,
+        78,
+        80
+      ],
+      -54
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-033",
+    "args": [
+      [
+        -85,
+        -81,
+        -56,
+        -52,
+        -50,
+        -40,
+        -7,
+        -2,
+        -1,
+        18,
+        42,
+        43,
+        46,
+        50,
+        96
+      ],
+      95
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      9,
+      15
+    ]
+  },
+  {
+    "name": "随机唯一解-034",
+    "args": [
+      [
+        -9,
+        10,
+        92
+      ],
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-035",
+    "args": [
+      [
+        -82,
+        -26,
+        -14,
+        -11,
+        3,
+        53,
+        96
+      ],
+      -79
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      5
+    ]
+  },
+  {
+    "name": "随机唯一解-036",
+    "args": [
+      [
+        -75,
+        -40,
+        -36,
+        -13,
+        12,
+        26,
+        28,
+        44,
+        57,
+        82,
+        91
+      ],
+      -10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-037",
+    "args": [
+      [
+        -91,
+        -74,
+        -45,
+        -1,
+        56,
+        66,
+        76,
+        84,
+        98
+      ],
+      65
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-038",
+    "args": [
+      [
+        -67,
+        -52,
+        -40,
+        78
+      ],
+      38
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-039",
+    "args": [
+      [
+        40,
+        78
+      ],
+      118
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-040",
+    "args": [
+      [
+        -89,
+        -88,
+        -79,
+        -72,
+        -59,
+        -33,
+        -23,
+        -18,
+        -3,
+        27,
+        34,
+        51,
+        66
+      ],
+      -23
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      13
+    ]
+  },
+  {
+    "name": "随机唯一解-041",
+    "args": [
+      [
+        -76,
+        -23,
+        -22,
+        -20,
+        -8,
+        20,
+        39,
+        46,
+        47,
+        59,
+        81,
+        93
+      ],
+      31
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      5,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-042",
+    "args": [
+      [
+        -73,
+        -69,
+        -22,
+        8,
+        11
+      ],
+      19
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      5
+    ]
+  },
+  {
+    "name": "随机唯一解-043",
+    "args": [
+      [
+        -100,
+        -93,
+        -79,
+        -62,
+        14,
+        26,
+        35,
+        37,
+        40,
+        55,
+        87
+      ],
+      -74
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-044",
+    "args": [
+      [
+        -76,
+        -68,
+        -42,
+        -7,
+        4,
+        13,
+        27
+      ],
+      -55
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-045",
+    "args": [
+      [
+        -77,
+        -40,
+        -37,
+        -26,
+        -11,
+        2,
+        21,
+        25,
+        27,
+        38,
+        86,
+        88,
+        89
+      ],
+      9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      11
+    ]
+  },
+  {
+    "name": "随机唯一解-046",
+    "args": [
+      [
+        -93,
+        -68,
+        -53,
+        -9,
+        3,
+        14,
+        16,
+        35,
+        65,
+        66,
+        69
+      ],
+      30
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      6,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-047",
+    "args": [
+      [
+        -84,
+        -79,
+        -78,
+        11,
+        19,
+        30,
+        52,
+        65,
+        75,
+        82,
+        84,
+        88,
+        98
+      ],
+      19
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      13
+    ]
+  },
+  {
+    "name": "随机唯一解-048",
+    "args": [
+      [
+        -94,
+        -71,
+        -67,
+        -64,
+        -17,
+        16,
+        26,
+        51
+      ],
+      34
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      5,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-049",
+    "args": [
+      [
+        -94,
+        -68
+      ],
+      -162
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-050",
+    "args": [
+      [
+        -100,
+        -73,
+        -70,
+        -68,
+        -51,
+        -49,
+        -48,
+        -27,
+        -21,
+        -6,
+        27,
+        87,
+        93
+      ],
+      -33
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      8,
+      10
+    ]
+  },
+  {
+    "name": "随机唯一解-051",
+    "args": [
+      [
+        -100,
+        -99,
+        -68,
+        -64,
+        -51,
+        -40,
+        -35,
+        -27,
+        -25,
+        5,
+        9,
+        21,
+        47,
+        73
+      ],
+      -126
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-052",
+    "args": [
+      [
+        -93,
+        -92,
+        -14,
+        -11,
+        -2,
+        1,
+        21,
+        40,
+        94
+      ],
+      -103
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-053",
+    "args": [
+      [
+        -95,
+        -39,
+        -32,
+        22,
+        58,
+        64,
+        86,
+        90
+      ],
+      148
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      5,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-054",
+    "args": [
+      [
+        -69,
+        -6,
+        26
+      ],
+      -75
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-055",
+    "args": [
+      [
+        -73,
+        -60,
+        90
+      ],
+      17
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-056",
+    "args": [
+      [
+        -75,
+        -22,
+        -10,
+        54
+      ],
+      -21
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-057",
+    "args": [
+      [
+        -75,
+        -72,
+        11,
+        82
+      ],
+      7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-058",
+    "args": [
+      [
+        -99,
+        59,
+        65,
+        82
+      ],
+      141
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-059",
+    "args": [
+      [
+        -28,
+        -2,
+        29,
+        38,
+        47,
+        54,
+        60,
+        83,
+        99
+      ],
+      55
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-060",
+    "args": [
+      [
+        -89,
+        -85,
+        -81,
+        -66,
+        -44,
+        -42,
+        -4,
+        12,
+        13,
+        15,
+        19,
+        22,
+        68,
+        95
+      ],
+      -44
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      12
+    ]
+  },
+  {
+    "name": "随机唯一解-061",
+    "args": [
+      [
+        24,
+        36,
+        41,
+        74
+      ],
+      110
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-062",
+    "args": [
+      [
+        -95,
+        -85,
+        -64,
+        -57,
+        -29,
+        -23,
+        -14,
+        -3,
+        18,
+        28,
+        37,
+        65,
+        72,
+        87,
+        95
+      ],
+      -142
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-063",
+    "args": [
+      [
+        -90,
+        -27,
+        92
+      ],
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-064",
+    "args": [
+      [
+        -95,
+        -56,
+        -36,
+        12,
+        36,
+        68,
+        86,
+        97
+      ],
+      -44
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-065",
+    "args": [
+      [
+        0,
+        45
+      ],
+      45
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-066",
+    "args": [
+      [
+        -83,
+        -77,
+        -47,
+        0,
+        72
+      ],
+      -124
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-067",
+    "args": [
+      [
+        -35,
+        -15,
+        -14,
+        1,
+        25,
+        56
+      ],
+      -13
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-068",
+    "args": [
+      [
+        -97,
+        -75,
+        -2,
+        4,
+        11,
+        16,
+        21,
+        23
+      ],
+      21
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-069",
+    "args": [
+      [
+        -88,
+        -85,
+        -82,
+        -69,
+        -49,
+        -23,
+        -21,
+        -1,
+        14,
+        18,
+        39,
+        81,
+        85
+      ],
+      -1
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      12
+    ]
+  },
+  {
+    "name": "随机唯一解-070",
+    "args": [
+      [
+        -87,
+        -79,
+        -72,
+        -66,
+        -59,
+        -3,
+        22,
+        76
+      ],
+      -159
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-071",
+    "args": [
+      [
+        -98,
+        -36,
+        -33,
+        -30,
+        -25,
+        -23,
+        -7,
+        9,
+        24,
+        25,
+        39,
+        51,
+        93
+      ],
+      49
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      9,
+      10
+    ]
+  },
+  {
+    "name": "随机唯一解-072",
+    "args": [
+      [
+        57,
+        60,
+        83
+      ],
+      117
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-073",
+    "args": [
+      [
+        -94,
+        -78,
+        -70,
+        -68,
+        2,
+        4,
+        51,
+        85,
+        94,
+        95
+      ],
+      -43
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-074",
+    "args": [
+      [
+        -92,
+        -83,
+        -80,
+        -77,
+        -73,
+        -50,
+        -17,
+        -12,
+        -7,
+        3,
+        26
+      ],
+      -133
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-075",
+    "args": [
+      [
+        -80,
+        -43,
+        -42,
+        -24,
+        -14,
+        -3,
+        3,
+        26,
+        39
+      ],
+      -3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      3,
+      9
+    ]
+  },
+  {
+    "name": "随机唯一解-076",
+    "args": [
+      [
+        -77,
+        30
+      ],
+      -47
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "随机唯一解-077",
+    "args": [
+      [
+        -71,
+        -28,
+        -16,
+        48,
+        60,
+        63
+      ],
+      35
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-078",
+    "args": [
+      [
+        -61,
+        -14,
+        24
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-079",
+    "args": [
+      [
+        -87,
+        -71,
+        -55,
+        -28,
+        -24,
+        -8,
+        3,
+        5,
+        14,
+        15,
+        23,
+        65,
+        75,
+        81
+      ],
+      -21
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      5,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-080",
+    "args": [
+      [
+        -85,
+        -68,
+        -25,
+        6,
+        33,
+        57,
+        64,
+        93,
+        98
+      ],
+      99
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-081",
+    "args": [
+      [
+        -83,
+        -70,
+        -55,
+        -52,
+        -49,
+        -20,
+        -9,
+        -7,
+        8,
+        61
+      ],
+      69
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      9,
+      10
+    ]
+  },
+  {
+    "name": "随机唯一解-082",
+    "args": [
+      [
+        -80,
+        11,
+        30,
+        40,
+        45,
+        61,
+        81,
+        82,
+        83,
+        84
+      ],
+      166
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      8,
+      10
+    ]
+  },
+  {
+    "name": "随机唯一解-083",
+    "args": [
+      [
+        -74,
+        -65,
+        -26,
+        -22,
+        57,
+        62
+      ],
+      -91
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "随机唯一解-084",
+    "args": [
+      [
+        -59,
+        -55,
+        0,
+        3,
+        10
+      ],
+      13
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      5
+    ]
+  },
+  {
+    "name": "随机唯一解-085",
+    "args": [
+      [
+        -88,
+        -79,
+        -48,
+        -13,
+        28,
+        46,
+        52,
+        83
+      ],
+      33
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      4,
+      6
+    ]
+  },
+  {
+    "name": "随机唯一解-086",
+    "args": [
+      [
+        -88,
+        -78,
+        -40,
+        37
+      ],
+      -51
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      4
+    ]
+  },
+  {
+    "name": "随机唯一解-087",
+    "args": [
+      [
+        -75,
+        -65,
+        -58,
+        -53,
+        -3,
+        31,
+        92
+      ],
+      17
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      7
+    ]
+  },
+  {
+    "name": "随机唯一解-088",
+    "args": [
+      [
+        -86,
+        -37,
+        -35,
+        -29,
+        -16,
+        22,
+        45,
+        59,
+        78,
+        79,
+        87,
+        93
+      ],
+      104
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      7,
+      8
+    ]
+  },
+  {
+    "name": "随机唯一解-089",
+    "args": [
+      [
+        -95,
+        -83,
+        -82,
+        -76,
+        -51,
+        -39,
+        -34,
+        -32,
+        -25,
+        -4,
+        24,
+        28,
+        84,
+        94
+      ],
+      -87
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      2,
+      10
+    ]
+  },
+  {
+    "name": "随机唯一解-090",
+    "args": [
+      [
+        -94,
+        -65,
+        -33,
+        24,
+        50
+      ],
+      -127
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": [
+      1,
+      3
+    ]
+  }
+]

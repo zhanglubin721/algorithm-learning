@@ -1,0 +1,33 @@
+{
+  "id": 1,
+  "titleCn": "两数之和",
+  "titleEn": "Two Sum",
+  "slug": "two-sum",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0001",
+  "plan": "top-100-liked",
+  "category": "哈希",
+  "source": "https://leetcode.cn/problems/two-sum/",
+  "meta": {
+    "name": "twoSum",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer[]",
+      "size": 2
+    },
+    "manual": false
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

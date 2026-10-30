@@ -1,0 +1,27 @@
+{
+  "id": 918,
+  "titleCn": "环形子数组的最大和",
+  "titleEn": "Maximum Sum Circular Subarray",
+  "slug": "maximum-sum-circular-subarray",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0918",
+  "plan": "top-interview-150",
+  "category": "Kadane 算法",
+  "source": "https://leetcode.cn/problems/maximum-sum-circular-subarray/",
+  "meta": {
+    "name": "maxSubarraySumCircular",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

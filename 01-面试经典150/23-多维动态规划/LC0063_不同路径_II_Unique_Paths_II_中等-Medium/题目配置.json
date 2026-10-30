@@ -1,0 +1,27 @@
+{
+  "id": 63,
+  "titleCn": "不同路径 II",
+  "titleEn": "Unique Paths II",
+  "slug": "unique-paths-ii",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0063",
+  "plan": "top-interview-150",
+  "category": "多维动态规划",
+  "source": "https://leetcode.cn/problems/unique-paths-ii/",
+  "meta": {
+    "name": "uniquePathsWithObstacles",
+    "params": [
+      {
+        "name": "obstacleGrid",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

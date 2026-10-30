@@ -1,0 +1,45 @@
+{
+  "id": 138,
+  "titleCn": "随机链表的复制",
+  "titleEn": "Copy List with Random Pointer",
+  "slug": "copy-list-with-random-pointer",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0138",
+  "plan": "top-interview-150",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/copy-list-with-random-pointer/",
+  "meta": {
+    "name": "copyRandomList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    },
+    "languages": [
+      "cpp",
+      "java",
+      "python",
+      "csharp",
+      "javascript",
+      "python3",
+      "golang",
+      "swift",
+      "kotlin",
+      "ruby",
+      "c",
+      "scala",
+      "php",
+      "typescript"
+    ],
+    "manual": true,
+    "typescriptCustomType": "class _Node {\n    val: number\n    next: _Node | null\n    random: _Node | null\n\n    constructor(val?: number, next?: _Node, random?: _Node) {\n        this.val = (val===undefined ? 0 : val)\n        this.next = (next===undefined ? null : next)\n        this.random = (random===undefined ? null : random)\n    }\n}\n"
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1045,
+  "titleCn": "买下所有产品的客户",
+  "titleEn": "Customers Who Bought All Products",
+  "slug": "customers-who-bought-all-products",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc1045",
+  "plan": "sql-free-50",
+  "category": "排序和分组",
+  "source": "https://leetcode.cn/problems/customers-who-bought-all-products/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customer (customer_id int, product_key int)",
+      "Create table Product (product_key int)"
+    ],
+    "mssql": [
+      "Create table Customer (customer_id int, product_key int)",
+      "Create table Product (product_key int)"
+    ],
+    "oraclesql": [
+      "Create table Customer (customer_id int, product_key int)",
+      "Create table Product (product_key int)"
+    ],
+    "database": true,
+    "name": "find_customers",
+    "pythondata": [
+      "Customer = pd.DataFrame([], columns=['customer_id', 'product_key']).astype({'customer_id':'Int64', 'product_key':'Int64'})",
+      "Product = pd.DataFrame([], columns=['product_key']).astype({'product_key':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Customer (customer_id int, product_key int)\n",
+      "Create table Product (product_key int)"
+    ],
+    "database_schema": {
+      "Customer": {
+        "customer_id": "INT",
+        "product_key": "INT"
+      },
+      "Product": {
+        "product_key": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Customer (customer_id int, product_key int)",
+    "Create table Product (product_key int)"
+  ],
+  "ordered": false
+}

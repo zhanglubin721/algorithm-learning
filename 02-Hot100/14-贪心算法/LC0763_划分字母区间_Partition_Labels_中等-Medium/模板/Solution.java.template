@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public List<Integer> partitionLabels(String s) { throw new UnsupportedOperationException("TODO"); }
+}

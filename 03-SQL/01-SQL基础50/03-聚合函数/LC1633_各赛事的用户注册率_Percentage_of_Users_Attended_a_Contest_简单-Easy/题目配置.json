@@ -1,0 +1,53 @@
+{
+  "id": 1633,
+  "titleCn": "各赛事的用户注册率",
+  "titleEn": "Percentage of Users Attended a Contest",
+  "slug": "percentage-of-users-attended-a-contest",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1633",
+  "plan": "sql-free-50",
+  "category": "聚合函数",
+  "source": "https://leetcode.cn/problems/percentage-of-users-attended-a-contest/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Users (user_id int, user_name varchar(20))",
+      "Create table If Not Exists Register (contest_id int, user_id int)"
+    ],
+    "mssql": [
+      "Create table Users (user_id int, user_name varchar(20))",
+      "Create table Register (contest_id int, user_id int)"
+    ],
+    "oraclesql": [
+      "Create table Users (user_id int, user_name varchar(20))",
+      "Create table Register (contest_id int, user_id int)"
+    ],
+    "database": true,
+    "name": "users_percentage",
+    "pythondata": [
+      "Users = pd.DataFrame([], columns=['user_id', 'user_name']).astype({'user_id':'Int64', 'user_name':'object'})",
+      "Register = pd.DataFrame([], columns=['contest_id', 'user_id']).astype({'contest_id':'Int64', 'user_id':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Users (user_id int, user_name varchar(20))\n",
+      "Create table If Not Exists Register (contest_id int, user_id int)"
+    ],
+    "database_schema": {
+      "Users": {
+        "user_id": "INT",
+        "user_name": "VARCHAR(20)"
+      },
+      "Register": {
+        "contest_id": "INT",
+        "user_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Users (user_id int, user_name varchar(20))",
+    "Create table If Not Exists Register (contest_id int, user_id int)"
+  ],
+  "ordered": true
+}

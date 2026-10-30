@@ -1,0 +1,28 @@
+{
+  "id": 108,
+  "titleCn": "将有序数组转换为二叉搜索树",
+  "titleEn": "Convert Sorted Array to Binary Search Tree",
+  "slug": "convert-sorted-array-to-binary-search-tree",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0108",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/",
+  "meta": {
+    "name": "sortedArrayToBST",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "TreeNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": 180,
+  "titleCn": "连续出现的数字",
+  "titleEn": "Consecutive Numbers",
+  "slug": "consecutive-numbers",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc0180",
+  "plan": "sql-free-50",
+  "category": "高级查询和连接",
+  "source": "https://leetcode.cn/problems/consecutive-numbers/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Logs (id int, num int)"
+    ],
+    "mssql": [
+      "Create table Logs (id int, num int)"
+    ],
+    "oraclesql": [
+      "Create table Logs (id int, num int)"
+    ],
+    "database": true,
+    "name": "consecutive_numbers",
+    "pythondata": [
+      "Logs = pd.DataFrame([], columns=['id', 'num']).astype({'id':'Int64', 'num':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Logs (id int, num int)"
+    ],
+    "database_schema": {
+      "Logs": {
+        "id": "INT",
+        "num": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Logs (id int, num int)"
+  ],
+  "ordered": false
+}

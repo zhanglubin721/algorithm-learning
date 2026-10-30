@@ -1,0 +1,17 @@
+import java.util.*;
+import java.util.stream.*;
+class WordDictionary {
+
+    public WordDictionary() { throw new UnsupportedOperationException("TODO"); }
+    
+    public void addWord(String word) { throw new UnsupportedOperationException("TODO"); }
+    
+    public boolean search(String word) { throw new UnsupportedOperationException("TODO"); }
+}
+
+/**
+ * Your WordDictionary object will be instantiated and called as such:
+ * WordDictionary obj = new WordDictionary();
+ * obj.addWord(word);
+ * boolean param_2 = obj.search(word);
+ */

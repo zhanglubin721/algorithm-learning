@@ -1,0 +1,27 @@
+{
+  "id": 71,
+  "titleCn": "简化路径",
+  "titleEn": "Simplify Path",
+  "slug": "simplify-path",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0071",
+  "plan": "top-interview-150",
+  "category": "栈",
+  "source": "https://leetcode.cn/problems/simplify-path/",
+  "meta": {
+    "name": "simplifyPath",
+    "params": [
+      {
+        "name": "path",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "string"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

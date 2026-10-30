@@ -1,0 +1,27 @@
+{
+  "id": 226,
+  "titleCn": "翻转二叉树",
+  "titleEn": "Invert Binary Tree",
+  "slug": "invert-binary-tree",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0226",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/invert-binary-tree/",
+  "meta": {
+    "name": "invertTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "TreeNode"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

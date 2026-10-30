@@ -1,0 +1,31 @@
+{
+  "id": 73,
+  "titleCn": "矩阵置零",
+  "titleEn": "Set Matrix Zeroes",
+  "slug": "set-matrix-zeroes",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0073",
+  "plan": "top-100-liked",
+  "category": "矩阵",
+  "source": "https://leetcode.cn/problems/set-matrix-zeroes/",
+  "meta": {
+    "name": "setZeroes",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "void"
+    },
+    "output": {
+      "paramindex": 0
+    },
+    "manual": false
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

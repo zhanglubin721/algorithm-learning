@@ -1,0 +1,31 @@
+{
+  "id": 188,
+  "titleCn": "买卖股票的最佳时机 IV",
+  "titleEn": "Best Time to Buy and Sell Stock IV",
+  "slug": "best-time-to-buy-and-sell-stock-iv",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0188",
+  "plan": "top-interview-150",
+  "category": "多维动态规划",
+  "source": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/",
+  "meta": {
+    "name": "maxProfit",
+    "params": [
+      {
+        "name": "k",
+        "type": "integer"
+      },
+      {
+        "name": "prices",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

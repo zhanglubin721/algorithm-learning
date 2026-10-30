@@ -1,0 +1,52 @@
+{
+  "id": 1225,
+  "titleCn": "报告系统状态的连续日期",
+  "titleEn": "Report Contiguous Dates",
+  "slug": "report-contiguous-dates",
+  "difficulty": "Hard",
+  "kind": "sql",
+  "namespace": "p4.lc1225",
+  "plan": "sql-premium-50",
+  "category": "递归与连续区间",
+  "source": "https://leetcode.cn/problems/report-contiguous-dates/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Failed (fail_date date)",
+      "Create table If Not Exists Succeeded (success_date date)"
+    ],
+    "mssql": [
+      "Create table Failed (fail_date date)",
+      "Create table Succeeded (success_date date)\n"
+    ],
+    "oraclesql": [
+      "Create table Failed (fail_date date)",
+      "Create table Succeeded (success_date date)\n",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "report_contiguous_dates",
+    "pythondata": [
+      "Failed = pd.DataFrame([], columns=['fail_date']).astype({'fail_date':'datetime64[ns]'})",
+      "Succeeded = pd.DataFrame([], columns=['success_date']).astype({'success_date':'datetime64[ns]'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Failed (fail_date date)\n",
+      "Create table If Not Exists Succeeded (success_date date)"
+    ],
+    "database_schema": {
+      "Failed": {
+        "fail_date": "DATE"
+      },
+      "Succeeded": {
+        "success_date": "DATE"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Failed (fail_date date)",
+    "Create table If Not Exists Succeeded (success_date date)"
+  ],
+  "ordered": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": 78,
+  "titleCn": "子集",
+  "titleEn": "Subsets",
+  "slug": "subsets",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0078",
+  "plan": "top-100-liked",
+  "category": "回溯",
+  "source": "https://leetcode.cn/problems/subsets/",
+  "meta": {
+    "name": "subsets",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

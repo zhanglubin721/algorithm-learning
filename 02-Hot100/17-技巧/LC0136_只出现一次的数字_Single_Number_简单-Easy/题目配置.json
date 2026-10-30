@@ -1,0 +1,27 @@
+{
+  "id": 136,
+  "titleCn": "只出现一次的数字",
+  "titleEn": "Single Number",
+  "slug": "single-number",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0136",
+  "plan": "top-100-liked",
+  "category": "技巧",
+  "source": "https://leetcode.cn/problems/single-number/",
+  "meta": {
+    "name": "singleNumber",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

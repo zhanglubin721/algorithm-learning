@@ -1,0 +1,45 @@
+{
+  "id": 1789,
+  "titleCn": "员工的直属部门",
+  "titleEn": "Primary Department for Each Employee",
+  "slug": "primary-department-for-each-employee",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1789",
+  "plan": "sql-free-50",
+  "category": "高级查询和连接",
+  "source": "https://leetcode.cn/problems/primary-department-for-each-employee/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employee (employee_id int, department_id int, primary_flag ENUM('Y','N'))"
+    ],
+    "mssql": [
+      "Create table Employee (employee_id int, department_id int, primary_flag varchar(1) not null check(primary_flag in ('Y', 'N')))"
+    ],
+    "oraclesql": [
+      "Create table Employee (employee_id int, department_id int, primary_flag varchar(1) not null check(primary_flag in ('Y', 'N')))"
+    ],
+    "database": true,
+    "name": "find_primary_department",
+    "pythondata": [
+      "Employee = pd.DataFrame([], columns=['employee_id', 'department_id', 'primary_flag']).astype({'employee_id':'Int64', 'department_id':'Int64', 'primary_flag':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Employee (employee_id int, department_id int, primary_flag VARCHAR(30) CHECK (primary_flag IN ('Y','N')))\n"
+    ],
+    "manual": false,
+    "database_schema": {
+      "Employee": {
+        "employee_id": "INT",
+        "department_id": "INT",
+        "primary_flag": "ENUM('Y', 'N')"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Employee (employee_id int, department_id int, primary_flag ENUM('Y','N'))"
+  ],
+  "ordered": false
+}

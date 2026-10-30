@@ -1,0 +1,31 @@
+{
+  "id": 560,
+  "titleCn": "和为 K 的子数组",
+  "titleEn": "Subarray Sum Equals K",
+  "slug": "subarray-sum-equals-k",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0560",
+  "plan": "top-100-liked",
+  "category": "子串",
+  "source": "https://leetcode.cn/problems/subarray-sum-equals-k/",
+  "meta": {
+    "name": "subarraySum",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

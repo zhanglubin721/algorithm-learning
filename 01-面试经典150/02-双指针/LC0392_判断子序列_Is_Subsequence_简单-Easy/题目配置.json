@@ -1,0 +1,31 @@
+{
+  "id": 392,
+  "titleCn": "判断子序列",
+  "titleEn": "Is Subsequence",
+  "slug": "is-subsequence",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0392",
+  "plan": "top-interview-150",
+  "category": "双指针",
+  "source": "https://leetcode.cn/problems/is-subsequence/",
+  "meta": {
+    "name": "isSubsequence",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

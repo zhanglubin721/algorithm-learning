@@ -1,0 +1,147 @@
+[
+  {
+    "name": "边界-003",
+    "args": [
+      [
+        "This",
+        "is",
+        "an",
+        "example",
+        "of",
+        "text",
+        "justification."
+      ],
+      16
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "This    is    an",
+      "example  of text",
+      "justification.  "
+    ]
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        "What",
+        "must",
+        "be",
+        "acknowledgment",
+        "shall",
+        "be"
+      ],
+      16
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "What   must   be",
+      "acknowledgment  ",
+      "shall be        "
+    ]
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        "Science",
+        "is",
+        "what",
+        "we",
+        "understand",
+        "well",
+        "enough",
+        "to",
+        "explain",
+        "to",
+        "a",
+        "computer.",
+        "Art",
+        "is",
+        "everything",
+        "else",
+        "we",
+        "do"
+      ],
+      20
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "Science  is  what we",
+      "understand      well",
+      "enough to explain to",
+      "a  computer.  Art is",
+      "everything  else  we",
+      "do                  "
+    ]
+  },
+  {
+    "name": "边界-001",
+    "args": [
+      [
+        "a"
+      ],
+      1
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "a"
+    ]
+  },
+  {
+    "name": "边界-002",
+    "args": [
+      [
+        "a",
+        "b"
+      ],
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "a b"
+    ]
+  },
+  {
+    "name": "边界-004",
+    "args": [
+      [
+        "abcdefgh",
+        "i",
+        "jk"
+      ],
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "abcdefgh",
+      "i jk    "
+    ]
+  },
+  {
+    "name": "边界-005",
+    "args": [
+      [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "reference-crosscheck",
+    "expected": [
+      "a b",
+      "c d",
+      "e  "
+    ]
+  }
+]

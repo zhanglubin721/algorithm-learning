@@ -1,0 +1,45 @@
+{
+  "id": 1211,
+  "titleCn": "查询结果的质量和占比",
+  "titleEn": "Queries Quality and Percentage",
+  "slug": "queries-quality-and-percentage",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc1211",
+  "plan": "sql-free-50",
+  "category": "聚合函数",
+  "source": "https://leetcode.cn/problems/queries-quality-and-percentage/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Queries (query_name varchar(30), result varchar(50), position int, rating int)"
+    ],
+    "mssql": [
+      "create table Queries (query_name varchar(30), result varchar(50), position int, rating int)"
+    ],
+    "oraclesql": [
+      "create table Queries (query_name varchar(30), result varchar(50), position int, rating int)"
+    ],
+    "database": true,
+    "name": "queries_stats",
+    "pythondata": [
+      "Queries = pd.DataFrame([], columns=['query_name', 'result', 'position', 'rating']).astype({'query_name':'object', 'result':'object', 'position':'Int64', 'rating':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Queries (query_name varchar(30), result varchar(50), position int, rating int)"
+    ],
+    "database_schema": {
+      "Queries": {
+        "query_name": "VARCHAR(30)",
+        "result": "VARCHAR(50)",
+        "position": "INT",
+        "rating": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Queries (query_name varchar(30), result varchar(50), position int, rating int)"
+  ],
+  "ordered": false
+}

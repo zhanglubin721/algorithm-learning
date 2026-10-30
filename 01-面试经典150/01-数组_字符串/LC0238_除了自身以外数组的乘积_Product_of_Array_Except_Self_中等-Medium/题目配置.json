@@ -1,0 +1,27 @@
+{
+  "id": 238,
+  "titleCn": "除了自身以外数组的乘积",
+  "titleEn": "Product of Array Except Self",
+  "slug": "product-of-array-except-self",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0238",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/product-of-array-except-self/",
+  "meta": {
+    "name": "productExceptSelf",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer[]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

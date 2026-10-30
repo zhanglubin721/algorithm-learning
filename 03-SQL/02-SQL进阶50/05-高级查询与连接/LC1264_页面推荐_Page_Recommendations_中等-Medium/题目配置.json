@@ -1,0 +1,53 @@
+{
+  "id": 1264,
+  "titleCn": "页面推荐",
+  "titleEn": "Page Recommendations",
+  "slug": "page-recommendations",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1264",
+  "plan": "sql-premium-50",
+  "category": "高级查询与连接",
+  "source": "https://leetcode.cn/problems/page-recommendations/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Friendship (user1_id int, user2_id int)",
+      "Create table If Not Exists Likes (user_id int, page_id int)"
+    ],
+    "mssql": [
+      "Create table Friendship (user1_id int, user2_id int)",
+      "Create table Likes (user_id int, page_id int)"
+    ],
+    "oraclesql": [
+      "Create table Friendship (user1_id int, user2_id int)",
+      "Create table Likes (user_id int, page_id int)"
+    ],
+    "database": true,
+    "name": "page_recommendations",
+    "pythondata": [
+      "Friendship = pd.DataFrame([], columns=['user1_id', 'user2_id']).astype({'user1_id':'Int64', 'user2_id':'Int64'})",
+      "Likes = pd.DataFrame([], columns=['user_id', 'page_id']).astype({'user_id':'Int64', 'page_id':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Friendship (user1_id int, user2_id int)\n",
+      "Create table If Not Exists Likes (user_id int, page_id int)"
+    ],
+    "database_schema": {
+      "Friendship": {
+        "user1_id": "INT",
+        "user2_id": "INT"
+      },
+      "Likes": {
+        "user_id": "INT",
+        "page_id": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Friendship (user1_id int, user2_id int)",
+    "Create table If Not Exists Likes (user_id int, page_id int)"
+  ],
+  "ordered": false
+}

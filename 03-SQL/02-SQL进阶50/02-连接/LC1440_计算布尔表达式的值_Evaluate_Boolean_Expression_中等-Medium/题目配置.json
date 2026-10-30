@@ -1,0 +1,54 @@
+{
+  "id": 1440,
+  "titleCn": "计算布尔表达式的值",
+  "titleEn": "Evaluate Boolean Expression",
+  "slug": "evaluate-boolean-expression",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1440",
+  "plan": "sql-premium-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/evaluate-boolean-expression/",
+  "meta": {
+    "mysql": [
+      "Create Table If Not Exists Variables (name varchar(3), value int)",
+      "Create Table If Not Exists Expressions (left_operand varchar(3), operator ENUM('>', '<', '='), right_operand varchar(3))"
+    ],
+    "mssql": [
+      "Create Table Variables (name varchar(3), value int)",
+      "Create Table Expressions (left_operand varchar(3), operator varchar(3) NOT NULL CHECK (operator IN ('>', '<', '=')), right_operand varchar(3))"
+    ],
+    "oraclesql": [
+      "Create Table Variables (name varchar(3), value int)",
+      "Create Table Expressions (left_operand varchar(3), operator varchar(3) NOT NULL CHECK (operator IN ('>', '<', '=')), right_operand varchar(3))"
+    ],
+    "database": true,
+    "name": "eval_expression",
+    "pythondata": [
+      "Variables = pd.DataFrame([], columns=['name', 'value']).astype({'name':'object', 'value':'Int64'})",
+      "Expressions = pd.DataFrame([], columns=['left_operand', 'operator', 'right_operand']).astype({'left_operand':'object', 'operator':'object', 'right_operand':'object'})"
+    ],
+    "postgresql": [
+      "Create Table If Not Exists Variables (name varchar(3), value int)\n",
+      "Create Table If Not Exists Expressions (left_operand varchar(3), operator VARCHAR(30) CHECK (operator IN ('>', '<', '=')), right_operand varchar(3))\n"
+    ],
+    "database_schema": {
+      "Variables": {
+        "name": "VARCHAR(3)",
+        "value": "INT"
+      },
+      "Expressions": {
+        "left_operand": "VARCHAR(3)",
+        "operator": "ENUM('>', '<', '=')",
+        "right_operand": "VARCHAR(3)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create Table If Not Exists Variables (name varchar(3), value int)",
+    "Create Table If Not Exists Expressions (left_operand varchar(3), operator ENUM('>', '<', '='), right_operand varchar(3))"
+  ],
+  "ordered": false
+}

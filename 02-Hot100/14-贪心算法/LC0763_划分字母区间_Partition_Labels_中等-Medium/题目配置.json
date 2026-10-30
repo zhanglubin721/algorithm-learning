@@ -1,0 +1,27 @@
+{
+  "id": 763,
+  "titleCn": "划分字母区间",
+  "titleEn": "Partition Labels",
+  "slug": "partition-labels",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0763",
+  "plan": "top-100-liked",
+  "category": "贪心算法",
+  "source": "https://leetcode.cn/problems/partition-labels/",
+  "meta": {
+    "name": "partitionLabels",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "list<integer>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

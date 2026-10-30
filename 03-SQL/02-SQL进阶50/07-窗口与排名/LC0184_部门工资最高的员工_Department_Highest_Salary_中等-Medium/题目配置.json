@@ -1,0 +1,55 @@
+{
+  "id": 184,
+  "titleCn": "部门工资最高的员工",
+  "titleEn": "Department Highest Salary",
+  "slug": "department-highest-salary",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc0184",
+  "plan": "sql-premium-50",
+  "category": "窗口与排名",
+  "source": "https://leetcode.cn/problems/department-highest-salary/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employee (id int, name varchar(255), salary int, departmentId int)",
+      "Create table If Not Exists Department (id int, name varchar(255))"
+    ],
+    "mssql": [
+      "Create table Employee (id int, name varchar(255), salary int, departmentId int)",
+      "Create table Department (id int, name varchar(255))"
+    ],
+    "oraclesql": [
+      "Create table Employee (id int, name varchar(255), salary int, departmentId int)",
+      "Create table Department (id int, name varchar(255))"
+    ],
+    "database": true,
+    "name": "department_highest_salary",
+    "pythondata": [
+      "Employee = pd.DataFrame([], columns=['id', 'name', 'salary', 'departmentId']).astype({'id':'Int64', 'name':'object', 'salary':'Int64', 'departmentId':'Int64'})",
+      "Department = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Employee (id int, name varchar(255), salary int, departmentId int)",
+      "Create table If Not Exists Department (id int, name varchar(255))"
+    ],
+    "database_schema": {
+      "Employee": {
+        "id": "INT",
+        "name": "VARCHAR(255)",
+        "salary": "INT",
+        "departmentId": "INT"
+      },
+      "Department": {
+        "id": "INT",
+        "name": "VARCHAR(255)"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Employee (id int, name varchar(255), salary int, departmentId int)",
+    "Create table If Not Exists Department (id int, name varchar(255))"
+  ],
+  "ordered": false
+}

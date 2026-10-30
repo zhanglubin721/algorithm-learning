@@ -1,0 +1,47 @@
+{
+  "id": 595,
+  "titleCn": "大的国家",
+  "titleEn": "Big Countries",
+  "slug": "big-countries",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc0595",
+  "plan": "sql-free-50",
+  "category": "查询",
+  "source": "https://leetcode.cn/problems/big-countries/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists World (name varchar(255), continent varchar(255), area int, population int, gdp bigint)"
+    ],
+    "mssql": [
+      "Create table World (name varchar(255), continent varchar(255), area int, population int, gdp bigint)"
+    ],
+    "oraclesql": [
+      "Create table World (name varchar(255), continent varchar(255), area int, population int, gdp int)"
+    ],
+    "database": true,
+    "name": "big_countries",
+    "pythondata": [
+      "World = pd.DataFrame([], columns=['name', 'continent', 'area', 'population', 'gdp']).astype({'name':'object', 'continent':'object', 'area':'Int64', 'population':'Int64', 'gdp':'Int64'})"
+    ],
+    "manual": false,
+    "postgresql": [
+      "Create table If Not Exists World (name varchar(255), continent varchar(255), area int, population int, gdp bigint)"
+    ],
+    "database_schema": {
+      "World": {
+        "name": "VARCHAR(255)",
+        "continent": "VARCHAR(255)",
+        "area": "INT",
+        "population": "INT",
+        "gdp": "BIGINT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists World (name varchar(255), continent varchar(255), area int, population int, gdp bigint)"
+  ],
+  "ordered": false
+}

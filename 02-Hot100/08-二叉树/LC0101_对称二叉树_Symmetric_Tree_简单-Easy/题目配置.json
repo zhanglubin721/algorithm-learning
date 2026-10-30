@@ -1,0 +1,27 @@
+{
+  "id": 101,
+  "titleCn": "对称二叉树",
+  "titleEn": "Symmetric Tree",
+  "slug": "symmetric-tree",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p2.lc0101",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/symmetric-tree/",
+  "meta": {
+    "name": "isSymmetric",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

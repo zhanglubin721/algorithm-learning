@@ -1,0 +1,367 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "name",
+          "mail"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            1,
+            "Winston",
+            "winston@leetcode.com"
+          ],
+          [
+            2,
+            "Jonathan",
+            "jonathanisgreat"
+          ],
+          [
+            3,
+            "Annabelle",
+            "bella-@leetcode.com"
+          ],
+          [
+            4,
+            "Sally",
+            "sally.come@leetcode.com"
+          ],
+          [
+            5,
+            "Marwan",
+            "quarz#2020@leetcode.com"
+          ],
+          [
+            6,
+            "David",
+            "david69@gmail.com"
+          ],
+          [
+            7,
+            "Shapiro",
+            ".shapo@leetcode.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "name",
+        "mail"
+      ],
+      [
+        [
+          "1",
+          "Winston",
+          "winston@leetcode.com"
+        ],
+        [
+          "3",
+          "Annabelle",
+          "bella-@leetcode.com"
+        ],
+        [
+          "4",
+          "Sally",
+          "sally.come@leetcode.com"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "name",
+          "mail"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            1,
+            "A",
+            "a@leetcode.com"
+          ],
+          [
+            2,
+            "B",
+            "1a@leetcode.com"
+          ],
+          [
+            3,
+            "C",
+            "a@leetcodeXcom"
+          ],
+          [
+            4,
+            "D",
+            "a-b_c.d@leetcode.com"
+          ],
+          [
+            5,
+            "E",
+            ".a@leetcode.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "name",
+        "mail"
+      ],
+      [
+        [
+          "1",
+          "A",
+          "a@leetcode.com"
+        ],
+        [
+          "4",
+          "D",
+          "a-b_c.d@leetcode.com"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "name",
+          "mail"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            6,
+            "David",
+            "david69@gmail.com"
+          ],
+          [
+            1,
+            "Winston",
+            "winston@leetcode.com"
+          ],
+          [
+            2,
+            "Jonathan",
+            "jonathanisgreat"
+          ],
+          [
+            7,
+            "Shapiro",
+            ".shapo@leetcode.com"
+          ],
+          [
+            3,
+            "Annabelle",
+            "bella-@leetcode.com"
+          ],
+          [
+            4,
+            "Sally",
+            "sally.come@leetcode.com"
+          ],
+          [
+            5,
+            "Marwan",
+            "quarz#2020@leetcode.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "name",
+        "mail"
+      ],
+      [
+        [
+          "1",
+          "Winston",
+          "winston@leetcode.com"
+        ],
+        [
+          "3",
+          "Annabelle",
+          "bella-@leetcode.com"
+        ],
+        [
+          "4",
+          "Sally",
+          "sally.come@leetcode.com"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "name",
+          "mail"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            7,
+            "Shapiro",
+            ".shapo@leetcode.com"
+          ],
+          [
+            5,
+            "Marwan",
+            "quarz#2020@leetcode.com"
+          ],
+          [
+            6,
+            "David",
+            "david69@gmail.com"
+          ],
+          [
+            3,
+            "Annabelle",
+            "bella-@leetcode.com"
+          ],
+          [
+            4,
+            "Sally",
+            "sally.come@leetcode.com"
+          ],
+          [
+            1,
+            "Winston",
+            "winston@leetcode.com"
+          ],
+          [
+            2,
+            "Jonathan",
+            "jonathanisgreat"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "name",
+        "mail"
+      ],
+      [
+        [
+          "3",
+          "Annabelle",
+          "bella-@leetcode.com"
+        ],
+        [
+          "4",
+          "Sally",
+          "sally.come@leetcode.com"
+        ],
+        [
+          "1",
+          "Winston",
+          "winston@leetcode.com"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Users": [
+          "user_id",
+          "name",
+          "mail"
+        ]
+      },
+      "rows": {
+        "Users": [
+          [
+            2,
+            "Jonathan",
+            "jonathanisgreat"
+          ],
+          [
+            4,
+            "Sally",
+            "sally.come@leetcode.com"
+          ],
+          [
+            3,
+            "Annabelle",
+            "bella-@leetcode.com"
+          ],
+          [
+            7,
+            "Shapiro",
+            ".shapo@leetcode.com"
+          ],
+          [
+            5,
+            "Marwan",
+            "quarz#2020@leetcode.com"
+          ],
+          [
+            1,
+            "Winston",
+            "winston@leetcode.com"
+          ],
+          [
+            6,
+            "David",
+            "david69@gmail.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "user_id",
+        "name",
+        "mail"
+      ],
+      [
+        [
+          "4",
+          "Sally",
+          "sally.come@leetcode.com"
+        ],
+        [
+          "3",
+          "Annabelle",
+          "bella-@leetcode.com"
+        ],
+        [
+          "1",
+          "Winston",
+          "winston@leetcode.com"
+        ]
+      ]
+    ]
+  }
+]

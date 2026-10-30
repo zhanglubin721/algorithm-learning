@@ -1,0 +1,27 @@
+{
+  "id": 56,
+  "titleCn": "合并区间",
+  "titleEn": "Merge Intervals",
+  "slug": "merge-intervals",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0056",
+  "plan": "top-100-liked",
+  "category": "普通数组",
+  "source": "https://leetcode.cn/problems/merge-intervals/",
+  "meta": {
+    "name": "merge",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer[][]"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

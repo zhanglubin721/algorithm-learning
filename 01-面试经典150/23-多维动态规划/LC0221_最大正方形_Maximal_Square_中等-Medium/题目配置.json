@@ -1,0 +1,27 @@
+{
+  "id": 221,
+  "titleCn": "最大正方形",
+  "titleEn": "Maximal Square",
+  "slug": "maximal-square",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0221",
+  "plan": "top-interview-150",
+  "category": "多维动态规划",
+  "source": "https://leetcode.cn/problems/maximal-square/",
+  "meta": {
+    "name": "maximalSquare",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "character[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

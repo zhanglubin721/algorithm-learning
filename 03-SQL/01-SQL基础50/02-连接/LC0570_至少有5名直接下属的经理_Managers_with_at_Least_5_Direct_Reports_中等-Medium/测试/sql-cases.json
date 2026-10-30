@@ -1,0 +1,258 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "name",
+          "department",
+          "managerId"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            101,
+            "John",
+            "A",
+            null
+          ],
+          [
+            102,
+            "Dan",
+            "A",
+            101
+          ],
+          [
+            103,
+            "James",
+            "A",
+            101
+          ],
+          [
+            104,
+            "Amy",
+            "A",
+            101
+          ],
+          [
+            105,
+            "Anne",
+            "A",
+            101
+          ],
+          [
+            106,
+            "Ron",
+            "B",
+            101
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "John"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "name",
+          "department",
+          "managerId"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            101,
+            "John",
+            "A",
+            null
+          ],
+          [
+            106,
+            "Ron",
+            "B",
+            101
+          ],
+          [
+            102,
+            "Dan",
+            "A",
+            101
+          ],
+          [
+            103,
+            "James",
+            "A",
+            101
+          ],
+          [
+            104,
+            "Amy",
+            "A",
+            101
+          ],
+          [
+            105,
+            "Anne",
+            "A",
+            101
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "John"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "name",
+          "department",
+          "managerId"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            103,
+            "James",
+            "A",
+            101
+          ],
+          [
+            105,
+            "Anne",
+            "A",
+            101
+          ],
+          [
+            106,
+            "Ron",
+            "B",
+            101
+          ],
+          [
+            104,
+            "Amy",
+            "A",
+            101
+          ],
+          [
+            101,
+            "John",
+            "A",
+            null
+          ],
+          [
+            102,
+            "Dan",
+            "A",
+            101
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "John"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Employee": [
+          "id",
+          "name",
+          "department",
+          "managerId"
+        ]
+      },
+      "rows": {
+        "Employee": [
+          [
+            102,
+            "Dan",
+            "A",
+            101
+          ],
+          [
+            104,
+            "Amy",
+            "A",
+            101
+          ],
+          [
+            103,
+            "James",
+            "A",
+            101
+          ],
+          [
+            105,
+            "Anne",
+            "A",
+            101
+          ],
+          [
+            101,
+            "John",
+            "A",
+            null
+          ],
+          [
+            106,
+            "Ron",
+            "B",
+            101
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "John"
+        ]
+      ]
+    ]
+  }
+]

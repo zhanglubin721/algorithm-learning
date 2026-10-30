@@ -1,0 +1,772 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      "ADOBECODEBANC",
+      "ABC"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": "BANC"
+  },
+  {
+    "name": "随机穷举-004",
+    "args": [
+      "a",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "a"
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      "a",
+      "aa"
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-002",
+    "args": [
+      "a",
+      "bcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-003",
+    "args": [
+      "a",
+      "aacac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-005",
+    "args": [
+      "cb",
+      "bbbaaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-006",
+    "args": [
+      "ac",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ac"
+  },
+  {
+    "name": "随机穷举-007",
+    "args": [
+      "ca",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ca"
+  },
+  {
+    "name": "随机穷举-008",
+    "args": [
+      "cc",
+      "ccc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-009",
+    "args": [
+      "acc",
+      "bccac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-010",
+    "args": [
+      "aca",
+      "abaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-011",
+    "args": [
+      "baa",
+      "aaabbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-012",
+    "args": [
+      "baa",
+      "ccacab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-013",
+    "args": [
+      "cabc",
+      "abcba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-014",
+    "args": [
+      "aacc",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aa"
+  },
+  {
+    "name": "随机穷举-015",
+    "args": [
+      "babb",
+      "ccb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-016",
+    "args": [
+      "abaa",
+      "aabca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-017",
+    "args": [
+      "ccaca",
+      "bbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-018",
+    "args": [
+      "aabbc",
+      "bccaba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-019",
+    "args": [
+      "aacbb",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "a"
+  },
+  {
+    "name": "随机穷举-020",
+    "args": [
+      "cacaa",
+      "ca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ca"
+  },
+  {
+    "name": "随机穷举-021",
+    "args": [
+      "baacba",
+      "bbbaba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-022",
+    "args": [
+      "aaaaaa",
+      "ccca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-023",
+    "args": [
+      "cabaaa",
+      "cbbacb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-024",
+    "args": [
+      "bbbaab",
+      "abc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-025",
+    "args": [
+      "bbbbbaa",
+      "bbbccb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-026",
+    "args": [
+      "aaaaacc",
+      "abcbcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-027",
+    "args": [
+      "bbbacca",
+      "aba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bacca"
+  },
+  {
+    "name": "随机穷举-028",
+    "args": [
+      "aaababa",
+      "ccbcca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-029",
+    "args": [
+      "cbbacbaa",
+      "bcbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bbacb"
+  },
+  {
+    "name": "随机穷举-030",
+    "args": [
+      "aaaaaabc",
+      "bbaab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-031",
+    "args": [
+      "bbbbccac",
+      "ccbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bccac"
+  },
+  {
+    "name": "随机穷举-032",
+    "args": [
+      "caaaacab",
+      "cba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cab"
+  },
+  {
+    "name": "随机穷举-033",
+    "args": [
+      "bcaabbabc",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ca"
+  },
+  {
+    "name": "随机穷举-034",
+    "args": [
+      "bacbcabaa",
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ba"
+  },
+  {
+    "name": "随机穷举-035",
+    "args": [
+      "aaabaabaa",
+      "cccaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-036",
+    "args": [
+      "aaaccabba",
+      "bcacbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-037",
+    "args": [
+      "caacabbacc",
+      "acaac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "caaca"
+  },
+  {
+    "name": "随机穷举-038",
+    "args": [
+      "bacaababba",
+      "baaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aaba"
+  },
+  {
+    "name": "随机穷举-039",
+    "args": [
+      "acbbcbbcbc",
+      "bcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cbc"
+  },
+  {
+    "name": "随机穷举-040",
+    "args": [
+      "aabaacccac",
+      "ac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ac"
+  },
+  {
+    "name": "随机穷举-041",
+    "args": [
+      "babcaaaacaa",
+      "ccacbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-042",
+    "args": [
+      "aabcabaaaaa",
+      "acbbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-043",
+    "args": [
+      "aacaaabacac",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "b"
+  },
+  {
+    "name": "随机穷举-044",
+    "args": [
+      "cbbcccaaaaa",
+      "bc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cb"
+  },
+  {
+    "name": "随机穷举-045",
+    "args": [
+      "caaabccaccba",
+      "ab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ab"
+  },
+  {
+    "name": "随机穷举-046",
+    "args": [
+      "bbaaabbcaaac",
+      "aaab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "baaa"
+  },
+  {
+    "name": "随机穷举-047",
+    "args": [
+      "bcaaaccbacba",
+      "ccc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "ccbac"
+  },
+  {
+    "name": "随机穷举-048",
+    "args": [
+      "cabaacaacbba",
+      "cbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cbb"
+  },
+  {
+    "name": "随机穷举-049",
+    "args": [
+      "ababbaaccabaa",
+      "cbcb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bbaacc"
+  },
+  {
+    "name": "随机穷举-050",
+    "args": [
+      "aaabbbacccaba",
+      "baa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aab"
+  },
+  {
+    "name": "随机穷举-051",
+    "args": [
+      "aabcabbcababc",
+      "accb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cabbc"
+  },
+  {
+    "name": "随机穷举-052",
+    "args": [
+      "cbbaaaaaaaaac",
+      "cb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cb"
+  },
+  {
+    "name": "随机穷举-053",
+    "args": [
+      "aaabcacbcaabba",
+      "cacc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cacbc"
+  },
+  {
+    "name": "随机穷举-054",
+    "args": [
+      "abaccbabbccaaa",
+      "baabbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "baccbab"
+  },
+  {
+    "name": "随机穷举-055",
+    "args": [
+      "cacaacbccacaab",
+      "bbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bccacaab"
+  },
+  {
+    "name": "随机穷举-056",
+    "args": [
+      "abaaaaacbabaaa",
+      "acccaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-057",
+    "args": [
+      "cabcbcbacaabbaa",
+      "acbbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "abcbcb"
+  },
+  {
+    "name": "随机穷举-058",
+    "args": [
+      "aacbabaaabcabca",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aa"
+  },
+  {
+    "name": "随机穷举-059",
+    "args": [
+      "abacbccbabaabca",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "a"
+  },
+  {
+    "name": "随机穷举-060",
+    "args": [
+      "baabbaabaabbbac",
+      "babaa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aabba"
+  },
+  {
+    "name": "随机穷举-061",
+    "args": [
+      "caaaababaababaaa",
+      "babc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "caaaabab"
+  },
+  {
+    "name": "随机穷举-062",
+    "args": [
+      "baacacacaccbbbaa",
+      "babbb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "baacacacaccbbb"
+  },
+  {
+    "name": "随机穷举-063",
+    "args": [
+      "aaaaaccbaaaaacaa",
+      "aa"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aa"
+  },
+  {
+    "name": "随机穷举-064",
+    "args": [
+      "bcbbaaaabbaabbca",
+      "baccba"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "cbbaaaabbaabbc"
+  },
+  {
+    "name": "随机穷举-065",
+    "args": [
+      "ccaabaabcaabaabaa",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "a"
+  },
+  {
+    "name": "随机穷举-066",
+    "args": [
+      "caaccaccacaaaaaca",
+      "bccbc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": ""
+  },
+  {
+    "name": "随机穷举-067",
+    "args": [
+      "acaabcbaacbbbbaab",
+      "aac"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aca"
+  },
+  {
+    "name": "随机穷举-068",
+    "args": [
+      "bacabbaccabbabbca",
+      "cb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bc"
+  },
+  {
+    "name": "随机穷举-069",
+    "args": [
+      "bbaaacaaabacbcacab",
+      "aab"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "baa"
+  },
+  {
+    "name": "随机穷举-070",
+    "args": [
+      "bacbbccaccacaacaab",
+      "ccb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bcc"
+  },
+  {
+    "name": "随机穷举-071",
+    "args": [
+      "cabaaacaaaabcaabbc",
+      "bbbbcc"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "baaacaaaabcaabb"
+  },
+  {
+    "name": "随机穷举-072",
+    "args": [
+      "caaacabaaaaabcabcb",
+      "bcb"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "bcb"
+  },
+  {
+    "name": "随机穷举-073",
+    "args": [
+      "bacaabbababaaaabcab",
+      "aca"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "aca"
+  },
+  {
+    "name": "随机穷举-074",
+    "args": [
+      "bcbbcbabcbcbcababcb",
+      "a"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "a"
+  },
+  {
+    "name": "随机穷举-075",
+    "args": [
+      "babaaccaababacccaaa",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "b"
+  },
+  {
+    "name": "随机穷举-076",
+    "args": [
+      "aaababacbccabcbcaba",
+      "b"
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": "b"
+  }
+]

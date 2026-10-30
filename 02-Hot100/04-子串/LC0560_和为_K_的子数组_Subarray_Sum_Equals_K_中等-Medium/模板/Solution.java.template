@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public int subarraySum(int[] nums, int k) { throw new UnsupportedOperationException("TODO"); }
+}

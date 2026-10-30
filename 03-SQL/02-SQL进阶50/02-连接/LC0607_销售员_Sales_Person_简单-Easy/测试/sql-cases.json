@@ -1,0 +1,780 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "SalesPerson": [
+          "sales_id",
+          "name",
+          "salary",
+          "commission_rate",
+          "hire_date"
+        ],
+        "Company": [
+          "com_id",
+          "name",
+          "city"
+        ],
+        "Orders": [
+          "order_id",
+          "order_date",
+          "com_id",
+          "sales_id",
+          "amount"
+        ]
+      },
+      "rows": {
+        "SalesPerson": [
+          [
+            1,
+            "John",
+            100000,
+            6,
+            "4/1/2006"
+          ],
+          [
+            2,
+            "Amy",
+            12000,
+            5,
+            "5/1/2010"
+          ],
+          [
+            3,
+            "Mark",
+            65000,
+            12,
+            "12/25/2008"
+          ],
+          [
+            4,
+            "Pam",
+            25000,
+            25,
+            "1/1/2005"
+          ],
+          [
+            5,
+            "Alex",
+            5000,
+            10,
+            "2/3/2007"
+          ]
+        ],
+        "Company": [
+          [
+            1,
+            "RED",
+            "Boston"
+          ],
+          [
+            2,
+            "ORANGE",
+            "New York"
+          ],
+          [
+            3,
+            "YELLOW",
+            "Boston"
+          ],
+          [
+            4,
+            "GREEN",
+            "Austin"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "1/1/2014",
+            3,
+            4,
+            10000
+          ],
+          [
+            2,
+            "2/1/2014",
+            4,
+            5,
+            5000
+          ],
+          [
+            3,
+            "3/1/2014",
+            1,
+            1,
+            50000
+          ],
+          [
+            4,
+            "4/1/2014",
+            1,
+            4,
+            25000
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "name"
+      ],
+      [
+        [
+          "Amy"
+        ],
+        [
+          "Mark"
+        ],
+        [
+          "Alex"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "SalesPerson": [
+          "sales_id",
+          "name",
+          "salary",
+          "commission_rate",
+          "hire_date"
+        ],
+        "Company": [
+          "com_id",
+          "name",
+          "city"
+        ],
+        "Orders": [
+          "order_id",
+          "order_date",
+          "com_id",
+          "sales_id",
+          "amount"
+        ]
+      },
+      "rows": {
+        "SalesPerson": [
+          [
+            1,
+            "John",
+            100000,
+            6,
+            "4/1/2006"
+          ],
+          [
+            3,
+            "Mark",
+            65000,
+            12,
+            "12/25/2008"
+          ],
+          [
+            2,
+            "Amy",
+            12000,
+            5,
+            "5/1/2010"
+          ],
+          [
+            4,
+            "Pam",
+            25000,
+            25,
+            "1/1/2005"
+          ],
+          [
+            5,
+            "Alex",
+            5000,
+            10,
+            "2/3/2007"
+          ]
+        ],
+        "Company": [
+          [
+            1,
+            "RED",
+            "Boston"
+          ],
+          [
+            3,
+            "YELLOW",
+            "Boston"
+          ],
+          [
+            2,
+            "ORANGE",
+            "New York"
+          ],
+          [
+            4,
+            "GREEN",
+            "Austin"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "1/1/2014",
+            3,
+            4,
+            10000
+          ],
+          [
+            3,
+            "3/1/2014",
+            1,
+            1,
+            50000
+          ],
+          [
+            2,
+            "2/1/2014",
+            4,
+            5,
+            5000
+          ],
+          [
+            4,
+            "4/1/2014",
+            1,
+            4,
+            25000
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "SalesPerson": [
+          "sales_id",
+          "name",
+          "salary",
+          "commission_rate",
+          "hire_date"
+        ],
+        "Company": [
+          "com_id",
+          "name",
+          "city"
+        ],
+        "Orders": [
+          "order_id",
+          "order_date",
+          "com_id",
+          "sales_id",
+          "amount"
+        ]
+      },
+      "rows": {
+        "SalesPerson": [
+          [
+            4,
+            "Pam",
+            25000,
+            25,
+            "1/1/2005"
+          ],
+          [
+            5,
+            "Alex",
+            5000,
+            10,
+            "2/3/2007"
+          ],
+          [
+            3,
+            "Mark",
+            65000,
+            12,
+            "12/25/2008"
+          ],
+          [
+            1,
+            "John",
+            100000,
+            6,
+            "4/1/2006"
+          ],
+          [
+            2,
+            "Amy",
+            12000,
+            5,
+            "5/1/2010"
+          ]
+        ],
+        "Company": [
+          [
+            3,
+            "YELLOW",
+            "Boston"
+          ],
+          [
+            4,
+            "GREEN",
+            "Austin"
+          ],
+          [
+            1,
+            "RED",
+            "Boston"
+          ],
+          [
+            2,
+            "ORANGE",
+            "New York"
+          ]
+        ],
+        "Orders": [
+          [
+            3,
+            "3/1/2014",
+            1,
+            1,
+            50000
+          ],
+          [
+            4,
+            "4/1/2014",
+            1,
+            4,
+            25000
+          ],
+          [
+            1,
+            "1/1/2014",
+            3,
+            4,
+            10000
+          ],
+          [
+            2,
+            "2/1/2014",
+            4,
+            5,
+            5000
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "SalesPerson": [
+          "sales_id",
+          "name",
+          "salary",
+          "commission_rate",
+          "hire_date"
+        ],
+        "Company": [
+          "com_id",
+          "name",
+          "city"
+        ],
+        "Orders": [
+          "order_id",
+          "order_date",
+          "com_id",
+          "sales_id",
+          "amount"
+        ]
+      },
+      "rows": {
+        "SalesPerson": [
+          [
+            2,
+            "Amy",
+            12000,
+            5,
+            "5/1/2010"
+          ],
+          [
+            4,
+            "Pam",
+            25000,
+            25,
+            "1/1/2005"
+          ],
+          [
+            3,
+            "Mark",
+            65000,
+            12,
+            "12/25/2008"
+          ],
+          [
+            5,
+            "Alex",
+            5000,
+            10,
+            "2/3/2007"
+          ],
+          [
+            1,
+            "John",
+            100000,
+            6,
+            "4/1/2006"
+          ]
+        ],
+        "Company": [
+          [
+            2,
+            "ORANGE",
+            "New York"
+          ],
+          [
+            4,
+            "GREEN",
+            "Austin"
+          ],
+          [
+            3,
+            "YELLOW",
+            "Boston"
+          ],
+          [
+            1,
+            "RED",
+            "Boston"
+          ]
+        ],
+        "Orders": [
+          [
+            2,
+            "2/1/2014",
+            4,
+            5,
+            5000
+          ],
+          [
+            4,
+            "4/1/2014",
+            1,
+            4,
+            25000
+          ],
+          [
+            3,
+            "3/1/2014",
+            1,
+            1,
+            50000
+          ],
+          [
+            1,
+            "1/1/2014",
+            3,
+            4,
+            10000
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "SalesPerson": [
+          "sales_id",
+          "name",
+          "salary",
+          "commission_rate",
+          "hire_date"
+        ],
+        "Company": [
+          "com_id",
+          "name",
+          "city"
+        ],
+        "Orders": [
+          "order_id",
+          "order_date",
+          "com_id",
+          "sales_id",
+          "amount"
+        ]
+      },
+      "rows": {
+        "SalesPerson": [
+          [
+            1,
+            "John",
+            100000,
+            6,
+            "4/1/2006"
+          ],
+          [
+            2,
+            "Amy",
+            12000,
+            5,
+            "5/1/2010"
+          ],
+          [
+            3,
+            "Mark",
+            65000,
+            12,
+            "12/25/2008"
+          ],
+          [
+            4,
+            "Pam",
+            25000,
+            25,
+            "1/1/2005"
+          ],
+          [
+            5,
+            "Alex",
+            5000,
+            10,
+            "2/3/2007"
+          ]
+        ],
+        "Company": [
+          [
+            1,
+            "RED",
+            "Boston"
+          ],
+          [
+            2,
+            "ORANGE",
+            "New York"
+          ],
+          [
+            3,
+            "YELLOW",
+            "Boston"
+          ],
+          [
+            4,
+            "GREEN",
+            "Austin"
+          ]
+        ],
+        "Orders": []
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "SalesPerson": [
+          "sales_id",
+          "name",
+          "salary",
+          "commission_rate",
+          "hire_date"
+        ],
+        "Company": [
+          "com_id",
+          "name",
+          "city"
+        ],
+        "Orders": [
+          "order_id",
+          "order_date",
+          "com_id",
+          "sales_id",
+          "amount"
+        ]
+      },
+      "rows": {
+        "SalesPerson": [
+          [
+            1,
+            "John",
+            100000,
+            6,
+            "4/1/2006"
+          ],
+          [
+            2,
+            "Amy",
+            12000,
+            5,
+            "5/1/2010"
+          ],
+          [
+            3,
+            "Mark",
+            65000,
+            12,
+            "12/25/2008"
+          ],
+          [
+            4,
+            "Pam",
+            25000,
+            25,
+            "1/1/2005"
+          ],
+          [
+            5,
+            "Alex",
+            5000,
+            10,
+            "2/3/2007"
+          ]
+        ],
+        "Company": [
+          [
+            1,
+            "RED",
+            "Boston"
+          ],
+          [
+            2,
+            "ORANGE",
+            "New York"
+          ],
+          [
+            3,
+            "YELLOW",
+            "Boston"
+          ],
+          [
+            4,
+            "GREEN",
+            "Austin"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "1/1/2014",
+            3,
+            4,
+            10000
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "SalesPerson": [
+          "sales_id",
+          "name",
+          "salary",
+          "commission_rate",
+          "hire_date"
+        ],
+        "Company": [
+          "com_id",
+          "name",
+          "city"
+        ],
+        "Orders": [
+          "order_id",
+          "order_date",
+          "com_id",
+          "sales_id",
+          "amount"
+        ]
+      },
+      "rows": {
+        "SalesPerson": [
+          [
+            1,
+            "John",
+            100000,
+            6,
+            "4/1/2006"
+          ],
+          [
+            2,
+            "Amy",
+            12000,
+            5,
+            "5/1/2010"
+          ],
+          [
+            3,
+            "Mark",
+            65000,
+            12,
+            "12/25/2008"
+          ],
+          [
+            4,
+            "Pam",
+            25000,
+            25,
+            "1/1/2005"
+          ],
+          [
+            5,
+            "Alex",
+            5000,
+            10,
+            "2/3/2007"
+          ]
+        ],
+        "Company": [
+          [
+            1,
+            "RED",
+            "Boston"
+          ],
+          [
+            2,
+            "ORANGE",
+            "New York"
+          ],
+          [
+            3,
+            "YELLOW",
+            "Boston"
+          ],
+          [
+            4,
+            "GREEN",
+            "Austin"
+          ]
+        ],
+        "Orders": [
+          [
+            1,
+            "1/1/2014",
+            3,
+            4,
+            10000
+          ],
+          [
+            2,
+            "2/1/2014",
+            4,
+            5,
+            5000
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

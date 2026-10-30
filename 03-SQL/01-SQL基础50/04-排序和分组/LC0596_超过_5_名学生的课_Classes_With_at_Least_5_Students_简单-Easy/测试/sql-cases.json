@@ -1,0 +1,347 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Courses": [
+          "student",
+          "class"
+        ]
+      },
+      "rows": {
+        "Courses": [
+          [
+            "A",
+            "Math"
+          ],
+          [
+            "B",
+            "English"
+          ],
+          [
+            "C",
+            "Math"
+          ],
+          [
+            "D",
+            "Biology"
+          ],
+          [
+            "E",
+            "Math"
+          ],
+          [
+            "F",
+            "Computer"
+          ],
+          [
+            "G",
+            "Math"
+          ],
+          [
+            "H",
+            "Math"
+          ],
+          [
+            "I",
+            "Math"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "class"
+      ],
+      [
+        [
+          "Math"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Courses": [
+          "student",
+          "class"
+        ]
+      },
+      "rows": {
+        "Courses": [
+          [
+            "D",
+            "Biology"
+          ],
+          [
+            "B",
+            "English"
+          ],
+          [
+            "A",
+            "Math"
+          ],
+          [
+            "E",
+            "Math"
+          ],
+          [
+            "F",
+            "Computer"
+          ],
+          [
+            "C",
+            "Math"
+          ],
+          [
+            "H",
+            "Math"
+          ],
+          [
+            "G",
+            "Math"
+          ],
+          [
+            "I",
+            "Math"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "class"
+      ],
+      [
+        [
+          "Math"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Courses": [
+          "student",
+          "class"
+        ]
+      },
+      "rows": {
+        "Courses": [
+          [
+            "E",
+            "Math"
+          ],
+          [
+            "G",
+            "Math"
+          ],
+          [
+            "A",
+            "Math"
+          ],
+          [
+            "H",
+            "Math"
+          ],
+          [
+            "I",
+            "Math"
+          ],
+          [
+            "D",
+            "Biology"
+          ],
+          [
+            "F",
+            "Computer"
+          ],
+          [
+            "B",
+            "English"
+          ],
+          [
+            "C",
+            "Math"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "class"
+      ],
+      [
+        [
+          "Math"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Courses": [
+          "student",
+          "class"
+        ]
+      },
+      "rows": {
+        "Courses": [
+          [
+            "I",
+            "Math"
+          ],
+          [
+            "F",
+            "Computer"
+          ],
+          [
+            "G",
+            "Math"
+          ],
+          [
+            "C",
+            "Math"
+          ],
+          [
+            "D",
+            "Biology"
+          ],
+          [
+            "H",
+            "Math"
+          ],
+          [
+            "E",
+            "Math"
+          ],
+          [
+            "B",
+            "English"
+          ],
+          [
+            "A",
+            "Math"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "class"
+      ],
+      [
+        [
+          "Math"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Courses": [
+          "student",
+          "class"
+        ]
+      },
+      "rows": {
+        "Courses": []
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "class"
+      ],
+      []
+    ]
+  },
+  {
+    "name": "构造边界-5",
+    "data": {
+      "headers": {
+        "Courses": [
+          "student",
+          "class"
+        ]
+      },
+      "rows": {
+        "Courses": [
+          [
+            "A",
+            "Math"
+          ],
+          [
+            "B",
+            "English"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "class"
+      ],
+      []
+    ]
+  },
+  {
+    "name": "构造边界-6",
+    "data": {
+      "headers": {
+        "Courses": [
+          "student",
+          "class"
+        ]
+      },
+      "rows": {
+        "Courses": [
+          [
+            "A",
+            "Math"
+          ],
+          [
+            "B",
+            "English"
+          ],
+          [
+            "C",
+            "Math"
+          ],
+          [
+            "D",
+            "Biology"
+          ],
+          [
+            "E",
+            "Math"
+          ],
+          [
+            "F",
+            "Computer"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "class"
+      ],
+      []
+    ]
+  }
+]

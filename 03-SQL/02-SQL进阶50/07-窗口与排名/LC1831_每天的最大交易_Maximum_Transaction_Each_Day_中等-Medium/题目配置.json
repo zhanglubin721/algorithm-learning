@@ -1,0 +1,45 @@
+{
+  "id": 1831,
+  "titleCn": "每天的最大交易",
+  "titleEn": "Maximum Transaction Each Day",
+  "slug": "maximum-transaction-each-day",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p4.lc1831",
+  "plan": "sql-premium-50",
+  "category": "窗口与排名",
+  "source": "https://leetcode.cn/problems/maximum-transaction-each-day/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Transactions (transaction_id int, day date, amount int)"
+    ],
+    "mssql": [
+      "Create table Transactions (transaction_id int, day datetime, amount int)"
+    ],
+    "oraclesql": [
+      "Create table Transactions (transaction_id int, day date, amount int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'"
+    ],
+    "database": true,
+    "name": "find_maximum_transaction",
+    "pythondata": [
+      "Transactions = pd.DataFrame([], columns=['transaction_id', 'day', 'amount']).astype({'transaction_id':'Int64', 'day':'datetime64[ns]', 'amount':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Transactions (transaction_id int, day datetime, amount int)"
+    ],
+    "database_schema": {
+      "Transactions": {
+        "transaction_id": "INT",
+        "day": "DATE",
+        "amount": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Transactions (transaction_id int, day date, amount int)"
+  ],
+  "ordered": true
+}

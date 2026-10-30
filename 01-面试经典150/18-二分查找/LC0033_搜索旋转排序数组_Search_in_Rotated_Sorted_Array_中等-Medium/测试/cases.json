@@ -1,0 +1,1554 @@
+[
+  {
+    "name": "公开示例-1",
+    "args": [
+      [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1,
+        2
+      ],
+      0
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": 4
+  },
+  {
+    "name": "公开示例-2",
+    "args": [
+      [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1,
+        2
+      ],
+      3
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": -1
+  },
+  {
+    "name": "公开示例-3",
+    "args": [
+      [
+        1
+      ],
+      0
+    ],
+    "source": "官方公开输入",
+    "oracle": "reference-crosscheck",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-001",
+    "args": [
+      [
+        -1
+      ],
+      -7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-002",
+    "args": [
+      [
+        6
+      ],
+      0
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-003",
+    "args": [
+      [
+        -3
+      ],
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-004",
+    "args": [
+      [
+        -6
+      ],
+      9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-005",
+    "args": [
+      [
+        0
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-006",
+    "args": [
+      [
+        3,
+        5
+      ],
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-007",
+    "args": [
+      [
+        -1,
+        2
+      ],
+      -6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-008",
+    "args": [
+      [
+        -4,
+        -1
+      ],
+      5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-009",
+    "args": [
+      [
+        -6
+      ],
+      5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-010",
+    "args": [
+      [
+        -2,
+        -8
+      ],
+      -8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机扫描-011",
+    "args": [
+      [
+        1,
+        -5,
+        -1
+      ],
+      -1
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机扫描-012",
+    "args": [
+      [
+        -8,
+        -7
+      ],
+      -4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-013",
+    "args": [
+      [
+        2,
+        6,
+        7
+      ],
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机扫描-014",
+    "args": [
+      [
+        -1,
+        6,
+        -3
+      ],
+      -8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-015",
+    "args": [
+      [
+        -3,
+        2,
+        4
+      ],
+      -8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-016",
+    "args": [
+      [
+        3,
+        -5,
+        -2,
+        2
+      ],
+      -10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-017",
+    "args": [
+      [
+        3,
+        -5,
+        -4,
+        0
+      ],
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机扫描-018",
+    "args": [
+      [
+        6,
+        -4,
+        -3,
+        2
+      ],
+      -1
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-019",
+    "args": [
+      [
+        8,
+        2,
+        3,
+        5
+      ],
+      -5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-020",
+    "args": [
+      [
+        -5,
+        -8,
+        -7
+      ],
+      -3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-021",
+    "args": [
+      [
+        4,
+        7,
+        8,
+        -4,
+        3
+      ],
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机扫描-022",
+    "args": [
+      [
+        0,
+        7,
+        8,
+        -5
+      ],
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-023",
+    "args": [
+      [
+        -2,
+        4,
+        5,
+        -8,
+        -6
+      ],
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-024",
+    "args": [
+      [
+        -7,
+        3,
+        4,
+        8
+      ],
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 1
+  },
+  {
+    "name": "随机扫描-025",
+    "args": [
+      [
+        2,
+        5,
+        6,
+        -4
+      ],
+      -3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-026",
+    "args": [
+      [
+        -3,
+        0,
+        6,
+        -8
+      ],
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-027",
+    "args": [
+      [
+        0,
+        2,
+        4,
+        6,
+        -1
+      ],
+      7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-028",
+    "args": [
+      [
+        -5,
+        -3,
+        -2,
+        -1,
+        1,
+        8
+      ],
+      0
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-029",
+    "args": [
+      [
+        6,
+        -7,
+        -6,
+        2,
+        3
+      ],
+      -6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机扫描-030",
+    "args": [
+      [
+        -2,
+        -1,
+        4,
+        8,
+        -6,
+        -4
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机扫描-031",
+    "args": [
+      [
+        1,
+        7,
+        -7,
+        -2,
+        0
+      ],
+      5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-032",
+    "args": [
+      [
+        8,
+        -6,
+        -5,
+        -3,
+        7
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-033",
+    "args": [
+      [
+        7,
+        -7,
+        -5,
+        -4,
+        -1
+      ],
+      -6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-034",
+    "args": [
+      [
+        3,
+        4,
+        5,
+        6,
+        -8,
+        -6
+      ],
+      7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-035",
+    "args": [
+      [
+        -4,
+        1,
+        2,
+        6,
+        -5
+      ],
+      0
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-036",
+    "args": [
+      [
+        -7,
+        -3,
+        -1,
+        1,
+        2,
+        7
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-037",
+    "args": [
+      [
+        -6,
+        -4,
+        3,
+        4,
+        5,
+        -7
+      ],
+      -3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-038",
+    "args": [
+      [
+        -5,
+        -2,
+        -1,
+        7,
+        8
+      ],
+      -1
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机扫描-039",
+    "args": [
+      [
+        -4,
+        -1,
+        0,
+        3,
+        8,
+        -6
+      ],
+      -8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-040",
+    "args": [
+      [
+        -5,
+        -4,
+        -2,
+        4,
+        8,
+        -7
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-041",
+    "args": [
+      [
+        0,
+        1,
+        6,
+        7,
+        -6,
+        -5,
+        -4
+      ],
+      5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-042",
+    "args": [
+      [
+        -6,
+        -2,
+        -1,
+        0,
+        2,
+        3,
+        6,
+        -7
+      ],
+      6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机扫描-043",
+    "args": [
+      [
+        3,
+        5,
+        6,
+        -8,
+        -4,
+        1,
+        2
+      ],
+      -6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-044",
+    "args": [
+      [
+        -3,
+        -1,
+        2,
+        3,
+        -8,
+        -7,
+        -6,
+        -4
+      ],
+      -6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机扫描-045",
+    "args": [
+      [
+        -1,
+        1,
+        5,
+        6,
+        8,
+        -4
+      ],
+      -3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-046",
+    "args": [
+      [
+        -5,
+        -4,
+        -2,
+        2,
+        3,
+        5,
+        6,
+        7,
+        -8
+      ],
+      -9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-047",
+    "args": [
+      [
+        1,
+        3,
+        4,
+        6,
+        7,
+        -8,
+        -6,
+        -5,
+        -4,
+        -1
+      ],
+      -10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-048",
+    "args": [
+      [
+        -3,
+        -1,
+        2,
+        3,
+        5,
+        6,
+        -5,
+        -4
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-049",
+    "args": [
+      [
+        -6,
+        2,
+        3,
+        7,
+        8,
+        -8
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-050",
+    "args": [
+      [
+        3,
+        4,
+        5,
+        6,
+        7,
+        -8,
+        -4
+      ],
+      -10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-051",
+    "args": [
+      [
+        3,
+        4,
+        6,
+        8,
+        -4,
+        -1,
+        1,
+        2
+      ],
+      -5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-052",
+    "args": [
+      [
+        2,
+        4,
+        6,
+        7,
+        8,
+        -7,
+        -5,
+        -3,
+        -2
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-053",
+    "args": [
+      [
+        -2,
+        -1,
+        2,
+        3,
+        4,
+        6,
+        -8
+      ],
+      -2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机扫描-054",
+    "args": [
+      [
+        2,
+        3,
+        5,
+        6,
+        -4,
+        -3,
+        -2,
+        0,
+        1
+      ],
+      0
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机扫描-055",
+    "args": [
+      [
+        -5,
+        -3,
+        -1,
+        0,
+        3,
+        4,
+        7,
+        -8
+      ],
+      -10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-056",
+    "args": [
+      [
+        6,
+        7,
+        -4,
+        -3,
+        -2,
+        2,
+        3,
+        5
+      ],
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机扫描-057",
+    "args": [
+      [
+        6,
+        8,
+        -6,
+        -4,
+        0,
+        1,
+        4,
+        5
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机扫描-058",
+    "args": [
+      [
+        -6,
+        -2,
+        2,
+        3,
+        4,
+        6,
+        -8,
+        -7
+      ],
+      -5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-059",
+    "args": [
+      [
+        6,
+        7,
+        8,
+        -7,
+        -6,
+        -5,
+        2,
+        3
+      ],
+      -10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-060",
+    "args": [
+      [
+        4,
+        5,
+        6,
+        7,
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -1
+      ],
+      -5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 7
+  },
+  {
+    "name": "随机扫描-061",
+    "args": [
+      [
+        4,
+        7,
+        -8,
+        -7,
+        -6,
+        -4,
+        -1,
+        2,
+        3
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 0
+  },
+  {
+    "name": "随机扫描-062",
+    "args": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        -7,
+        -5,
+        -1
+      ],
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机扫描-063",
+    "args": [
+      [
+        6,
+        7,
+        -6,
+        -1,
+        0,
+        2,
+        3
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-064",
+    "args": [
+      [
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        6,
+        7,
+        8,
+        -8,
+        -6,
+        -3
+      ],
+      4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-065",
+    "args": [
+      [
+        5,
+        7,
+        8,
+        -8,
+        -7,
+        -5,
+        -3,
+        -2,
+        -1,
+        2,
+        3,
+        4
+      ],
+      -3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 6
+  },
+  {
+    "name": "随机扫描-066",
+    "args": [
+      [
+        -7,
+        -5,
+        -4,
+        -3,
+        -2,
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      0
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机扫描-067",
+    "args": [
+      [
+        2,
+        4,
+        7,
+        8,
+        -7,
+        -6,
+        -5,
+        -1,
+        1
+      ],
+      9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-068",
+    "args": [
+      [
+        -5,
+        -2,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -8
+      ],
+      2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-069",
+    "args": [
+      [
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        5,
+        -8,
+        -7,
+        -4,
+        -3
+      ],
+      8
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-070",
+    "args": [
+      [
+        5,
+        6,
+        7,
+        8,
+        -8,
+        -7,
+        -6,
+        -5,
+        -3,
+        -1,
+        1,
+        3,
+        4
+      ],
+      -9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-071",
+    "args": [
+      [
+        -5,
+        -3,
+        -1,
+        0,
+        1,
+        3,
+        6,
+        8,
+        -8,
+        -7
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-072",
+    "args": [
+      [
+        -1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        -8,
+        -3,
+        -2
+      ],
+      -7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-073",
+    "args": [
+      [
+        6,
+        8,
+        -8,
+        -7,
+        -6,
+        -5,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      -3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-074",
+    "args": [
+      [
+        3,
+        4,
+        5,
+        -8,
+        -6,
+        -5,
+        -4,
+        -2,
+        -1,
+        1
+      ],
+      -7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-075",
+    "args": [
+      [
+        0,
+        1,
+        2,
+        5,
+        6,
+        -8,
+        -6,
+        -4,
+        -3,
+        -1
+      ],
+      -2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-076",
+    "args": [
+      [
+        8,
+        -8,
+        -7,
+        -5,
+        -3,
+        -2,
+        -1,
+        2,
+        5,
+        6
+      ],
+      -7
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机扫描-077",
+    "args": [
+      [
+        -6,
+        -5,
+        -4,
+        -2,
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        -7
+      ],
+      -4
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 2
+  },
+  {
+    "name": "随机扫描-078",
+    "args": [
+      [
+        0,
+        2,
+        3,
+        4,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -1
+      ],
+      -9
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-079",
+    "args": [
+      [
+        1,
+        2,
+        3,
+        4,
+        7,
+        -8,
+        -7,
+        -6,
+        -5,
+        -1,
+        0
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-080",
+    "args": [
+      [
+        -7,
+        -6,
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      3
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 4
+  },
+  {
+    "name": "随机扫描-081",
+    "args": [
+      [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        -8,
+        -7,
+        -4,
+        -3,
+        -1
+      ],
+      -2
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-082",
+    "args": [
+      [
+        -6,
+        -5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -8,
+        -7
+      ],
+      10
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-083",
+    "args": [
+      [
+        5,
+        6,
+        8,
+        -8,
+        -6,
+        -5,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      -5
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": 5
+  },
+  {
+    "name": "随机扫描-084",
+    "args": [
+      [
+        4,
+        7,
+        8,
+        -7,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1
+      ],
+      -6
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  },
+  {
+    "name": "随机扫描-085",
+    "args": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -8,
+        -6,
+        -3,
+        -1
+      ],
+      0
+    ],
+    "source": "工程构造",
+    "oracle": "independent-python",
+    "expected": -1
+  }
+]

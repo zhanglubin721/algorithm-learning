@@ -1,0 +1,72 @@
+{
+  "id": 146,
+  "titleCn": "LRU 缓存",
+  "titleEn": "LRU Cache",
+  "slug": "lru-cache",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0146",
+  "plan": "top-100-liked",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/lru-cache/",
+  "meta": {
+    "classname": "LRUCache",
+    "maxbytesperline": 200000,
+    "constructor": {
+      "params": [
+        {
+          "type": "integer",
+          "name": "capacity"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "name": "get",
+        "params": [
+          {
+            "type": "integer",
+            "name": "key"
+          }
+        ],
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "name": "put",
+        "params": [
+          {
+            "type": "integer",
+            "name": "key"
+          },
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "return": {
+          "type": "void"
+        }
+      }
+    ],
+    "systemdesign": true,
+    "params": [
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      },
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<String>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

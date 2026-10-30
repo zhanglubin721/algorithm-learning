@@ -1,0 +1,28 @@
+{
+  "id": 102,
+  "titleCn": "二叉树的层序遍历",
+  "titleEn": "Binary Tree Level Order Traversal",
+  "slug": "binary-tree-level-order-traversal",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0102",
+  "plan": "top-100-liked",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/binary-tree-level-order-traversal/",
+  "meta": {
+    "name": "levelOrder",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

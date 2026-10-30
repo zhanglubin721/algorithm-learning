@@ -1,0 +1,27 @@
+{
+  "id": 149,
+  "titleCn": "直线上最多的点数",
+  "titleEn": "Max Points on a Line",
+  "slug": "max-points-on-a-line",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0149",
+  "plan": "top-interview-150",
+  "category": "数学",
+  "source": "https://leetcode.cn/problems/max-points-on-a-line/",
+  "meta": {
+    "name": "maxPoints",
+    "params": [
+      {
+        "name": "points",
+        "type": "integer[][]"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

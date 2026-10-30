@@ -1,0 +1,69 @@
+{
+  "id": 1511,
+  "titleCn": "消费者下单频率",
+  "titleEn": "Customer Order Frequency",
+  "slug": "customer-order-frequency",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc1511",
+  "plan": "sql-premium-50",
+  "category": "排序与分组",
+  "source": "https://leetcode.cn/problems/customer-order-frequency/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Customers (customer_id int, name varchar(30), country varchar(30))",
+      "Create table If Not Exists Product (product_id int, description varchar(30), price int)\n",
+      "Create table If Not Exists Orders (order_id int, customer_id int, product_id int, order_date date, quantity int)\n"
+    ],
+    "mssql": [
+      "Create table Customers (customer_id int, name varchar(30), country varchar(30))\n",
+      "Create table Product (product_id int, description varchar(30), price int)",
+      "Create table Orders (order_id int, customer_id int, product_id int, order_date date, quantity int)"
+    ],
+    "oraclesql": [
+      "Create table Customers (customer_id int, name varchar(30), country varchar(30))",
+      "Create table Product (product_id int, description varchar(30), price int)",
+      "Create table Orders (order_id int, customer_id int, product_id int, order_date date, quantity int)",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD'"
+    ],
+    "database": true,
+    "name": "customer_order_frequency",
+    "pythondata": [
+      "Customers = pd.DataFrame([], columns=['customer_id', 'name', 'country']).astype({'customer_id':'Int64', 'name':'object', 'country':'object'})",
+      "Product = pd.DataFrame([], columns=['product_id', 'description', 'price']).astype({'product_id':'Int64', 'description':'object', 'price':'Int64'})",
+      "Orders = pd.DataFrame([], columns=['order_id', 'customer_id', 'product_id', 'order_date', 'quantity']).astype({'order_id':'Int64', 'customer_id':'Int64', 'product_id':'Int64', 'order_date':'datetime64[ns]', 'quantity':'Int64'})"
+    ],
+    "postgresql": [
+      "\nCreate table If Not Exists Customers (customer_id int, name varchar(30), country varchar(30))\n",
+      "Create table If Not Exists Product (product_id int, description varchar(30), price int)\n",
+      "Create table If Not Exists Orders (order_id int, customer_id int, product_id int, order_date date, quantity int)"
+    ],
+    "database_schema": {
+      "Customers": {
+        "customer_id": "INT",
+        "name": "VARCHAR(30)",
+        "country": "VARCHAR(30)"
+      },
+      "Product": {
+        "product_id": "INT",
+        "description": "VARCHAR(30)",
+        "price": "INT"
+      },
+      "Orders": {
+        "order_id": "INT",
+        "customer_id": "INT",
+        "product_id": "INT",
+        "order_date": "DATE",
+        "quantity": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create table If Not Exists Customers (customer_id int, name varchar(30), country varchar(30))",
+    "Create table If Not Exists Product (product_id int, description varchar(30), price int)\n",
+    "Create table If Not Exists Orders (order_id int, customer_id int, product_id int, order_date date, quantity int)\n"
+  ],
+  "ordered": false
+}

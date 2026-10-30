@@ -1,0 +1,27 @@
+{
+  "id": 58,
+  "titleCn": "最后一个单词的长度",
+  "titleEn": "Length of Last Word",
+  "slug": "length-of-last-word",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0058",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/length-of-last-word/",
+  "meta": {
+    "name": "lengthOfLastWord",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

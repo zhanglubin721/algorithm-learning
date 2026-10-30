@@ -1,0 +1,31 @@
+{
+  "id": 74,
+  "titleCn": "搜索二维矩阵",
+  "titleEn": "Search a 2D Matrix",
+  "slug": "search-a-2d-matrix",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0074",
+  "plan": "top-interview-150",
+  "category": "二分查找",
+  "source": "https://leetcode.cn/problems/search-a-2d-matrix/",
+  "meta": {
+    "name": "searchMatrix",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

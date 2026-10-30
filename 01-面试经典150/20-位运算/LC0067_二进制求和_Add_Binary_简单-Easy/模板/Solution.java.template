@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public String addBinary(String a, String b) { throw new UnsupportedOperationException("TODO"); }
+}

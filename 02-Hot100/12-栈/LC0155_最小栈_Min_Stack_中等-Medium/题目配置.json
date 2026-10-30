@@ -1,0 +1,60 @@
+{
+  "id": 155,
+  "titleCn": "最小栈",
+  "titleEn": "Min Stack",
+  "slug": "min-stack",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0155",
+  "plan": "top-100-liked",
+  "category": "栈",
+  "source": "https://leetcode.cn/problems/min-stack/",
+  "meta": {
+    "classname": "MinStack",
+    "constructor": {
+      "params": []
+    },
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "return": {
+          "type": "void"
+        },
+        "name": "push"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "void"
+        },
+        "name": "pop"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "top"
+      },
+      {
+        "params": [],
+        "return": {
+          "type": "integer"
+        },
+        "name": "getMin"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    },
+    "systemdesign": true
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

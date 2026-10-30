@@ -1,0 +1,56 @@
+{
+  "id": 577,
+  "titleCn": "员工奖金",
+  "titleEn": "Employee Bonus",
+  "slug": "employee-bonus",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p3.lc0577",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/employee-bonus/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Employee (empId int, name varchar(255), supervisor int, salary int)",
+      "Create table If Not Exists Bonus (empId int, bonus int)"
+    ],
+    "mssql": [
+      "Create table Employee (empId int, name varchar(255), supervisor int, salary int)",
+      "Create table Bonus (empId int, bonus int)"
+    ],
+    "oraclesql": [
+      "Create table Employee (empId int, name varchar(255), supervisor int, salary int)",
+      "Create table Bonus (empId int, bonus int)"
+    ],
+    "database": true,
+    "name": "employee_bonus",
+    "manual": false,
+    "pythondata": [
+      "Employee = pd.DataFrame([], columns=['empId', 'name', 'supervisor', 'salary']).astype({'empId':'Int64', 'name':'object', 'supervisor':'Int64', 'salary':'Int64'})",
+      "Bonus = pd.DataFrame([], columns=['empId', 'bonus']).astype({'empId':'Int64', 'bonus':'Int64'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Employee (empId int, name varchar(255), supervisor int, salary int)\n",
+      "Create table If Not Exists Bonus (empId int, bonus int)"
+    ],
+    "database_schema": {
+      "Employee": {
+        "empId": "INT",
+        "name": "VARCHAR(255)",
+        "supervisor": "INT",
+        "salary": "INT"
+      },
+      "Bonus": {
+        "empId": "INT",
+        "bonus": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Employee (empId int, name varchar(255), supervisor int, salary int)",
+    "Create table If Not Exists Bonus (empId int, bonus int)"
+  ],
+  "ordered": false
+}

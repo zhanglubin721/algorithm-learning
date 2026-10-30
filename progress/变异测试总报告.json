@@ -1,0 +1,4603 @@
+{
+  "88": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0
+          ],
+          "passed": false,
+          "elapsedNs": 50561584
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2,
+            3,
+            0,
+            5,
+            6
+          ],
+          "passed": false,
+          "elapsedNs": 52506834
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "27": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": {
+            "prefix": [],
+            "length": 0
+          },
+          "passed": false,
+          "elapsedNs": 36198375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "26": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": {
+            "length": 0,
+            "prefix": []
+          },
+          "passed": false,
+          "elapsedNs": 41828291
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "80": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": {
+            "prefix": [],
+            "length": 0
+          },
+          "passed": false,
+          "elapsedNs": 56225875
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": {
+            "prefix": [
+              1,
+              1,
+              1,
+              2,
+              2,
+              3
+            ],
+            "length": 6
+          },
+          "passed": false,
+          "elapsedNs": 39253042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "169": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 24220917
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "189": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "passed": false,
+          "elapsedNs": 36678708
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "121": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 16799916
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "122": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 95697917
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6",
+          "elapsedNs": 27575042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "55": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 45462291
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5",
+          "elapsedNs": 31576125
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "45": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 38708958
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 3,
+          "passed": false,
+          "elapsedNs": 46259875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "274": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 32931583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 21,
+          "name": "随机定义-055",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1",
+          "elapsedNs": 401709
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "380": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "IllegalArgumentException: bound must be positive",
+          "elapsedNs": 67332709
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "238": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 39058500
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 34512083
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "134": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 52073583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "actual": 2,
+          "passed": false,
+          "elapsedNs": 225750
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "135": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 47023875
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 31148625
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "42": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 25448625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 12 out of bounds for length 12",
+          "elapsedNs": 39216042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "13": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 41679916
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 7 out of bounds for length 7",
+          "elapsedNs": 41010042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "12": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 38122750
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 13 out of bounds for length 13",
+          "elapsedNs": 51636041
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "58": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 62626000
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "14": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 67210916
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "151": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 53488917
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "6": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-013",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 34875167
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "28": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 104125
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 2,
+          "name": "随机查找-004",
+          "actual": -1,
+          "passed": false,
+          "elapsedNs": 99084
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "68": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 31718208
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 7",
+          "elapsedNs": 38719542
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "125": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-006",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 32868042
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "392": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 29700542
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 18,
+          "name": "随机-018",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 2 out of bounds for length 2",
+          "elapsedNs": 1986125
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "167": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 41645583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "11": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 23075583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "15": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 29782291
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "209": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 29918833
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6",
+          "elapsedNs": 25947125
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "3": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 19587333
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 8 out of bounds for length 8",
+          "elapsedNs": 47001209
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "30": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 26543584
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            0,
+            9,
+            9
+          ],
+          "passed": false,
+          "elapsedNs": 103685208
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "76": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 33498625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 13 out of bounds for length 13",
+          "elapsedNs": 26991625
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "36": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 30819833
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9",
+          "elapsedNs": 38972250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "54": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 32350833
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2,
+            3,
+            6,
+            9,
+            8,
+            7,
+            4,
+            5,
+            8
+          ],
+          "passed": false,
+          "elapsedNs": 17035000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "48": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              7,
+              8,
+              9
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 21483458
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "actual": [
+            [
+              15,
+              2,
+              13,
+              5
+            ],
+            [
+              14,
+              4,
+              3,
+              1
+            ],
+            [
+              12,
+              8,
+              6,
+              9
+            ],
+            [
+              16,
+              10,
+              7,
+              11
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 107167
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "73": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 36215083
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 36206709
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "289": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 16505459
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 25524458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "383": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 2,
+          "name": "公开示例-3",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 364625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 1 out of bounds for length 1",
+          "elapsedNs": 29790917
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "205": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 23247000
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 45228250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "290": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 39385708
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 42456250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "242": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 28324417
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 7 out of bounds for length 7",
+          "elapsedNs": 40532584
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "49": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 50554792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "1": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 46278750
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "202": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-005",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 31886958
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "219": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 51858333
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 2,
+          "name": "公开示例-3",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6",
+          "elapsedNs": 2390625
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "128": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 23221083
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "228": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 25417709
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6",
+          "elapsedNs": 68031541
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "56": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 40928292
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 31096792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "57": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 46829000
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2",
+          "elapsedNs": 61538500
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "452": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 51216167
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 2,
+          "name": "公开示例-3",
+          "actual": 4,
+          "passed": false,
+          "elapsedNs": 225500
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "20": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 63109334
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "71": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 28740000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "155": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "NoSuchElementException: null",
+          "elapsedNs": 39819041
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "150": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 35805042
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "passed": false,
+          "error": "NumberFormatException: For input string: \"+\"",
+          "elapsedNs": 48292416
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "224": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 43972625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 5 out of bounds for length 5",
+          "elapsedNs": 49622958
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "141": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 36667125
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "2": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 41965833
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "21": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 72328208
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "138": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-005",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 22754125
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "92": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 31843083
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2,
+            5,
+            4,
+            3
+          ],
+          "passed": false,
+          "elapsedNs": 49654750
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "25": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 67237083
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            3,
+            2,
+            1,
+            4,
+            5
+          ],
+          "passed": false,
+          "elapsedNs": 78670375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "19": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 38678083
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "passed": false,
+          "elapsedNs": 37439583
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "82": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 28125792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "61": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 45202917
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            3,
+            4,
+            5,
+            1,
+            2
+          ],
+          "passed": false,
+          "elapsedNs": 204236084
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "86": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 29454667
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            3,
+            2,
+            2,
+            4,
+            5
+          ],
+          "passed": false,
+          "elapsedNs": 64050750
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "146": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            null,
+            null,
+            null,
+            0,
+            null,
+            0,
+            null,
+            0,
+            0,
+            0
+          ],
+          "passed": false,
+          "elapsedNs": 42990542
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            null,
+            null,
+            null,
+            -1,
+            null,
+            -1,
+            null,
+            -1,
+            -1,
+            4
+          ],
+          "passed": false,
+          "elapsedNs": 36107666
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "104": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 64506417
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "100": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-005",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 51823458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "226": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 46030292
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "101": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-006",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 56800167
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "105": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 43222875
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5",
+          "elapsedNs": 38968875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "106": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 23054500
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5",
+          "elapsedNs": 24205541
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "117": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 36975625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "AssertionError: next指针不是本层实际相邻节点",
+          "elapsedNs": 47234375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "114": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "AssertionError: flatten后left非空",
+          "elapsedNs": 98684500
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "112": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 34549708
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "129": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 59468042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "124": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 86397875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "173": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            null,
+            0,
+            0,
+            true,
+            0,
+            true,
+            0,
+            true,
+            0,
+            true
+          ],
+          "passed": false,
+          "elapsedNs": 78420042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "222": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 51143000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "236": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 79101958
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "199": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 54503875
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2
+          ],
+          "passed": false,
+          "elapsedNs": 42383542
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "637": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 52121708
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "NullPointerException: Cannot read field \"val\" because \"<local1>\" is null",
+          "elapsedNs": 65003667
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "102": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 53520458
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "NullPointerException: Cannot read field \"val\" because \"<local6>\" is null",
+          "elapsedNs": 36375958
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "103": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 51663583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "NullPointerException: Cannot read field \"val\" because \"<local7>\" is null",
+          "elapsedNs": 57998375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "530": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 34847083
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "230": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 56175458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "98": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 36022625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 5,
+          "name": "边界-006",
+          "actual": true,
+          "passed": false,
+          "elapsedNs": 370000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "200": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 41026541
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 25038375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "130": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            [
+              "X",
+              "X",
+              "X",
+              "X"
+            ],
+            [
+              "X",
+              "O",
+              "O",
+              "X"
+            ],
+            [
+              "X",
+              "X",
+              "O",
+              "X"
+            ],
+            [
+              "X",
+              "O",
+              "X",
+              "X"
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 28706500
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "133": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-005",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 40685792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "399": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 35254292
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "INVALID_MUTANT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "207": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 63357500
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2",
+          "elapsedNs": 55115375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "210": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 40918291
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2",
+          "elapsedNs": 42973166
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "909": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 45341042
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 3,
+          "passed": false,
+          "elapsedNs": 48788250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "433": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 44269583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 36357625
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "127": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 36297750
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": 3,
+          "passed": false,
+          "elapsedNs": 43378500
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "208": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-001",
+          "actual": [
+            null,
+            null,
+            false,
+            false,
+            false,
+            null,
+            false
+          ],
+          "passed": false,
+          "elapsedNs": 57072292
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "211": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            null,
+            null,
+            null,
+            null,
+            false,
+            false,
+            false,
+            false
+          ],
+          "passed": false,
+          "elapsedNs": 61902750
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 63464792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "212": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 86788417
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 40388583
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "17": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 29389917
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "77": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "组合枚举-008",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 41403291
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "组合枚举-008",
+          "actual": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 63325167
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "46": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 30883125
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 23831458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "39": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-005",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 125969584
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "actual": [
+            [
+              3,
+              5
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 956875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "52": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 62729958
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": 12,
+          "passed": false,
+          "elapsedNs": 64402291
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "22": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 24766417
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 120527208
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "79": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 54030458
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 2,
+          "name": "公开示例-3",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 1794458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "108": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 38688917
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            0,
+            -10,
+            5
+          ],
+          "passed": false,
+          "elapsedNs": 55644167
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "148": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 67953917
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "427": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "AssertionError: 四叉树节点缺失",
+          "elapsedNs": 36961833
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StackOverflowError: null",
+          "elapsedNs": 39362792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "23": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 38888458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "53": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 80526875
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9",
+          "elapsedNs": 42102334
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "918": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 54969584
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "35": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 45483750
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "74": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 54153500
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "162": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 55712166
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "33": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 27946459
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "34": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 52479458
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "153": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 28157208
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "4": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0.0,
+          "passed": false,
+          "elapsedNs": 41832417
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2",
+          "elapsedNs": 329791
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "215": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 44224500
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "passed": false,
+          "error": "StackOverflowError: null",
+          "elapsedNs": 22004583
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "502": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 141170333
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 42877292
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "373": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 28297000
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 42895792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "295": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.PriorityQueue.peek()\" is null",
+          "elapsedNs": 36625334
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            null,
+            null,
+            null,
+            1.5,
+            null,
+            3.0
+          ],
+          "passed": false,
+          "elapsedNs": 21120750
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "67": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-014",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 31712375
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 14,
+          "name": "边界-013",
+          "actual": "1",
+          "passed": false,
+          "elapsedNs": 134959
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "190": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 58555875
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "191": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 28527042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "136": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 27163125
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "137": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 22244459
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "201": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "随机穷举-028",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 17154292
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "9": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 23020459
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 3,
+          "name": "边界-001",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 69125
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "66": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 17082166
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 3,
+          "name": "边界-001",
+          "actual": [
+            1,
+            0
+          ],
+          "passed": false,
+          "elapsedNs": 158875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "172": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 171291
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "69": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-005",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 30473375
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "50": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0.0,
+          "passed": false,
+          "elapsedNs": 34359250
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "149": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 26319834
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-003",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 26186083
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "70": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 21107000
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": 3,
+          "passed": false,
+          "elapsedNs": 19442250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "198": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 25321667
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 27771750
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "139": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 42770375
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-002",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 49402458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "322": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 25277750
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": -1,
+          "passed": false,
+          "elapsedNs": 44752250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "300": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 29745458
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8",
+          "elapsedNs": 32551375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "120": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 41910583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 74322500
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "64": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 44124208
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 24167875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "63": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 31762167
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 29814167
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "5": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 27165333
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 6,
+          "name": "随机穷举-008",
+          "actual": "c",
+          "passed": false,
+          "elapsedNs": 343417
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "97": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 24051000
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 36648625
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "72": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 37606875
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 2,
+          "name": "随机编辑-001",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 93792
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "123": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 31576625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8",
+          "elapsedNs": 35841042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "188": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 40933166
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 24200042
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "221": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 23406667
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 44043708
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "283": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            0,
+            1,
+            0,
+            3,
+            12
+          ],
+          "passed": false,
+          "elapsedNs": 20152791
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5",
+          "elapsedNs": 35433000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "438": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 37019625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 2,
+          "name": "随机计数-004",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 314292
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "560": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 39644458
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "239": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 36315042
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "SURVIVED_REVIEW_REQUIRED",
+        "counterexample": null
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "41": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 43473333
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 24917000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "240": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 35773625
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 4,
+          "name": "边界-005",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 72708
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "160": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 63179666
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "206": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 48179250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "234": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 121415500
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "142": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": -1,
+          "passed": false,
+          "elapsedNs": 49095375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "24": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [],
+          "passed": false,
+          "elapsedNs": 59006625
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "94": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 62516834
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "543": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 41450000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "437": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 57559416
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "994": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 33993750
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 68758250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "78": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 47062167
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "131": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 26696750
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 36838000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "51": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 72540209
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 38261875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "394": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 20159292
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 4,
+          "name": "边界-004",
+          "actual": "0a",
+          "passed": false,
+          "elapsedNs": 170375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "739": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 112616708
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            0,
+            1,
+            4,
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "passed": false,
+          "elapsedNs": 31470708
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "84": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 34095000
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6",
+          "elapsedNs": 16386541
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "347": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 74432333
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1
+          ],
+          "passed": false,
+          "elapsedNs": 88985750
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "763": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 41506667
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "StringIndexOutOfBoundsException: Index 24 out of bounds for length 24",
+          "elapsedNs": 37281000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "118": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "组合公式-005",
+          "actual": null,
+          "passed": false,
+          "elapsedNs": 43802333
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "组合公式-005",
+          "actual": [
+            [
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              3,
+              3,
+              1
+            ],
+            [
+              1,
+              4,
+              6,
+              4,
+              1
+            ],
+            [
+              1,
+              5,
+              10,
+              10,
+              5,
+              1
+            ]
+          ],
+          "passed": false,
+          "elapsedNs": 47313375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "279": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-012",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 29918500
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-012",
+          "actual": 1073741824,
+          "passed": false,
+          "elapsedNs": 54766250
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "152": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 42745708
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4",
+          "elapsedNs": 25637000
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "416": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 37784250
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": false,
+          "passed": false,
+          "elapsedNs": 32549917
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "32": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 24725708
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "边界-004",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 33951875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "62": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 57935250
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "passed": false,
+          "error": "ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3",
+          "elapsedNs": 38844958
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "1143": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 29147292
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 38532875
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "75": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            2,
+            0,
+            2,
+            1,
+            1,
+            0
+          ],
+          "passed": false,
+          "elapsedNs": 34563709
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            0,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "passed": false,
+          "elapsedNs": 34416375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "31": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "公开示例-1",
+          "actual": [
+            1,
+            2,
+            3
+          ],
+          "passed": false,
+          "elapsedNs": 29060291
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 1,
+          "name": "公开示例-2",
+          "actual": [
+            3,
+            1,
+            2
+          ],
+          "passed": false,
+          "elapsedNs": 211375
+        }
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  },
+  "287": {
+    "mutations": [
+      {
+        "mutation": "constant-result",
+        "status": "KILLED",
+        "counterexample": {
+          "index": 0,
+          "name": "随机构造-046",
+          "actual": 0,
+          "passed": false,
+          "elapsedNs": 22945583
+        }
+      },
+      {
+        "mutation": "boundary-change",
+        "status": "KILLED_TIMEOUT"
+      }
+    ],
+    "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+  }
+}

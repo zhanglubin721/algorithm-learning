@@ -1,0 +1,27 @@
+{
+  "id": 228,
+  "titleCn": "汇总区间",
+  "titleEn": "Summary Ranges",
+  "slug": "summary-ranges",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0228",
+  "plan": "top-interview-150",
+  "category": "区间",
+  "source": "https://leetcode.cn/problems/summary-ranges/",
+  "meta": {
+    "name": "summaryRanges",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

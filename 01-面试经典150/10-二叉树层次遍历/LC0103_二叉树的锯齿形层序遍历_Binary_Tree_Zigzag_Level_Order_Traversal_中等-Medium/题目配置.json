@@ -1,0 +1,28 @@
+{
+  "id": 103,
+  "titleCn": "二叉树的锯齿形层序遍历",
+  "titleEn": "Binary Tree Zigzag Level Order Traversal",
+  "slug": "binary-tree-zigzag-level-order-traversal",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0103",
+  "plan": "top-interview-150",
+  "category": "二叉树层次遍历",
+  "source": "https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/",
+  "meta": {
+    "name": "zigzagLevelOrder",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "list<list<integer>>",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

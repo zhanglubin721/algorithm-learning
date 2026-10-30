@@ -1,0 +1,182 @@
+[
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Person": [
+          "id",
+          "email"
+        ]
+      },
+      "rows": {
+        "Person": [
+          [
+            1,
+            "john@example.com"
+          ],
+          [
+            2,
+            "bob@example.com"
+          ],
+          [
+            3,
+            "john@example.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "id",
+        "email"
+      ],
+      [
+        [
+          "1",
+          "john@example.com"
+        ],
+        [
+          "2",
+          "bob@example.com"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Person": [
+          "id",
+          "email"
+        ]
+      },
+      "rows": {
+        "Person": [
+          [
+            7,
+            "a@x.com"
+          ],
+          [
+            2,
+            "a@x.com"
+          ],
+          [
+            9,
+            "b@x.com"
+          ],
+          [
+            1,
+            "b@x.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "id",
+        "email"
+      ],
+      [
+        [
+          "2",
+          "a@x.com"
+        ],
+        [
+          "1",
+          "b@x.com"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Person": [
+          "id",
+          "email"
+        ]
+      },
+      "rows": {
+        "Person": [
+          [
+            2,
+            "bob@example.com"
+          ],
+          [
+            3,
+            "john@example.com"
+          ],
+          [
+            1,
+            "john@example.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "id",
+        "email"
+      ],
+      [
+        [
+          "2",
+          "bob@example.com"
+        ],
+        [
+          "1",
+          "john@example.com"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-4",
+    "data": {
+      "headers": {
+        "Person": [
+          "id",
+          "email"
+        ]
+      },
+      "rows": {
+        "Person": [
+          [
+            2,
+            "bob@example.com"
+          ],
+          [
+            1,
+            "john@example.com"
+          ],
+          [
+            3,
+            "john@example.com"
+          ]
+        ]
+      }
+    },
+    "oracle": "independent-python",
+    "expected": [
+      [
+        "id",
+        "email"
+      ],
+      [
+        [
+          "2",
+          "bob@example.com"
+        ],
+        [
+          "1",
+          "john@example.com"
+        ]
+      ]
+    ]
+  }
+]

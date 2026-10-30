@@ -1,0 +1,31 @@
+{
+  "id": 35,
+  "titleCn": "搜索插入位置",
+  "titleEn": "Search Insert Position",
+  "slug": "search-insert-position",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0035",
+  "plan": "top-interview-150",
+  "category": "二分查找",
+  "source": "https://leetcode.cn/problems/search-insert-position/",
+  "meta": {
+    "name": "searchInsert",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

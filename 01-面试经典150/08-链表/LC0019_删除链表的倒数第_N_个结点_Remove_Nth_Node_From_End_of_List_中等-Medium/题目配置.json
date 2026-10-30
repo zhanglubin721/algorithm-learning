@@ -1,0 +1,33 @@
+{
+  "id": 19,
+  "titleCn": "删除链表的倒数第 N 个结点",
+  "titleEn": "Remove Nth Node From End of List",
+  "slug": "remove-nth-node-from-end-of-list",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0019",
+  "plan": "top-interview-150",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/remove-nth-node-from-end-of-list/",
+  "meta": {
+    "name": "removeNthFromEnd",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

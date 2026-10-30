@@ -1,0 +1,31 @@
+{
+  "id": 68,
+  "titleCn": "文本左右对齐",
+  "titleEn": "Text Justification",
+  "slug": "text-justification",
+  "difficulty": "Hard",
+  "kind": "java",
+  "namespace": "p1.lc0068",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/text-justification/",
+  "meta": {
+    "name": "fullJustify",
+    "params": [
+      {
+        "name": "words",
+        "type": "string[]"
+      },
+      {
+        "name": "maxWidth",
+        "type": "integer"
+      }
+    ],
+    "return": {
+      "type": "list<string>"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

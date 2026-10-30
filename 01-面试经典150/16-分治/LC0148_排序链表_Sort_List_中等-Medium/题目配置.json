@@ -1,0 +1,29 @@
+{
+  "id": 148,
+  "titleCn": "排序链表",
+  "titleEn": "Sort List",
+  "slug": "sort-list",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0148",
+  "plan": "top-interview-150",
+  "category": "分治",
+  "source": "https://leetcode.cn/problems/sort-list/",
+  "meta": {
+    "name": "sortList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return": {
+      "type": "ListNode",
+      "dealloc": true
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

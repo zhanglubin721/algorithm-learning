@@ -1,0 +1,27 @@
+{
+  "id": 24,
+  "titleCn": "两两交换链表中的节点",
+  "titleEn": "Swap Nodes in Pairs",
+  "slug": "swap-nodes-in-pairs",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p2.lc0024",
+  "plan": "top-100-liked",
+  "category": "链表",
+  "source": "https://leetcode.cn/problems/swap-nodes-in-pairs/",
+  "meta": {
+    "name": "swapPairs",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      }
+    ],
+    "return": {
+      "type": "ListNode"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

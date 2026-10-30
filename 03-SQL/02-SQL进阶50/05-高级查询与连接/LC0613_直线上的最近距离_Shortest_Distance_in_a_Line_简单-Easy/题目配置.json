@@ -1,0 +1,42 @@
+{
+  "id": 613,
+  "titleCn": "直线上的最近距离",
+  "titleEn": "Shortest Distance in a Line",
+  "slug": "shortest-distance-in-a-line",
+  "difficulty": "Easy",
+  "kind": "sql",
+  "namespace": "p4.lc0613",
+  "plan": "sql-premium-50",
+  "category": "高级查询与连接",
+  "source": "https://leetcode.cn/problems/shortest-distance-in-a-line/",
+  "meta": {
+    "mysql": [
+      "Create Table If Not Exists Point (x int not null)"
+    ],
+    "mssql": [
+      "Create Table Point (x int not null)"
+    ],
+    "oraclesql": [
+      "Create Table Point (x int not null)"
+    ],
+    "database": true,
+    "name": "shortest_distance",
+    "pythondata": [
+      "Point = pd.DataFrame([], columns=['x']).astype({'x':'Int64'})"
+    ],
+    "postgresql": [
+      "Create Table If Not Exists Point (x int not null)"
+    ],
+    "database_schema": {
+      "Point": {
+        "x": "INT"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "公开题号索引交叉核对，官方接口未提供清单；分类为本工程教学分组，待官方复核",
+  "ddl": [
+    "Create Table If Not Exists Point (x int not null)"
+  ],
+  "ordered": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": 290,
+  "titleCn": "单词规律",
+  "titleEn": "Word Pattern",
+  "slug": "word-pattern",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0290",
+  "plan": "top-interview-150",
+  "category": "哈希表",
+  "source": "https://leetcode.cn/problems/word-pattern/",
+  "meta": {
+    "name": "wordPattern",
+    "params": [
+      {
+        "name": "pattern",
+        "type": "string"
+      },
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "boolean"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

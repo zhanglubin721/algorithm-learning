@@ -1,0 +1,40 @@
+{
+  "mutations": [
+    {
+      "mutation": "constant-result",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "组合枚举-008",
+        "actual": null,
+        "passed": false,
+        "elapsedNs": 41403291
+      }
+    },
+    {
+      "mutation": "boundary-change",
+      "status": "KILLED",
+      "counterexample": {
+        "index": 0,
+        "name": "组合枚举-008",
+        "actual": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "passed": false,
+        "elapsedNs": 63325167
+      }
+    }
+  ],
+  "note": "错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。"
+}

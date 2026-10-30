@@ -1,0 +1,31 @@
+{
+  "id": 28,
+  "titleCn": "找出字符串中第一个匹配项的下标",
+  "titleEn": "Find the Index of the First Occurrence in a String",
+  "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0028",
+  "plan": "top-interview-150",
+  "category": "数组 / 字符串",
+  "source": "https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+  "meta": {
+    "name": "strStr",
+    "params": [
+      {
+        "name": "haystack",
+        "type": "string"
+      },
+      {
+        "name": "needle",
+        "type": "string"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

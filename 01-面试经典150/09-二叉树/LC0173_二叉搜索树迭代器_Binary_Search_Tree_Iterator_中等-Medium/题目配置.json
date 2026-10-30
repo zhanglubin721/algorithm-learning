@@ -1,0 +1,59 @@
+{
+  "id": 173,
+  "titleCn": "二叉搜索树迭代器",
+  "titleEn": "Binary Search Tree Iterator",
+  "slug": "binary-search-tree-iterator",
+  "difficulty": "Medium",
+  "kind": "java",
+  "namespace": "p1.lc0173",
+  "plan": "top-interview-150",
+  "category": "二叉树",
+  "source": "https://leetcode.cn/problems/binary-search-tree-iterator/",
+  "meta": {
+    "classname": "BSTIterator",
+    "maxbytesperline": 200000,
+    "constructor": {
+      "params": [
+        {
+          "type": "TreeNode",
+          "name": "root"
+        }
+      ]
+    },
+    "methods": [
+      {
+        "params": [],
+        "name": "next",
+        "return": {
+          "type": "integer"
+        }
+      },
+      {
+        "params": [],
+        "name": "hasNext",
+        "return": {
+          "type": "boolean"
+        }
+      }
+    ],
+    "systemdesign": true,
+    "params": [
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      },
+      {
+        "name": "inputs",
+        "type": "integer[]"
+      }
+    ],
+    "return": {
+      "type": "integer[]",
+      "dealloc": true
+    },
+    "manual": false
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

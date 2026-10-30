@@ -1,0 +1,27 @@
+{
+  "id": 530,
+  "titleCn": "二叉搜索树的最小绝对差",
+  "titleEn": "Minimum Absolute Difference in BST",
+  "slug": "minimum-absolute-difference-in-bst",
+  "difficulty": "Easy",
+  "kind": "java",
+  "namespace": "p1.lc0530",
+  "plan": "top-interview-150",
+  "category": "二叉搜索树",
+  "source": "https://leetcode.cn/problems/minimum-absolute-difference-in-bst/",
+  "meta": {
+    "name": "getMinimumDifference",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return": {
+      "type": "integer"
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ordered": false
+}

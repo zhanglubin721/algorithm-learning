@@ -1,0 +1,234 @@
+[
+  {
+    "name": "公开数据-1",
+    "data": {
+      "headers": {
+        "Enrollments": [
+          "student_id",
+          "course_id",
+          "grade"
+        ]
+      },
+      "rows": {
+        "Enrollments": [
+          [
+            2,
+            2,
+            95
+          ],
+          [
+            2,
+            3,
+            95
+          ],
+          [
+            1,
+            1,
+            90
+          ],
+          [
+            1,
+            2,
+            99
+          ],
+          [
+            3,
+            1,
+            80
+          ],
+          [
+            3,
+            2,
+            75
+          ],
+          [
+            3,
+            3,
+            82
+          ]
+        ]
+      }
+    },
+    "oracle": "published-example",
+    "expected": [
+      [
+        "student_id",
+        "course_id",
+        "grade"
+      ],
+      [
+        [
+          "1",
+          "2",
+          "99"
+        ],
+        [
+          "2",
+          "2",
+          "95"
+        ],
+        [
+          "3",
+          "3",
+          "82"
+        ]
+      ]
+    ]
+  },
+  {
+    "name": "构造边界-1",
+    "data": {
+      "headers": {
+        "Enrollments": [
+          "student_id",
+          "course_id",
+          "grade"
+        ]
+      },
+      "rows": {
+        "Enrollments": [
+          [
+            3,
+            2,
+            75
+          ],
+          [
+            2,
+            2,
+            95
+          ],
+          [
+            2,
+            3,
+            95
+          ],
+          [
+            3,
+            3,
+            82
+          ],
+          [
+            1,
+            1,
+            90
+          ],
+          [
+            1,
+            2,
+            99
+          ],
+          [
+            3,
+            1,
+            80
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-2",
+    "data": {
+      "headers": {
+        "Enrollments": [
+          "student_id",
+          "course_id",
+          "grade"
+        ]
+      },
+      "rows": {
+        "Enrollments": [
+          [
+            3,
+            3,
+            82
+          ],
+          [
+            3,
+            1,
+            80
+          ],
+          [
+            3,
+            2,
+            75
+          ],
+          [
+            1,
+            1,
+            90
+          ],
+          [
+            1,
+            2,
+            99
+          ],
+          [
+            2,
+            2,
+            95
+          ],
+          [
+            2,
+            3,
+            95
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  },
+  {
+    "name": "构造边界-3",
+    "data": {
+      "headers": {
+        "Enrollments": [
+          "student_id",
+          "course_id",
+          "grade"
+        ]
+      },
+      "rows": {
+        "Enrollments": [
+          [
+            2,
+            3,
+            95
+          ],
+          [
+            1,
+            2,
+            99
+          ],
+          [
+            1,
+            1,
+            90
+          ],
+          [
+            3,
+            3,
+            82
+          ],
+          [
+            3,
+            1,
+            80
+          ],
+          [
+            2,
+            2,
+            95
+          ],
+          [
+            3,
+            2,
+            75
+          ]
+        ]
+      }
+    },
+    "oracle": "runtime-reference"
+  }
+]

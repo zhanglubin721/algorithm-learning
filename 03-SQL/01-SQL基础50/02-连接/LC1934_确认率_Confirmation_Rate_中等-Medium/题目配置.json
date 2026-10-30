@@ -1,0 +1,55 @@
+{
+  "id": 1934,
+  "titleCn": "确认率",
+  "titleEn": "Confirmation Rate",
+  "slug": "confirmation-rate",
+  "difficulty": "Medium",
+  "kind": "sql",
+  "namespace": "p3.lc1934",
+  "plan": "sql-free-50",
+  "category": "连接",
+  "source": "https://leetcode.cn/problems/confirmation-rate/",
+  "meta": {
+    "mysql": [
+      "Create table If Not Exists Signups (user_id int, time_stamp datetime)",
+      "Create table If Not Exists Confirmations (user_id int, time_stamp datetime, action ENUM('confirmed','timeout'))"
+    ],
+    "mssql": [
+      "Create table Signups (user_id int, time_stamp datetime)",
+      "Create table Confirmations (user_id int, time_stamp datetime, action VARCHAR(10) NOT NULL CHECK (action IN ('confirmed','timeout')))"
+    ],
+    "oraclesql": [
+      "Create table Signups (user_id int, time_stamp date)",
+      "Create table Confirmations (user_id int, time_stamp date, action VARCHAR(10) NOT NULL CHECK (action IN ('confirmed','timeout')))",
+      "ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'"
+    ],
+    "database": true,
+    "name": "confirmation_rate",
+    "pythondata": [
+      "Signups = pd.DataFrame([], columns=['user_id', 'time_stamp']).astype({'user_id':'Int64', 'time_stamp':'datetime64[ns]'})",
+      "Confirmations = pd.DataFrame([], columns=['user_id', 'time_stamp', 'action']).astype({'user_id':'Int64', 'time_stamp':'datetime64[ns]', 'action':'object'})"
+    ],
+    "postgresql": [
+      "Create table If Not Exists Signups (user_id int, time_stamp timestamp)\n",
+      "Create table If Not Exists Confirmations (user_id int, time_stamp timestamp, action VARCHAR(30) CHECK (action IN ('confirmed','timeout')))\n"
+    ],
+    "database_schema": {
+      "Signups": {
+        "user_id": "INT",
+        "time_stamp": "DATETIME"
+      },
+      "Confirmations": {
+        "user_id": "INT",
+        "time_stamp": "DATETIME",
+        "action": "ENUM('confirmed', 'timeout')"
+      }
+    }
+  },
+  "importedAt": "2026-10-30",
+  "catalogStatus": "官方公开题单",
+  "ddl": [
+    "Create table If Not Exists Signups (user_id int, time_stamp datetime)",
+    "Create table If Not Exists Confirmations (user_id int, time_stamp datetime, action ENUM('confirmed','timeout'))"
+  ],
+  "ordered": false
+}

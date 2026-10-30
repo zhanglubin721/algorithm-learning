@@ -1,0 +1,5 @@
+import java.util.*;
+import java.util.stream.*;
+class Solution {
+    public List<Integer> findAnagrams(String s, String p) { throw new UnsupportedOperationException("TODO"); }
+}

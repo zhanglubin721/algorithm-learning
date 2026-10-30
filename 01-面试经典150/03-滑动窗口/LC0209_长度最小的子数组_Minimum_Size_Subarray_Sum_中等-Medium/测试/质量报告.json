@@ -1,0 +1,7 @@
+{
+  "status": "REFERENCE_VERIFIED",
+  "cases": 88,
+  "independentOracleCases": 85,
+  "failures": [],
+  "referenceSha256": "88e8f1ef44d5d4ade355555de9c20c3209480a6bcb0280c3b49b12b04b3c729d"
+}
