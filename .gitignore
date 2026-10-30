@@ -1,7 +1,26 @@
 .cache/
 **/target/
-**/作答/
 config/mysql.local.properties
 .idea/workspace.xml
 .idea/shelf/
 .DS_Store
+# Default ignored files
+/shelf/
+/workspace.xml
+# Markdown personal settings
+/markdown.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/.gitignore
+/compiler.xml
+/encodings.xml
+/jarRepositories.xml
+/misc.xml
+/modules.xml
+/vcs.xml
+
