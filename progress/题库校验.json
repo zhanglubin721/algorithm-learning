@@ -85,8 +85,8 @@
   },
   "238": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 82,
-    "independentOracleCases": 80,
+    "cases": 83,
+    "independentOracleCases": 81,
     "failures": [],
     "referenceSha256": "8bd77a25fbe0f5194b1a8cd9870c580c88fcad316424b7aa7773da7b64e2516e"
   },
@@ -302,8 +302,8 @@
   },
   "1": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 93,
-    "independentOracleCases": 90,
+    "cases": 94,
+    "independentOracleCases": 91,
     "failures": [],
     "referenceSha256": "0c0635038c7af283c96a39a0c400adcd93115f834faba045aab69ed8c205c2fa"
   },
@@ -323,8 +323,8 @@
   },
   "128": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 88,
-    "independentOracleCases": 85,
+    "cases": 89,
+    "independentOracleCases": 86,
     "failures": [],
     "referenceSha256": "25cd228854c82f8bd712ba6b8b31feff066a11fc3a6e8828f199675676fec3d4"
   },
@@ -778,8 +778,8 @@
   },
   "53": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 88,
-    "independentOracleCases": 85,
+    "cases": 89,
+    "independentOracleCases": 86,
     "failures": [],
     "referenceSha256": "77ae2f3b980f709bc363ed3547a8b6855244ee3a9da2128a05175d18415ee9bf"
   },
@@ -841,8 +841,8 @@
   },
   "215": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 87,
-    "independentOracleCases": 85,
+    "cases": 88,
+    "independentOracleCases": 86,
     "failures": [],
     "referenceSha256": "e9edffbaaece0339ba25e926c58dde969db9517828cb3764056183f45e53dc88"
   },
@@ -1065,22 +1065,22 @@
   },
   "560": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 87,
-    "independentOracleCases": 0,
+    "cases": 88,
+    "independentOracleCases": 1,
     "failures": [],
     "referenceSha256": "deed102e1c1e608ce6290edb0f754f101d2fe543ce555d0ac963c1b0f8d04f37"
   },
   "239": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 87,
-    "independentOracleCases": 85,
+    "cases": 88,
+    "independentOracleCases": 86,
     "failures": [],
     "referenceSha256": "af479abe1ed042595e32259d67fc99a9b36cb4050fa0ee531edb3aa43405e5ab"
   },
   "41": {
     "status": "REFERENCE_VERIFIED",
-    "cases": 88,
-    "independentOracleCases": 85,
+    "cases": 89,
+    "independentOracleCases": 86,
     "failures": [],
     "referenceSha256": "815b81791028956f3075bf4ae1d988756df58e38a487488b125e236f9091de82"
   },

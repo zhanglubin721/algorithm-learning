@@ -1,4 +1,4 @@
-import pathlib,json,re,subprocess,concurrent.futures,hashlib
+import pathlib,json,re,subprocess,concurrent.futures,hashlib,sys
 R=pathlib.Path(__file__).resolve().parents[1];J='/Users/a58/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.7/Contents/Home/bin/';index=json.loads((R/'catalog/canonical.json').read_text())
 def mutants(src):
  out=[]
@@ -29,7 +29,8 @@ def audit(item):
   except subprocess.TimeoutExpired:results.append({'mutation':label,'status':'KILLED_TIMEOUT'});continue
   res=json.loads(out.read_text()) if out.exists() else [];fail=next((x for x in res if not x.get('passed')),None);killed=p.returncode!=0 or fail is not None;results.append({'mutation':label,'status':'KILLED' if killed else 'SURVIVED_REVIEW_REQUIRED','counterexample':fail})
  report={'mutations':results,'note':'错误解检测只是有限证据；幸存变异可能等价，也可能提示缺口，不能视为证明。'};(q/'测试/变异测试报告.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));return sid,report
-report={}
+report=json.loads((R/'progress/变异测试总报告.json').read_text()) if len(sys.argv)>1 else {}
+if len(sys.argv)>1:index={i:p for i,p in index.items() if i in sys.argv[1:]}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4)as pool:
  for k,(sid,res) in enumerate(pool.map(audit,index.items()),1):
   if res:report[sid]=res

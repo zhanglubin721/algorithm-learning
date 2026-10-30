@@ -1,0 +1,10 @@
+{
+  "independentOraclesCheckedAgainstPublishedExamples": 40,
+  "notes": [
+    {
+      "id": "511",
+      "status": "NO_PUBLISHED_EXPECTATION"
+    }
+  ],
+  "mysqlExecuted": false
+}
