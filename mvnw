@@ -1,4 +1,12 @@
 #!/bin/sh
+# Project-local additions: select the installed JDK 21 on macOS and keep Maven caches in this project.
+STUDY_PROJECT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+export MAVEN_USER_HOME="$STUDY_PROJECT_DIR/.cache/maven"
+if [ -n "${ALGORITHM_JAVA_HOME:-}" ]; then
+  export JAVA_HOME="$ALGORITHM_JAVA_HOME"
+elif [ "$(uname)" = Darwin ]; then
+  export JAVA_HOME="$(/usr/libexec/java_home -v 21)"
+fi
 # ----------------------------------------------------------------------------
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
