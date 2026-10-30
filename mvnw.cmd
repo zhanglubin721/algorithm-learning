@@ -1,3 +1,4 @@
+@set "MAVEN_USER_HOME=%~dp0.cache\maven"
 @REM ----------------------------------------------------------------------------
 @REM Licensed to the Apache Software Foundation (ASF) under one
 @REM or more contributor license agreements.  See the NOTICE file

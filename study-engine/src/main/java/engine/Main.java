@@ -5,6 +5,7 @@ import java.time.*;
 import java.time.format.*;
 import java.util.*;
 public final class Main {
+ static final ZoneId STUDY_ZONE=ZoneId.of(System.getProperty("study.timezone","Asia/Shanghai"));
  static Path root(){Path p=Path.of(System.getProperty("user.dir")).toAbsolutePath();while(p!=null){if(Files.isRegularFile(p.resolve("catalog/plans.json")))return p;p=p.getParent();}throw new IllegalStateException("请将工作目录设置为algorithm-learning或其子目录");}
  public static void main(String[]a)throws Exception{if(a.length==0){System.out.println("请从题目Start.java启动，或传入题目相对路径。");return;}launch(a[0]);}
  public static void launch(String relative)throws Exception{
@@ -21,8 +22,8 @@ public final class Main {
      if(op.equals("0"))break;
      if(op.equals("1")){
       if(s!=null){if(resumed>0){accrue(s,resumed);resumed=0;}s.put("status","PAUSED");Json.write(active.resolve("session.json"),s);}
-      String stamp="a"+LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))+"_"+UUID.randomUUID().toString().substring(0,6);String pkg="practice."+cfg.get("namespace")+".attempts."+stamp;
-      active=q.resolve("作答/src/main/java").resolve(pkg.replace('.','/'));Files.createDirectories(active);boolean sql="sql".equals(cfg.get("kind"));String file=sql?"answer.sql":"Solution.java";String template=Files.readString(q.resolve("模板/"+file+".template"));String header=(sql?"-- ":"// ")+"LC"+cfg.get("id")+" "+cfg.get("titleCn")+" | 创建时间 "+OffsetDateTime.now()+"\n";
+      String stamp="a"+LocalDateTime.now(STUDY_ZONE).format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))+"_"+UUID.randomUUID().toString().substring(0,6);String pkg="practice."+cfg.get("namespace")+".attempts."+stamp;
+      active=q.resolve("作答/src/main/java").resolve(pkg.replace('.','/'));Files.createDirectories(active);boolean sql="sql".equals(cfg.get("kind"));String file=sql?"answer.sql":"Solution.java";String template=Files.readString(q.resolve("模板/"+file+".template"));String header=(sql?"-- ":"// ")+"LC"+cfg.get("id")+" "+cfg.get("titleCn")+" | 创建时间 "+OffsetDateTime.now(STUDY_ZONE)+"\n";
       Files.writeString(active.resolve(file),header+(sql?"":"package "+pkg+";\n")+template);
       Path support=q.resolve("模板/Support.java.template");if(!sql&&Files.exists(support))Files.writeString(active.resolve("Support.java"),"package "+pkg+";\n"+Files.readString(support));
       s=new LinkedHashMap<>();s.put("attemptId",stamp);s.put("questionId",cfg.get("id"));s.put("package",pkg);s.put("createdAt",Instant.now().toString());s.put("status","ACTIVE");s.put("activeMillis",0);s.put("templateHash",Runner.hash(q.resolve("模板/"+file+".template")));s.put("questionHash",Runner.hash(q.resolve("题目配置.json")));Json.write(active.resolve("session.json"),s);Json.write(q.resolve("作答/current.json"),Map.of("path",q.relativize(active).toString()));Files.writeString(active.resolve("本轮复盘.md"),"# 本轮复盘\n\n- 解题思路：\n- 时间/空间复杂度：\n- 卡点与修正：\n- 是否用了提示：\n- 复做重点：\n");resumed=System.nanoTime();System.out.println("已创建并开始计时：\n"+active.resolve(file));

@@ -1,4 +1,4 @@
-import json,pathlib,collections
+import json,pathlib,collections,urllib.parse
 R=pathlib.Path(__file__).resolve().parents[1];index=json.loads((R/'catalog/index.json').read_text());quality=json.loads((R/'progress/题库校验.json').read_text());mut=json.loads((R/'progress/变异测试总报告.json').read_text());sql=json.loads((R/'progress/SQL测试准备.json').read_text());review=json.loads((R/'progress/变异幸存项人工复核.json').read_text());canonical=json.loads((R/'catalog/canonical.json').read_text())
 # Update human-readable per-problem reports, never change the underlying outcomes.
 for sid,rel in canonical.items():
@@ -26,7 +26,9 @@ md=f'''# 测试质量报告
 | MySQL实库执行 | 待安装与配置 |
 | 引擎断言自测 | 20项通过 |
 | 生命周期集成验证 | 新建、暂停、继续、测试、结束、导出、复做、删除、错误答案通过 |
-| Maven完整编译 | 通过 |
+| Maven完整编译和Wrapper启动 | 通过 |
+| Java空白模板编译 | 183组通过 |
+| IDEA实际点击验证 | 未执行，已验证源码根/XML及编译配置 |
 
 ## 变异检查
 
@@ -60,6 +62,6 @@ for plan,parent in plans:
  if plan=='sql-premium-50':text+='题号来自两份公开索引交叉核对，分类为教学分组，官方分类待核对。\n\n'
  text+='| 题号 | 题目 | 难度 | 分类 | 入口 |\n|---|---|---|---|---|\n'
  for x in rows:
-  q=R/x['path'];cfg=json.loads((q/'题目配置.json').read_text());rel=q.relative_to(R/parent);entry='入口/src/main/java/'+x['class'].replace('.','/')+'.java';text+=f'| LC{x["id"]} | [{cfg["titleCn"]}]({rel}/题目.md) | {cfg["difficulty"]} | {cfg["category"]} | [Start]({rel}/{entry}) |\n'
+  q=R/x['path'];cfg=json.loads((q/'题目配置.json').read_text());rel=urllib.parse.quote(str(q.relative_to(R/parent)),safe='/');entry='入口/src/main/java/'+x['class'].replace('.','/')+'.java';text+=f'| LC{x["id"]} | [{cfg["titleCn"]}]({rel}/题目.md) | {cfg["difficulty"]} | {cfg["category"]} | [Start]({rel}/{entry}) |\n'
  (R/parent/'README.md').write_text(text)
 print('REPORTS',total,independent,dict(counts))

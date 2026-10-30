@@ -32,7 +32,7 @@ public final class SqlRunner {
   Path answer=attempt.resolve("answer.sql");String sql=cleanSql(Files.readString(answer));
   if(sql.contains(";")||sql.matches("(?is).*\\b(create|drop|alter|truncate|use|grant|revoke|load|outfile|infile|call)\\b.*"))throw new IllegalArgumentException("只接受单条查询或本题要求的DELETE，禁止修改库结构/跨语句执行");
   Map<String,Object>cfg=Json.map(Json.read(q.resolve("题目配置.json")));boolean delete=Bridge.num(cfg.get("id"))==196;if(!(sql.matches("(?is)^(select|with)\\b.*")||delete&&sql.matches("(?is)^delete\\b.*")))throw new IllegalArgumentException("请填写SELECT/WITH查询，本题仅196允许DELETE");
-  String reference=cleanSql(Files.readString(q.resolve("题解/参考答案.sql")));List<Object>cases=Json.list(Json.read(q.resolve("测试/sql-cases.json"))),results=new ArrayList<>();int passed=0;boolean ordered=Boolean.TRUE.equals(cfg.get("ordered"));
+  String reference=cleanSql(Files.readString(q.resolve("题解/参考答案.sql")));if(reference.contains(";")||reference.matches("(?is).*\\b(create|drop|alter|truncate|use|grant|revoke|load|outfile|infile|call)\\b.*")||!(reference.matches("(?is)^(select|with)\\b.*")||delete&&reference.matches("(?is)^delete\\b.*")))throw new IllegalArgumentException("参考SQL不符合单条查询/本题DELETE约束，停止验证");List<Object>cases=Json.list(Json.read(q.resolve("测试/sql-cases.json"))),results=new ArrayList<>();int passed=0;boolean ordered=Boolean.TRUE.equals(cfg.get("ordered"));
   // 先连接一次，配置缺失时只报告一次；不会把未执行当通过。
   try(Connection check=connect(root)){System.out.println("MySQL "+check.getMetaData().getDatabaseProductVersion()+"；每个用例在独立新建的练习子库执行并清理。");}
   for(Object obj:cases){Map<String,Object>tc=Json.map(obj),result=new LinkedHashMap<>();result.put("name",tc.get("name"));result.put("oracle",tc.get("oracle"));try(Connection c=connect(root)){
