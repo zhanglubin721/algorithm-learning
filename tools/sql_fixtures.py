@@ -1,5 +1,5 @@
 import json,pathlib,re,html,copy,random,collections,decimal,datetime
-R=pathlib.Path(__file__).resolve().parents[1];C=pathlib.Path('/private/tmp/algorithm-source-cache');rng=random.Random(20261030)
+R=pathlib.Path(__file__).resolve().parents[1];C=(pathlib.Path(__file__).resolve().parents[1]/'.cache/source');rng=random.Random(20261030)
 def normalize(v):
  if v is None:return None
  if isinstance(v,(int,float,decimal.Decimal)):return format(decimal.Decimal(str(v)).normalize(),'f')

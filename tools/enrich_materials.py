@@ -1,5 +1,5 @@
 import pathlib,json,re,html,shutil
-R=pathlib.Path(__file__).resolve().parents[1];C=pathlib.Path('/private/tmp/algorithm-source-cache');briefs=dict(line.split('|',1) for line in (R/'tools/problem_briefs.txt').read_text().splitlines() if '|'in line)
+R=pathlib.Path(__file__).resolve().parents[1];C=(pathlib.Path(__file__).resolve().parents[1]/'.cache/source');briefs=dict(line.split('|',1) for line in (R/'tools/problem_briefs.txt').read_text().splitlines() if '|'in line)
 ordered={1148,1280,620,1633,1729,1731,1978,626,1321,1667,1484,1873,1398,1112,1607,1407,1212,1445,603,1965,1549,1532,1831,1285,1412,1225}
 for item in json.loads((R/'catalog/index.json').read_text()):
  q=R/item['path'];cfg=json.loads((q/'题目配置.json').read_text());sid=str(cfg['id']);d=json.loads((C/sid/'detail.json').read_text());sql=cfg['kind']=='sql';raw=d.get('translatedContent') or d.get('content') or ''

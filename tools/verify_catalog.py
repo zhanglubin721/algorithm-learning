@@ -1,5 +1,6 @@
+from project_env import JAVA_BIN
 import pathlib,json,subprocess,concurrent.futures,time,re,sys,hashlib
-R=pathlib.Path(__file__).resolve().parents[1];J='/Users/a58/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.7/Contents/Home/bin/';idx=json.loads((R/'catalog/canonical.json').read_text())
+R=pathlib.Path(__file__).resolve().parents[1];J=JAVA_BIN;idx=json.loads((R/'catalog/canonical.json').read_text())
 
 def verify(item):
  id,rel=item;q=R/rel;cfg=json.loads((q/'题目配置.json').read_text())

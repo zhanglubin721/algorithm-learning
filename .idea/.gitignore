@@ -10,3 +10,11 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/.gitignore
+/compiler.xml
+/encodings.xml
+/jarRepositories.xml
+/misc.xml
+/modules.xml
+/vcs.xml
+/workspace.xml

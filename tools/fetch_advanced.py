@@ -1,5 +1,5 @@
 import urllib.request,urllib.parse,json,pathlib,re,time,concurrent.futures
-ROOT=pathlib.Path(__file__).resolve().parents[1];C=pathlib.Path('/private/tmp/algorithm-source-cache')
+ROOT=pathlib.Path(__file__).resolve().parents[1];C=(pathlib.Path(__file__).resolve().parents[1]/'.cache/source')
 def get(u,data=None):
  for i in range(4):
   try:return urllib.request.urlopen(urllib.request.Request(u,data=json.dumps(data).encode() if data else None,headers={'Content-Type':'application/json','User-Agent':'Mozilla/5.0','Referer':'https://leetcode.cn/'}),timeout=35).read().decode()

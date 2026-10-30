@@ -1,8 +1,9 @@
+from project_env import JAVA_BIN
 import pathlib,json,re,html,hashlib,sys,subprocess,concurrent.futures,os,shutil
 from test_specs import generate,SPECS
 from extra_specs import extend
-R=pathlib.Path(__file__).resolve().parents[1];C=pathlib.Path('/private/tmp/algorithm-source-cache')
-JAVA='/Users/a58/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.7/Contents/Home/bin/'
+R=pathlib.Path(__file__).resolve().parents[1];C=(pathlib.Path(__file__).resolve().parents[1]/'.cache/source')
+JAVA=JAVA_BIN
 plans=json.loads((R/'catalog/plans.json').read_text());qs=json.loads((R/'catalog/questions.json').read_text());generate();extend()
 D={'Easy':'简单','Medium':'中等','Hard':'困难','EASY':'简单','MEDIUM':'中等','HARD':'困难'}
 def clean(s):return re.sub(r'[\\/:*?"<>|\s]+','_',s).strip('_')

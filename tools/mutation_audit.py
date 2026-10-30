@@ -1,5 +1,6 @@
+from project_env import JAVA_BIN
 import pathlib,json,re,subprocess,concurrent.futures,hashlib,sys
-R=pathlib.Path(__file__).resolve().parents[1];J='/Users/a58/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.7/Contents/Home/bin/';index=json.loads((R/'catalog/canonical.json').read_text())
+R=pathlib.Path(__file__).resolve().parents[1];J=JAVA_BIN;index=json.loads((R/'catalog/canonical.json').read_text())
 def mutants(src):
  out=[]
  # Replace one externally callable method with a type-correct constant result.

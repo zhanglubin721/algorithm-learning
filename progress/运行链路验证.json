@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "status": "PASS",
+  "checks": [
+    "create",
+    "pause",
+    "resume",
+    "test",
+    "finish",
+    "export",
+    "redo",
+    "delete",
+    "wrong-answer",
+    "compile-error-no-stale-run",
+    "source-hash-invalidates-pass",
+    "other-attempt-syntax-isolation"
+  ],
+  "mysqlExecuted": false,
+  "ideaUiClicked": false
+}

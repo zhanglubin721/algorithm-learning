@@ -1,6 +1,6 @@
 import pathlib,json,sys,collections
 from sql_fixtures import oracle,parse_output
-R=pathlib.Path(__file__).resolve().parents[1];C=pathlib.Path('/private/tmp/algorithm-source-cache');idx=json.loads((R/'catalog/canonical.json').read_text());notes=[];checked=0
+R=pathlib.Path(__file__).resolve().parents[1];C=(pathlib.Path(__file__).resolve().parents[1]/'.cache/source');idx=json.loads((R/'catalog/canonical.json').read_text());notes=[];checked=0
 for sid,rel in idx.items():
  q=R/rel;cfg=json.loads((q/'题目配置.json').read_text())
  if cfg['kind']!='sql':continue

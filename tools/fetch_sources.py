@@ -2,7 +2,7 @@
 """Read public metadata and licensed reference sources. Never uses account cookies."""
 import urllib.request,urllib.error,json,time,concurrent.futures,pathlib,urllib.parse,re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-CACHE=pathlib.Path('/private/tmp/algorithm-source-cache');CACHE.mkdir(exist_ok=True)
+CACHE=(pathlib.Path(__file__).resolve().parents[1]/'.cache/source');CACHE.mkdir(exist_ok=True)
 PLANS=['top-interview-150','top-100-liked','sql-free-50','sql-premium-50']
 def get(url,data=None):
  for n in range(4):
