@@ -5,6 +5,11 @@ public final class SelfTest {
  static int checks;
  static void check(boolean b,String message){checks++;if(!b)throw new AssertionError(message);}
  public static void main(String[] a)throws Exception{
+  check(Display.elapsed(0).equals("0 分 00 秒"),"零时长显示");
+  check(Display.elapsed(59999).equals("0 分 59 秒"),"分钟进位前显示");
+  check(Display.elapsed(60000).equals("1 分 00 秒"),"整分钟显示");
+  check(Display.elapsed(142902).equals("2 分 22 秒"),"毫秒转分秒不显示小数");
+  check(Display.elapsed(3601000).equals("60 分 01 秒"),"超过一小时仍使用总分钟");
   check(!Checker.equal(1000000L,1000001L),"整数不能使用相对浮点容差");
   check(Checker.equal(1.00000001,1.0),"浮点允许误差");
   Object x=Json.parse("{\"a\":[1,null,true,\"中文\\n\\\"\"],\"b\":-2.5e2}");check(Checker.equal(x,Json.parse(Json.stringify(x))),"JSON往返");

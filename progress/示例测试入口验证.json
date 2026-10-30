@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "LC1: examples/display/timer/full-pass-isolation",
+    "custom cases preserved",
+    "wrong answer rejected",
+    "compile error rejected",
+    "old attempts supported",
+    "empty sample rejected",
+    "LC88: examples/display/timer/full-pass-isolation",
+    "LC146: examples/display/timer/full-pass-isolation"
+  ],
+  "mysqlExecuted": false,
+  "ideaUiClicked": false
+}

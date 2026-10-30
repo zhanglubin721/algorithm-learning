@@ -33,6 +33,7 @@ for pi,plan in enumerate(plans):
     (path/'模板/Support.java.template').write_text(support(id))
    (path/('模板/answer.sql.template' if sql else '模板/Solution.java.template')).write_text(template)
    entry=path/'入口/src/main/java/study/starts'/namespace.replace('.','/')/'Start.java';entry.parent.mkdir(parents=True,exist_ok=True);entry.write_text('package study.starts.'+namespace+';\npublic class Start { public static void main(String[] args) throws Exception { engine.Main.launch('+json.dumps(rel,ensure_ascii=False)+'); } }\n')
+   if not sql:entry.with_name('Test.java').write_text('package study.starts.'+namespace+';\npublic final class Test { public static void main(String[] args) throws Exception { engine.ExampleTest.runCurrent('+json.dumps(rel,ensure_ascii=False)+'); } }\n')
    roots += [rel+'/入口/src/main/java',rel+'/作答/src/main/java']
    readme=(C/str(id)/'README.md').read_text() if (C/str(id)/'README.md').exists() else ''
    sol=readme.split('<!-- solution:start -->',1)[-1] if '<!-- solution:start -->' in readme else ''

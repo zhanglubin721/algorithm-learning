@@ -10,7 +10,7 @@ pom=f'''<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www
   <plugin><groupId>org.codehaus.mojo</groupId><artifactId>build-helper-maven-plugin</artifactId><version>3.6.1</version><executions><execution><id>study-sources</id><phase>generate-sources</phase><goals><goal>add-source</goal></goals><configuration><sources>
 {sources}
   </sources></configuration></execution></executions></plugin>
-  <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.14.1</version><configuration><includes><include>engine/**/*.java</include><include>**/Start.java</include></includes><compilerArgs><arg>-proc:none</arg></compilerArgs></configuration></plugin>
+  <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.14.1</version><configuration><includes><include>engine/**/*.java</include><include>**/Start.java</include><include>**/Test.java</include></includes><compilerArgs><arg>-proc:none</arg></compilerArgs></configuration></plugin>
  </plugins></build>
 </project>''';(R/'pom.xml').write_text(pom)
 sourcefolders='\n'.join('    <sourceFolder url="file://$MODULE_DIR$/'+esc(p)+'" isTestSource="false" />' for p in ['study-engine/src/main/java']+roots)
